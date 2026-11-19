@@ -5,18 +5,88 @@
       "name": "Gong",
       "adapter": "shopify",
       "baseUrl": "https://www.gong-galaxy.com",
-      "locale": "fr-ch",
       "collection": "wing-foil",
-      "currency": "CHF",
+      "markets": [
+        {
+          "locale": "fr-ch",
+          "currency": "CHF",
+          "primary": true
+        },
+        {
+          "locale": "en",
+          "currency": "EUR"
+        },
+        {
+          "locale": "en-us",
+          "currency": "USD"
+        }
+      ],
       "categories": {
-        "board": ["main_collection:wing-foil-planches-rigides", "main_collection:planche-gonflable-wingfoil"],
-        "frontwing": ["main_collection:front-wing-parts-fr"],
-        "wing": ["main_collection:wing-foil-wings"]
+        "board": [
+          "main_collection:wing-foil-planches-rigides",
+          "main_collection:planche-gonflable-wingfoil"
+        ],
+        "frontwing": [
+          "main_collection:front-wing-parts-fr"
+        ],
+        "stab": [
+          "main_collection:stabs-parts-fr",
+          "main_collection:foil-stabs",
+          "main_collection:foil-stabs-tail-wings-pros"
+        ],
+        "wing": [
+          "main_collection:wing-foil-wings",
+          "main_collection:wings"
+        ]
       },
-      "excludeTitlePattern": "(?i)^pack|patch",
-      "sizeOptionNames": ["Taille", "Size"],
-      "constructionOptionNames": ["Type"],
-      "sizeChartPattern": "cdn\\.gong-galaxy\\.com/products/[^\"'?\\s\\\\]*SIZE_CHART[^\"'?\\s\\\\]*"
+      "excludeTitlePattern": "(?i)^(gong \\| )?pack|patch|shaft|shim",
+      "sizeOptionNames": [
+        "Taille",
+        "Size"
+      ],
+      "constructionOptionNames": [
+        "Type"
+      ],
+      "productPage": {
+        "categoriesPattern": "Categories: \\[(.*?)\\]",
+        "sizeChartPattern": "cdn\\.gong-galaxy\\.com/products/[^\"'?\\s\\\\]*SIZE_CHART[^\"'?\\s\\\\]*",
+        "ignoreChartPattern": "ACCESS|HANDLES|SPARE_PART",
+        "categoryPrefix": "WING FOIL"
+      },
+      "levels": [
+        {
+          "match": "débutants",
+          "level": "beginner"
+        },
+        {
+          "match": "Pro Team Series",
+          "level": "pro"
+        }
+      ],
+      "defaultLevel": "advanced",
+      "series": [
+        {
+          "match": "Pro Team Series",
+          "series": "Pro Team"
+        },
+        {
+          "match": "Team Series",
+          "series": "Team"
+        },
+        {
+          "match": "Perf Series",
+          "series": "Perf"
+        }
+      ],
+      "programs": {
+        "freeride": "Freeride",
+        "freefly": "Freefly",
+        "freestyle": "Freestyle",
+        "wave": "Wave ?riding|Waveriding",
+        "lightwind": "Light ?wind|Lightwind",
+        "race": "Racing",
+        "multisport": "Multisports"
+      }
     }
   ]
 }

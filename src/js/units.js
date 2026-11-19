@@ -30,7 +30,14 @@ export function sizeSortKey(label) {
   return n ?? Number.POSITIVE_INFINITY;
 }
 
-const nf = new Intl.NumberFormat('fr-CH', { maximumFractionDigits: 1 });
+let locale = 'fr-CH';
+let nf = new Intl.NumberFormat(locale, { maximumFractionDigits: 1 });
+
+/** Change la langue de formatage des nombres (ex. 'fr-CH', 'en-GB'). */
+export function setNumberLocale(value) {
+  locale = value;
+  nf = new Intl.NumberFormat(locale, { maximumFractionDigits: 1 });
+}
 
 export function formatNumber(value, unit = '') {
   if (value === null || value === undefined || Number.isNaN(value)) return '—';
@@ -39,7 +46,7 @@ export function formatNumber(value, unit = '') {
 
 export function formatPrice(value, currency = 'CHF') {
   if (value === null || value === undefined) return '—';
-  return new Intl.NumberFormat('fr-CH', { style: 'currency', currency, maximumFractionDigits: 0 }).format(value);
+  return new Intl.NumberFormat(locale, { style: 'currency', currency, maximumFractionDigits: 0 }).format(value);
 }
 
 /** Écart relatif signé en % ; null si la référence est absente ou nulle. */

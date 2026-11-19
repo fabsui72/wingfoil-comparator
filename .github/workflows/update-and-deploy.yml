@@ -40,7 +40,7 @@ jobs:
       - name: Récupérer le catalogue Gong
         id: fetch
         continue-on-error: true
-        run: python3 scripts/fetch_catalog.py gong --with-charts
+        run: python3 scripts/fetch_catalog.py gong
 
       - name: Extraire les formes des boards depuis les photos
         id: outlines

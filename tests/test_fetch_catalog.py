@@ -7,10 +7,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 import fetch_catalog as fc  # noqa: E402
 
 BRAND = {
-    "id": "gong", "name": "Gong", "baseUrl": "https://example.com", "locale": "fr-ch", "currency": "CHF",
+    "id": "gong", "name": "Gong", "baseUrl": "https://example.com",
     "categories": {"board": ["main_collection:boards"], "wing": ["main_collection:wings"]},
-    "excludeTitlePattern": "(?i)^pack",
+    "excludeTitlePattern": "(?i)^(gong \\| )?pack",
     "sizeOptionNames": ["Taille"], "constructionOptionNames": ["Type"],
+    "levels": [{"match": "débutants", "level": "beginner"}, {"match": "Pro Team Series", "level": "pro"}],
+    "defaultLevel": "advanced",
+    "series": [{"match": "Pro Team Series", "series": "Pro Team"}, {"match": "Team Series", "series": "Team"}],
+    "programs": {"freeride": "Freeride", "wave": "Wave ?riding|Waveriding"},
 }
 
 
@@ -22,33 +26,47 @@ def product(handle, title, tags, variants, options=None):
     }
 
 
+def mint(price_a, price_b):
+    return product("mint", "GONG | Board Mint", ["main_collection:boards"], [
+        {"option1": "FSP", "option2": "5’4", "option3": "Blue", "price": price_a, "available": False},
+        {"option1": "FSP", "option2": "5’4", "option3": "Red", "price": price_b, "available": True},
+        {"option1": "FSP", "option2": "5'6", "option3": "Blue", "price": price_a, "available": False},
+    ])
+
+
 class FetchCatalogTest(unittest.TestCase):
-    def test_build_catalog_filters_and_merges_variants(self):
-        raw = [
-            product("mint", "GONG | Board Mint", ["main_collection:boards"], [
-                {"option1": "FSP", "option2": "5’4", "option3": "Blue", "price": "733.00", "available": False},
-                {"option1": "FSP", "option2": "5’4", "option3": "Red", "price": "700.00", "available": True},
-                {"option1": "FSP", "option2": "5'6", "option3": "Blue", "price": "733.00", "available": False},
-            ]),
-            product("pack", "Pack Wing", ["main_collection:boards"], []),
-            product("leash", "GONG | Leash", ["other"], []),
-        ]
-        catalog = fc.build_catalog(raw, BRAND)
+    def test_build_catalog_merges_markets_and_filters(self):
+        markets = {
+            "CHF": [mint("733.00", "700.00"), product("pack", "GONG | Pack Wing", ["main_collection:boards"], []),
+                    product("leash", "GONG | Leash", ["other"], [])],
+            "EUR": [mint("799.00", "780.00")],
+        }
+        catalog = fc.build_catalog(markets, BRAND, "CHF")
         self.assertEqual(len(catalog), 1)
         item = catalog[0]
         self.assertEqual(item["title"], "Board Mint")
         self.assertEqual(item["construction"], "FSP")
         self.assertEqual(item["image"], "https://cdn/x.png")
-        self.assertEqual(item["url"], "https://example.com/fr-ch/products/mint")
         self.assertEqual(item["sizes"], [
-            {"size": "5'4", "price": 700.0, "available": True},
-            {"size": "5'6", "price": 733.0, "available": False},
+            {"size": "5'4", "prices": {"CHF": 700.0, "EUR": 780.0}, "available": True},
+            {"size": "5'6", "prices": {"CHF": 733.0, "EUR": 799.0}, "available": False},
         ])
 
-    def test_find_size_charts(self):
-        html = 'src="https://cdn.x.com/products/A-SIZE_CHART-B.webp?v=1" x cdn.x.com/products/A-SIZE_CHART-B.webp'
-        self.assertEqual(fc.find_size_charts(html, r"cdn\.x\.com/products/[^\"'?\s]*SIZE_CHART[^\"'?\s]*"),
-                         ["https://cdn.x.com/products/A-SIZE_CHART-B.webp"])
+    def test_parse_product_page(self):
+        html = ('Categories: ["LOWKITE > X","WING FOIL > Planches | Planches débutants","WING FOIL > Planches | Perf Series"],'
+                ' src="https://cdn.x.com/products/A-SIZE_CHART-B.webp?v=1" cdn.x.com/products/ACCESS-SIZE_CHART-C.webp')
+        rules = {"categoriesPattern": r"Categories: \[(.*?)\]", "categoryPrefix": "WING FOIL",
+                 "sizeChartPattern": r"cdn\.x\.com/products/[^\"'?\s]*SIZE_CHART[^\"'?\s]*", "ignoreChartPattern": "ACCESS"}
+        page = fc.parse_product_page(html, rules)
+        self.assertEqual(page["siteCategories"], ["WING FOIL > Planches | Planches débutants", "WING FOIL > Planches | Perf Series"])
+        self.assertEqual(page["sizeCharts"], ["https://cdn.x.com/products/A-SIZE_CHART-B.webp"])
+
+    def test_classify_level(self):
+        self.assertEqual(fc.classify_level(["WING FOIL > Planches | Planches débutants", "Planches Freeride"], BRAND),
+                         {"level": "beginner", "series": None, "programs": ["freeride"]})
+        self.assertEqual(fc.classify_level(["Front wings | Pro Team Series", "Front Wings | Wave riding"], BRAND),
+                         {"level": "pro", "series": "Pro Team", "programs": ["wave"]})
+        self.assertEqual(fc.classify_level([], BRAND)["level"], "advanced")
 
 
 if __name__ == "__main__":

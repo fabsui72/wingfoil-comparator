@@ -1,7 +1,8 @@
 // Tableau comparatif des specs. La première colonne sélectionnée sert de référence
 // pour les écarts en %.
 
-import { SPEC_FIELDS } from './data.js';
+import { SPEC_FIELDS, priceIn, thumbnailUrl } from './data.js';
+import { t } from './i18n.js';
 import { formatNumber, formatPrice, relativeDelta } from './units.js';
 
 function cell(tag, text, className) {
@@ -15,77 +16,128 @@ function deltaBadge(value, reference) {
   const d = relativeDelta(value, reference);
   if (d === null || Math.abs(d) < 0.05) return null;
   const span = cell('span', `${d > 0 ? '+' : '−'}${formatNumber(Math.abs(d))} %`, 'delta');
-  span.title = 'Écart par rapport à la référence (1re colonne)';
+  span.title = t('deltaTitle');
   return span;
+}
+
+/** Valeur numérique comparée et texte affiché d'un champ, pour une taille. */
+function fieldValue(field, spec, ctx) {
+  if (field.range) {
+    const [lo, hi] = field.range.map((k) => spec[k]);
+    if (lo == null) return { value: null, text: '—' };
+    const unit = t('u.kts');
+    return { value: lo, text: hi == null ? `${formatNumber(lo)} → max ${unit}` : `${formatNumber(lo)}–${formatNumber(hi)} ${unit}` };
+  }
+  if (field.key === 'pricePerM2') {
+    const price = priceIn(ctx.size, ctx.currency);
+    const v = price != null && spec.areaM2 ? Math.round(price / spec.areaM2) : null;
+    return { value: v, text: v == null ? '—' : `${formatPrice(v, ctx.currency)}/m²` };
+  }
+  const v = spec[field.key];
+  let text = formatNumber(v, field.unit);
+  if (field.extra && spec[field.extra] && v != null) text += ` (${spec[field.extra]})`;
+  return { value: v ?? null, text };
 }
 
 /**
  * @param {HTMLTableElement} table
  * @param {string} category
  * @param {Array<{model, size, color}>} entries
- * @param {(id: string) => void} onRemove
+ * @param {{ currency: string, onRemove: (id: string) => void }} options
  */
-export function renderTable(table, category, entries, onRemove) {
+export function renderTable(table, category, entries, { currency, onRemove }) {
   table.replaceChildren();
   if (!entries.length) return;
 
   const thead = table.createTHead();
   const head = thead.insertRow();
-  head.append(cell('th', 'Caractéristique', 'row-head'));
+  head.append(cell('th', t('feature'), 'row-head'));
   entries.forEach(({ model, size, color }, i) => {
     const th = cell('th');
     th.scope = 'col';
     th.style.setProperty('--c', color);
+    if (model.image) {
+      const img = cell('img', undefined, 'col-photo');
+      img.src = thumbnailUrl(model.image, 360);
+      img.alt = '';
+      img.decoding = 'async';
+      th.append(img);
+    }
     const name = cell('a', model.title, 'col-title');
-    name.href = model.url;
+    name.href = model.urls?.[currency] ?? model.url;
     name.target = '_blank';
     name.rel = 'noopener';
-    const meta = cell('div', `${model.brandName} · ${size.size}${i === 0 ? ' · référence' : ''}`, 'col-meta');
+    const meta = cell('div', `${model.brandName}${model.year ? ` ${model.year}` : ''} · ${size.size}${i === 0 ? ` · ${t('reference')}` : ''}`, 'col-meta');
     const remove = cell('button', '×', 'remove');
     remove.type = 'button';
-    remove.setAttribute('aria-label', `Retirer ${model.title} ${size.size}`);
+    remove.setAttribute('aria-label', t('remove', { name: `${model.title} ${size.size}` }));
     remove.addEventListener('click', () => onRemove(size.id));
-    th.append(cell('span', '', 'swatch'), name, meta, remove);
+    th.append(name, meta, remove);
     head.append(th);
   });
 
   const body = table.createTBody();
-  const ref = entries[0];
+  const addRow = (label, cells, note) => {
+    const row = body.insertRow();
+    const th = cell('th', label, 'row-head');
+    if (note) th.append(cell('span', note, 'muted'));
+    row.append(th);
+    for (const c of cells) row.append(c);
+  };
 
-  const priceRow = body.insertRow();
-  priceRow.append(cell('th', 'Prix', 'row-head'));
-  entries.forEach(({ model, size }) => {
-    const td = cell('td', formatPrice(size.price, model.currency));
-    if (size.price != null) {
-      const badge = deltaBadge(size.price, ref.size.price);
+  // Prix
+  const refPrice = priceIn(entries[0].size, currency);
+  addRow(t('price'), entries.map(({ size }) => {
+    const price = priceIn(size, currency);
+    const td = cell('td', formatPrice(price, currency));
+    if (price != null) {
+      const badge = deltaBadge(price, refPrice);
       if (badge) td.append(' ', badge);
-      if (!size.available) td.append(cell('div', 'rupture / non listé', 'muted'));
+      if (!size.available) td.append(cell('div', t('unavailable'), 'muted'));
     }
-    priceRow.append(td);
+    return td;
+  }));
+
+  // Niveau, série, construction
+  const levelCells = entries.map(({ model }) => {
+    const td = cell('td');
+    if (model.level) td.append(cell('span', t(`level.${model.level}`), `level level-${model.level}`));
+    else td.textContent = '—';
+    return td;
   });
-
-  const constrRow = body.insertRow();
-  constrRow.append(cell('th', 'Construction', 'row-head'));
-  entries.forEach(({ model }) => constrRow.append(cell('td', model.construction ?? '—')));
-
-  if (category === 'board') {
-    const shapeRow = body.insertRow();
-    shapeRow.append(cell('th', 'Source du contour', 'row-head'));
-    entries.forEach(({ model }) => shapeRow.append(cell('td', model.photoShape ? 'photo + cotes officielles' : 'cotes seules (estimé)')));
+  addRow(t('level'), levelCells);
+  if (entries.some((e) => e.model.series)) addRow(t('series'), entries.map(({ model }) => cell('td', model.series ?? '—')));
+  addRow(t('construction'), entries.map(({ model }) => cell('td', model.construction ?? '—')));
+  if (entries.some((e) => e.model.programs.length)) {
+    addRow(t('program'), entries.map(({ model }) => cell('td', model.programs.map((p) => t(`program.${p}`)).join(', ') || '—')));
   }
 
+  // Dimensions
   for (const field of SPEC_FIELDS[category]) {
-    const values = entries.map((e) => e.size.spec[field.key]);
-    if (values.every((v) => v == null)) continue;
-    const row = body.insertRow();
-    const th = cell('th', field.label, 'row-head');
-    if (field.derived) th.append(cell('span', ' (calculé)', 'muted'));
-    row.append(th);
-    values.forEach((v) => {
-      const td = cell('td', formatNumber(v, field.unit));
-      const badge = deltaBadge(v, values[0]);
+    const vals = entries.map(({ size }) => fieldValue(field, size.spec, { size, currency }));
+    if (vals.every((v) => v.value == null)) continue;
+    addRow(t(`f.${field.key}`), vals.map((v) => {
+      const td = cell('td', v.text);
+      const badge = field.range ? null : deltaBadge(v.value, vals[0].value);
       if (badge) td.append(' ', badge);
-      row.append(td);
-    });
+      return td;
+    }), field.derived ? t('computed') : undefined);
+  }
+
+  if (category === 'board') {
+    addRow(t('shapeSource'), entries.map(({ model }) => cell('td', model.photoShape ? t('shapePhoto') : t('shapeEstimated'))));
+  }
+  if (entries.some((e) => e.model.sourceChart)) {
+    addRow(t('sourceChart'), entries.map(({ model }) => {
+      const td = cell('td');
+      if (model.sourceChart) {
+        const a = cell('a', t('openChart'));
+        a.href = model.sourceChart;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        td.append(a);
+      } else td.textContent = '—';
+      return td;
+    }));
   }
 }

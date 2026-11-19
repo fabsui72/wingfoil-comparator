@@ -7,7 +7,7 @@
   "scripts": {
     "start": "python3 -m http.server 8000",
     "test": "node --test tests/*.test.mjs && python3 -m unittest discover -s tests -p 'test_*.py'",
-    "fetch:gong": "python3 scripts/fetch_catalog.py gong --with-charts"
+    "fetch:gong": "python3 scripts/fetch_catalog.py gong"
   },
   "engines": {
     "node": ">=20"

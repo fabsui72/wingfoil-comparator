@@ -4,66 +4,85 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wingfoil Comparator</title>
-  <meta name="description" content="Comparez boards, foils et wings de wingfoil : superposition des formes à l'échelle et tableau de specs.">
+  <meta name="description" content="Comparez boards, foils, stabs et wings de wingfoil : formes superposées à l'échelle et tableau de specs. Compare wingfoil boards, foils, stabs and wings.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2c5 6 6 18 0 28C10 20 11 8 16 2z' fill='%230e7490'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="src/css/styles.css">
   <script type="module" src="src/js/main.js"></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Aller au contenu</a>
+  <a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
   <header class="site-header">
-    <h1>Wingfoil Comparator</h1>
-    <p class="tagline">Superposez les formes à l'échelle et comparez les specs.</p>
+    <div>
+      <h1>Wingfoil Comparator</h1>
+      <p class="tagline" data-i18n="tagline">Superposez les formes à l'échelle et comparez les specs.</p>
+    </div>
+    <div class="topbar">
+      <div id="lang" class="segmented-buttons" role="group" aria-label="Langue / Language"></div>
+      <label class="currency"><span class="visually-hidden" data-i18n="currency">Devise</span>
+        <select id="currency"></select>
+      </label>
+    </div>
   </header>
 
   <div id="app-error" class="error" role="alert" hidden></div>
 
-  <nav id="tabs" class="tabs" role="tablist" aria-label="Catégories"></nav>
+  <nav id="tabs" class="tabs" role="tablist" aria-label="Catégories / Categories"></nav>
 
   <div class="layout">
     <aside class="picker" aria-labelledby="picker-title">
-      <h2 id="picker-title">Choisir les modèles</h2>
+      <h2 id="picker-title" data-i18n="pickerTitle">Choisir les modèles</h2>
       <label class="search">
-        <span class="visually-hidden">Rechercher un modèle</span>
-        <input id="search" type="search" placeholder="Rechercher (ex. Mint, Fluid…)" autocomplete="off">
+        <span class="visually-hidden" data-i18n="searchLabel">Rechercher un modèle</span>
+        <input id="search" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Rechercher (ex. Mint, Fluid…)" autocomplete="off">
       </label>
-      <label id="specs-only-wrap" class="checkbox">
-        <input id="specs-only" type="checkbox" checked>
-        Uniquement les modèles avec dimensions
-      </label>
+      <div class="filters">
+        <div id="level-filter" class="segmented-buttons" role="group" aria-label="Niveau / Level"></div>
+        <div class="filter-row">
+          <label id="program-wrap"><span class="visually-hidden" data-i18n="program">Programme</span>
+            <select id="program-filter"></select>
+          </label>
+          <label id="brand-wrap" hidden><span class="visually-hidden" data-i18n="brand">Marque</span>
+            <select id="brand-filter"></select>
+          </label>
+        </div>
+        <label class="checkbox">
+          <input id="specs-only" type="checkbox" checked>
+          <span data-i18n="specsOnly">Uniquement les modèles avec dimensions</span>
+        </label>
+      </div>
       <ul id="model-list" class="model-list"></ul>
     </aside>
 
     <main id="main" class="results">
       <div class="results-head">
-        <h2>Comparaison <span id="selection-count" class="muted"></span></h2>
+        <h2><span data-i18n="comparison">Comparaison</span> <span id="selection-count" class="muted"></span></h2>
         <div class="actions">
-          <button id="share" type="button" class="btn">Copier le lien</button>
-          <button id="clear" type="button" class="btn btn-ghost">Tout effacer</button>
+          <button id="share" type="button" class="btn" data-i18n="copyLink">Copier le lien</button>
+          <button id="clear" type="button" class="btn btn-ghost" data-i18n="clear">Tout effacer</button>
         </div>
       </div>
       <p id="status" class="status" role="status" aria-live="polite"></p>
 
       <section id="empty-state" class="empty-state">
-        <p>Sélectionnez au moins une taille dans la liste pour commencer.<br>
-        Astuce : la première taille choisie sert de <strong>référence</strong> pour les écarts en %.</p>
+        <p data-i18n="emptyState">Sélectionnez au moins une taille dans la liste pour commencer.</p>
+        <p class="muted" data-i18n="emptyHint">La première taille choisie sert de référence pour les écarts en %.</p>
       </section>
 
       <div id="comparison" hidden>
         <section id="overlay-card" class="card" aria-labelledby="overlay-title">
           <div class="card-head">
-            <h3 id="overlay-title">Formes à l'échelle</h3>
+            <h3 id="overlay-title" data-i18n="shapes">Formes à l'échelle</h3>
             <div class="controls">
               <fieldset class="segmented">
-                <legend class="visually-hidden">Affichage</legend>
-                <label><input type="radio" name="mode" value="overlay" checked> Superposées</label>
-                <label><input type="radio" name="mode" value="side"> Côte à côte</label>
+                <legend class="visually-hidden" data-i18n="display">Affichage</legend>
+                <label><input type="radio" name="mode" value="overlay" checked> <span data-i18n="overlayMode">Superposées</span></label>
+                <label><input type="radio" name="mode" value="side"> <span data-i18n="sideMode">Côte à côte</span></label>
               </fieldset>
-              <label id="align-wrap">Aligner sur
+              <label id="align-wrap"><span data-i18n="alignOn">Aligner sur</span>
                 <select id="align">
-                  <option value="tail">l'arrière</option>
-                  <option value="center">le centre</option>
-                  <option value="nose">le nez</option>
+                  <option value="tail" data-i18n="align.tail">l'arrière</option>
+                  <option value="center" data-i18n="align.center">le centre</option>
+                  <option value="nose" data-i18n="align.nose">le nez</option>
                 </select>
               </label>
             </div>
@@ -71,18 +90,18 @@
           <ul id="legend" class="legend"></ul>
           <div class="overlay-wrap">
             <svg id="overlay" class="drawing" role="img" preserveAspectRatio="xMidYMid meet"></svg>
-            <p id="overlay-empty" class="muted" hidden>Aucune silhouette dessinable : les dimensions de ces modèles n'ont pas encore été saisies.</p>
+            <p id="overlay-empty" class="muted" hidden data-i18n="nothingDrawable"></p>
           </div>
           <p id="overlay-note" class="note"></p>
         </section>
 
         <section id="profile-card" class="card" aria-labelledby="profile-title">
           <div class="card-head">
-            <h3 id="profile-title">Profil : épaisseur et rocker</h3>
+            <h3 id="profile-title" data-i18n="profile">Profil : épaisseur et rocker</h3>
             <div class="controls">
-              <label>Hauteurs
+              <label><span data-i18n="heights">Hauteurs</span>
                 <select id="exaggeration">
-                  <option value="1">échelle réelle</option>
+                  <option value="1" data-i18n="realScale">échelle réelle</option>
                   <option value="2">×2</option>
                   <option value="3">×3</option>
                 </select>
@@ -91,13 +110,13 @@
           </div>
           <div class="overlay-wrap">
             <svg id="profile" class="drawing" role="img" preserveAspectRatio="xMidYMid meet"></svg>
-            <p id="profile-empty" class="muted" hidden>Aucun profil disponible pour cette sélection (photo de profil ou épaisseur manquante).</p>
+            <p id="profile-empty" class="muted" hidden data-i18n="noProfile"></p>
           </div>
-          <p class="note">Nez à droite, pont en haut. Profil tiré de la vue latérale des photos produits, recalé sur la longueur et l'épaisseur officielles. Le rocker et le creux du pont sont ceux de la photo, à ±1 cm près.</p>
+          <p class="note" data-i18n="profileNote"></p>
         </section>
 
         <section class="card" aria-labelledby="table-title">
-          <h3 id="table-title">Specs</h3>
+          <h3 id="table-title" data-i18n="specs">Specs</h3>
           <div class="table-wrap">
             <table id="spec-table" class="spec-table"></table>
           </div>
@@ -107,7 +126,7 @@
   </div>
 
   <footer class="site-footer">
-    <p>Données : catalogues publics des marques et tableaux de tailles officiels. Les prix et disponibilités peuvent avoir changé. Projet non affilié aux marques citées.</p>
+    <p data-i18n="footer"></p>
   </footer>
 </body>
 </html>

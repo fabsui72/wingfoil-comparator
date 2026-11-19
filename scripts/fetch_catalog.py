@@ -3,11 +3,20 @@
 
 Usage :
     python3 scripts/fetch_catalog.py gong
-    python3 scripts/fetch_catalog.py gong --with-charts   # + URLs des tableaux de tailles
+    python3 scripts/fetch_catalog.py gong --no-pages   # plus rapide : sans niveaux ni tableaux de tailles
 
-La configuration de chaque marque est dans data/brands.json. Seul l'adaptateur
-"shopify" existe pour l'instant (la plupart des marques de wingfoil utilisent
-Shopify, qui expose /collections/<handle>/products.json).
+La configuration de chaque marque est dans data/brands.json. Le travail est
+découpé en deux parties :
+
+  * un ADAPTATEUR par plateforme de vente (aujourd'hui : "shopify"), qui sait
+    lister les produits bruts d'un marché (pays / langue / devise) et lire la
+    page d'un produit ;
+  * une partie COMMUNE, qui classe les produits (board, frontwing, stab, wing),
+    fusionne les prix des différents marchés et applique les règles de niveau
+    et de programme décrites dans brands.json.
+
+Pour ajouter une marque sur une autre plateforme, il suffit d'écrire un nouvel
+adaptateur (voir docs/ajouter-une-marque.md) : le format de sortie ne change pas.
 
 Le script n'utilise que la bibliothèque standard.
 """
@@ -24,8 +33,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-USER_AGENT = "wingfoil-comparator/0.1 (catalog fetcher)"
+USER_AGENT = "wingfoil-comparator/0.2 (catalog fetcher)"
 PAGE_LIMIT = 250
+CATEGORIES = ("board", "frontwing", "stab", "wing")
 
 
 def http_get(url: str, retries: int = 3) -> bytes:
@@ -41,14 +51,48 @@ def http_get(url: str, retries: int = 3) -> bytes:
     raise RuntimeError("unreachable")
 
 
+# --------------------------------------------------------------------------- #
+# Adaptateur Shopify                                                           #
+# --------------------------------------------------------------------------- #
+class ShopifyAdapter:
+    """Boutiques Shopify : /<locale>/collections/<collection>/products.json."""
+
+    def __init__(self, brand: dict):
+        self.brand = brand
+
+    def base(self, locale: str | None) -> str:
+        return f"{self.brand['baseUrl']}/{locale}" if locale else self.brand["baseUrl"]
+
+    def list_products(self, locale: str | None) -> list[dict]:
+        products, page = [], 1
+        while True:
+            url = f"{self.base(locale)}/collections/{self.brand['collection']}/products.json?limit={PAGE_LIMIT}&page={page}"
+            batch = json.loads(http_get(url))["products"]
+            products.extend(batch)
+            if len(batch) < PAGE_LIMIT:
+                return products
+            page += 1
+
+    def product_url(self, handle: str, locale: str | None) -> str:
+        return f"{self.base(locale)}/products/{handle}"
+
+    def product_page(self, handle: str, locale: str | None) -> str:
+        return http_get(self.product_url(handle, locale)).decode("utf-8", errors="replace")
+
+
+ADAPTERS = {"shopify": ShopifyAdapter}
+
+
+# --------------------------------------------------------------------------- #
+# Partie commune                                                               #
+# --------------------------------------------------------------------------- #
 def normalize_size(label: str) -> str:
-    """Uniformise un libellé de taille : apostrophes typographiques, espaces, '3,5 m²'."""
+    """Uniformise un libellé de taille : apostrophes typographiques, espaces."""
     s = label.strip().replace("’", "'").replace("′", "'").replace("”", '"')
-    s = re.sub(r"\s+", " ", s)
-    return s
+    return re.sub(r"\s+", " ", s)
 
 
-def option_values(product: dict, variant: dict, names: list[str]) -> str | None:
+def option_value(product: dict, variant: dict, names: list[str]) -> str | None:
     for idx, opt in enumerate(product.get("options", []), start=1):
         if opt.get("name") in names:
             return variant.get(f"option{idx}")
@@ -63,105 +107,140 @@ def classify(product: dict, categories: dict[str, list[str]]) -> str | None:
     return None
 
 
-def shape_product(product: dict, brand: dict, category: str) -> dict:
-    """Transforme un produit Shopify brut en entrée de catalogue compacte."""
+def clean_title(title: str, brand: dict) -> str:
+    return re.sub(rf"^{re.escape(brand['name'])}\s*\|\s*", "", title, flags=re.I).strip()
+
+
+def sizes_of(product: dict, brand: dict) -> tuple[dict[str, dict], str | None]:
+    """Tailles d'un produit : prix minimal et disponibilité, par taille."""
     size_names = brand.get("sizeOptionNames", ["Size"])
     constr_names = brand.get("constructionOptionNames", [])
     sizes: dict[str, dict] = {}
     construction = None
     for v in product.get("variants", []):
-        size = option_values(product, v, size_names)
+        size = option_value(product, v, size_names)
         if not size:
             continue
         size = normalize_size(size)
-        construction = construction or option_values(product, v, constr_names)
+        construction = construction or option_value(product, v, constr_names)
         price = float(v["price"])
-        entry = sizes.setdefault(size, {"size": size, "price": price, "available": False})
+        entry = sizes.setdefault(size, {"price": price, "available": False})
         entry["price"] = min(entry["price"], price)
         entry["available"] = entry["available"] or bool(v.get("available"))
-    images = product.get("images") or []
-    base = f"{brand['baseUrl']}/{brand['locale']}" if brand.get("locale") else brand["baseUrl"]
-    return {
-        "handle": product["handle"],
-        "title": product["title"].replace(f"{brand['name'].upper()} | ", "").strip(),
-        "category": category,
-        "construction": construction,
-        "url": f"{base}/products/{product['handle']}",
-        "image": images[0]["src"].split("?")[0] if images else None,
-        "currency": brand.get("currency"),
-        "sizes": list(sizes.values()),
-    }
+    return sizes, construction
 
 
-def fetch_shopify(brand: dict) -> list[dict]:
-    base = f"{brand['baseUrl']}/{brand['locale']}" if brand.get("locale") else brand["baseUrl"]
-    products, page = [], 1
-    while True:
-        url = f"{base}/collections/{brand['collection']}/products.json?limit={PAGE_LIMIT}&page={page}"
-        batch = json.loads(http_get(url))["products"]
-        products.extend(batch)
-        if len(batch) < PAGE_LIMIT:
-            return products
-        page += 1
-
-
-def build_catalog(raw_products: list[dict], brand: dict) -> list[dict]:
+def build_catalog(markets: dict[str, list[dict]], brand: dict, primary: str) -> list[dict]:
+    """Fusionne les produits des différents marchés (prix par devise)."""
     exclude = re.compile(brand["excludeTitlePattern"]) if brand.get("excludeTitlePattern") else None
-    seen, out = set(), []
-    for p in raw_products:
-        title = p["title"].replace(f"{brand['name'].upper()} | ", "")
-        if exclude and exclude.search(title):
+    by_market = {cur: {p["handle"]: p for p in prods} for cur, prods in markets.items()}
+    out, seen = [], set()
+    for p in markets[primary]:
+        if p["handle"] in seen or (exclude and exclude.search(p["title"])):
             continue
         category = classify(p, brand["categories"])
-        if not category or p["handle"] in seen:
+        if not category:
             continue
         seen.add(p["handle"])
-        item = shape_product(p, brand, category)
-        if item["sizes"]:
-            out.append(item)
-    out.sort(key=lambda i: (i["category"], i["title"]))
+        sizes, construction = sizes_of(p, brand)
+        if not sizes:
+            continue
+        prices_by_cur = {}
+        for cur, index in by_market.items():
+            other = index.get(p["handle"])
+            if other:
+                prices_by_cur[cur] = sizes_of(other, brand)[0]
+        images = p.get("images") or []
+        out.append({
+            "handle": p["handle"],
+            "title": clean_title(p["title"], brand),
+            "category": category,
+            "construction": construction,
+            "image": images[0]["src"].split("?")[0] if images else None,
+            "sizes": [
+                {
+                    "size": label,
+                    "prices": {cur: s[label]["price"] for cur, s in prices_by_cur.items() if label in s},
+                    "available": info["available"],
+                }
+                for label, info in sizes.items()
+            ],
+        })
+    out.sort(key=lambda i: (CATEGORIES.index(i["category"]), i["title"]))
     return out
 
 
-def find_size_charts(page_html: str, pattern: str) -> list[str]:
-    return sorted({"https://" + m for m in re.findall(pattern, page_html)})
+def parse_product_page(html: str, rules: dict) -> dict:
+    """Catégories du site (pour niveau / programme / série) et tableaux de tailles."""
+    cats: list[str] = []
+    m = re.search(rules.get("categoriesPattern", r"(?!)"), html)
+    if m:
+        try:
+            cats = json.loads("[" + m.group(1) + "]")
+        except json.JSONDecodeError:
+            cats = []
+    prefix = rules.get("categoryPrefix")
+    if prefix:
+        cats = [c for c in cats if c.startswith(prefix)]
+    charts = sorted({"https://" + c for c in re.findall(rules.get("sizeChartPattern", r"(?!)"), html)})
+    ignore = rules.get("ignoreChartPattern")
+    if ignore:
+        charts = [c for c in charts if not re.search(ignore, c)]
+    return {"siteCategories": cats, "sizeCharts": charts}
+
+
+def classify_level(site_categories: list[str], brand: dict) -> dict:
+    """Niveau (beginner / advanced / pro), série et programmes, d'après les catégories du site."""
+    text = " | ".join(site_categories)
+    level = next((r["level"] for r in brand.get("levels", []) if r["match"] in text), brand.get("defaultLevel"))
+    series = next((r["series"] for r in brand.get("series", []) if r["match"] in text), None)
+    programs = [key for key, pattern in brand.get("programs", {}).items() if re.search(pattern, text, re.I)]
+    return {"level": level, "series": series, "programs": programs}
 
 
 def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("brand", help="identifiant de la marque (voir data/brands.json)")
-    parser.add_argument("--with-charts", action="store_true", help="récupérer les URLs des tableaux de tailles (1 requête par produit)")
+    parser.add_argument("--no-pages", action="store_true", help="ne pas lire les pages produit (pas de niveaux ni de tableaux de tailles)")
     args = parser.parse_args(argv)
 
     brands = {b["id"]: b for b in json.loads((DATA / "brands.json").read_text())["brands"]}
     if args.brand not in brands:
         parser.error(f"marque inconnue : {args.brand} (disponibles : {', '.join(brands)})")
     brand = brands[args.brand]
-    if brand["adapter"] != "shopify":
+    if brand["adapter"] not in ADAPTERS:
         parser.error(f"adaptateur non supporté : {brand['adapter']}")
+    adapter = ADAPTERS[brand["adapter"]](brand)
 
-    raw = fetch_shopify(brand)
-    catalog = build_catalog(raw, brand)
+    markets = brand["markets"]
+    primary = next((m for m in markets if m.get("primary")), markets[0])
+    raw = {m["currency"]: adapter.list_products(m.get("locale")) for m in markets}
+    catalog = build_catalog(raw, brand, primary["currency"])
 
-    if args.with_charts and brand.get("sizeChartPattern"):
-        for item in catalog:
-            html = http_get(item["url"]).decode("utf-8", errors="replace")
-            item["sizeCharts"] = find_size_charts(html, brand["sizeChartPattern"])
-            time.sleep(0.3)  # rester poli avec le serveur
+    for item in catalog:
+        item["url"] = adapter.product_url(item["handle"], primary.get("locale"))
+        item["urls"] = {m["currency"]: adapter.product_url(item["handle"], m.get("locale")) for m in markets}
+        if not args.no_pages and brand.get("productPage"):
+            page = parse_product_page(adapter.product_page(item["handle"], primary.get("locale")), brand["productPage"])
+            item.update(page)
+            item.update(classify_level(page["siteCategories"], brand))
+            del item["siteCategories"]
+            time.sleep(0.2)  # rester poli avec le serveur
 
     out_dir = DATA / brand["id"]
     out_dir.mkdir(parents=True, exist_ok=True)
     payload = {
         "brand": brand["id"],
         "brandName": brand["name"],
+        "currencies": [m["currency"] for m in markets],
         "fetchedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "products": catalog,
     }
     (out_dir / "catalog.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n")
-    counts = {}
+    counts: dict[str, int] = {}
     for item in catalog:
         counts[item["category"]] = counts.get(item["category"], 0) + 1
-    print(f"{len(raw)} produits bruts -> {len(catalog)} retenus {counts} -> {out_dir / 'catalog.json'}")
+    print(f"{len(raw[primary['currency']])} produits bruts -> {len(catalog)} retenus {counts} -> {out_dir / 'catalog.json'}")
     return 0
 
 

@@ -1,180 +1,6568 @@
 {
-  "_comment": "Specs transcrites à la main depuis les tableaux de tailles officiels Gong (images). Unités : cm, L, kg, mm (foil), cm². 'products' relie un handle Shopify à un modèle.",
-  "transcribedAt": "2026-11-19",
-  "models": {
-    "mint-fsp-2x": {
-      "category": "board",
-      "name": "Mint FSP 2X (2027)",
-      "outline": { "nose": "round", "tail": "square" },
-      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-MINT-FSP_2X-GONGWING.webp",
-      "sizes": [
-        { "size": "5'0",  "lengthCm": 152.4, "widthCm": 60.0, "thicknessCm": 13.1, "volumeL": 75,  "ofoNoseCm": 50.9, "ofoTailCm": 51.4, "rockerCm": 15.2, "weightKg": 5.8 },
-        { "size": "5'2",  "lengthCm": 157.5, "widthCm": 62.0, "thicknessCm": 14.0, "volumeL": 85,  "ofoNoseCm": 52.0, "ofoTailCm": 52.6, "rockerCm": 15.7, "weightKg": 6.1 },
-        { "size": "5'4",  "lengthCm": 162.6, "widthCm": 64.0, "thicknessCm": 14.7, "volumeL": 95,  "ofoNoseCm": 53.0, "ofoTailCm": 53.9, "rockerCm": 16.2, "weightKg": 6.6 },
-        { "size": "5'6",  "lengthCm": 167.6, "widthCm": 66.0, "thicknessCm": 15.6, "volumeL": 105, "ofoNoseCm": 54.1, "ofoTailCm": 55.1, "rockerCm": 16.6, "weightKg": 7.0 },
-        { "size": "5'8",  "lengthCm": 172.7, "widthCm": 68.0, "thicknessCm": 16.2, "volumeL": 115, "ofoNoseCm": 55.1, "ofoTailCm": 56.3, "rockerCm": 17.1, "weightKg": 7.4 },
-        { "size": "5'10", "lengthCm": 177.8, "widthCm": 70.0, "thicknessCm": 16.6, "volumeL": 125, "ofoNoseCm": 56.2, "ofoTailCm": 57.5, "rockerCm": 17.6, "weightKg": 7.7 }
-      ]
+ "_comment": "Specs transcrites à la main depuis les tableaux de tailles officiels (images ; URL dans sourceChart). Unités : boards cm/L/kg ; ailes avant et stabs : envergure cm, corde et épaisseur mm, surface cm² ; wings : envergure et corde cm, poids kg, vent conseillé en nœuds pour un rider de 65-85 kg, longueur de bôme cm. 'products' relie un handle de produit à un modèle.",
+ "transcribedAt": "2026-11-19",
+ "models": {
+  "mint-fsp-2x": {
+   "category": "board",
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   },
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-MINT-FSP_2X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'0",
+     "lengthCm": 152.4,
+     "widthCm": 60.0,
+     "thicknessCm": 13.1,
+     "volumeL": 75,
+     "ofoNoseCm": 50.9,
+     "ofoTailCm": 51.4,
+     "rockerCm": 15.2,
+     "weightKg": 5.8
     },
-    "lemon-fsp-2x": {
-      "category": "board",
-      "name": "Lemon FSP 2X (2027)",
-      "outline": { "nose": "round", "tail": "square" },
-      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LEMON-FSP_2X-GONGWING.webp",
-      "sizes": [
-        { "size": "4'9",  "lengthCm": 144.8, "widthCm": 52.0, "thicknessCm": 11.9, "volumeL": 55,  "ofoNoseCm": 44.9, "ofoTailCm": 43.8, "rockerCm": 14.0, "weightKg": 5.2 },
-        { "size": "4'11", "lengthCm": 149.9, "widthCm": 55.5, "thicknessCm": 12.8, "volumeL": 65,  "ofoNoseCm": 47.4, "ofoTailCm": 46.3, "rockerCm": 14.5, "weightKg": 5.3 },
-        { "size": "5'2",  "lengthCm": 157.5, "widthCm": 58.0, "thicknessCm": 13.3, "volumeL": 75,  "ofoNoseCm": 48.8, "ofoTailCm": 47.9, "rockerCm": 15.1, "weightKg": 6.0 },
-        { "size": "5'4",  "lengthCm": 162.6, "widthCm": 60.0, "thicknessCm": 14.3, "volumeL": 85,  "ofoNoseCm": 49.9, "ofoTailCm": 49.2, "rockerCm": 15.8, "weightKg": 6.4 },
-        { "size": "5'6",  "lengthCm": 167.6, "widthCm": 63.0, "thicknessCm": 14.8, "volumeL": 95,  "ofoNoseCm": 51.9, "ofoTailCm": 51.0, "rockerCm": 16.2, "weightKg": 6.6 },
-        { "size": "5'8",  "lengthCm": 172.7, "widthCm": 65.5, "thicknessCm": 15.4, "volumeL": 105, "ofoNoseCm": 53.4, "ofoTailCm": 52.2, "rockerCm": 16.6, "weightKg": 7.5 }
-      ]
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 62.0,
+     "thicknessCm": 14.0,
+     "volumeL": 85,
+     "ofoNoseCm": 52.0,
+     "ofoTailCm": 52.6,
+     "rockerCm": 15.7,
+     "weightKg": 6.1
     },
-    "lance-fsp-2x": {
-      "category": "board",
-      "name": "Lance FSP 2X (2027)",
-      "outline": { "nose": "round", "tail": "square" },
-      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LANCE-FSP_2X-GONGWING.webp",
-      "sizes": [
-        { "size": "5'7", "lengthCm": 170.2, "widthCm": 70.0, "thicknessCm": 14.6, "volumeL": 115, "ofoNoseCm": 58.3, "ofoTailCm": 59.2, "rockerCm": 17.7, "weightKg": 7.5 },
-        { "size": "5'8", "lengthCm": 172.7, "widthCm": 75.0, "thicknessCm": 15.2, "volumeL": 130, "ofoNoseCm": 62.2, "ofoTailCm": 63.2, "rockerCm": 17.9, "weightKg": 8.0 },
-        { "size": "5'9", "lengthCm": 175.3, "widthCm": 80.0, "thicknessCm": 15.7, "volumeL": 145, "ofoNoseCm": 66.0, "ofoTailCm": 67.2, "rockerCm": 18.2, "weightKg": 8.4 }
-      ]
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 64.0,
+     "thicknessCm": 14.7,
+     "volumeL": 95,
+     "ofoNoseCm": 53.0,
+     "ofoTailCm": 53.9,
+     "rockerCm": 16.2,
+     "weightKg": 6.6
     },
-    "zuma-fsp-2x": {
-      "category": "board",
-      "name": "Zuma FSP 2X (2027)",
-      "outline": { "nose": "round", "tail": "square" },
-      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-ZUMA-FSP_2X-GONGWING.webp",
-      "sizes": [
-        { "size": "6'3", "lengthCm": 190.5, "widthCm": 71.0, "thicknessCm": 13.2, "volumeL": 115, "ofoNoseCm": 57.5, "ofoTailCm": 59.0, "rockerCm": 22.4, "weightKg": 8.3 },
-        { "size": "6'6", "lengthCm": 198.1, "widthCm": 74.0, "thicknessCm": 13.9, "volumeL": 130, "ofoNoseCm": 59.1, "ofoTailCm": 61.0, "rockerCm": 23.3, "weightKg": 8.7 },
-        { "size": "6'9", "lengthCm": 205.7, "widthCm": 76.5, "thicknessCm": 14.4, "volumeL": 145, "ofoNoseCm": 60.3, "ofoTailCm": 62.6, "rockerCm": 24.2, "weightKg": 9.0 },
-        { "size": "7'2", "lengthCm": 218.4, "widthCm": 78.0, "thicknessCm": 15.5, "volumeL": 170, "ofoNoseCm": 60.1, "ofoTailCm": 63.1, "rockerCm": 25.7, "weightKg": 11.1 }
-      ]
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 66.0,
+     "thicknessCm": 15.6,
+     "volumeL": 105,
+     "ofoNoseCm": 54.1,
+     "ofoTailCm": 55.1,
+     "rockerCm": 16.6,
+     "weightKg": 7.0
     },
-    "cruzader-diamond-fsp-pro": {
-      "category": "board",
-      "name": "Cruzader Diamond FSP Pro (2027)",
-      "outline": { "nose": "pointed", "tail": "diamond" },
-      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_DIAMOND-FSP_PRO-GONGWING.webp",
-      "sizes": [
-        { "size": "5'4",  "lengthCm": 162.6, "widthCm": 49.5, "thicknessCm": 12.2, "volumeL": 59,  "ofoNoseCm": 39.7, "ofoTailCm": 40.9, "rockerCm": 16.6, "weightKg": 5.1 },
-        { "size": "5'6",  "lengthCm": 167.6, "widthCm": 51.0, "thicknessCm": 13.2, "volumeL": 69,  "ofoNoseCm": 40.4, "ofoTailCm": 41.8, "rockerCm": 16.9, "weightKg": 5.4 },
-        { "size": "5'8",  "lengthCm": 172.7, "widthCm": 52.5, "thicknessCm": 14.5, "volumeL": 79,  "ofoNoseCm": 41.1, "ofoTailCm": 42.8, "rockerCm": 17.6, "weightKg": 5.7 },
-        { "size": "5'10", "lengthCm": 177.8, "widthCm": 54.5, "thicknessCm": 15.5, "volumeL": 89,  "ofoNoseCm": 42.2, "ofoTailCm": 44.1, "rockerCm": 18.2, "weightKg": 6.1 },
-        { "size": "6'0",  "lengthCm": 182.9, "widthCm": 56.0, "thicknessCm": 16.4, "volumeL": 99,  "ofoNoseCm": 42.8, "ofoTailCm": 45.0, "rockerCm": 18.7, "weightKg": 6.5 },
-        { "size": "6'2",  "lengthCm": 188.0, "widthCm": 57.5, "thicknessCm": 17.3, "volumeL": 109, "ofoNoseCm": 43.5, "ofoTailCm": 45.9, "rockerCm": 19.4, "weightKg": 6.8 },
-        { "size": "6'4",  "lengthCm": 193.0, "widthCm": 59.5, "thicknessCm": 17.8, "volumeL": 119, "ofoNoseCm": 44.5, "ofoTailCm": 47.2, "rockerCm": 20.0, "weightKg": 7.1 },
-        { "size": "6'6",  "lengthCm": 198.1, "widthCm": 61.0, "thicknessCm": 18.3, "volumeL": 129, "ofoNoseCm": 45.1, "ofoTailCm": 48.0, "rockerCm": 20.5, "weightKg": 7.5 },
-        { "size": "6'8",  "lengthCm": 203.2, "widthCm": 62.6, "thicknessCm": 18.8, "volumeL": 139, "ofoNoseCm": 45.7, "ofoTailCm": 49.0, "rockerCm": 21.3, "weightKg": 8.0 }
-      ]
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 68.0,
+     "thicknessCm": 16.2,
+     "volumeL": 115,
+     "ofoNoseCm": 55.1,
+     "ofoTailCm": 56.3,
+     "rockerCm": 17.1,
+     "weightKg": 7.4
     },
-    "stunt-fsp-pro": {
-      "category": "board",
-      "name": "Stunt FSP Pro (2027)",
-      "outline": { "nose": "round", "tail": "square" },
-      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-STUNT-FSP_PRO-GONGWING.webp",
-      "sizes": [
-        { "size": "4'6",  "lengthCm": 137.2, "widthCm": 52.5, "thicknessCm": 13.0, "volumeL": 58, "ofoNoseCm": 45.8, "ofoTailCm": 47.7, "rockerCm": 15.1, "weightKg": 4.8 },
-        { "size": "4'7",  "lengthCm": 139.7, "widthCm": 54.0, "thicknessCm": 13.7, "volumeL": 65, "ofoNoseCm": 46.8, "ofoTailCm": 48.9, "rockerCm": 15.6, "weightKg": 5.0 },
-        { "size": "4'8",  "lengthCm": 142.2, "widthCm": 55.5, "thicknessCm": 14.6, "volumeL": 72, "ofoNoseCm": 47.9, "ofoTailCm": 50.0, "rockerCm": 15.9, "weightKg": 5.4 },
-        { "size": "4'9",  "lengthCm": 144.8, "widthCm": 57.0, "thicknessCm": 15.2, "volumeL": 78, "ofoNoseCm": 48.9, "ofoTailCm": 51.2, "rockerCm": 16.3, "weightKg": 5.7 },
-        { "size": "4'11", "lengthCm": 149.9, "widthCm": 59.0, "thicknessCm": 15.7, "volumeL": 85, "ofoNoseCm": 50.0, "ofoTailCm": 52.6, "rockerCm": 16.8, "weightKg": 6.0 },
-        { "size": "5'1",  "lengthCm": 154.9, "widthCm": 61.0, "thicknessCm": 16.3, "volumeL": 95, "ofoNoseCm": 51.1, "ofoTailCm": 54.0, "rockerCm": 17.4, "weightKg": 6.4 }
-      ]
-    },
-    "x-over-v3": {
-      "category": "frontwing",
-      "name": "X-Over V3",
-      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-X-OVER-GONGFOIL.webp",
-      "sizes": [
-        { "size": "M",   "spanCm": 74,  "chordMm": 146, "thicknessMm": 17.3, "aspectRatio": 6.4, "areaCm2": 850 },
-        { "size": "L",   "spanCm": 84,  "chordMm": 167, "thicknessMm": 19.7, "aspectRatio": 6.4, "areaCm2": 1108 },
-        { "size": "XL",  "spanCm": 95,  "chordMm": 189, "thicknessMm": 22.3, "aspectRatio": 6.4, "areaCm2": 1410 },
-        { "size": "XXL", "spanCm": 106, "chordMm": 210, "thicknessMm": 24.8, "aspectRatio": 6.4, "areaCm2": 1747 }
-      ]
-    },
-    "ascent-v3": {
-      "category": "frontwing",
-      "name": "Ascent V3",
-      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-ASCENT-GONGFOIL.webp",
-      "sizes": [
-        { "size": "S",   "spanCm": 69,  "chordMm": 126, "thicknessMm": 14.8, "aspectRatio": 7, "areaCm2": 690 },
-        { "size": "M",   "spanCm": 78,  "chordMm": 140, "thicknessMm": 16.6, "aspectRatio": 7, "areaCm2": 870 },
-        { "size": "L",   "spanCm": 87,  "chordMm": 157, "thicknessMm": 18.5, "aspectRatio": 7, "areaCm2": 1080 },
-        { "size": "XL",  "spanCm": 95,  "chordMm": 172, "thicknessMm": 20.2, "aspectRatio": 7, "areaCm2": 1290 },
-        { "size": "XXL", "spanCm": 102, "chordMm": 185, "thicknessMm": 21.8, "aspectRatio": 7, "areaCm2": 1500 }
-      ]
-    },
-    "curve-v3": {
-      "category": "frontwing",
-      "name": "Curve V3",
-      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-CURVE-GONGFOIL.webp",
-      "sizes": [
-        { "size": "XXS", "spanCm": 72,  "chordMm": 110, "thicknessMm": 12.8, "aspectRatio": 8.4, "areaCm2": 620 },
-        { "size": "XS",  "spanCm": 78,  "chordMm": 119, "thicknessMm": 13.8, "aspectRatio": 8.4, "areaCm2": 720 },
-        { "size": "S",   "spanCm": 83,  "chordMm": 127, "thicknessMm": 14.7, "aspectRatio": 8.4, "areaCm2": 820 },
-        { "size": "M",   "spanCm": 88,  "chordMm": 134, "thicknessMm": 15.6, "aspectRatio": 8.4, "areaCm2": 920 },
-        { "size": "L",   "spanCm": 95,  "chordMm": 145, "thicknessMm": 16.8, "aspectRatio": 8.4, "areaCm2": 1070 },
-        { "size": "XL",  "spanCm": 101, "chordMm": 155, "thicknessMm": 18.0, "aspectRatio": 8.4, "areaCm2": 1220 },
-        { "size": "XXL", "spanCm": 107, "chordMm": 164, "thicknessMm": 19.0, "aspectRatio": 8.4, "areaCm2": 1370 },
-        { "size": "3XL", "spanCm": 113, "chordMm": 173, "thicknessMm": 20.0, "aspectRatio": 8.4, "areaCm2": 1520 }
-      ]
-    },
-    "fluid-v3": {
-      "category": "frontwing",
-      "name": "Fluid V3",
-      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-FLUID-GONGFOIL.webp",
-      "sizes": [
-        { "size": "3XS", "spanCm": 65,  "chordMm": 99,  "thicknessMm": 10.4, "aspectRatio": 8.4, "areaCm2": 510 },
-        { "size": "XXS", "spanCm": 72,  "chordMm": 110, "thicknessMm": 11.5, "aspectRatio": 8.4, "areaCm2": 610 },
-        { "size": "XS",  "spanCm": 77,  "chordMm": 117, "thicknessMm": 12.3, "aspectRatio": 8.4, "areaCm2": 710 },
-        { "size": "S",   "spanCm": 82,  "chordMm": 125, "thicknessMm": 13.1, "aspectRatio": 8.4, "areaCm2": 810 },
-        { "size": "M",   "spanCm": 87,  "chordMm": 132, "thicknessMm": 13.9, "aspectRatio": 8.4, "areaCm2": 910 },
-        { "size": "L",   "spanCm": 92,  "chordMm": 140, "thicknessMm": 14.7, "aspectRatio": 8.4, "areaCm2": 1010 },
-        { "size": "XL",  "spanCm": 99,  "chordMm": 151, "thicknessMm": 15.8, "aspectRatio": 8.4, "areaCm2": 1160 },
-        { "size": "XXL", "spanCm": 105, "chordMm": 160, "thicknessMm": 16.8, "aspectRatio": 8.4, "areaCm2": 1310 },
-        { "size": "3XL", "spanCm": 111, "chordMm": 169, "thicknessMm": 17.7, "aspectRatio": 8.4, "areaCm2": 1460 }
-      ]
-    },
-    "veloce-v3": {
-      "category": "frontwing",
-      "name": "Veloce V3",
-      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE-GONGFOIL.webp",
-      "sizes": [
-        { "size": "XS",  "spanCm": 77,  "chordMm": 104, "thicknessMm": 10.9, "aspectRatio": 10.1, "areaCm2": 590 },
-        { "size": "S",   "spanCm": 87,  "chordMm": 117, "thicknessMm": 12.3, "aspectRatio": 10.1, "areaCm2": 740 },
-        { "size": "M",   "spanCm": 95,  "chordMm": 128, "thicknessMm": 13.4, "aspectRatio": 10.1, "areaCm2": 890 },
-        { "size": "L",   "spanCm": 103, "chordMm": 138, "thicknessMm": 14.5, "aspectRatio": 10.1, "areaCm2": 1040 },
-        { "size": "XL",  "spanCm": 108, "chordMm": 146, "thicknessMm": 15.3, "aspectRatio": 10.1, "areaCm2": 1150 },
-        { "size": "XXL", "spanCm": 115, "chordMm": 155, "thicknessMm": 16.2, "aspectRatio": 10.1, "areaCm2": 1300 }
-      ]
-    },
-    "sirus-v3": {
-      "category": "frontwing",
-      "name": "Sirus V3",
-      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-SIRUS-GONGFOIL.webp",
-      "sizes": [
-        { "size": "L",   "spanCm": 116, "chordMm": 170, "thicknessMm": 22.0, "aspectRatio": 9.3,  "areaCm2": 1442 },
-        { "size": "XL",  "spanCm": 136, "chordMm": 170, "thicknessMm": 22.0, "aspectRatio": 10.9, "areaCm2": 1691 },
-        { "size": "XXL", "spanCm": 156, "chordMm": 170, "thicknessMm": 22.0, "aspectRatio": 12.5, "areaCm2": 1940 },
-        { "size": "3XL", "spanCm": 186, "chordMm": 170, "thicknessMm": 22.0, "aspectRatio": 15.0, "areaCm2": 2313 }
-      ]
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 70.0,
+     "thicknessCm": 16.6,
+     "volumeL": 125,
+     "ofoNoseCm": 56.2,
+     "ofoTailCm": 57.5,
+     "rockerCm": 17.6,
+     "weightKg": 7.7
     }
+   ]
   },
-  "products": {
-    "gong-wing-foil-board-mint-fsp-2x-27": "mint-fsp-2x",
-    "gong-wing-foil-board-lemon-fsp-2x-27": "lemon-fsp-2x",
-    "gong-wing-foil-board-lance-fsp-2x-27": "lance-fsp-2x",
-    "gong-wing-foil-board-zuma-fsp-2x-27": "zuma-fsp-2x",
-    "gong-wing-foil-board-cruzader-diamond-fsp-pro-27": "cruzader-diamond-fsp-pro",
-    "gong-wing-foil-board-stunt-fsp-pro-27": "stunt-fsp-pro",
-    "gong-foil-front-wing-x-over-atmo": "x-over-v3",
-    "gong-foil-front-wing-ascent-atmo": "ascent-v3",
-    "gong-foil-front-wing-curve-atmo": "curve-v3",
-    "gong-foil-front-wing-fluid-atmo": "fluid-v3",
-    "gong-foil-front-wing-veloce-atmo": "veloce-v3",
-    "gong-foil-front-wing-sirus-atmo": "sirus-v3"
+  "lemon-fsp-2x": {
+   "category": "board",
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   },
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LEMON-FSP_2X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'9",
+     "lengthCm": 144.8,
+     "widthCm": 52.0,
+     "thicknessCm": 11.9,
+     "volumeL": 55,
+     "ofoNoseCm": 44.9,
+     "ofoTailCm": 43.8,
+     "rockerCm": 14.0,
+     "weightKg": 5.2
+    },
+    {
+     "size": "4'11",
+     "lengthCm": 149.9,
+     "widthCm": 55.5,
+     "thicknessCm": 12.8,
+     "volumeL": 65,
+     "ofoNoseCm": 47.4,
+     "ofoTailCm": 46.3,
+     "rockerCm": 14.5,
+     "weightKg": 5.3
+    },
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 58.0,
+     "thicknessCm": 13.3,
+     "volumeL": 75,
+     "ofoNoseCm": 48.8,
+     "ofoTailCm": 47.9,
+     "rockerCm": 15.1,
+     "weightKg": 6.0
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 60.0,
+     "thicknessCm": 14.3,
+     "volumeL": 85,
+     "ofoNoseCm": 49.9,
+     "ofoTailCm": 49.2,
+     "rockerCm": 15.8,
+     "weightKg": 6.4
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 63.0,
+     "thicknessCm": 14.8,
+     "volumeL": 95,
+     "ofoNoseCm": 51.9,
+     "ofoTailCm": 51.0,
+     "rockerCm": 16.2,
+     "weightKg": 6.6
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 65.5,
+     "thicknessCm": 15.4,
+     "volumeL": 105,
+     "ofoNoseCm": 53.4,
+     "ofoTailCm": 52.2,
+     "rockerCm": 16.6,
+     "weightKg": 7.5
+    }
+   ]
+  },
+  "lance-fsp-2x": {
+   "category": "board",
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   },
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LANCE-FSP_2X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'7",
+     "lengthCm": 170.2,
+     "widthCm": 70.0,
+     "thicknessCm": 14.6,
+     "volumeL": 115,
+     "ofoNoseCm": 58.3,
+     "ofoTailCm": 59.2,
+     "rockerCm": 17.7,
+     "weightKg": 7.5
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 75.0,
+     "thicknessCm": 15.2,
+     "volumeL": 130,
+     "ofoNoseCm": 62.2,
+     "ofoTailCm": 63.2,
+     "rockerCm": 17.9,
+     "weightKg": 8.0
+    },
+    {
+     "size": "5'9",
+     "lengthCm": 175.3,
+     "widthCm": 80.0,
+     "thicknessCm": 15.7,
+     "volumeL": 145,
+     "ofoNoseCm": 66.0,
+     "ofoTailCm": 67.2,
+     "rockerCm": 18.2,
+     "weightKg": 8.4
+    }
+   ]
+  },
+  "zuma-fsp-2x": {
+   "category": "board",
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   },
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-ZUMA-FSP_2X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "6'3",
+     "lengthCm": 190.5,
+     "widthCm": 71.0,
+     "thicknessCm": 13.2,
+     "volumeL": 115,
+     "ofoNoseCm": 57.5,
+     "ofoTailCm": 59.0,
+     "rockerCm": 22.4,
+     "weightKg": 8.3
+    },
+    {
+     "size": "6'6",
+     "lengthCm": 198.1,
+     "widthCm": 74.0,
+     "thicknessCm": 13.9,
+     "volumeL": 130,
+     "ofoNoseCm": 59.1,
+     "ofoTailCm": 61.0,
+     "rockerCm": 23.3,
+     "weightKg": 8.7
+    },
+    {
+     "size": "6'9",
+     "lengthCm": 205.7,
+     "widthCm": 76.5,
+     "thicknessCm": 14.4,
+     "volumeL": 145,
+     "ofoNoseCm": 60.3,
+     "ofoTailCm": 62.6,
+     "rockerCm": 24.2,
+     "weightKg": 9.0
+    },
+    {
+     "size": "7'2",
+     "lengthCm": 218.4,
+     "widthCm": 78.0,
+     "thicknessCm": 15.5,
+     "volumeL": 170,
+     "ofoNoseCm": 60.1,
+     "ofoTailCm": 63.1,
+     "rockerCm": 25.7,
+     "weightKg": 11.1
+    }
+   ]
+  },
+  "cruzader-diamond-fsp-pro": {
+   "category": "board",
+   "outline": {
+    "nose": "pointed",
+    "tail": "diamond"
+   },
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_DIAMOND-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 49.5,
+     "thicknessCm": 12.2,
+     "volumeL": 59,
+     "ofoNoseCm": 39.7,
+     "ofoTailCm": 40.9,
+     "rockerCm": 16.6,
+     "weightKg": 5.1
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 51.0,
+     "thicknessCm": 13.2,
+     "volumeL": 69,
+     "ofoNoseCm": 40.4,
+     "ofoTailCm": 41.8,
+     "rockerCm": 16.9,
+     "weightKg": 5.4
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 52.5,
+     "thicknessCm": 14.5,
+     "volumeL": 79,
+     "ofoNoseCm": 41.1,
+     "ofoTailCm": 42.8,
+     "rockerCm": 17.6,
+     "weightKg": 5.7
+    },
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 54.5,
+     "thicknessCm": 15.5,
+     "volumeL": 89,
+     "ofoNoseCm": 42.2,
+     "ofoTailCm": 44.1,
+     "rockerCm": 18.2,
+     "weightKg": 6.1
+    },
+    {
+     "size": "6'0",
+     "lengthCm": 182.9,
+     "widthCm": 56.0,
+     "thicknessCm": 16.4,
+     "volumeL": 99,
+     "ofoNoseCm": 42.8,
+     "ofoTailCm": 45.0,
+     "rockerCm": 18.7,
+     "weightKg": 6.5
+    },
+    {
+     "size": "6'2",
+     "lengthCm": 188.0,
+     "widthCm": 57.5,
+     "thicknessCm": 17.3,
+     "volumeL": 109,
+     "ofoNoseCm": 43.5,
+     "ofoTailCm": 45.9,
+     "rockerCm": 19.4,
+     "weightKg": 6.8
+    },
+    {
+     "size": "6'4",
+     "lengthCm": 193.0,
+     "widthCm": 59.5,
+     "thicknessCm": 17.8,
+     "volumeL": 119,
+     "ofoNoseCm": 44.5,
+     "ofoTailCm": 47.2,
+     "rockerCm": 20.0,
+     "weightKg": 7.1
+    },
+    {
+     "size": "6'6",
+     "lengthCm": 198.1,
+     "widthCm": 61.0,
+     "thicknessCm": 18.3,
+     "volumeL": 129,
+     "ofoNoseCm": 45.1,
+     "ofoTailCm": 48.0,
+     "rockerCm": 20.5,
+     "weightKg": 7.5
+    },
+    {
+     "size": "6'8",
+     "lengthCm": 203.2,
+     "widthCm": 62.6,
+     "thicknessCm": 18.8,
+     "volumeL": 139,
+     "ofoNoseCm": 45.7,
+     "ofoTailCm": 49.0,
+     "rockerCm": 21.3,
+     "weightKg": 8.0
+    }
+   ]
+  },
+  "stunt-fsp-pro": {
+   "category": "board",
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   },
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-STUNT-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'6",
+     "lengthCm": 137.2,
+     "widthCm": 52.5,
+     "thicknessCm": 13.0,
+     "volumeL": 58,
+     "ofoNoseCm": 45.8,
+     "ofoTailCm": 47.7,
+     "rockerCm": 15.1,
+     "weightKg": 4.8
+    },
+    {
+     "size": "4'7",
+     "lengthCm": 139.7,
+     "widthCm": 54.0,
+     "thicknessCm": 13.7,
+     "volumeL": 65,
+     "ofoNoseCm": 46.8,
+     "ofoTailCm": 48.9,
+     "rockerCm": 15.6,
+     "weightKg": 5.0
+    },
+    {
+     "size": "4'8",
+     "lengthCm": 142.2,
+     "widthCm": 55.5,
+     "thicknessCm": 14.6,
+     "volumeL": 72,
+     "ofoNoseCm": 47.9,
+     "ofoTailCm": 50.0,
+     "rockerCm": 15.9,
+     "weightKg": 5.4
+    },
+    {
+     "size": "4'9",
+     "lengthCm": 144.8,
+     "widthCm": 57.0,
+     "thicknessCm": 15.2,
+     "volumeL": 78,
+     "ofoNoseCm": 48.9,
+     "ofoTailCm": 51.2,
+     "rockerCm": 16.3,
+     "weightKg": 5.7
+    },
+    {
+     "size": "4'11",
+     "lengthCm": 149.9,
+     "widthCm": 59.0,
+     "thicknessCm": 15.7,
+     "volumeL": 85,
+     "ofoNoseCm": 50.0,
+     "ofoTailCm": 52.6,
+     "rockerCm": 16.8,
+     "weightKg": 6.0
+    },
+    {
+     "size": "5'1",
+     "lengthCm": 154.9,
+     "widthCm": 61.0,
+     "thicknessCm": 16.3,
+     "volumeL": 95,
+     "ofoNoseCm": 51.1,
+     "ofoTailCm": 54.0,
+     "rockerCm": 17.4,
+     "weightKg": 6.4
+    }
+   ]
+  },
+  "x-over-v3": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-X-OVER-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "M",
+     "spanCm": 74,
+     "chordMm": 146,
+     "thicknessMm": 17.3,
+     "aspectRatio": 6.4,
+     "areaCm2": 850
+    },
+    {
+     "size": "L",
+     "spanCm": 84,
+     "chordMm": 167,
+     "thicknessMm": 19.7,
+     "aspectRatio": 6.4,
+     "areaCm2": 1108
+    },
+    {
+     "size": "XL",
+     "spanCm": 95,
+     "chordMm": 189,
+     "thicknessMm": 22.3,
+     "aspectRatio": 6.4,
+     "areaCm2": 1410
+    },
+    {
+     "size": "XXL",
+     "spanCm": 106,
+     "chordMm": 210,
+     "thicknessMm": 24.8,
+     "aspectRatio": 6.4,
+     "areaCm2": 1747
+    }
+   ]
+  },
+  "ascent-v3": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-ASCENT-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 69,
+     "chordMm": 126,
+     "thicknessMm": 14.8,
+     "aspectRatio": 7,
+     "areaCm2": 690
+    },
+    {
+     "size": "M",
+     "spanCm": 78,
+     "chordMm": 140,
+     "thicknessMm": 16.6,
+     "aspectRatio": 7,
+     "areaCm2": 870
+    },
+    {
+     "size": "L",
+     "spanCm": 87,
+     "chordMm": 157,
+     "thicknessMm": 18.5,
+     "aspectRatio": 7,
+     "areaCm2": 1080
+    },
+    {
+     "size": "XL",
+     "spanCm": 95,
+     "chordMm": 172,
+     "thicknessMm": 20.2,
+     "aspectRatio": 7,
+     "areaCm2": 1290
+    },
+    {
+     "size": "XXL",
+     "spanCm": 102,
+     "chordMm": 185,
+     "thicknessMm": 21.8,
+     "aspectRatio": 7,
+     "areaCm2": 1500
+    }
+   ]
+  },
+  "curve-v3": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-CURVE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XXS",
+     "spanCm": 72,
+     "chordMm": 110,
+     "thicknessMm": 12.8,
+     "aspectRatio": 8.4,
+     "areaCm2": 620
+    },
+    {
+     "size": "XS",
+     "spanCm": 78,
+     "chordMm": 119,
+     "thicknessMm": 13.8,
+     "aspectRatio": 8.4,
+     "areaCm2": 720
+    },
+    {
+     "size": "S",
+     "spanCm": 83,
+     "chordMm": 127,
+     "thicknessMm": 14.7,
+     "aspectRatio": 8.4,
+     "areaCm2": 820
+    },
+    {
+     "size": "M",
+     "spanCm": 88,
+     "chordMm": 134,
+     "thicknessMm": 15.6,
+     "aspectRatio": 8.4,
+     "areaCm2": 920
+    },
+    {
+     "size": "L",
+     "spanCm": 95,
+     "chordMm": 145,
+     "thicknessMm": 16.8,
+     "aspectRatio": 8.4,
+     "areaCm2": 1070
+    },
+    {
+     "size": "XL",
+     "spanCm": 101,
+     "chordMm": 155,
+     "thicknessMm": 18.0,
+     "aspectRatio": 8.4,
+     "areaCm2": 1220
+    },
+    {
+     "size": "XXL",
+     "spanCm": 107,
+     "chordMm": 164,
+     "thicknessMm": 19.0,
+     "aspectRatio": 8.4,
+     "areaCm2": 1370
+    },
+    {
+     "size": "3XL",
+     "spanCm": 113,
+     "chordMm": 173,
+     "thicknessMm": 20.0,
+     "aspectRatio": 8.4,
+     "areaCm2": 1520
+    }
+   ]
+  },
+  "fluid-v3": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-FLUID-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "3XS",
+     "spanCm": 65,
+     "chordMm": 99,
+     "thicknessMm": 10.4,
+     "aspectRatio": 8.4,
+     "areaCm2": 510
+    },
+    {
+     "size": "XXS",
+     "spanCm": 72,
+     "chordMm": 110,
+     "thicknessMm": 11.5,
+     "aspectRatio": 8.4,
+     "areaCm2": 610
+    },
+    {
+     "size": "XS",
+     "spanCm": 77,
+     "chordMm": 117,
+     "thicknessMm": 12.3,
+     "aspectRatio": 8.4,
+     "areaCm2": 710
+    },
+    {
+     "size": "S",
+     "spanCm": 82,
+     "chordMm": 125,
+     "thicknessMm": 13.1,
+     "aspectRatio": 8.4,
+     "areaCm2": 810
+    },
+    {
+     "size": "M",
+     "spanCm": 87,
+     "chordMm": 132,
+     "thicknessMm": 13.9,
+     "aspectRatio": 8.4,
+     "areaCm2": 910
+    },
+    {
+     "size": "L",
+     "spanCm": 92,
+     "chordMm": 140,
+     "thicknessMm": 14.7,
+     "aspectRatio": 8.4,
+     "areaCm2": 1010
+    },
+    {
+     "size": "XL",
+     "spanCm": 99,
+     "chordMm": 151,
+     "thicknessMm": 15.8,
+     "aspectRatio": 8.4,
+     "areaCm2": 1160
+    },
+    {
+     "size": "XXL",
+     "spanCm": 105,
+     "chordMm": 160,
+     "thicknessMm": 16.8,
+     "aspectRatio": 8.4,
+     "areaCm2": 1310
+    },
+    {
+     "size": "3XL",
+     "spanCm": 111,
+     "chordMm": 169,
+     "thicknessMm": 17.7,
+     "aspectRatio": 8.4,
+     "areaCm2": 1460
+    }
+   ]
+  },
+  "veloce-v3": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 77,
+     "chordMm": 104,
+     "thicknessMm": 10.9,
+     "aspectRatio": 10.1,
+     "areaCm2": 590
+    },
+    {
+     "size": "S",
+     "spanCm": 87,
+     "chordMm": 117,
+     "thicknessMm": 12.3,
+     "aspectRatio": 10.1,
+     "areaCm2": 740
+    },
+    {
+     "size": "M",
+     "spanCm": 95,
+     "chordMm": 128,
+     "thicknessMm": 13.4,
+     "aspectRatio": 10.1,
+     "areaCm2": 890
+    },
+    {
+     "size": "L",
+     "spanCm": 103,
+     "chordMm": 138,
+     "thicknessMm": 14.5,
+     "aspectRatio": 10.1,
+     "areaCm2": 1040
+    },
+    {
+     "size": "XL",
+     "spanCm": 108,
+     "chordMm": 146,
+     "thicknessMm": 15.3,
+     "aspectRatio": 10.1,
+     "areaCm2": 1150
+    },
+    {
+     "size": "XXL",
+     "spanCm": 115,
+     "chordMm": 155,
+     "thicknessMm": 16.2,
+     "aspectRatio": 10.1,
+     "areaCm2": 1300
+    }
+   ]
+  },
+  "sirus-v3": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-SIRUS-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "L",
+     "spanCm": 116,
+     "chordMm": 170,
+     "thicknessMm": 22.0,
+     "aspectRatio": 9.3,
+     "areaCm2": 1442
+    },
+    {
+     "size": "XL",
+     "spanCm": 136,
+     "chordMm": 170,
+     "thicknessMm": 22.0,
+     "aspectRatio": 10.9,
+     "areaCm2": 1691
+    },
+    {
+     "size": "XXL",
+     "spanCm": 156,
+     "chordMm": 170,
+     "thicknessMm": 22.0,
+     "aspectRatio": 12.5,
+     "areaCm2": 1940
+    },
+    {
+     "size": "3XL",
+     "spanCm": 186,
+     "chordMm": 170,
+     "thicknessMm": 22.0,
+     "aspectRatio": 15.0,
+     "areaCm2": 2313
+    }
+   ]
+  },
+  "wing-foil-board-cruzader-diamond-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_DIAMOND-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 52.5,
+     "thicknessCm": 14.5,
+     "volumeL": 79,
+     "ofoNoseCm": 41.1,
+     "ofoTailCm": 42.8,
+     "rockerCm": 17.6,
+     "weightKg": 3.8
+    },
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 54.5,
+     "thicknessCm": 15.5,
+     "volumeL": 89,
+     "ofoNoseCm": 42.2,
+     "ofoTailCm": 44.1,
+     "rockerCm": 18.2,
+     "weightKg": 4.0
+    },
+    {
+     "size": "6'0",
+     "lengthCm": 182.9,
+     "widthCm": 56.0,
+     "thicknessCm": 16.4,
+     "volumeL": 99,
+     "ofoNoseCm": 42.8,
+     "ofoTailCm": 45.0,
+     "rockerCm": 18.7,
+     "weightKg": 4.2
+    },
+    {
+     "size": "6'2",
+     "lengthCm": 188.0,
+     "widthCm": 57.5,
+     "thicknessCm": 17.3,
+     "volumeL": 109,
+     "ofoNoseCm": 43.5,
+     "ofoTailCm": 45.9,
+     "rockerCm": 19.4,
+     "weightKg": 4.5
+    },
+    {
+     "size": "6'4",
+     "lengthCm": 193.0,
+     "widthCm": 59.5,
+     "thicknessCm": 17.8,
+     "volumeL": 119,
+     "ofoNoseCm": 44.5,
+     "ofoTailCm": 47.2,
+     "rockerCm": 20.0,
+     "weightKg": 4.7
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "diamond"
+   }
+  },
+  "wing-foil-board-cruzader-point-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_POINT-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 54.0,
+     "thicknessCm": 13.2,
+     "volumeL": 68,
+     "ofoNoseCm": 44.4,
+     "ofoTailCm": 45.1,
+     "rockerCm": 18.9,
+     "weightKg": 3.5
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 56.0,
+     "thicknessCm": 14.3,
+     "volumeL": 78,
+     "ofoNoseCm": 45.5,
+     "ofoTailCm": 45.4,
+     "rockerCm": 19.5,
+     "weightKg": 3.7
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 58.0,
+     "thicknessCm": 15.2,
+     "volumeL": 88,
+     "ofoNoseCm": 46.6,
+     "ofoTailCm": 45.4,
+     "rockerCm": 20.1,
+     "weightKg": 3.9
+    }
+   ],
+   "outline": {
+    "nose": "pointed",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-cruzader-point-lw-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_POINT_LW-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "6'3",
+     "lengthCm": 190.5,
+     "widthCm": 47.0,
+     "thicknessCm": 18.8,
+     "volumeL": 101,
+     "ofoNoseCm": 35.8,
+     "ofoTailCm": 34.7,
+     "rockerCm": 24.0,
+     "weightKg": 4.0
+    },
+    {
+     "size": "6'6",
+     "lengthCm": 198.1,
+     "widthCm": 49.0,
+     "thicknessCm": 19.0,
+     "volumeL": 111,
+     "ofoNoseCm": 36.7,
+     "ofoTailCm": 35.6,
+     "rockerCm": 25.1,
+     "weightKg": 4.3
+    }
+   ],
+   "outline": {
+    "nose": "pointed",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-cruzader-squash-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_SQUASH-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'1",
+     "lengthCm": 154.9,
+     "widthCm": 52.5,
+     "thicknessCm": 13.1,
+     "volumeL": 65,
+     "ofoNoseCm": 44.3,
+     "ofoTailCm": 44.0,
+     "rockerCm": 15.9,
+     "weightKg": 3.4
+    },
+    {
+     "size": "5'3",
+     "lengthCm": 160.0,
+     "widthCm": 55.0,
+     "thicknessCm": 14.0,
+     "volumeL": 75,
+     "ofoNoseCm": 45.9,
+     "ofoTailCm": 45.1,
+     "rockerCm": 16.6,
+     "weightKg": 3.6
+    },
+    {
+     "size": "5'5",
+     "lengthCm": 165.1,
+     "widthCm": 56.5,
+     "thicknessCm": 15.2,
+     "volumeL": 85,
+     "ofoNoseCm": 46.6,
+     "ofoTailCm": 45.2,
+     "rockerCm": 17.1,
+     "weightKg": 3.8
+    },
+    {
+     "size": "5'7",
+     "lengthCm": 170.2,
+     "widthCm": 58.5,
+     "thicknessCm": 16.1,
+     "volumeL": 95,
+     "ofoNoseCm": 47.7,
+     "ofoTailCm": 45.5,
+     "rockerCm": 17.6,
+     "weightKg": 4.0
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "squash"
+   }
+  },
+  "wing-foil-board-cruzader-squash-2pk-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_SQUASH_2PK-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 49.0,
+     "thicknessCm": 14.8,
+     "volumeL": 68,
+     "ofoNoseCm": 40.6,
+     "ofoTailCm": 40.6,
+     "rockerCm": 17.4,
+     "weightKg": 3.4
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 50.8,
+     "thicknessCm": 15.9,
+     "volumeL": 78,
+     "ofoNoseCm": 41.6,
+     "ofoTailCm": 40.5,
+     "rockerCm": 17.9,
+     "weightKg": 3.6
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 54.0,
+     "thicknessCm": 16.4,
+     "volumeL": 88,
+     "ofoNoseCm": 43.8,
+     "ofoTailCm": 41.7,
+     "rockerCm": 18.5,
+     "weightKg": 3.8
+    },
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 57.0,
+     "thicknessCm": 17.1,
+     "volumeL": 98,
+     "ofoNoseCm": 45.7,
+     "ofoTailCm": 43.0,
+     "rockerCm": 19.1,
+     "weightKg": 4.0
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "squash"
+   }
+  },
+  "wing-foil-board-hyperloop-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-HYPERLOOP-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'6",
+     "lengthCm": 137.2,
+     "widthCm": 54.5,
+     "thicknessCm": 13.1,
+     "volumeL": 65,
+     "ofoNoseCm": 49.8,
+     "ofoTailCm": 49.6,
+     "rockerCm": 15.5,
+     "weightKg": 4.0
+    },
+    {
+     "size": "4'7",
+     "lengthCm": 140.0,
+     "widthCm": 55.5,
+     "thicknessCm": 14.0,
+     "volumeL": 72,
+     "ofoNoseCm": 50.6,
+     "ofoTailCm": 50.4,
+     "rockerCm": 15.9,
+     "weightKg": 4.2
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-lemon-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-LEMON-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'11",
+     "lengthCm": 149.9,
+     "widthCm": 55.5,
+     "thicknessCm": 12.8,
+     "volumeL": 65,
+     "ofoNoseCm": 47.4,
+     "ofoTailCm": 46.3,
+     "rockerCm": 14.5,
+     "weightKg": 3.4
+    },
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 58.0,
+     "thicknessCm": 13.3,
+     "volumeL": 75,
+     "ofoNoseCm": 48.8,
+     "ofoTailCm": 47.9,
+     "rockerCm": 15.1,
+     "weightKg": 3.6
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 60.0,
+     "thicknessCm": 14.3,
+     "volumeL": 85,
+     "ofoNoseCm": 49.9,
+     "ofoTailCm": 49.2,
+     "rockerCm": 15.8,
+     "weightKg": 3.8
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-lethal-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-LETHAL-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'10",
+     "lengthCm": 147.3,
+     "widthCm": 52.7,
+     "thicknessCm": 12.8,
+     "volumeL": 59,
+     "ofoNoseCm": 43.6,
+     "ofoTailCm": 45.2,
+     "rockerCm": 16.9,
+     "weightKg": 3.8
+    },
+    {
+     "size": "5'0",
+     "lengthCm": 152.4,
+     "widthCm": 54.5,
+     "thicknessCm": 14.0,
+     "volumeL": 69,
+     "ofoNoseCm": 44.6,
+     "ofoTailCm": 46.3,
+     "rockerCm": 17.4,
+     "weightKg": 3.9
+    },
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 57.0,
+     "thicknessCm": 14.8,
+     "volumeL": 79,
+     "ofoNoseCm": 46.0,
+     "ofoTailCm": 47.9,
+     "rockerCm": 17.9,
+     "weightKg": 4.0
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-mint-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-MINT-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 62.0,
+     "thicknessCm": 14.0,
+     "volumeL": 85,
+     "ofoNoseCm": 52.0,
+     "ofoTailCm": 52.6,
+     "rockerCm": 15.7,
+     "weightKg": 3.8
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 64.0,
+     "thicknessCm": 14.7,
+     "volumeL": 95,
+     "ofoNoseCm": 53.0,
+     "ofoTailCm": 53.9,
+     "rockerCm": 16.2,
+     "weightKg": 4.0
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-racer-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-RACER-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 49.0,
+     "thicknessCm": 15.3,
+     "volumeL": 77,
+     "ofoNoseCm": 41.2,
+     "ofoTailCm": 42.0,
+     "rockerCm": 17.9,
+     "weightKg": 4.2
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 50.3,
+     "thicknessCm": 16.5,
+     "volumeL": 88,
+     "ofoNoseCm": 41.9,
+     "ofoTailCm": 42.8,
+     "rockerCm": 18.4,
+     "weightKg": 4.5
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 52.3,
+     "thicknessCm": 17.4,
+     "volumeL": 99,
+     "ofoNoseCm": 43.0,
+     "ofoTailCm": 44.1,
+     "rockerCm": 19.1,
+     "weightKg": 4.8
+    }
+   ],
+   "outline": {
+    "nose": "pointed",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-stunt-hollow-carbon-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-STUNT-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'7",
+     "lengthCm": 139.7,
+     "widthCm": 54.0,
+     "thicknessCm": 13.7,
+     "volumeL": 65,
+     "ofoNoseCm": 46.8,
+     "ofoTailCm": 48.9,
+     "rockerCm": 15.6,
+     "weightKg": 3.9
+    },
+    {
+     "size": "4'8",
+     "lengthCm": 142.2,
+     "widthCm": 55.5,
+     "thicknessCm": 14.6,
+     "volumeL": 72,
+     "ofoNoseCm": 47.9,
+     "ofoTailCm": 50.0,
+     "rockerCm": 15.9,
+     "weightKg": 4.1
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-cruzader-diamond-hollow-hybrid-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_DIAMOND-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 52.5,
+     "thicknessCm": 14.5,
+     "volumeL": 79,
+     "ofoNoseCm": 41.1,
+     "ofoTailCm": 42.8,
+     "rockerCm": 17.6,
+     "weightKg": 4.4
+    },
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 54.5,
+     "thicknessCm": 15.5,
+     "volumeL": 89,
+     "ofoNoseCm": 42.2,
+     "ofoTailCm": 44.1,
+     "rockerCm": 18.2,
+     "weightKg": 4.6
+    },
+    {
+     "size": "6'0",
+     "lengthCm": 182.9,
+     "widthCm": 56.0,
+     "thicknessCm": 16.4,
+     "volumeL": 99,
+     "ofoNoseCm": 42.8,
+     "ofoTailCm": 45.0,
+     "rockerCm": 18.7,
+     "weightKg": 4.8
+    },
+    {
+     "size": "6'2",
+     "lengthCm": 188.0,
+     "widthCm": 57.5,
+     "thicknessCm": 17.3,
+     "volumeL": 109,
+     "ofoNoseCm": 43.5,
+     "ofoTailCm": 45.9,
+     "rockerCm": 19.4,
+     "weightKg": 5.1
+    },
+    {
+     "size": "6'4",
+     "lengthCm": 193.0,
+     "widthCm": 59.5,
+     "thicknessCm": 17.8,
+     "volumeL": 119,
+     "ofoNoseCm": 44.5,
+     "ofoTailCm": 47.2,
+     "rockerCm": 20.0,
+     "weightKg": 5.3
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "diamond"
+   }
+  },
+  "wing-foil-board-cruzader-point-hollow-hybrid-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_POINT-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 54.0,
+     "thicknessCm": 13.2,
+     "volumeL": 68,
+     "ofoNoseCm": 44.4,
+     "ofoTailCm": 45.1,
+     "rockerCm": 18.9,
+     "weightKg": 4.1
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 56.0,
+     "thicknessCm": 14.3,
+     "volumeL": 78,
+     "ofoNoseCm": 45.5,
+     "ofoTailCm": 45.4,
+     "rockerCm": 19.5,
+     "weightKg": 4.3
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 58.0,
+     "thicknessCm": 15.2,
+     "volumeL": 88,
+     "ofoNoseCm": 46.6,
+     "ofoTailCm": 45.4,
+     "rockerCm": 20.1,
+     "weightKg": 4.5
+    }
+   ],
+   "outline": {
+    "nose": "pointed",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-cruzader-point-lw-hollow-hybrid-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_POINT_LW-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "6'3",
+     "lengthCm": 190.5,
+     "widthCm": 47.0,
+     "thicknessCm": 18.8,
+     "volumeL": 101,
+     "ofoNoseCm": 35.8,
+     "ofoTailCm": 34.7,
+     "rockerCm": 24.0,
+     "weightKg": 4.6
+    },
+    {
+     "size": "6'6",
+     "lengthCm": 198.1,
+     "widthCm": 49.0,
+     "thicknessCm": 19.0,
+     "volumeL": 111,
+     "ofoNoseCm": 36.7,
+     "ofoTailCm": 35.6,
+     "rockerCm": 25.1,
+     "weightKg": 4.9
+    }
+   ],
+   "outline": {
+    "nose": "pointed",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-cruzader-squash-hollow-hybrid-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_SQUASH-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'1",
+     "lengthCm": 154.9,
+     "widthCm": 52.5,
+     "thicknessCm": 13.1,
+     "volumeL": 65,
+     "ofoNoseCm": 44.3,
+     "ofoTailCm": 44.0,
+     "rockerCm": 15.9,
+     "weightKg": 4.0
+    },
+    {
+     "size": "5'3",
+     "lengthCm": 160.0,
+     "widthCm": 55.0,
+     "thicknessCm": 14.0,
+     "volumeL": 75,
+     "ofoNoseCm": 45.9,
+     "ofoTailCm": 45.1,
+     "rockerCm": 16.6,
+     "weightKg": 4.2
+    },
+    {
+     "size": "5'5",
+     "lengthCm": 165.1,
+     "widthCm": 56.5,
+     "thicknessCm": 15.2,
+     "volumeL": 85,
+     "ofoNoseCm": 46.6,
+     "ofoTailCm": 45.2,
+     "rockerCm": 17.1,
+     "weightKg": 4.4
+    },
+    {
+     "size": "5'7",
+     "lengthCm": 170.2,
+     "widthCm": 58.5,
+     "thicknessCm": 16.1,
+     "volumeL": 95,
+     "ofoNoseCm": 47.7,
+     "ofoTailCm": 45.5,
+     "rockerCm": 17.6,
+     "weightKg": 4.6
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "squash"
+   }
+  },
+  "wing-foil-board-cruzader-squash-2pk-hollow-hybrid-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_SQUASH_2PK-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 49.0,
+     "thicknessCm": 14.8,
+     "volumeL": 68,
+     "ofoNoseCm": 40.6,
+     "ofoTailCm": 40.6,
+     "rockerCm": 17.4,
+     "weightKg": 4.0
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 50.8,
+     "thicknessCm": 15.9,
+     "volumeL": 78,
+     "ofoNoseCm": 41.6,
+     "ofoTailCm": 40.5,
+     "rockerCm": 17.9,
+     "weightKg": 4.2
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 54.0,
+     "thicknessCm": 16.4,
+     "volumeL": 88,
+     "ofoNoseCm": 43.8,
+     "ofoTailCm": 41.7,
+     "rockerCm": 18.5,
+     "weightKg": 4.4
+    },
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 57.0,
+     "thicknessCm": 17.1,
+     "volumeL": 98,
+     "ofoNoseCm": 45.7,
+     "ofoTailCm": 43.0,
+     "rockerCm": 19.1,
+     "weightKg": 4.6
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "squash"
+   }
+  },
+  "wing-foil-board-lance-hollow-hybrid-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-LANCE-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'7",
+     "lengthCm": 170.2,
+     "widthCm": 70.0,
+     "thicknessCm": 14.6,
+     "volumeL": 115,
+     "ofoNoseCm": 58.3,
+     "ofoTailCm": 59.2,
+     "rockerCm": 17.7,
+     "weightKg": 5.7
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 75.0,
+     "thicknessCm": 15.2,
+     "volumeL": 130,
+     "ofoNoseCm": 62.2,
+     "ofoTailCm": 63.2,
+     "rockerCm": 17.9,
+     "weightKg": 6.2
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-lemon-hollow-hybrid-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-LEMON-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'11",
+     "lengthCm": 149.9,
+     "widthCm": 55.5,
+     "thicknessCm": 12.8,
+     "volumeL": 65,
+     "ofoNoseCm": 47.4,
+     "ofoTailCm": 46.3,
+     "rockerCm": 14.5,
+     "weightKg": 4.0
+    },
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 58.0,
+     "thicknessCm": 13.3,
+     "volumeL": 75,
+     "ofoNoseCm": 48.8,
+     "ofoTailCm": 47.9,
+     "rockerCm": 15.1,
+     "weightKg": 4.2
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 60.0,
+     "thicknessCm": 14.3,
+     "volumeL": 85,
+     "ofoNoseCm": 49.9,
+     "ofoTailCm": 49.2,
+     "rockerCm": 15.8,
+     "weightKg": 4.4
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-mint-hollow-hybrid-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-MINT-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 62.0,
+     "thicknessCm": 14.0,
+     "volumeL": 85,
+     "ofoNoseCm": 52.0,
+     "ofoTailCm": 52.6,
+     "rockerCm": 15.65,
+     "weightKg": 4.4
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 64.0,
+     "thicknessCm": 14.7,
+     "volumeL": 95,
+     "ofoNoseCm": 53.0,
+     "ofoTailCm": 53.9,
+     "rockerCm": 16.16,
+     "weightKg": 4.6
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-stunt-hollow-hybrid-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-STUNT-SIZE_CHART-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'7",
+     "lengthCm": 139.7,
+     "widthCm": 54.0,
+     "thicknessCm": 13.7,
+     "volumeL": 65,
+     "ofoNoseCm": 46.8,
+     "ofoTailCm": 48.9,
+     "rockerCm": 15.6,
+     "weightKg": 4.5
+    },
+    {
+     "size": "4'8",
+     "lengthCm": 142.2,
+     "widthCm": 55.5,
+     "thicknessCm": 14.6,
+     "volumeL": 72,
+     "ofoNoseCm": 47.9,
+     "ofoTailCm": 50.0,
+     "rockerCm": 15.9,
+     "weightKg": 4.7
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wingfoil-inflatable-hipe-perf-26": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING-BOARD-INFLATABLE-HIPE_PERF-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'1",
+     "lengthCm": 154.9,
+     "widthCm": 62.9,
+     "thicknessCm": 10.2,
+     "volumeL": 75,
+     "ofoNoseCm": 52.5,
+     "ofoTailCm": 51.5,
+     "weightKg": 5.3
+    },
+    {
+     "size": "5'3",
+     "lengthCm": 160.0,
+     "widthCm": 64.9,
+     "thicknessCm": 12.7,
+     "volumeL": 100,
+     "ofoNoseCm": 53.6,
+     "ofoTailCm": 52.7,
+     "weightKg": 5.5
+    },
+    {
+     "size": "5'5",
+     "lengthCm": 165.1,
+     "widthCm": 67.0,
+     "thicknessCm": 15.2,
+     "volumeL": 125,
+     "ofoNoseCm": 54.7,
+     "ofoTailCm": 53.9,
+     "weightKg": 5.6
+    },
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 72.0,
+     "thicknessCm": 15.2,
+     "volumeL": 150,
+     "ofoNoseCm": 57.2,
+     "ofoTailCm": 56.5,
+     "weightKg": 6.0
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wingfoil-inflatable-hipe-cruzader-26": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_CRUZADER-GONGWING",
+   "sizes": [
+    {
+     "size": "6'0",
+     "lengthCm": 182.9,
+     "widthCm": 50.8,
+     "thicknessCm": 15.2,
+     "volumeL": 102,
+     "ofoNoseCm": 38.4,
+     "ofoTailCm": 37.3,
+     "weightKg": 5.1
+    },
+    {
+     "size": "6'6",
+     "lengthCm": 198.1,
+     "widthCm": 53.3,
+     "thicknessCm": 15.2,
+     "volumeL": 115,
+     "ofoNoseCm": 38.7,
+     "ofoTailCm": 36.7,
+     "weightKg": 5.6
+    },
+    {
+     "size": "7'0",
+     "lengthCm": 213.4,
+     "widthCm": 54.6,
+     "thicknessCm": 15.2,
+     "volumeL": 127,
+     "ofoNoseCm": 38.1,
+     "ofoTailCm": 37.0,
+     "weightKg": 6.1
+    },
+    {
+     "size": "7'6",
+     "lengthCm": 228.6,
+     "widthCm": 55.9,
+     "thicknessCm": 15.2,
+     "volumeL": 138,
+     "ofoNoseCm": 37.8,
+     "ofoTailCm": 35.2,
+     "weightKg": 6.5
+    },
+    {
+     "size": "7'11",
+     "lengthCm": 241.3,
+     "widthCm": 58.4,
+     "thicknessCm": 15.2,
+     "volumeL": 153,
+     "ofoNoseCm": 38.3,
+     "ofoTailCm": 36.8,
+     "weightKg": 6.9
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wingfoil-inflatable-hipe-diamond-26": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_DIAMOND-GONGWING",
+   "sizes": [
+    {
+     "size": "5'0",
+     "lengthCm": 152.4,
+     "widthCm": 50.0,
+     "thicknessCm": 12.7,
+     "volumeL": 75,
+     "ofoNoseCm": 43.5,
+     "ofoTailCm": 43.0,
+     "weightKg": 4.7
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 51.5,
+     "thicknessCm": 12.7,
+     "volumeL": 85,
+     "ofoNoseCm": 44.0,
+     "ofoTailCm": 43.0,
+     "weightKg": 4.9
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 54.9,
+     "thicknessCm": 12.7,
+     "volumeL": 90,
+     "ofoNoseCm": 46.5,
+     "ofoTailCm": 44.2,
+     "weightKg": 5.0
+    },
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 57.0,
+     "thicknessCm": 12.7,
+     "volumeL": 100,
+     "ofoNoseCm": 47.4,
+     "ofoTailCm": 45.1,
+     "weightKg": 5.1
+    },
+    {
+     "size": "6'2",
+     "lengthCm": 188.0,
+     "widthCm": 60.0,
+     "thicknessCm": 12.7,
+     "volumeL": 110,
+     "ofoNoseCm": 49.0,
+     "ofoTailCm": 46.7,
+     "weightKg": 5.3
+    },
+    {
+     "size": "6'6",
+     "lengthCm": 198.1,
+     "widthCm": 62.1,
+     "thicknessCm": 12.7,
+     "volumeL": 120,
+     "ofoNoseCm": 49.9,
+     "ofoTailCm": 47.6,
+     "weightKg": 5.5
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "diamond"
+   }
+  },
+  "wingfoil-inflatable-hipe-first-26": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_FIRST-GONGWING",
+   "sizes": [
+    {
+     "size": "5'0",
+     "lengthCm": 152.4,
+     "widthCm": 63.3,
+     "thicknessCm": 12.7,
+     "volumeL": 95,
+     "ofoNoseCm": 52.7,
+     "ofoTailCm": 53.1,
+     "weightKg": 4.4
+    },
+    {
+     "size": "5'5",
+     "lengthCm": 166.1,
+     "widthCm": 68.6,
+     "thicknessCm": 12.7,
+     "volumeL": 110,
+     "ofoNoseCm": 55.5,
+     "ofoTailCm": 56.2,
+     "weightKg": 4.9
+    },
+    {
+     "size": "5'11",
+     "lengthCm": 180.3,
+     "widthCm": 76.2,
+     "thicknessCm": 12.7,
+     "volumeL": 135,
+     "ofoNoseCm": 59.7,
+     "ofoTailCm": 60.9,
+     "weightKg": 5.5
+    },
+    {
+     "size": "6'6",
+     "lengthCm": 198.1,
+     "widthCm": 81.3,
+     "thicknessCm": 12.7,
+     "volumeL": 155,
+     "ofoNoseCm": 61.4,
+     "ofoTailCm": 63.2,
+     "weightKg": 6.3
+    },
+    {
+     "size": "7'1",
+     "lengthCm": 215.9,
+     "widthCm": 81.3,
+     "thicknessCm": 12.7,
+     "volumeL": 175,
+     "ofoNoseCm": 59.4,
+     "ofoTailCm": 61.5,
+     "weightKg": 6.9
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "hipe-board-hipe-freefly-26": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_FREEFLY-GONGWING",
+   "sizes": [
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 56.0,
+     "thicknessCm": 12.7,
+     "volumeL": 87,
+     "ofoNoseCm": 45.7,
+     "ofoTailCm": 44.6,
+     "weightKg": 4.4
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 58.0,
+     "thicknessCm": 12.7,
+     "volumeL": 95,
+     "ofoNoseCm": 46.4,
+     "ofoTailCm": 45.3,
+     "weightKg": 4.6
+    },
+    {
+     "size": "6'2",
+     "lengthCm": 188.0,
+     "widthCm": 60.0,
+     "thicknessCm": 12.7,
+     "volumeL": 108,
+     "ofoNoseCm": 46.4,
+     "ofoTailCm": 45.3,
+     "weightKg": 5.3
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "hipe-board-hipe-learn-26": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_LEARN-GONGWING",
+   "sizes": [
+    {
+     "size": "6'5",
+     "lengthCm": 195.6,
+     "widthCm": 74.9,
+     "thicknessCm": 15.2,
+     "volumeL": 170,
+     "ofoNoseCm": 56.8,
+     "ofoTailCm": 59.7,
+     "weightKg": 8.0
+    },
+    {
+     "size": "8'0",
+     "lengthCm": 243.8,
+     "widthCm": 70.0,
+     "thicknessCm": 15.2,
+     "volumeL": 185,
+     "ofoNoseCm": 47.3,
+     "ofoTailCm": 42.2,
+     "weightKg": 8.9
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "hipe-board-hipe-like-26": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_LIKE-GONGWING",
+   "sizes": [
+    {
+     "size": "6'4",
+     "lengthCm": 193.0,
+     "widthCm": 65.0,
+     "thicknessCm": 12.7,
+     "volumeL": 120,
+     "ofoNoseCm": 50.2,
+     "ofoTailCm": 48.4,
+     "weightKg": 5.4
+    },
+    {
+     "size": "7'0",
+     "lengthCm": 213.4,
+     "widthCm": 67.9,
+     "thicknessCm": 12.7,
+     "volumeL": 140,
+     "ofoNoseCm": 50.4,
+     "ofoTailCm": 48.9,
+     "weightKg": 6.2
+    },
+    {
+     "size": "7'4",
+     "lengthCm": 223.5,
+     "widthCm": 70.0,
+     "thicknessCm": 12.7,
+     "volumeL": 150,
+     "ofoNoseCm": 51.0,
+     "ofoTailCm": 49.6,
+     "weightKg": 6.7
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-lance-wood-2x-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_LANCE-WOOD_2X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'7",
+     "lengthCm": 170.2,
+     "widthCm": 70.0,
+     "thicknessCm": 14.6,
+     "volumeL": 115,
+     "ofoNoseCm": 58.3,
+     "ofoTailCm": 59.2,
+     "rockerCm": 17.7,
+     "weightKg": 7.0
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 75.0,
+     "thicknessCm": 15.2,
+     "volumeL": 130,
+     "ofoNoseCm": 62.2,
+     "ofoTailCm": 63.2,
+     "rockerCm": 17.9,
+     "weightKg": 7.2
+    },
+    {
+     "size": "5'9",
+     "lengthCm": 175.3,
+     "widthCm": 80.0,
+     "thicknessCm": 15.7,
+     "volumeL": 145,
+     "ofoNoseCm": 66.0,
+     "ofoTailCm": 67.2,
+     "rockerCm": 18.2,
+     "weightKg": 8.0
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-zuma-wood-2x-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_ZUMA-WOOD_2X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "6'3",
+     "lengthCm": 190.5,
+     "widthCm": 71.0,
+     "thicknessCm": 13.2,
+     "volumeL": 115,
+     "ofoNoseCm": 57.5,
+     "ofoTailCm": 59.0,
+     "rockerCm": 22.4,
+     "weightKg": 7.6
+    },
+    {
+     "size": "6'6",
+     "lengthCm": 198.1,
+     "widthCm": 74.0,
+     "thicknessCm": 13.9,
+     "volumeL": 130,
+     "ofoNoseCm": 59.1,
+     "ofoTailCm": 61.0,
+     "rockerCm": 23.3,
+     "weightKg": 8.3
+    },
+    {
+     "size": "6'9",
+     "lengthCm": 205.7,
+     "widthCm": 76.5,
+     "thicknessCm": 14.4,
+     "volumeL": 145,
+     "ofoNoseCm": 60.3,
+     "ofoTailCm": 62.6,
+     "rockerCm": 24.2,
+     "weightKg": 8.6
+    },
+    {
+     "size": "7'2",
+     "lengthCm": 218.4,
+     "widthCm": 78.0,
+     "thicknessCm": 15.5,
+     "volumeL": 170,
+     "ofoNoseCm": 60.1,
+     "ofoTailCm": 63.1,
+     "rockerCm": 25.7,
+     "weightKg": 9.8
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-cruzader-squash-fsp-pro-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_SQUASH-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'11",
+     "lengthCm": 149.9,
+     "widthCm": 49.5,
+     "thicknessCm": 11.9,
+     "volumeL": 55,
+     "ofoNoseCm": 42.2,
+     "ofoTailCm": 41.9,
+     "rockerCm": 15.3,
+     "weightKg": 4.5
+    },
+    {
+     "size": "5'1",
+     "lengthCm": 154.9,
+     "widthCm": 52.5,
+     "thicknessCm": 13.1,
+     "volumeL": 65,
+     "ofoNoseCm": 44.3,
+     "ofoTailCm": 44.0,
+     "rockerCm": 15.9,
+     "weightKg": 4.8
+    },
+    {
+     "size": "5'3",
+     "lengthCm": 160.0,
+     "widthCm": 55.0,
+     "thicknessCm": 14.0,
+     "volumeL": 75,
+     "ofoNoseCm": 45.9,
+     "ofoTailCm": 45.1,
+     "rockerCm": 16.6,
+     "weightKg": 5.3
+    },
+    {
+     "size": "5'5",
+     "lengthCm": 165.1,
+     "widthCm": 56.5,
+     "thicknessCm": 15.2,
+     "volumeL": 85,
+     "ofoNoseCm": 46.6,
+     "ofoTailCm": 45.2,
+     "rockerCm": 17.1,
+     "weightKg": 5.5
+    },
+    {
+     "size": "5'7",
+     "lengthCm": 170.2,
+     "widthCm": 58.5,
+     "thicknessCm": 16.1,
+     "volumeL": 95,
+     "ofoNoseCm": 47.7,
+     "ofoTailCm": 45.5,
+     "rockerCm": 17.6,
+     "weightKg": 6.0
+    },
+    {
+     "size": "5'9",
+     "lengthCm": 175.3,
+     "widthCm": 60.5,
+     "thicknessCm": 16.9,
+     "volumeL": 105,
+     "ofoNoseCm": 48.8,
+     "ofoTailCm": 46.0,
+     "rockerCm": 18.2,
+     "weightKg": 6.5
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "squash"
+   }
+  },
+  "wing-foil-board-cruzader-squash-2pk-fsp-pro-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_SQUASH_2PK-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 49.0,
+     "thicknessCm": 14.8,
+     "volumeL": 68,
+     "ofoNoseCm": 40.6,
+     "ofoTailCm": 40.6,
+     "rockerCm": 17.4,
+     "weightKg": 5.6
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 50.8,
+     "thicknessCm": 15.9,
+     "volumeL": 78,
+     "ofoNoseCm": 41.6,
+     "ofoTailCm": 40.5,
+     "rockerCm": 17.9,
+     "weightKg": 5.9
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 54.0,
+     "thicknessCm": 16.4,
+     "volumeL": 88,
+     "ofoNoseCm": 43.8,
+     "ofoTailCm": 41.7,
+     "rockerCm": 18.5,
+     "weightKg": 6.2
+    },
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 57.0,
+     "thicknessCm": 17.1,
+     "volumeL": 98,
+     "ofoNoseCm": 45.7,
+     "ofoTailCm": 43.0,
+     "rockerCm": 19.1,
+     "weightKg": 6.5
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "squash"
+   }
+  },
+  "wing-foil-board-hyperloop-fsp-pro-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-HYPERLOOP-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'5",
+     "lengthCm": 134.6,
+     "widthCm": 53.4,
+     "thicknessCm": 12.4,
+     "volumeL": 58,
+     "ofoNoseCm": 49.1,
+     "ofoTailCm": 48.8,
+     "rockerCm": 15.2,
+     "weightKg": 4.8
+    },
+    {
+     "size": "4'6",
+     "lengthCm": 137.2,
+     "widthCm": 54.5,
+     "thicknessCm": 13.1,
+     "volumeL": 65,
+     "ofoNoseCm": 49.8,
+     "ofoTailCm": 49.6,
+     "rockerCm": 15.5,
+     "weightKg": 4.9
+    },
+    {
+     "size": "4'7",
+     "lengthCm": 140.0,
+     "widthCm": 55.5,
+     "thicknessCm": 14.0,
+     "volumeL": 72,
+     "ofoNoseCm": 50.6,
+     "ofoTailCm": 50.4,
+     "rockerCm": 15.9,
+     "weightKg": 5.0
+    },
+    {
+     "size": "4'8",
+     "lengthCm": 142.2,
+     "widthCm": 57.0,
+     "thicknessCm": 14.7,
+     "volumeL": 79,
+     "ofoNoseCm": 51.8,
+     "ofoTailCm": 51.7,
+     "rockerCm": 16.1,
+     "weightKg": 5.3
+    },
+    {
+     "size": "4'9",
+     "lengthCm": 144.8,
+     "widthCm": 59.0,
+     "thicknessCm": 15.5,
+     "volumeL": 88,
+     "ofoNoseCm": 53.4,
+     "ofoTailCm": 53.3,
+     "rockerCm": 16.4,
+     "weightKg": 5.9
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-hyperloop-nano-fsp-pro-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-HYPERLOOP_NANO-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'1",
+     "lengthCm": 124.5,
+     "widthCm": 45.0,
+     "thicknessCm": 8.1,
+     "volumeL": 29,
+     "ofoNoseCm": 42.0,
+     "ofoTailCm": 41.6,
+     "rockerCm": 11.7,
+     "weightKg": 3.1
+    },
+    {
+     "size": "4'2",
+     "lengthCm": 127.0,
+     "widthCm": 47.0,
+     "thicknessCm": 9.5,
+     "volumeL": 36,
+     "ofoNoseCm": 43.7,
+     "ofoTailCm": 43.3,
+     "rockerCm": 13.0,
+     "weightKg": 3.3
+    },
+    {
+     "size": "4'3",
+     "lengthCm": 129.5,
+     "widthCm": 49.0,
+     "thicknessCm": 10.4,
+     "volumeL": 43,
+     "ofoNoseCm": 45.4,
+     "ofoTailCm": 45.0,
+     "rockerCm": 13.2,
+     "weightKg": 3.6
+    },
+    {
+     "size": "4'4",
+     "lengthCm": 132.1,
+     "widthCm": 51.5,
+     "thicknessCm": 11.7,
+     "volumeL": 51,
+     "ofoNoseCm": 47.5,
+     "ofoTailCm": 47.2,
+     "rockerCm": 13.6,
+     "weightKg": 4.0
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-lemon-fsp-pro-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LEMON-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'9",
+     "lengthCm": 144.8,
+     "widthCm": 52.0,
+     "thicknessCm": 11.9,
+     "volumeL": 55,
+     "ofoNoseCm": 44.9,
+     "ofoTailCm": 43.8,
+     "rockerCm": 14.0,
+     "weightKg": 4.6
+    },
+    {
+     "size": "4'11",
+     "lengthCm": 149.9,
+     "widthCm": 55.5,
+     "thicknessCm": 12.8,
+     "volumeL": 65,
+     "ofoNoseCm": 47.4,
+     "ofoTailCm": 46.3,
+     "rockerCm": 14.5,
+     "weightKg": 5.2
+    },
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 58.0,
+     "thicknessCm": 13.3,
+     "volumeL": 75,
+     "ofoNoseCm": 48.8,
+     "ofoTailCm": 47.9,
+     "rockerCm": 15.1,
+     "weightKg": 5.4
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 60.0,
+     "thicknessCm": 14.3,
+     "volumeL": 85,
+     "ofoNoseCm": 49.9,
+     "ofoTailCm": 49.2,
+     "rockerCm": 15.8,
+     "weightKg": 5.8
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 63.0,
+     "thicknessCm": 14.8,
+     "volumeL": 95,
+     "ofoNoseCm": 51.9,
+     "ofoTailCm": 51.0,
+     "rockerCm": 16.2,
+     "weightKg": 6.4
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 65.5,
+     "thicknessCm": 15.4,
+     "volumeL": 105,
+     "ofoNoseCm": 53.4,
+     "ofoTailCm": 52.2,
+     "rockerCm": 16.6,
+     "weightKg": 7.0
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-lethal-fsp-pro-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LETHAL-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "4'8",
+     "lengthCm": 142.2,
+     "widthCm": 50.9,
+     "thicknessCm": 11.6,
+     "volumeL": 49,
+     "ofoNoseCm": 42.7,
+     "ofoTailCm": 44.0,
+     "rockerCm": 16.0,
+     "weightKg": 4.2
+    },
+    {
+     "size": "4'10",
+     "lengthCm": 147.3,
+     "widthCm": 52.7,
+     "thicknessCm": 12.8,
+     "volumeL": 59,
+     "ofoNoseCm": 43.6,
+     "ofoTailCm": 45.2,
+     "rockerCm": 16.9,
+     "weightKg": 4.7
+    },
+    {
+     "size": "5'0",
+     "lengthCm": 152.4,
+     "widthCm": 54.5,
+     "thicknessCm": 14.0,
+     "volumeL": 69,
+     "ofoNoseCm": 44.6,
+     "ofoTailCm": 46.3,
+     "rockerCm": 17.4,
+     "weightKg": 4.9
+    },
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 57.0,
+     "thicknessCm": 14.8,
+     "volumeL": 79,
+     "ofoNoseCm": 46.0,
+     "ofoTailCm": 47.9,
+     "rockerCm": 17.9,
+     "weightKg": 5.3
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 59.0,
+     "thicknessCm": 15.6,
+     "volumeL": 89,
+     "ofoNoseCm": 47.0,
+     "ofoTailCm": 49.2,
+     "rockerCm": 18.4,
+     "weightKg": 5.8
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 61.5,
+     "thicknessCm": 16.1,
+     "volumeL": 99,
+     "ofoNoseCm": 48.4,
+     "ofoTailCm": 50.8,
+     "rockerCm": 18.9,
+     "weightKg": 6.2
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-mint-fsp-pro-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-MINT-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'0",
+     "lengthCm": 152.4,
+     "widthCm": 60.0,
+     "thicknessCm": 13.1,
+     "volumeL": 75,
+     "ofoNoseCm": 50.9,
+     "ofoTailCm": 51.4,
+     "rockerCm": 15.2,
+     "weightKg": 5.2
+    },
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 62.0,
+     "thicknessCm": 14.0,
+     "volumeL": 85,
+     "ofoNoseCm": 52.0,
+     "ofoTailCm": 52.6,
+     "rockerCm": 15.7,
+     "weightKg": 5.7
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 64.0,
+     "thicknessCm": 14.7,
+     "volumeL": 95,
+     "ofoNoseCm": 53.0,
+     "ofoTailCm": 53.9,
+     "rockerCm": 16.2,
+     "weightKg": 6.1
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 167.6,
+     "widthCm": 66.0,
+     "thicknessCm": 15.6,
+     "volumeL": 105,
+     "ofoNoseCm": 54.1,
+     "ofoTailCm": 55.1,
+     "rockerCm": 16.6,
+     "weightKg": 6.4
+    },
+    {
+     "size": "5'8",
+     "lengthCm": 172.7,
+     "widthCm": 68.0,
+     "thicknessCm": 16.2,
+     "volumeL": 115,
+     "ofoNoseCm": 55.1,
+     "ofoTailCm": 56.3,
+     "rockerCm": 17.1,
+     "weightKg": 6.9
+    },
+    {
+     "size": "5'10",
+     "lengthCm": 177.8,
+     "widthCm": 70.0,
+     "thicknessCm": 16.6,
+     "volumeL": 125,
+     "ofoNoseCm": 56.2,
+     "ofoTailCm": 57.5,
+     "rockerCm": 17.6,
+     "weightKg": 7.2
+    }
+   ],
+   "outline": {
+    "nose": "round",
+    "tail": "square"
+   }
+  },
+  "wing-foil-board-racer-fsp-pro-27": {
+   "category": "board",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-RACER-FSP_PRO-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5'0",
+     "lengthCm": 152.4,
+     "widthCm": 48.0,
+     "thicknessCm": 13.9,
+     "volumeL": 66,
+     "ofoNoseCm": 40.9,
+     "ofoTailCm": 41.5,
+     "rockerCm": 17.2,
+     "weightKg": 4.8
+    },
+    {
+     "size": "5'2",
+     "lengthCm": 157.5,
+     "widthCm": 49.0,
+     "thicknessCm": 15.3,
+     "volumeL": 77,
+     "ofoNoseCm": 41.2,
+     "ofoTailCm": 42.0,
+     "rockerCm": 17.9,
+     "weightKg": 5.0
+    },
+    {
+     "size": "5'4",
+     "lengthCm": 162.6,
+     "widthCm": 50.3,
+     "thicknessCm": 16.5,
+     "volumeL": 88,
+     "ofoNoseCm": 41.9,
+     "ofoTailCm": 42.8,
+     "rockerCm": 18.4,
+     "weightKg": 5.5
+    },
+    {
+     "size": "5'6",
+     "lengthCm": 169.0,
+     "widthCm": 52.3,
+     "thicknessCm": 17.4,
+     "volumeL": 99,
+     "ofoNoseCm": 43.0,
+     "ofoTailCm": 44.1,
+     "rockerCm": 19.1,
+     "weightKg": 6.1
+    },
+    {
+     "size": "5'9",
+     "lengthCm": 175.3,
+     "widthCm": 54.0,
+     "thicknessCm": 17.8,
+     "volumeL": 109,
+     "ofoNoseCm": 43.8,
+     "ofoTailCm": 45.2,
+     "rockerCm": 19.6,
+     "weightKg": 6.3
+    }
+   ],
+   "outline": {
+    "nose": "pointed",
+    "tail": "square"
+   }
+  },
+  "foil-front-wing-veloce-h": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-FRONT_WINGS_H-SIZE_CHART-VELOCE_H-GONGFOIL.png",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 77,
+     "chordMm": 95,
+     "thicknessMm": 10.3,
+     "aspectRatio": 10.1,
+     "areaCm2": 590
+    },
+    {
+     "size": "S",
+     "spanCm": 87,
+     "chordMm": 110,
+     "thicknessMm": 11.5,
+     "aspectRatio": 10.1,
+     "areaCm2": 740
+    },
+    {
+     "size": "M",
+     "spanCm": 95,
+     "chordMm": 120,
+     "thicknessMm": 12.6,
+     "aspectRatio": 10.1,
+     "areaCm2": 890
+    },
+    {
+     "size": "L",
+     "spanCm": 103,
+     "chordMm": 130,
+     "thicknessMm": 13.7,
+     "aspectRatio": 10.1,
+     "areaCm2": 1040
+    },
+    {
+     "size": "XL",
+     "spanCm": 108,
+     "chordMm": 137,
+     "thicknessMm": 14.4,
+     "aspectRatio": 10.1,
+     "areaCm2": 1150
+    },
+    {
+     "size": "XXL",
+     "spanCm": 115,
+     "chordMm": 145,
+     "thicknessMm": 15.3,
+     "aspectRatio": 10.1,
+     "areaCm2": 1300
+    }
+   ]
+  },
+  "foil-front-wing-veloce-h-dw": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-FRONT_WINGS_H-SIZE_CHART-VELOCE_H_DOWNWIND-GONGFOIL.png",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 89,
+     "chordMm": 89,
+     "thicknessMm": 10.8,
+     "aspectRatio": 13.3,
+     "areaCm2": 600
+    },
+    {
+     "size": "S",
+     "spanCm": 100,
+     "chordMm": 100,
+     "thicknessMm": 12.2,
+     "aspectRatio": 13.3,
+     "areaCm2": 750
+    },
+    {
+     "size": "M",
+     "spanCm": 109,
+     "chordMm": 109,
+     "thicknessMm": 13.2,
+     "aspectRatio": 13.3,
+     "areaCm2": 900
+    },
+    {
+     "size": "L",
+     "spanCm": 118,
+     "chordMm": 118,
+     "thicknessMm": 14.3,
+     "aspectRatio": 13.3,
+     "areaCm2": 1050
+    },
+    {
+     "size": "XL",
+     "spanCm": 126,
+     "chordMm": 126,
+     "thicknessMm": 15.3,
+     "aspectRatio": 13.3,
+     "areaCm2": 1200
+    }
+   ]
+  },
+  "front-wing-hyper-trail-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-HYPER_TRAIL-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 89,
+     "chordMm": 113,
+     "thicknessMm": 16.2,
+     "aspectRatio": 11.4,
+     "areaCm2": 700
+    },
+    {
+     "size": "M",
+     "spanCm": 98,
+     "chordMm": 125,
+     "thicknessMm": 17.8,
+     "aspectRatio": 11.4,
+     "areaCm2": 850
+    },
+    {
+     "size": "L",
+     "spanCm": 107,
+     "chordMm": 135,
+     "thicknessMm": 19.4,
+     "aspectRatio": 11.4,
+     "areaCm2": 1000
+    },
+    {
+     "size": "XL",
+     "spanCm": 119,
+     "chordMm": 151,
+     "thicknessMm": 21.6,
+     "aspectRatio": 11.4,
+     "areaCm2": 1250
+    },
+    {
+     "size": "XXL",
+     "spanCm": 131,
+     "chordMm": 166,
+     "thicknessMm": 23.7,
+     "aspectRatio": 11.4,
+     "areaCm2": 1500
+    },
+    {
+     "size": "3XL",
+     "spanCm": 141,
+     "chordMm": 179,
+     "thicknessMm": 25.6,
+     "aspectRatio": 11.4,
+     "areaCm2": 1750
+    }
+   ]
+  },
+  "foil-front-wing-veloce-dw-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE_DW-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 92,
+     "chordMm": 90,
+     "thicknessMm": 11.5,
+     "aspectRatio": 14.1,
+     "areaCm2": 600
+    },
+    {
+     "size": "S",
+     "spanCm": 103,
+     "chordMm": 101,
+     "thicknessMm": 12.9,
+     "aspectRatio": 14.1,
+     "areaCm2": 750
+    },
+    {
+     "size": "M",
+     "spanCm": 113,
+     "chordMm": 111,
+     "thicknessMm": 14.1,
+     "aspectRatio": 14.1,
+     "areaCm2": 900
+    },
+    {
+     "size": "L",
+     "spanCm": 122,
+     "chordMm": 120,
+     "thicknessMm": 15.3,
+     "aspectRatio": 14.1,
+     "areaCm2": 1050
+    },
+    {
+     "size": "XL",
+     "spanCm": 130,
+     "chordMm": 128,
+     "thicknessMm": 16.3,
+     "aspectRatio": 14.1,
+     "areaCm2": 1200
+    }
+   ]
+  },
+  "foil-front-wing-veloce-ff-atmo-carbon": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE_FF-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 79,
+     "chordMm": 106,
+     "thicknessMm": 11.4,
+     "aspectRatio": 10.6,
+     "areaCm2": 590
+    },
+    {
+     "size": "S",
+     "spanCm": 88,
+     "chordMm": 119,
+     "thicknessMm": 12.8,
+     "aspectRatio": 10.6,
+     "areaCm2": 740
+    },
+    {
+     "size": "M",
+     "spanCm": 97,
+     "chordMm": 130,
+     "thicknessMm": 14.0,
+     "aspectRatio": 10.6,
+     "areaCm2": 890
+    },
+    {
+     "size": "L",
+     "spanCm": 105,
+     "chordMm": 141,
+     "thicknessMm": 15.1,
+     "aspectRatio": 10.6,
+     "areaCm2": 1040
+    },
+    {
+     "size": "XL",
+     "spanCm": 110,
+     "chordMm": 148,
+     "thicknessMm": 15.9,
+     "aspectRatio": 10.6,
+     "areaCm2": 1150
+    },
+    {
+     "size": "XXL",
+     "spanCm": 117,
+     "chordMm": 158,
+     "thicknessMm": 16.9,
+     "aspectRatio": 10.6,
+     "areaCm2": 1300
+    }
+   ]
+  },
+  "foil-front-wing-veloce-lw-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE_LW-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 97,
+     "chordMm": 113,
+     "thicknessMm": 14.4,
+     "aspectRatio": 12.7,
+     "areaCm2": 750
+    },
+    {
+     "size": "M",
+     "spanCm": 107,
+     "chordMm": 124,
+     "thicknessMm": 15.8,
+     "aspectRatio": 12.7,
+     "areaCm2": 900
+    },
+    {
+     "size": "L",
+     "spanCm": 115,
+     "chordMm": 134,
+     "thicknessMm": 17.0,
+     "aspectRatio": 12.7,
+     "areaCm2": 1050
+    },
+    {
+     "size": "XL",
+     "spanCm": 123,
+     "chordMm": 143,
+     "thicknessMm": 18.2,
+     "aspectRatio": 12.7,
+     "areaCm2": 1200
+    },
+    {
+     "size": "XXL",
+     "spanCm": 133,
+     "chordMm": 155,
+     "thicknessMm": 19.7,
+     "aspectRatio": 12.7,
+     "areaCm2": 1400
+    }
+   ]
+  },
+  "front-wing-veloce-xtr-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE_XTR-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 101,
+     "chordMm": 93,
+     "thicknessMm": 15.4,
+     "aspectRatio": 16.9,
+     "areaCm2": 600
+    },
+    {
+     "size": "S",
+     "spanCm": 109,
+     "chordMm": 101,
+     "thicknessMm": 16.6,
+     "aspectRatio": 16.9,
+     "areaCm2": 700
+    },
+    {
+     "size": "M",
+     "spanCm": 116,
+     "chordMm": 107,
+     "thicknessMm": 17.8,
+     "aspectRatio": 16.9,
+     "areaCm2": 800
+    },
+    {
+     "size": "L",
+     "spanCm": 123,
+     "chordMm": 114,
+     "thicknessMm": 18.9,
+     "aspectRatio": 16.9,
+     "areaCm2": 900
+    }
+   ]
+  },
+  "foil-front-wing-ypra-freestyle-atmo-micro": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_FREESTYLE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XXS",
+     "spanCm": 60,
+     "chordMm": 112,
+     "thicknessMm": 12.5,
+     "aspectRatio": 7.8,
+     "areaCm2": 460
+    },
+    {
+     "size": "S",
+     "spanCm": 65,
+     "chordMm": 122,
+     "thicknessMm": 13.9,
+     "aspectRatio": 7.6,
+     "areaCm2": 560
+    },
+    {
+     "size": "M",
+     "spanCm": 70,
+     "chordMm": 133,
+     "thicknessMm": 15.4,
+     "aspectRatio": 7.4,
+     "areaCm2": 660
+    },
+    {
+     "size": "L",
+     "spanCm": 70,
+     "chordMm": 142,
+     "thicknessMm": 16.3,
+     "aspectRatio": 7.0,
+     "areaCm2": 700
+    }
+   ]
+  },
+  "foil-front-wing-ypra-race-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_RACE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "480 cm²",
+     "spanCm": 71,
+     "chordMm": 101,
+     "thicknessMm": 12.0,
+     "aspectRatio": 10.4,
+     "areaCm2": 480
+    },
+    {
+     "size": "540 cm²",
+     "spanCm": 75,
+     "chordMm": 106,
+     "thicknessMm": 12.8,
+     "aspectRatio": 10.4,
+     "areaCm2": 540
+    },
+    {
+     "size": "620 cm²",
+     "spanCm": 80,
+     "chordMm": 115,
+     "thicknessMm": 13.8,
+     "aspectRatio": 10.3,
+     "areaCm2": 620
+    }
+   ]
+  },
+  "foil-front-wing-ypra-slalom-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_SLALOM-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XXS",
+     "spanCm": 67,
+     "chordMm": 106,
+     "thicknessMm": 12.6,
+     "aspectRatio": 8.9,
+     "areaCm2": 500
+    },
+    {
+     "size": "XS",
+     "spanCm": 73,
+     "chordMm": 116,
+     "thicknessMm": 13.8,
+     "aspectRatio": 8.9,
+     "areaCm2": 600
+    },
+    {
+     "size": "S",
+     "spanCm": 79,
+     "chordMm": 126,
+     "thicknessMm": 14.9,
+     "aspectRatio": 8.9,
+     "areaCm2": 700
+    },
+    {
+     "size": "M",
+     "spanCm": 84,
+     "chordMm": 134,
+     "thicknessMm": 16.0,
+     "aspectRatio": 8.9,
+     "areaCm2": 800
+    },
+    {
+     "size": "L",
+     "spanCm": 88,
+     "chordMm": 143,
+     "thicknessMm": 16.9,
+     "aspectRatio": 8.9,
+     "areaCm2": 900
+    }
+   ]
+  },
+  "front-wing-ypra-surf-carve-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_SURF_CARVE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 65,
+     "chordMm": 105,
+     "thicknessMm": 11.1,
+     "aspectRatio": 8.2,
+     "areaCm2": 520
+    },
+    {
+     "size": "S",
+     "spanCm": 71,
+     "chordMm": 115,
+     "thicknessMm": 12.2,
+     "aspectRatio": 8.2,
+     "areaCm2": 620
+    },
+    {
+     "size": "M",
+     "spanCm": 77,
+     "chordMm": 124,
+     "thicknessMm": 13.1,
+     "aspectRatio": 8.2,
+     "areaCm2": 720
+    },
+    {
+     "size": "L",
+     "spanCm": 82,
+     "chordMm": 132,
+     "thicknessMm": 14.0,
+     "aspectRatio": 8.2,
+     "areaCm2": 820
+    }
+   ]
+  },
+  "front-wing-ypra-surf-fast-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_SURF_FAST-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 65,
+     "chordMm": 106,
+     "thicknessMm": 11.4,
+     "aspectRatio": 8.2,
+     "areaCm2": 520
+    },
+    {
+     "size": "S",
+     "spanCm": 71,
+     "chordMm": 116,
+     "thicknessMm": 12.5,
+     "aspectRatio": 8.2,
+     "areaCm2": 620
+    },
+    {
+     "size": "M",
+     "spanCm": 77,
+     "chordMm": 125,
+     "thicknessMm": 13.4,
+     "aspectRatio": 8.2,
+     "areaCm2": 720
+    },
+    {
+     "size": "L",
+     "spanCm": 82,
+     "chordMm": 134,
+     "thicknessMm": 14.3,
+     "aspectRatio": 8.2,
+     "areaCm2": 820
+    },
+    {
+     "size": "XL",
+     "spanCm": 87,
+     "chordMm": 141,
+     "thicknessMm": 15.2,
+     "aspectRatio": 8.2,
+     "areaCm2": 920
+    }
+   ]
+  },
+  "foil-front-wing-ypra-surf-freestyle-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_SURF_FREESTYLE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XXS",
+     "spanCm": 60,
+     "chordMm": 111,
+     "thicknessMm": 11.9,
+     "aspectRatio": 7.5,
+     "areaCm2": 479
+    },
+    {
+     "size": "XS",
+     "spanCm": 63,
+     "chordMm": 124,
+     "thicknessMm": 13.3,
+     "aspectRatio": 7.1,
+     "areaCm2": 561
+    },
+    {
+     "size": "S",
+     "spanCm": 65,
+     "chordMm": 133,
+     "thicknessMm": 14.2,
+     "aspectRatio": 6.8,
+     "areaCm2": 620
+    },
+    {
+     "size": "M",
+     "spanCm": 68,
+     "chordMm": 139,
+     "thicknessMm": 14.9,
+     "aspectRatio": 6.8,
+     "areaCm2": 680
+    },
+    {
+     "size": "L",
+     "spanCm": 71,
+     "chordMm": 145,
+     "thicknessMm": 15.5,
+     "aspectRatio": 6.8,
+     "areaCm2": 740
+    }
+   ]
+  },
+  "foil-front-wing-curve-atmo-carbon": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-TEAM_SERIES-SIZE_CHART-CURVE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XXS",
+     "spanCm": 72,
+     "chordMm": 112,
+     "thicknessMm": 12.5,
+     "aspectRatio": 8.4,
+     "areaCm2": 620
+    },
+    {
+     "size": "XS",
+     "spanCm": 78,
+     "chordMm": 120,
+     "thicknessMm": 13.4,
+     "aspectRatio": 8.4,
+     "areaCm2": 720
+    },
+    {
+     "size": "S",
+     "spanCm": 83,
+     "chordMm": 129,
+     "thicknessMm": 14.3,
+     "aspectRatio": 8.4,
+     "areaCm2": 820
+    },
+    {
+     "size": "M",
+     "spanCm": 88,
+     "chordMm": 136,
+     "thicknessMm": 15.2,
+     "aspectRatio": 8.4,
+     "areaCm2": 920
+    },
+    {
+     "size": "L",
+     "spanCm": 95,
+     "chordMm": 147,
+     "thicknessMm": 16.4,
+     "aspectRatio": 8.4,
+     "areaCm2": 1070
+    },
+    {
+     "size": "XL",
+     "spanCm": 101,
+     "chordMm": 157,
+     "thicknessMm": 17.4,
+     "aspectRatio": 8.4,
+     "areaCm2": 1220
+    },
+    {
+     "size": "XXL",
+     "spanCm": 107,
+     "chordMm": 166,
+     "thicknessMm": 18.5,
+     "aspectRatio": 8.4,
+     "areaCm2": 1370
+    },
+    {
+     "size": "3XL",
+     "spanCm": 113,
+     "chordMm": 175,
+     "thicknessMm": 19.5,
+     "aspectRatio": 8.4,
+     "areaCm2": 1520
+    }
+   ]
+  },
+  "foil-front-wing-fluid-atmo-carbon": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-TEAM_SERIES-SIZE_CHART-FLUID-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "3XS",
+     "spanCm": 66,
+     "chordMm": 103,
+     "thicknessMm": 11.0,
+     "aspectRatio": 8.7,
+     "areaCm2": 510
+    },
+    {
+     "size": "XXS",
+     "spanCm": 73,
+     "chordMm": 112,
+     "thicknessMm": 12.1,
+     "aspectRatio": 8.7,
+     "areaCm2": 610
+    },
+    {
+     "size": "XS",
+     "spanCm": 78,
+     "chordMm": 121,
+     "thicknessMm": 13.0,
+     "aspectRatio": 8.7,
+     "areaCm2": 710
+    },
+    {
+     "size": "S",
+     "spanCm": 84,
+     "chordMm": 129,
+     "thicknessMm": 13.9,
+     "aspectRatio": 8.7,
+     "areaCm2": 810
+    },
+    {
+     "size": "M",
+     "spanCm": 89,
+     "chordMm": 137,
+     "thicknessMm": 14.7,
+     "aspectRatio": 8.7,
+     "areaCm2": 910
+    },
+    {
+     "size": "L",
+     "spanCm": 94,
+     "chordMm": 144,
+     "thicknessMm": 15.5,
+     "aspectRatio": 8.7,
+     "areaCm2": 1010
+    },
+    {
+     "size": "XL",
+     "spanCm": 100,
+     "chordMm": 155,
+     "thicknessMm": 16.6,
+     "aspectRatio": 8.7,
+     "areaCm2": 1160
+    },
+    {
+     "size": "XXL",
+     "spanCm": 107,
+     "chordMm": 165,
+     "thicknessMm": 17.7,
+     "aspectRatio": 8.7,
+     "areaCm2": 1310
+    },
+    {
+     "size": "3XL",
+     "spanCm": 112,
+     "chordMm": 174,
+     "thicknessMm": 18.7,
+     "aspectRatio": 8.7,
+     "areaCm2": 1460
+    }
+   ]
+  },
+  "foil-front-wing-sirus-atmo-carbon": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-TEAM_SERIES-SIZE_CHART-SIRUS-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "M",
+     "spanCm": 112,
+     "chordMm": 140,
+     "thicknessMm": 19.7,
+     "aspectRatio": 11.0,
+     "areaCm2": 1150
+    },
+    {
+     "size": "L",
+     "spanCm": 124,
+     "chordMm": 155,
+     "thicknessMm": 21.8,
+     "aspectRatio": 11.0,
+     "areaCm2": 1400
+    },
+    {
+     "size": "XL",
+     "spanCm": 135,
+     "chordMm": 170,
+     "thicknessMm": 23.9,
+     "aspectRatio": 11.0,
+     "areaCm2": 1650
+    },
+    {
+     "size": "XXL",
+     "spanCm": 146,
+     "chordMm": 183,
+     "thicknessMm": 25.8,
+     "aspectRatio": 11.0,
+     "areaCm2": 1950
+    },
+    {
+     "size": "3XL",
+     "spanCm": 161,
+     "chordMm": 201,
+     "thicknessMm": 28.3,
+     "aspectRatio": 11.0,
+     "areaCm2": 2350
+    }
+   ]
+  },
+  "foil-stab-ypra-freestyle": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-STAB-SIZE_CHART-FREESTYLE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 30,
+     "chordMm": 56.3,
+     "thicknessMm": 5.1,
+     "aspectRatio": 7.2,
+     "areaCm2": 125,
+     "fuselageLengthCm": 25.0
+    },
+    {
+     "size": "S",
+     "spanCm": 32,
+     "chordMm": 60.0,
+     "thicknessMm": 5.5,
+     "aspectRatio": 7.2,
+     "areaCm2": 142,
+     "fuselageLengthCm": 25.0
+    }
+   ]
+  },
+  "foil-stab-ypra-surf-freestyle": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-STAB-SIZE_CHART-SURF_FREESTYLE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 33,
+     "chordMm": 60.0,
+     "thicknessMm": 5.5,
+     "aspectRatio": 7.4,
+     "areaCm2": 147,
+     "fuselageLengthCm": 27.5
+    },
+    {
+     "size": "M",
+     "spanCm": 36,
+     "chordMm": 65.5,
+     "thicknessMm": 6.0,
+     "aspectRatio": 7.4,
+     "areaCm2": 175,
+     "fuselageLengthCm": 27.5
+    }
+   ]
+  },
+  "tail-wing-curve-h-v3": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-STABS_H-SIZE_CHART-CURVE_H-GONGFOIL",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 37,
+     "chordMm": 59.6,
+     "thicknessMm": 5.6,
+     "aspectRatio": 8.3,
+     "areaCm2": 165
+    },
+    {
+     "size": "M",
+     "spanCm": 39,
+     "chordMm": 63.2,
+     "thicknessMm": 5.9,
+     "aspectRatio": 8.3,
+     "areaCm2": 185
+    },
+    {
+     "size": "L",
+     "spanCm": 42,
+     "chordMm": 68.2,
+     "thicknessMm": 6.4,
+     "aspectRatio": 8.3,
+     "areaCm2": 215
+    },
+    {
+     "size": "XL",
+     "spanCm": 45,
+     "chordMm": 72.8,
+     "thicknessMm": 6.8,
+     "aspectRatio": 8.3,
+     "areaCm2": 245
+    }
+   ]
+  },
+  "foil-stab-curve-h": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-STABS_H-SIZE_CHART-CURVE_H-GONGFOIL.png",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 37,
+     "chordMm": 59.6,
+     "thicknessMm": 5.6,
+     "aspectRatio": 8.3,
+     "areaCm2": 165,
+     "fuselageLengthCm": 31.8
+    },
+    {
+     "size": "M",
+     "spanCm": 39,
+     "chordMm": 63.2,
+     "thicknessMm": 5.9,
+     "aspectRatio": 8.3,
+     "areaCm2": 185,
+     "fuselageLengthCm": 32.0
+    },
+    {
+     "size": "L",
+     "spanCm": 42,
+     "chordMm": 68.2,
+     "thicknessMm": 6.4,
+     "aspectRatio": 8.3,
+     "areaCm2": 215,
+     "fuselageLengthCm": 32.3
+    },
+    {
+     "size": "XL",
+     "spanCm": 45,
+     "chordMm": 72.8,
+     "thicknessMm": 6.8,
+     "aspectRatio": 8.3,
+     "areaCm2": 245,
+     "fuselageLengthCm": 32.5
+    }
+   ]
+  },
+  "tail-wing-fluid-h-v3": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-STABS_H-SIZE_CHART-FLUID_H-GONGFOIL",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 31,
+     "chordMm": 49.7,
+     "thicknessMm": 4.7,
+     "aspectRatio": 8.3,
+     "areaCm2": 115
+    },
+    {
+     "size": "S",
+     "spanCm": 33,
+     "chordMm": 53.1,
+     "thicknessMm": 5.0,
+     "aspectRatio": 8.3,
+     "areaCm2": 131
+    },
+    {
+     "size": "M",
+     "spanCm": 35,
+     "chordMm": 56.3,
+     "thicknessMm": 5.3,
+     "aspectRatio": 8.3,
+     "areaCm2": 147
+    },
+    {
+     "size": "L",
+     "spanCm": 37,
+     "chordMm": 59.5,
+     "thicknessMm": 5.7,
+     "aspectRatio": 8.3,
+     "areaCm2": 163
+    },
+    {
+     "size": "XL",
+     "spanCm": 39,
+     "chordMm": 62.7,
+     "thicknessMm": 6.0,
+     "aspectRatio": 8.3,
+     "areaCm2": 187
+    },
+    {
+     "size": "XXL",
+     "spanCm": 42,
+     "chordMm": 67.5,
+     "thicknessMm": 6.4,
+     "aspectRatio": 8.3,
+     "areaCm2": 211
+    },
+    {
+     "size": "3XL",
+     "spanCm": 44,
+     "chordMm": 71.7,
+     "thicknessMm": 6.8,
+     "aspectRatio": 8.3,
+     "areaCm2": 236
+    }
+   ]
+  },
+  "foil-stab-fluid-h-fg": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-STABS_H-SIZE_CHART-FLUID_H-GONGFOIL.png",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 31,
+     "chordMm": 49.7,
+     "thicknessMm": 4.7,
+     "aspectRatio": 8.3,
+     "areaCm2": 115,
+     "fuselageLengthCm": 32.8
+    },
+    {
+     "size": "S",
+     "spanCm": 33,
+     "chordMm": 53.1,
+     "thicknessMm": 5.0,
+     "aspectRatio": 8.3,
+     "areaCm2": 131,
+     "fuselageLengthCm": 33.0
+    },
+    {
+     "size": "M",
+     "spanCm": 35,
+     "chordMm": 56.3,
+     "thicknessMm": 5.3,
+     "aspectRatio": 8.3,
+     "areaCm2": 147,
+     "fuselageLengthCm": 33.5
+    },
+    {
+     "size": "L",
+     "spanCm": 37,
+     "chordMm": 59.5,
+     "thicknessMm": 5.7,
+     "aspectRatio": 8.3,
+     "areaCm2": 163,
+     "fuselageLengthCm": 33.7
+    },
+    {
+     "size": "XL",
+     "spanCm": 39,
+     "chordMm": 62.7,
+     "thicknessMm": 6.0,
+     "aspectRatio": 8.3,
+     "areaCm2": 187,
+     "fuselageLengthCm": 33.9
+    },
+    {
+     "size": "XXL",
+     "spanCm": 42,
+     "chordMm": 67.5,
+     "thicknessMm": 6.4,
+     "aspectRatio": 8.3,
+     "areaCm2": 211,
+     "fuselageLengthCm": 34.1
+    },
+    {
+     "size": "3XL",
+     "spanCm": 44,
+     "chordMm": 71.7,
+     "thicknessMm": 6.8,
+     "aspectRatio": 8.3,
+     "areaCm2": 236,
+     "fuselageLengthCm": 34.3
+    }
+   ]
+  },
+  "tail-wing-veloce-h-v3": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-STABS_H-SIZE_CHART-VELOCE_H-GONGFOIL",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 33,
+     "chordMm": 44.0,
+     "thicknessMm": 4.2,
+     "aspectRatio": 9.6,
+     "areaCm2": 113
+    },
+    {
+     "size": "M",
+     "spanCm": 36,
+     "chordMm": 48.3,
+     "thicknessMm": 4.6,
+     "aspectRatio": 9.6,
+     "areaCm2": 136
+    },
+    {
+     "size": "L",
+     "spanCm": 39,
+     "chordMm": 52.1,
+     "thicknessMm": 5.0,
+     "aspectRatio": 9.6,
+     "areaCm2": 159
+    },
+    {
+     "size": "XL",
+     "spanCm": 41,
+     "chordMm": 54.9,
+     "thicknessMm": 5.2,
+     "aspectRatio": 9.6,
+     "areaCm2": 176
+    }
+   ]
+  },
+  "foil-stab-veloce-h": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-24-FOIL-STABS_H-SIZE_CHART-VELOCE_H-GONGFOIL.png",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 33,
+     "chordMm": 44.0,
+     "thicknessMm": 4.2,
+     "aspectRatio": 9.6,
+     "areaCm2": 113,
+     "fuselageLengthCm": 34.6
+    },
+    {
+     "size": "M",
+     "spanCm": 36,
+     "chordMm": 48.3,
+     "thicknessMm": 4.6,
+     "aspectRatio": 9.6,
+     "areaCm2": 136,
+     "fuselageLengthCm": 34.8
+    },
+    {
+     "size": "L",
+     "spanCm": 39,
+     "chordMm": 52.1,
+     "thicknessMm": 5.0,
+     "aspectRatio": 9.6,
+     "areaCm2": 159,
+     "fuselageLengthCm": 35.0
+    },
+    {
+     "size": "XL",
+     "spanCm": 41,
+     "chordMm": 54.9,
+     "thicknessMm": 5.2,
+     "aspectRatio": 9.6,
+     "areaCm2": 176,
+     "fuselageLengthCm": 35.1
+    }
+   ]
+  },
+  "foil-stab-ypra-race": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-25-FOIL-STAB-SIZE_CHART-RACE-GONGFOIL",
+   "sizes": [
+    {
+     "size": "120 cm²",
+     "spanCm": 31,
+     "chordMm": 53.6,
+     "thicknessMm": 5.9,
+     "aspectRatio": 8.0,
+     "areaCm2": 120,
+     "fuselageLengthCm": 31.4
+    },
+    {
+     "size": "135 cm²",
+     "spanCm": 32.9,
+     "chordMm": 56.9,
+     "thicknessMm": 6.3,
+     "aspectRatio": 8.0,
+     "areaCm2": 135,
+     "fuselageLengthCm": 27.3
+    },
+    {
+     "size": "150 cm²",
+     "spanCm": 34.7,
+     "chordMm": 60,
+     "thicknessMm": 6.6,
+     "aspectRatio": 8.0,
+     "areaCm2": 150,
+     "fuselageLengthCm": 27.4
+    },
+    {
+     "size": "165 cm²",
+     "spanCm": 36.4,
+     "chordMm": 62.9,
+     "thicknessMm": 6.9,
+     "aspectRatio": 8.0,
+     "areaCm2": 165,
+     "fuselageLengthCm": 27.6
+    }
+   ]
+  },
+  "foil-stab-ypra-slalom": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-25-FOIL-STAB-SIZE_CHART-SLALOM-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 35,
+     "chordMm": 59.7,
+     "thicknessMm": 6.6,
+     "aspectRatio": 8.0,
+     "areaCm2": 150,
+     "fuselageLengthCm": 27.2
+    },
+    {
+     "size": "S",
+     "spanCm": 36,
+     "chordMm": 62.6,
+     "thicknessMm": 6.9,
+     "aspectRatio": 8.0,
+     "areaCm2": 165,
+     "fuselageLengthCm": 27.3
+    },
+    {
+     "size": "M",
+     "spanCm": 38,
+     "chordMm": 65.4,
+     "thicknessMm": 7.2,
+     "aspectRatio": 8.0,
+     "areaCm2": 180,
+     "fuselageLengthCm": 27.4
+    },
+    {
+     "size": "L",
+     "spanCm": 40,
+     "chordMm": 68.1,
+     "thicknessMm": 7.5,
+     "aspectRatio": 8.0,
+     "areaCm2": 195,
+     "fuselageLengthCm": 27.6
+    }
+   ]
+  },
+  "foil-stab-ypra-freestyle-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-YPRA_FREESTYLE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S Soft",
+     "spanCm": 36,
+     "chordMm": 63.6,
+     "thicknessMm": 7.0,
+     "aspectRatio": 8.0,
+     "areaCm2": 165,
+     "fuselageLengthCm": 26.8
+    },
+    {
+     "size": "S",
+     "spanCm": 35,
+     "chordMm": 59.7,
+     "thicknessMm": 6.6,
+     "aspectRatio": 8.0,
+     "areaCm2": 150,
+     "fuselageLengthCm": 24.7
+    }
+   ]
+  },
+  "foil-stab-ypra-race-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-YPRA_RACE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "135 cm²",
+     "spanCm": 34.9,
+     "chordMm": 52.9,
+     "thicknessMm": 6.5,
+     "aspectRatio": 9.0,
+     "areaCm2": 135,
+     "fuselageLengthCm": 34.1
+    },
+    {
+     "size": "150 cm²",
+     "spanCm": 36.7,
+     "chordMm": 55.7,
+     "thicknessMm": 6.7,
+     "aspectRatio": 9.0,
+     "areaCm2": 150,
+     "fuselageLengthCm": 34.3
+    },
+    {
+     "size": "165 cm²",
+     "spanCm": 38.6,
+     "chordMm": 58.7,
+     "thicknessMm": 6.9,
+     "aspectRatio": 9.0,
+     "areaCm2": 165,
+     "fuselageLengthCm": 34.4
+    }
+   ]
+  },
+  "foil-stab-ypra-slalom-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-YPRA_SLALOM-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XXS",
+     "spanCm": 33,
+     "chordMm": 56.6,
+     "thicknessMm": 6.5,
+     "aspectRatio": 8.0,
+     "areaCm2": 135,
+     "fuselageLengthCm": 27.0
+    },
+    {
+     "size": "XS",
+     "spanCm": 35,
+     "chordMm": 60.6,
+     "thicknessMm": 6.7,
+     "aspectRatio": 8.0,
+     "areaCm2": 150,
+     "fuselageLengthCm": 27.2
+    },
+    {
+     "size": "S",
+     "spanCm": 36,
+     "chordMm": 63.6,
+     "thicknessMm": 7.0,
+     "aspectRatio": 8.0,
+     "areaCm2": 165,
+     "fuselageLengthCm": 27.3
+    },
+    {
+     "size": "M",
+     "spanCm": 38,
+     "chordMm": 65.4,
+     "thicknessMm": 7.2,
+     "aspectRatio": 8.0,
+     "areaCm2": 180,
+     "fuselageLengthCm": 27.4
+    },
+    {
+     "size": "L",
+     "spanCm": 40,
+     "chordMm": 69.1,
+     "thicknessMm": 7.6,
+     "aspectRatio": 8.0,
+     "areaCm2": 195,
+     "fuselageLengthCm": 27.6
+    }
+   ]
+  },
+  "foil-stab-ypra-surf-freestyle-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-YPRA_SURF_FREESTYLE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 31,
+     "chordMm": 56.4,
+     "thicknessMm": 5.2,
+     "aspectRatio": 7.4,
+     "areaCm2": 130,
+     "fuselageLengthCm": 27.5
+    },
+    {
+     "size": "S",
+     "spanCm": 33,
+     "chordMm": 60.0,
+     "thicknessMm": 5.5,
+     "aspectRatio": 7.4,
+     "areaCm2": 147,
+     "fuselageLengthCm": 27.5
+    },
+    {
+     "size": "M",
+     "spanCm": 36,
+     "chordMm": 65.5,
+     "thicknessMm": 6.0,
+     "aspectRatio": 7.4,
+     "areaCm2": 175,
+     "fuselageLengthCm": 27.5
+    }
+   ]
+  },
+  "foil-stab-curve-atmo-carbon": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-TEAM_SERIES-V3-ATMO-SIZE_CHART-CURVE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 35,
+     "chordMm": 57.5,
+     "thicknessMm": 5.5,
+     "aspectRatio": 8.0,
+     "areaCm2": 155,
+     "fuselageLengthCm": 31.9
+    },
+    {
+     "size": "M",
+     "spanCm": 39,
+     "chordMm": 62.6,
+     "thicknessMm": 6.0,
+     "aspectRatio": 8.0,
+     "areaCm2": 185,
+     "fuselageLengthCm": 32.2
+    },
+    {
+     "size": "L",
+     "spanCm": 42,
+     "chordMm": 67.5,
+     "thicknessMm": 6.4,
+     "aspectRatio": 8.0,
+     "areaCm2": 215,
+     "fuselageLengthCm": 32.4
+    },
+    {
+     "size": "XL",
+     "spanCm": 44,
+     "chordMm": 72.0,
+     "thicknessMm": 6.9,
+     "aspectRatio": 8.0,
+     "areaCm2": 245,
+     "fuselageLengthCm": 32.7
+    },
+    {
+     "size": "XXL",
+     "spanCm": 47,
+     "chordMm": 76.3,
+     "thicknessMm": 7.3,
+     "aspectRatio": 8.0,
+     "areaCm2": 275,
+     "fuselageLengthCm": 33.0
+    }
+   ]
+  },
+  "foil-stab-fluid-atmo-carbon": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-TEAM_SERIES-V3-ATMO-SIZE_CHART-FLUID-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 31,
+     "chordMm": 49.6,
+     "thicknessMm": 4.8,
+     "aspectRatio": 8.5,
+     "areaCm2": 115,
+     "fuselageLengthCm": 30.8
+    },
+    {
+     "size": "S",
+     "spanCm": 33,
+     "chordMm": 54.3,
+     "thicknessMm": 5.3,
+     "aspectRatio": 8.5,
+     "areaCm2": 131,
+     "fuselageLengthCm": 30.9
+    },
+    {
+     "size": "M",
+     "spanCm": 35,
+     "chordMm": 56,
+     "thicknessMm": 5.4,
+     "aspectRatio": 8.5,
+     "areaCm2": 147,
+     "fuselageLengthCm": 31.1
+    },
+    {
+     "size": "L",
+     "spanCm": 37,
+     "chordMm": 59,
+     "thicknessMm": 5.7,
+     "aspectRatio": 8.5,
+     "areaCm2": 163,
+     "fuselageLengthCm": 31.3
+    },
+    {
+     "size": "XL",
+     "spanCm": 40,
+     "chordMm": 63.2,
+     "thicknessMm": 6.1,
+     "aspectRatio": 8.5,
+     "areaCm2": 187,
+     "fuselageLengthCm": 31.5
+    },
+    {
+     "size": "XXL",
+     "spanCm": 42,
+     "chordMm": 67.1,
+     "thicknessMm": 6.5,
+     "aspectRatio": 8.5,
+     "areaCm2": 211,
+     "fuselageLengthCm": 31.8
+    },
+    {
+     "size": "3XL",
+     "spanCm": 45,
+     "chordMm": 71,
+     "thicknessMm": 6.9,
+     "aspectRatio": 8.5,
+     "areaCm2": 236,
+     "fuselageLengthCm": 32.0
+    }
+   ]
+  },
+  "foil-stab-veloce-ff-atmo-carbon": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-TEAM_SERIES-V3-ATMO-SIZE_CHART-VELOCE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 33,
+     "chordMm": 46.6,
+     "thicknessMm": 4.7,
+     "aspectRatio": 9.5,
+     "areaCm2": 113,
+     "fuselageLengthCm": 33.0
+    },
+    {
+     "size": "M",
+     "spanCm": 36,
+     "chordMm": 51.1,
+     "thicknessMm": 5.2,
+     "aspectRatio": 9.5,
+     "areaCm2": 136,
+     "fuselageLengthCm": 32.9
+    },
+    {
+     "size": "L",
+     "spanCm": 39,
+     "chordMm": 55.3,
+     "thicknessMm": 5.6,
+     "aspectRatio": 9.5,
+     "areaCm2": 159,
+     "fuselageLengthCm": 33.2
+    },
+    {
+     "size": "XL",
+     "spanCm": 41,
+     "chordMm": 58.1,
+     "thicknessMm": 5.9,
+     "aspectRatio": 9.5,
+     "areaCm2": 176,
+     "fuselageLengthCm": 33.3
+    }
+   ]
+  },
+  "tail-wing-hyper-trail-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-TAIL_WING-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-HYPER_TRAIL-GONGFOIL",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 33.3,
+     "chordMm": 52.8,
+     "thicknessMm": 4.6,
+     "aspectRatio": 13.3,
+     "areaCm2": 83
+    },
+    {
+     "size": "M",
+     "spanCm": 36.2,
+     "chordMm": 57.5,
+     "thicknessMm": 4.9,
+     "aspectRatio": 13.4,
+     "areaCm2": 98
+    },
+    {
+     "size": "L",
+     "spanCm": 39.1,
+     "chordMm": 62.2,
+     "thicknessMm": 5.4,
+     "aspectRatio": 13.4,
+     "areaCm2": 114
+    },
+    {
+     "size": "XL",
+     "spanCm": 41.7,
+     "chordMm": 66.1,
+     "thicknessMm": 6.0,
+     "aspectRatio": 13.4,
+     "areaCm2": 130
+    }
+   ]
+  },
+  "tail-wing-veloce-dw-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-TAIL_WING-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-VELOCE_DW-GONGFOIL",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 36,
+     "chordMm": 52.7,
+     "thicknessMm": 5.8,
+     "aspectRatio": 12,
+     "areaCm2": 105
+    },
+    {
+     "size": "M",
+     "spanCm": 38,
+     "chordMm": 56.3,
+     "thicknessMm": 6.2,
+     "aspectRatio": 12,
+     "areaCm2": 120
+    },
+    {
+     "size": "L",
+     "spanCm": 40,
+     "chordMm": 59.7,
+     "thicknessMm": 6.6,
+     "aspectRatio": 12,
+     "areaCm2": 135
+    },
+    {
+     "size": "XL",
+     "spanCm": 42,
+     "chordMm": 63,
+     "thicknessMm": 6.9,
+     "aspectRatio": 12,
+     "areaCm2": 150
+    }
+   ]
+  },
+  "tail-wing-veloce-xtr-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-TAIL_WING-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-VELOCE_XTR-GONGFOIL",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 36,
+     "chordMm": 42.7,
+     "thicknessMm": 6.2,
+     "aspectRatio": 14,
+     "areaCm2": 90
+    },
+    {
+     "size": "S",
+     "spanCm": 38,
+     "chordMm": 46.1,
+     "thicknessMm": 6.7,
+     "aspectRatio": 14,
+     "areaCm2": 105
+    },
+    {
+     "size": "M",
+     "spanCm": 41,
+     "chordMm": 49.3,
+     "thicknessMm": 7.2,
+     "aspectRatio": 14,
+     "areaCm2": 120
+    },
+    {
+     "size": "L",
+     "spanCm": 43,
+     "chordMm": 52.3,
+     "thicknessMm": 7.6,
+     "aspectRatio": 14,
+     "areaCm2": 135
+    }
+   ]
+  },
+  "tail-wing-ypra-surf-carve-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-TAIL_WING-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-YPRA_SURF_CARVE-GONGFOIL",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 31,
+     "chordMm": 57.1,
+     "thicknessMm": 5.6,
+     "aspectRatio": 7.5,
+     "areaCm2": 125
+    },
+    {
+     "size": "S",
+     "spanCm": 33,
+     "chordMm": 61.1,
+     "thicknessMm": 6.0,
+     "aspectRatio": 7.5,
+     "areaCm2": 145
+    },
+    {
+     "size": "M",
+     "spanCm": 35,
+     "chordMm": 65.2,
+     "thicknessMm": 6.4,
+     "aspectRatio": 7.5,
+     "areaCm2": 165
+    },
+    {
+     "size": "L",
+     "spanCm": 37,
+     "chordMm": 69,
+     "thicknessMm": 6.8,
+     "aspectRatio": 7.5,
+     "areaCm2": 185
+    }
+   ]
+  },
+  "wing-droid-boom-26nhnb": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-DROID-BOOM-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 343,
+     "chordCm": 243,
+     "pressurePsi": 6.5,
+     "weightKg": 2.89,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 330,
+     "chordCm": 233,
+     "pressurePsi": 6.5,
+     "weightKg": 2.79,
+     "windMinKts": 7,
+     "windMaxKts": 17,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 316,
+     "chordCm": 223,
+     "pressurePsi": 7,
+     "weightKg": 2.57,
+     "windMinKts": 8,
+     "windMaxKts": 18,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 301,
+     "chordCm": 213,
+     "pressurePsi": 7.5,
+     "weightKg": 2.33,
+     "windMinKts": 11,
+     "windMaxKts": 21,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 286,
+     "chordCm": 202,
+     "pressurePsi": 7.5,
+     "weightKg": 2.14,
+     "windMinKts": 14,
+     "windMaxKts": 24,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 269,
+     "chordCm": 190,
+     "pressurePsi": 8,
+     "weightKg": 2.09,
+     "windMinKts": 17,
+     "windMaxKts": 27,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 252,
+     "chordCm": 178,
+     "pressurePsi": 8.5,
+     "weightKg": 1.92,
+     "windMinKts": 20,
+     "windMaxKts": 30,
+     "boomSize": "M",
+     "boomLengthCm": 104.0
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 233,
+     "chordCm": 165,
+     "pressurePsi": 9,
+     "weightKg": 1.73,
+     "windMinKts": 25,
+     "windMaxKts": 35,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    }
+   ],
+   "aspectRatio": 2.28
+  },
+  "wing-droid-26nhnb": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-DROID-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 343,
+     "chordCm": 243,
+     "pressurePsi": 6.5,
+     "weightKg": 3.19,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 330,
+     "chordCm": 233,
+     "pressurePsi": 6.5,
+     "weightKg": 3.09,
+     "windMinKts": 7,
+     "windMaxKts": 17,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 316,
+     "chordCm": 223,
+     "pressurePsi": 7,
+     "weightKg": 2.89,
+     "windMinKts": 8,
+     "windMaxKts": 18,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 301,
+     "chordCm": 213,
+     "pressurePsi": 7.5,
+     "weightKg": 2.59,
+     "windMinKts": 11,
+     "windMaxKts": 21,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 286,
+     "chordCm": 202,
+     "pressurePsi": 7.5,
+     "weightKg": 2.48,
+     "windMinKts": 14,
+     "windMaxKts": 24,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 269,
+     "chordCm": 190,
+     "pressurePsi": 8,
+     "weightKg": 2.24,
+     "windMinKts": 17,
+     "windMaxKts": 27,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 252,
+     "chordCm": 178,
+     "pressurePsi": 8.5,
+     "weightKg": 2.08,
+     "windMinKts": 20,
+     "windMaxKts": 30,
+     "boomSize": "M",
+     "boomLengthCm": 104.0
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 233,
+     "chordCm": 165,
+     "pressurePsi": 9,
+     "weightKg": 1.89,
+     "windMinKts": 25,
+     "windMaxKts": 35,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    }
+   ],
+   "aspectRatio": 2.28
+  },
+  "wing-neutra-boom-26nhnb": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-NEUTRA-BOOM-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 320,
+     "chordCm": 217,
+     "pressurePsi": 7,
+     "weightKg": 2.74,
+     "windMinKts": 9,
+     "windMaxKts": 19,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 305,
+     "chordCm": 207,
+     "pressurePsi": 7.5,
+     "weightKg": 2.52,
+     "windMinKts": 12,
+     "windMaxKts": 22,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 290,
+     "chordCm": 196,
+     "pressurePsi": 7.5,
+     "weightKg": 2.29,
+     "windMinKts": 15,
+     "windMaxKts": 25,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 273,
+     "chordCm": 185,
+     "pressurePsi": 8,
+     "weightKg": 2.03,
+     "windMinKts": 18,
+     "windMaxKts": 28,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 255,
+     "chordCm": 173,
+     "pressurePsi": 8.5,
+     "weightKg": 1.79,
+     "windMinKts": 21,
+     "windMaxKts": 31,
+     "boomSize": "M",
+     "boomLengthCm": 104.0
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 237,
+     "chordCm": 160,
+     "pressurePsi": 9,
+     "weightKg": 1.69,
+     "windMinKts": 26,
+     "windMaxKts": 36,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 216,
+     "chordCm": 146,
+     "pressurePsi": 9.5,
+     "weightKg": 1.59,
+     "windMinKts": 30,
+     "windMaxKts": 40,
+     "boomSize": "XS",
+     "boomLengthCm": 88.5
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 193,
+     "chordCm": 131,
+     "pressurePsi": 10,
+     "weightKg": 1.49,
+     "windMinKts": 35,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.48
+  },
+  "wing-neutra-26nhnb": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-NEUTRA-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 320,
+     "chordCm": 217,
+     "pressurePsi": 7,
+     "weightKg": 2.85,
+     "windMinKts": 9,
+     "windMaxKts": 19,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 305,
+     "chordCm": 207,
+     "pressurePsi": 7.5,
+     "weightKg": 2.58,
+     "windMinKts": 12,
+     "windMaxKts": 22,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 290,
+     "chordCm": 196,
+     "pressurePsi": 7.5,
+     "weightKg": 2.42,
+     "windMinKts": 15,
+     "windMaxKts": 25,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 273,
+     "chordCm": 185,
+     "pressurePsi": 8,
+     "weightKg": 2.21,
+     "windMinKts": 18,
+     "windMaxKts": 28,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 255,
+     "chordCm": 173,
+     "pressurePsi": 8.5,
+     "weightKg": 2.02,
+     "windMinKts": 21,
+     "windMaxKts": 31,
+     "boomSize": "M",
+     "boomLengthCm": 104.0
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 237,
+     "chordCm": 160,
+     "pressurePsi": 9,
+     "weightKg": 1.89,
+     "windMinKts": 26,
+     "windMaxKts": 36,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 216,
+     "chordCm": 146,
+     "pressurePsi": 9.5,
+     "weightKg": 1.77,
+     "windMinKts": 30,
+     "windMaxKts": 40,
+     "boomSize": "XS",
+     "boomLengthCm": 88.5
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 193,
+     "chordCm": 131,
+     "pressurePsi": 10,
+     "weightKg": 1.63,
+     "windMinKts": 35,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.48
+  },
+  "wing-plus-26": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-PLUS-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 336,
+     "chordCm": 224,
+     "pressurePsi": 6.5,
+     "weightKg": 3.09,
+     "windMinKts": 10,
+     "windMaxKts": 20
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 306,
+     "chordCm": 204,
+     "pressurePsi": 7.5,
+     "weightKg": 2.59,
+     "windMinKts": 12,
+     "windMaxKts": 22
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 274,
+     "chordCm": 183,
+     "pressurePsi": 8,
+     "weightKg": 2.19,
+     "windMinKts": 18,
+     "windMaxKts": 28
+    }
+   ],
+   "aspectRatio": 2.36
+  },
+  "wing-droid-aramid-x-26nhnb": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PRO_TEAM_SERIES-DROID_ARAMID_X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "7,5 m²",
+     "areaM2": 7.5,
+     "spanCm": 360,
+     "chordCm": 261,
+     "pressurePsi": 6,
+     "weightKg": 3.24,
+     "windMinKts": 7,
+     "windMaxKts": 15,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "7 m²",
+     "areaM2": 7.0,
+     "spanCm": 348,
+     "chordCm": 252,
+     "pressurePsi": 6,
+     "weightKg": 3.11,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 335,
+     "chordCm": 243,
+     "pressurePsi": 6.5,
+     "weightKg": 2.82,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 322,
+     "chordCm": 233,
+     "pressurePsi": 6.5,
+     "weightKg": 2.72,
+     "windMinKts": 7,
+     "windMaxKts": 17,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 308,
+     "chordCm": 223,
+     "pressurePsi": 7,
+     "weightKg": 2.6,
+     "windMinKts": 8,
+     "windMaxKts": 18,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 294,
+     "chordCm": 213,
+     "pressurePsi": 7.5,
+     "weightKg": 2.42,
+     "windMinKts": 11,
+     "windMaxKts": 21,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 279,
+     "chordCm": 202,
+     "pressurePsi": 7.5,
+     "weightKg": 2.21,
+     "windMinKts": 14,
+     "windMaxKts": 24,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 263,
+     "chordCm": 190,
+     "pressurePsi": 8,
+     "weightKg": 2.06,
+     "windMinKts": 17,
+     "windMaxKts": 27,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 246,
+     "chordCm": 178,
+     "pressurePsi": 8.5,
+     "weightKg": 1.91,
+     "windMinKts": 20,
+     "windMaxKts": 30,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 228,
+     "chordCm": 165,
+     "pressurePsi": 9,
+     "weightKg": 1.74,
+     "windMinKts": 22,
+     "windMaxKts": 35,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 208,
+     "chordCm": 150,
+     "pressurePsi": 9.5,
+     "weightKg": 1.6,
+     "windMinKts": 26,
+     "windMaxKts": 38,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 186,
+     "chordCm": 134,
+     "pressurePsi": 10,
+     "weightKg": 1.55,
+     "windMinKts": 30,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.28
+  },
+  "wing-droid-sp-aramid-cz-26nhnb": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PRO_TEAM_SERIES-DROID_SP_ARAMID_CZ-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "7,5 m²",
+     "areaM2": 7.5,
+     "spanCm": 360,
+     "chordCm": 261,
+     "pressurePsi": 6,
+     "weightKg": 3.34,
+     "windMinKts": 7,
+     "windMaxKts": 15,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "7 m²",
+     "areaM2": 7.0,
+     "spanCm": 348,
+     "chordCm": 252,
+     "pressurePsi": 6,
+     "weightKg": 3.2,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 335,
+     "chordCm": 243,
+     "pressurePsi": 6.5,
+     "weightKg": 2.92,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 322,
+     "chordCm": 233,
+     "pressurePsi": 6.5,
+     "weightKg": 2.77,
+     "windMinKts": 7,
+     "windMaxKts": 17,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 308,
+     "chordCm": 223,
+     "pressurePsi": 7,
+     "weightKg": 2.68,
+     "windMinKts": 8,
+     "windMaxKts": 18,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 294,
+     "chordCm": 213,
+     "pressurePsi": 7.5,
+     "weightKg": 2.41,
+     "windMinKts": 11,
+     "windMaxKts": 21,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 279,
+     "chordCm": 202,
+     "pressurePsi": 7.5,
+     "weightKg": 2.28,
+     "windMinKts": 14,
+     "windMaxKts": 24,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 263,
+     "chordCm": 190,
+     "pressurePsi": 8,
+     "weightKg": 2.08,
+     "windMinKts": 17,
+     "windMaxKts": 27,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 246,
+     "chordCm": 178,
+     "pressurePsi": 8.5,
+     "weightKg": 1.94,
+     "windMinKts": 20,
+     "windMaxKts": 30,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 228,
+     "chordCm": 165,
+     "pressurePsi": 9,
+     "weightKg": 1.81,
+     "windMinKts": 22,
+     "windMaxKts": 35,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    }
+   ],
+   "aspectRatio": 2.28
+  },
+  "wing-neutra-aramid-x-26nhnb": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PRO_TEAM_SERIES-NEUTRA_ARAMID_X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 317,
+     "chordCm": 218,
+     "pressurePsi": 7,
+     "weightKg": 2.32,
+     "windMinKts": 9,
+     "windMaxKts": 20,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 303,
+     "chordCm": 207,
+     "pressurePsi": 7.5,
+     "weightKg": 2.21,
+     "windMinKts": 12,
+     "windMaxKts": 23,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 287,
+     "chordCm": 197,
+     "pressurePsi": 7.5,
+     "weightKg": 2.09,
+     "windMinKts": 15,
+     "windMaxKts": 26,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 270,
+     "chordCm": 185,
+     "pressurePsi": 8,
+     "weightKg": 1.97,
+     "windMinKts": 18,
+     "windMaxKts": 29,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 253,
+     "chordCm": 173,
+     "pressurePsi": 8.5,
+     "weightKg": 1.82,
+     "windMinKts": 21,
+     "windMaxKts": 32,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 235,
+     "chordCm": 161,
+     "pressurePsi": 9,
+     "weightKg": 1.65,
+     "windMinKts": 23,
+     "windMaxKts": 37,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 214,
+     "chordCm": 147,
+     "pressurePsi": 9.5,
+     "weightKg": 1.51,
+     "windMinKts": 28,
+     "windMaxKts": 41,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 192,
+     "chordCm": 131,
+     "pressurePsi": 10,
+     "weightKg": 1.4,
+     "windMinKts": 33,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.48
+  },
+  "wing-droid-aramid-26nhnb": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-TEAM_SERIES-DROID_ARAMID-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "7,5 m²",
+     "areaM2": 7.5,
+     "spanCm": 360,
+     "chordCm": 261,
+     "pressurePsi": 6,
+     "weightKg": 3.14,
+     "windMinKts": 7,
+     "windMaxKts": 15,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "7 m²",
+     "areaM2": 7.0,
+     "spanCm": 348,
+     "chordCm": 252,
+     "pressurePsi": 6,
+     "weightKg": 3.01,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 335,
+     "chordCm": 243,
+     "pressurePsi": 6.5,
+     "weightKg": 2.72,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 322,
+     "chordCm": 233,
+     "pressurePsi": 6.5,
+     "weightKg": 2.58,
+     "windMinKts": 7,
+     "windMaxKts": 17,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 308,
+     "chordCm": 223,
+     "pressurePsi": 7,
+     "weightKg": 2.42,
+     "windMinKts": 8,
+     "windMaxKts": 18,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 294,
+     "chordCm": 213,
+     "pressurePsi": 7.5,
+     "weightKg": 2.27,
+     "windMinKts": 11,
+     "windMaxKts": 21,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 279,
+     "chordCm": 202,
+     "pressurePsi": 7.5,
+     "weightKg": 2.11,
+     "windMinKts": 14,
+     "windMaxKts": 24,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 263,
+     "chordCm": 190,
+     "pressurePsi": 8,
+     "weightKg": 1.96,
+     "windMinKts": 17,
+     "windMaxKts": 27,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 246,
+     "chordCm": 178,
+     "pressurePsi": 8.5,
+     "weightKg": 1.79,
+     "windMinKts": 20,
+     "windMaxKts": 30,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 228,
+     "chordCm": 165,
+     "pressurePsi": 9,
+     "weightKg": 1.66,
+     "windMinKts": 22,
+     "windMaxKts": 35,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 208,
+     "chordCm": 150,
+     "pressurePsi": 9.5,
+     "weightKg": 1.55,
+     "windMinKts": 26,
+     "windMaxKts": 38,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 186,
+     "chordCm": 134,
+     "pressurePsi": 9.5,
+     "weightKg": 1.5,
+     "windMinKts": 30,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.28
+  },
+  "wing-neutra-aramid-26nhnb": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-TEAM_SERIES-NEUTRA_ARAMID-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 317,
+     "chordCm": 218,
+     "pressurePsi": 7,
+     "weightKg": 2.18,
+     "windMinKts": 9,
+     "windMaxKts": 20,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 303,
+     "chordCm": 207,
+     "pressurePsi": 7.5,
+     "weightKg": 2.07,
+     "windMinKts": 12,
+     "windMaxKts": 23,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 287,
+     "chordCm": 197,
+     "pressurePsi": 7.5,
+     "weightKg": 1.95,
+     "windMinKts": 15,
+     "windMaxKts": 26,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 270,
+     "chordCm": 185,
+     "pressurePsi": 8,
+     "weightKg": 1.85,
+     "windMinKts": 18,
+     "windMaxKts": 29,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 253,
+     "chordCm": 173,
+     "pressurePsi": 8.5,
+     "weightKg": 1.74,
+     "windMinKts": 21,
+     "windMaxKts": 32,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 235,
+     "chordCm": 161,
+     "pressurePsi": 9,
+     "weightKg": 1.54,
+     "windMinKts": 23,
+     "windMaxKts": 37,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 214,
+     "chordCm": 147,
+     "pressurePsi": 9.5,
+     "weightKg": 1.41,
+     "windMinKts": 28,
+     "windMaxKts": 41,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 192,
+     "chordCm": 131,
+     "pressurePsi": 10,
+     "weightKg": 1.35,
+     "windMinKts": 33,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.48
+  },
+  "wing-droid-sp-aramid-cz-27": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-2027-PRO_TEAM_SERIES-DROID_SP_ARAMID_CZGONGWING.webp",
+   "sizes": [
+    {
+     "size": "7,5 m²",
+     "areaM2": 7.5,
+     "spanCm": 354,
+     "chordCm": 261,
+     "pressurePsi": 6,
+     "weightKg": 3.35,
+     "windMinKts": 7,
+     "windMaxKts": 15,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "7 m²",
+     "areaM2": 7.0,
+     "spanCm": 342,
+     "chordCm": 252,
+     "pressurePsi": 6,
+     "weightKg": 3.25,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 329,
+     "chordCm": 243,
+     "pressurePsi": 6.5,
+     "weightKg": 2.95,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 316,
+     "chordCm": 233,
+     "pressurePsi": 6.5,
+     "weightKg": 2.8,
+     "windMinKts": 7,
+     "windMaxKts": 17,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 303,
+     "chordCm": 223,
+     "pressurePsi": 7,
+     "weightKg": 2.72,
+     "windMinKts": 8,
+     "windMaxKts": 18,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 289,
+     "chordCm": 213,
+     "pressurePsi": 7.5,
+     "weightKg": 2.45,
+     "windMinKts": 11,
+     "windMaxKts": 21,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 274,
+     "chordCm": 202,
+     "pressurePsi": 7.5,
+     "weightKg": 2.32,
+     "windMinKts": 14,
+     "windMaxKts": 24,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 258,
+     "chordCm": 190,
+     "pressurePsi": 8,
+     "weightKg": 2.12,
+     "windMinKts": 17,
+     "windMaxKts": 27,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 242,
+     "chordCm": 178,
+     "pressurePsi": 8.5,
+     "weightKg": 1.98,
+     "windMinKts": 20,
+     "windMaxKts": 30,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 224,
+     "chordCm": 165,
+     "pressurePsi": 9,
+     "weightKg": 1.85,
+     "windMinKts": 22,
+     "windMaxKts": 35,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    }
+   ],
+   "aspectRatio": 2.33
+  },
+  "wing-droid-boom-27": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2026-PERF_SERIES-DROID_BOOM-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 332,
+     "chordCm": 243,
+     "pressurePsi": 6.5,
+     "weightKg": 3.1,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 319,
+     "chordCm": 233,
+     "pressurePsi": 6.5,
+     "weightKg": 2.95,
+     "windMinKts": 7,
+     "windMaxKts": 17,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 305,
+     "chordCm": 223,
+     "pressurePsi": 7,
+     "weightKg": 2.75,
+     "windMinKts": 8,
+     "windMaxKts": 18,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 291,
+     "chordCm": 213,
+     "pressurePsi": 7.5,
+     "weightKg": 2.6,
+     "windMinKts": 11,
+     "windMaxKts": 21,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 276,
+     "chordCm": 202,
+     "pressurePsi": 7.5,
+     "weightKg": 2.4,
+     "windMinKts": 14,
+     "windMaxKts": 24,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 261,
+     "chordCm": 190,
+     "pressurePsi": 8,
+     "weightKg": 2.25,
+     "windMinKts": 17,
+     "windMaxKts": 27,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 244,
+     "chordCm": 178,
+     "pressurePsi": 8.5,
+     "weightKg": 2.0,
+     "windMinKts": 20,
+     "windMaxKts": 30,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 226,
+     "chordCm": 165,
+     "pressurePsi": 9,
+     "weightKg": 1.8,
+     "windMinKts": 25,
+     "windMaxKts": 35,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    }
+   ],
+   "aspectRatio": 2.33
+  },
+  "wing-neutra-boom-27": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2026-PERF_SERIES-NEUTRA_BOOM-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 322,
+     "chordCm": 216,
+     "pressurePsi": 7,
+     "weightKg": 2.75,
+     "windMinKts": 9,
+     "windMaxKts": 19,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 307,
+     "chordCm": 206,
+     "pressurePsi": 7.5,
+     "weightKg": 2.6,
+     "windMinKts": 12,
+     "windMaxKts": 22,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 292,
+     "chordCm": 196,
+     "pressurePsi": 7.5,
+     "weightKg": 2.4,
+     "windMinKts": 15,
+     "windMaxKts": 25,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 275,
+     "chordCm": 185,
+     "pressurePsi": 8,
+     "weightKg": 2.25,
+     "windMinKts": 18,
+     "windMaxKts": 28,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 257,
+     "chordCm": 173,
+     "pressurePsi": 8.5,
+     "weightKg": 2.0,
+     "windMinKts": 21,
+     "windMaxKts": 31,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 238,
+     "chordCm": 160,
+     "pressurePsi": 9,
+     "weightKg": 1.9,
+     "windMinKts": 26,
+     "windMaxKts": 36,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 217,
+     "chordCm": 146,
+     "pressurePsi": 9.5,
+     "weightKg": 1.8,
+     "windMinKts": 30,
+     "windMaxKts": 40,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 195,
+     "chordCm": 130,
+     "pressurePsi": 10,
+     "weightKg": 1.65,
+     "windMinKts": 35,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.5
+  },
+  "wing-pulse-race-aramid-cz-26": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2026-PRO_TEAM_SERIES-PULSE_ARAMID_CZ-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "7,5 m²",
+     "areaM2": 7.5,
+     "spanCm": 405,
+     "chordCm": 221,
+     "pressurePsi": 8,
+     "weightKg": 4.53,
+     "windMinKts": 7,
+     "windMaxKts": 17
+    },
+    {
+     "size": "7 m²",
+     "areaM2": 7.0,
+     "spanCm": 390,
+     "chordCm": 214,
+     "pressurePsi": 8,
+     "weightKg": 4.23,
+     "windMinKts": 8,
+     "windMaxKts": 18
+    },
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 375,
+     "chordCm": 206,
+     "pressurePsi": 8.5,
+     "weightKg": 3.98,
+     "windMinKts": 9,
+     "windMaxKts": 19
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 360,
+     "chordCm": 199,
+     "pressurePsi": 8.5,
+     "weightKg": 3.77,
+     "windMinKts": 10,
+     "windMaxKts": 20
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 345,
+     "chordCm": 190,
+     "pressurePsi": 9,
+     "weightKg": 3.54,
+     "windMinKts": 11,
+     "windMaxKts": 21
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 330,
+     "chordCm": 182,
+     "pressurePsi": 9,
+     "weightKg": 3.41,
+     "windMinKts": 12,
+     "windMaxKts": 22
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 314,
+     "chordCm": 172,
+     "pressurePsi": 9.5,
+     "weightKg": 3.14,
+     "windMinKts": 14,
+     "windMaxKts": 25
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 300,
+     "chordCm": 162,
+     "pressurePsi": 10,
+     "weightKg": 2.88,
+     "windMinKts": 18,
+     "windMaxKts": 28
+    }
+   ],
+   "aspectRatio": 2.28
+  },
+  "wing-droid-aramid-27": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2026-TEAM_SERIES-DROID_ARAMID-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "7,5 m²",
+     "areaM2": 7.5,
+     "spanCm": 354,
+     "chordCm": 261,
+     "pressurePsi": 6,
+     "weightKg": 3.25,
+     "windMinKts": 7,
+     "windMaxKts": 15,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "7 m²",
+     "areaM2": 7.0,
+     "spanCm": 342,
+     "chordCm": 252,
+     "pressurePsi": 6,
+     "weightKg": 3.1,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 329,
+     "chordCm": 243,
+     "pressurePsi": 6.5,
+     "weightKg": 2.8,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 316,
+     "chordCm": 233,
+     "pressurePsi": 6.5,
+     "weightKg": 2.7,
+     "windMinKts": 7,
+     "windMaxKts": 17,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 303,
+     "chordCm": 223,
+     "pressurePsi": 7,
+     "weightKg": 2.5,
+     "windMinKts": 8,
+     "windMaxKts": 18,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 289,
+     "chordCm": 213,
+     "pressurePsi": 7.5,
+     "weightKg": 2.35,
+     "windMinKts": 11,
+     "windMaxKts": 21,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 274,
+     "chordCm": 202,
+     "pressurePsi": 7.5,
+     "weightKg": 2.25,
+     "windMinKts": 14,
+     "windMaxKts": 24,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 258,
+     "chordCm": 190,
+     "pressurePsi": 8,
+     "weightKg": 2.0,
+     "windMinKts": 17,
+     "windMaxKts": 27,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 242,
+     "chordCm": 178,
+     "pressurePsi": 8.5,
+     "weightKg": 1.9,
+     "windMinKts": 20,
+     "windMaxKts": 30,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 224,
+     "chordCm": 165,
+     "pressurePsi": 9,
+     "weightKg": 1.75,
+     "windMinKts": 22,
+     "windMaxKts": 35,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 205,
+     "chordCm": 150,
+     "pressurePsi": 9.5,
+     "weightKg": 1.65,
+     "windMinKts": 26,
+     "windMaxKts": 38,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 183,
+     "chordCm": 135,
+     "pressurePsi": 10,
+     "weightKg": 1.6,
+     "windMinKts": 30,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.33
+  },
+  "wing-neutra-aramid-27": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2026-TEAM_SERIES-NEUTRA_ARAMID-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 319,
+     "chordCm": 216,
+     "pressurePsi": 7,
+     "weightKg": 2.25,
+     "windMinKts": 9,
+     "windMaxKts": 20,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 304,
+     "chordCm": 206,
+     "pressurePsi": 7.5,
+     "weightKg": 2.15,
+     "windMinKts": 12,
+     "windMaxKts": 23,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 288,
+     "chordCm": 196,
+     "pressurePsi": 7.5,
+     "weightKg": 2.05,
+     "windMinKts": 15,
+     "windMaxKts": 26,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 272,
+     "chordCm": 185,
+     "pressurePsi": 8,
+     "weightKg": 1.95,
+     "windMinKts": 18,
+     "windMaxKts": 29,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 255,
+     "chordCm": 173,
+     "pressurePsi": 8.5,
+     "weightKg": 1.85,
+     "windMinKts": 21,
+     "windMaxKts": 32,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 236,
+     "chordCm": 160,
+     "pressurePsi": 9,
+     "weightKg": 1.65,
+     "windMinKts": 23,
+     "windMaxKts": 37,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 215,
+     "chordCm": 146,
+     "pressurePsi": 9.5,
+     "weightKg": 1.5,
+     "windMinKts": 28,
+     "windMaxKts": 41,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 192,
+     "chordCm": 130,
+     "pressurePsi": 10,
+     "weightKg": 1.45,
+     "windMinKts": 33,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.5
+  },
+  "wing-droid-aramid-x-27": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2027-PRO_TEAM_SERIES-DROID_ARAMID_X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "7,5 m²",
+     "areaM2": 7.5,
+     "spanCm": 354,
+     "chordCm": 261,
+     "pressurePsi": 6,
+     "weightKg": 3.35,
+     "windMinKts": 7,
+     "windMaxKts": 15,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "7 m²",
+     "areaM2": 7.0,
+     "spanCm": 342,
+     "chordCm": 252,
+     "pressurePsi": 6,
+     "weightKg": 3.2,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6,5 m²",
+     "areaM2": 6.5,
+     "spanCm": 329,
+     "chordCm": 243,
+     "pressurePsi": 6.5,
+     "weightKg": 2.9,
+     "windMinKts": 7,
+     "windMaxKts": 16,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "6 m²",
+     "areaM2": 6.0,
+     "spanCm": 316,
+     "chordCm": 233,
+     "pressurePsi": 6.5,
+     "weightKg": 2.8,
+     "windMinKts": 7,
+     "windMaxKts": 17,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 303,
+     "chordCm": 223,
+     "pressurePsi": 7,
+     "weightKg": 2.65,
+     "windMinKts": 8,
+     "windMaxKts": 18,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 289,
+     "chordCm": 213,
+     "pressurePsi": 7.5,
+     "weightKg": 2.5,
+     "windMinKts": 11,
+     "windMaxKts": 21,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 274,
+     "chordCm": 202,
+     "pressurePsi": 7.5,
+     "weightKg": 2.3,
+     "windMinKts": 14,
+     "windMaxKts": 24,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 258,
+     "chordCm": 190,
+     "pressurePsi": 8,
+     "weightKg": 2.15,
+     "windMinKts": 17,
+     "windMaxKts": 27,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 242,
+     "chordCm": 178,
+     "pressurePsi": 8.5,
+     "weightKg": 1.95,
+     "windMinKts": 20,
+     "windMaxKts": 30,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 224,
+     "chordCm": 165,
+     "pressurePsi": 9,
+     "weightKg": 1.8,
+     "windMinKts": 22,
+     "windMaxKts": 35,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 205,
+     "chordCm": 150,
+     "pressurePsi": 9.5,
+     "weightKg": 1.65,
+     "windMinKts": 26,
+     "windMaxKts": 38,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 183,
+     "chordCm": 135,
+     "pressurePsi": 10,
+     "weightKg": 1.6,
+     "windMinKts": 30,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.33
+  },
+  "wing-neutra-aramid-x-27": {
+   "category": "wing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2027-PRO_TEAM_SERIES-NEUTRA_ARAMID_X-GONGWING.webp",
+   "sizes": [
+    {
+     "size": "5,5 m²",
+     "areaM2": 5.5,
+     "spanCm": 319,
+     "chordCm": 216,
+     "pressurePsi": 7,
+     "weightKg": 2.43,
+     "windMinKts": 9,
+     "windMaxKts": 20,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "5 m²",
+     "areaM2": 5.0,
+     "spanCm": 304,
+     "chordCm": 206,
+     "pressurePsi": 7.5,
+     "weightKg": 2.3,
+     "windMinKts": 12,
+     "windMaxKts": 23,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4,5 m²",
+     "areaM2": 4.5,
+     "spanCm": 288,
+     "chordCm": 196,
+     "pressurePsi": 7.5,
+     "weightKg": 2.2,
+     "windMinKts": 15,
+     "windMaxKts": 26,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "4 m²",
+     "areaM2": 4.0,
+     "spanCm": 272,
+     "chordCm": 185,
+     "pressurePsi": 8,
+     "weightKg": 2.1,
+     "windMinKts": 18,
+     "windMaxKts": 29,
+     "boomSize": "L",
+     "boomLengthCm": 105.5
+    },
+    {
+     "size": "3,5 m²",
+     "areaM2": 3.5,
+     "spanCm": 255,
+     "chordCm": 173,
+     "pressurePsi": 8.5,
+     "weightKg": 1.9,
+     "windMinKts": 21,
+     "windMaxKts": 32,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "3 m²",
+     "areaM2": 3.0,
+     "spanCm": 236,
+     "chordCm": 160,
+     "pressurePsi": 9,
+     "weightKg": 1.75,
+     "windMinKts": 23,
+     "windMaxKts": 37,
+     "boomSize": "S",
+     "boomLengthCm": 93.5
+    },
+    {
+     "size": "2,5 m²",
+     "areaM2": 2.5,
+     "spanCm": 215,
+     "chordCm": 146,
+     "pressurePsi": 9.5,
+     "weightKg": 1.6,
+     "windMinKts": 28,
+     "windMaxKts": 41,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    },
+    {
+     "size": "2 m²",
+     "areaM2": 2.0,
+     "spanCm": 192,
+     "chordCm": 130,
+     "pressurePsi": 10,
+     "weightKg": 1.5,
+     "windMinKts": 33,
+     "boomSize": "XXS",
+     "boomLengthCm": 81.0
+    }
+   ],
+   "aspectRatio": 2.5
+  },
+  "foil-stab-ascent-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PERF_SERIES-V3-ATMO-FIBERGLASS-SIZE_CHART-ASCENT-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 35,
+     "fuselageLengthCm": 35.5,
+     "chordMm": 57.7,
+     "thicknessMm": 5.2,
+     "aspectRatio": 7.6,
+     "areaCm2": 162
+    },
+    {
+     "size": "M",
+     "spanCm": 39,
+     "fuselageLengthCm": 35.8,
+     "chordMm": 64.4,
+     "thicknessMm": 5.8,
+     "aspectRatio": 7.6,
+     "areaCm2": 202
+    },
+    {
+     "size": "L",
+     "spanCm": 43,
+     "fuselageLengthCm": 36.2,
+     "chordMm": 70.9,
+     "thicknessMm": 6.3,
+     "aspectRatio": 7.6,
+     "areaCm2": 245
+    },
+    {
+     "size": "XL",
+     "spanCm": 46,
+     "fuselageLengthCm": 36.5,
+     "chordMm": 76.0,
+     "thicknessMm": 6.8,
+     "aspectRatio": 7.6,
+     "areaCm2": 281
+    }
+   ]
+  },
+  "foil-stab-x-over-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PERF_SERIES-V3-ATMO-FIBERGLASS-SIZE_CHART-X-OVER-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "L",
+     "spanCm": 40,
+     "fuselageLengthCm": 40.6,
+     "chordMm": 69.8,
+     "thicknessMm": 6.6,
+     "aspectRatio": 7,
+     "areaCm2": 236
+    },
+    {
+     "size": "XL",
+     "spanCm": 44,
+     "fuselageLengthCm": 40.9,
+     "chordMm": 76.0,
+     "thicknessMm": 7.2,
+     "aspectRatio": 7,
+     "areaCm2": 280
+    }
+   ]
+  },
+  "foil-stab-curve-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PERF_SERIES-V3-ATMO-FIBERGLASS-SIZE_CHART-CURVE-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 37,
+     "fuselageLengthCm": 31.8,
+     "chordMm": 59.6,
+     "thicknessMm": 5.6,
+     "aspectRatio": 8.3,
+     "areaCm2": 165
+    },
+    {
+     "size": "M",
+     "spanCm": 39,
+     "fuselageLengthCm": 32.0,
+     "chordMm": 63.2,
+     "thicknessMm": 5.9,
+     "aspectRatio": 8.3,
+     "areaCm2": 185
+    },
+    {
+     "size": "L",
+     "spanCm": 42,
+     "fuselageLengthCm": 32.3,
+     "chordMm": 68.2,
+     "thicknessMm": 6.4,
+     "aspectRatio": 8.4,
+     "areaCm2": 215
+    },
+    {
+     "size": "XL",
+     "spanCm": 45,
+     "fuselageLengthCm": 32.5,
+     "chordMm": 72.8,
+     "thicknessMm": 6.8,
+     "aspectRatio": 8.4,
+     "areaCm2": 245
+    }
+   ]
+  },
+  "foil-stab-fluid-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PERF_SERIES-V3-ATMO-FIBERGLASS-SIZE_CHART-FLUID-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XS",
+     "spanCm": 31,
+     "fuselageLengthCm": 32.8,
+     "chordMm": 49.7,
+     "thicknessMm": 4.7,
+     "aspectRatio": 8.2,
+     "areaCm2": 115
+    },
+    {
+     "size": "S",
+     "spanCm": 33,
+     "fuselageLengthCm": 33.0,
+     "chordMm": 53.1,
+     "thicknessMm": 5.0,
+     "aspectRatio": 8.3,
+     "areaCm2": 131
+    },
+    {
+     "size": "M",
+     "spanCm": 35,
+     "fuselageLengthCm": 33.5,
+     "chordMm": 56.3,
+     "thicknessMm": 5.3,
+     "aspectRatio": 8.3,
+     "areaCm2": 147
+    },
+    {
+     "size": "L",
+     "spanCm": 37,
+     "fuselageLengthCm": 33.7,
+     "chordMm": 59.5,
+     "thicknessMm": 5.7,
+     "aspectRatio": 8.3,
+     "areaCm2": 163
+    },
+    {
+     "size": "XL",
+     "spanCm": 39,
+     "fuselageLengthCm": 33.9,
+     "chordMm": 62.7,
+     "thicknessMm": 6.0,
+     "aspectRatio": 8.3,
+     "areaCm2": 187
+    },
+    {
+     "size": "XXL",
+     "spanCm": 42,
+     "fuselageLengthCm": 34.1,
+     "chordMm": 67.5,
+     "thicknessMm": 6.4,
+     "aspectRatio": 8.3,
+     "areaCm2": 211
+    },
+    {
+     "size": "3XL",
+     "spanCm": 44,
+     "fuselageLengthCm": 34.3,
+     "chordMm": 71.7,
+     "thicknessMm": 6.8,
+     "aspectRatio": 8.3,
+     "areaCm2": 236
+    }
+   ]
   }
+ },
+ "products": {
+  "gong-wing-foil-board-mint-fsp-2x-27": "mint-fsp-2x",
+  "gong-wing-foil-board-lemon-fsp-2x-27": "lemon-fsp-2x",
+  "gong-wing-foil-board-lance-fsp-2x-27": "lance-fsp-2x",
+  "gong-wing-foil-board-zuma-fsp-2x-27": "zuma-fsp-2x",
+  "gong-wing-foil-board-cruzader-diamond-fsp-pro-27": "cruzader-diamond-fsp-pro",
+  "gong-wing-foil-board-stunt-fsp-pro-27": "stunt-fsp-pro",
+  "gong-foil-front-wing-x-over-atmo": "x-over-v3",
+  "gong-foil-front-wing-ascent-atmo": "ascent-v3",
+  "gong-foil-front-wing-curve-atmo": "curve-v3",
+  "gong-foil-front-wing-fluid-atmo": "fluid-v3",
+  "gong-foil-front-wing-veloce-atmo": "veloce-v3",
+  "gong-foil-front-wing-sirus-atmo": "sirus-v3",
+  "gong-wing-foil-board-cruzader-diamond-hollow-carbon-27": "wing-foil-board-cruzader-diamond-hollow-carbon-27",
+  "gong-wing-foil-board-cruzader-point-hollow-carbon-27": "wing-foil-board-cruzader-point-hollow-carbon-27",
+  "gong-wing-foil-board-cruzader-point-lw-hollow-carbon-27": "wing-foil-board-cruzader-point-lw-hollow-carbon-27",
+  "gong-wing-foil-board-cruzader-squash-hollow-carbon-27": "wing-foil-board-cruzader-squash-hollow-carbon-27",
+  "gong-wing-foil-board-cruzader-squash-2pk-hollow-carbon-27": "wing-foil-board-cruzader-squash-2pk-hollow-carbon-27",
+  "gong-wing-foil-board-hyperloop-hollow-carbon-27": "wing-foil-board-hyperloop-hollow-carbon-27",
+  "gong-wing-foil-board-lemon-hollow-carbon-27": "wing-foil-board-lemon-hollow-carbon-27",
+  "gong-wing-foil-board-lethal-hollow-carbon-27": "wing-foil-board-lethal-hollow-carbon-27",
+  "gong-wing-foil-board-mint-hollow-carbon-27": "wing-foil-board-mint-hollow-carbon-27",
+  "gong-wing-foil-board-racer-hollow-carbon-27": "wing-foil-board-racer-hollow-carbon-27",
+  "gong-wing-foil-board-stunt-hollow-carbon-27": "wing-foil-board-stunt-hollow-carbon-27",
+  "gong-wing-foil-board-cruzader-diamond-hollow-hybrid-27": "wing-foil-board-cruzader-diamond-hollow-hybrid-27",
+  "gong-wing-foil-board-cruzader-point-hollow-hybrid-27": "wing-foil-board-cruzader-point-hollow-hybrid-27",
+  "gong-wing-foil-board-cruzader-point-lw-hollow-hybrid-27": "wing-foil-board-cruzader-point-lw-hollow-hybrid-27",
+  "gong-wing-foil-board-cruzader-squash-hollow-hybrid-27": "wing-foil-board-cruzader-squash-hollow-hybrid-27",
+  "gong-wing-foil-board-cruzader-squash-2pk-hollow-hybrid-27": "wing-foil-board-cruzader-squash-2pk-hollow-hybrid-27",
+  "gong-wing-foil-board-lance-hollow-hybrid-27": "wing-foil-board-lance-hollow-hybrid-27",
+  "gong-wing-foil-board-lemon-hollow-hybrid-27": "wing-foil-board-lemon-hollow-hybrid-27",
+  "gong-wing-foil-board-mint-hollow-hybrid-27": "wing-foil-board-mint-hollow-hybrid-27",
+  "gong-wing-foil-board-stunt-hollow-hybrid-27": "wing-foil-board-stunt-hollow-hybrid-27",
+  "gong-wingfoil-inflatable-hipe-perf-26": "wingfoil-inflatable-hipe-perf-26",
+  "gong-wing-foil-board-inflatable-hipe-perf-5": "wingfoil-inflatable-hipe-perf-26",
+  "gong-wingfoil-inflatable-hipe-cruzader-26": "wingfoil-inflatable-hipe-cruzader-26",
+  "gong-wingfoil-inflatable-hipe-diamond-26": "wingfoil-inflatable-hipe-diamond-26",
+  "gong-wingfoil-inflatable-hipe-first-26": "wingfoil-inflatable-hipe-first-26",
+  "gong-hipe-board-hipe-freefly-26": "hipe-board-hipe-freefly-26",
+  "gong-hipe-board-hipe-learn-26": "hipe-board-hipe-learn-26",
+  "gong-hipe-board-hipe-like-26": "hipe-board-hipe-like-26",
+  "gong-wing-foil-board-lance-wood-2x-27": "wing-foil-board-lance-wood-2x-27",
+  "gong-wing-foil-board-zuma-wood-2x-27": "wing-foil-board-zuma-wood-2x-27",
+  "gong-wing-foil-board-cruzader-squash-fsp-pro-27": "wing-foil-board-cruzader-squash-fsp-pro-27",
+  "gong-wing-foil-board-cruzader-squash-2pk-fsp-pro-27": "wing-foil-board-cruzader-squash-2pk-fsp-pro-27",
+  "gong-wing-foil-board-hyperloop-fsp-pro-27": "wing-foil-board-hyperloop-fsp-pro-27",
+  "gong-wing-foil-board-hyperloop-nano-fsp-pro-27": "wing-foil-board-hyperloop-nano-fsp-pro-27",
+  "gong-wing-foil-board-lemon-fsp-pro-27": "wing-foil-board-lemon-fsp-pro-27",
+  "gong-wing-foil-board-lethal-fsp-pro-27": "wing-foil-board-lethal-fsp-pro-27",
+  "gong-wing-foil-board-mint-fsp-pro-27": "wing-foil-board-mint-fsp-pro-27",
+  "gong-wing-foil-board-racer-fsp-pro-27": "wing-foil-board-racer-fsp-pro-27",
+  "gong-foil-front-wing-curve-h-fg": "curve-v3",
+  "gong-foil-front-wing-curve-h": "curve-v3",
+  "gong-foil-front-wing-fluid-h-fg": "fluid-v3",
+  "gong-foil-front-wing-fluid-h": "fluid-v3",
+  "gong-foil-front-wing-veloce-h": "foil-front-wing-veloce-h",
+  "gong-foil-front-wing-veloce-h-dw": "foil-front-wing-veloce-h-dw",
+  "gong-foil-front-wing-ascent": "ascent-v3",
+  "gong-foil-front-wing-x-over": "x-over-v3",
+  "gong-front-wing-hyper-trail-atmo": "front-wing-hyper-trail-atmo",
+  "gong-foil-front-wing-veloce-dw-atmo": "foil-front-wing-veloce-dw-atmo",
+  "gong-foil-front-wing-veloce-ff-atmo-carbon": "foil-front-wing-veloce-ff-atmo-carbon",
+  "gong-foil-front-wing-veloce-lw-atmo": "foil-front-wing-veloce-lw-atmo",
+  "gong-front-wing-veloce-xtr-atmo": "front-wing-veloce-xtr-atmo",
+  "gong-foil-front-wing-ypra-freestyle-atmo-micro": "foil-front-wing-ypra-freestyle-atmo-micro",
+  "gong-foil-front-wing-ypra-race-atmo": "foil-front-wing-ypra-race-atmo",
+  "gong-foil-front-wing-ypra-slalom-atmo": "foil-front-wing-ypra-slalom-atmo",
+  "gong-front-wing-ypra-surf-carve-atmo": "front-wing-ypra-surf-carve-atmo",
+  "gong-front-wing-ypra-surf-fast-atmo": "front-wing-ypra-surf-fast-atmo",
+  "gong-foil-front-wing-ypra-surf-freestyle-atmo": "foil-front-wing-ypra-surf-freestyle-atmo",
+  "gong-foil-front-wing-curve-atmo-carbon": "foil-front-wing-curve-atmo-carbon",
+  "gong-foil-front-wing-fluid-atmo-carbon": "foil-front-wing-fluid-atmo-carbon",
+  "gong-foil-front-wing-sirus-atmo-carbon": "foil-front-wing-sirus-atmo-carbon",
+  "gong-foil-stab-ypra-freestyle": "foil-stab-ypra-freestyle",
+  "gong-foil-stab-ypra-surf-freestyle": "foil-stab-ypra-surf-freestyle",
+  "gong-tail-wing-curve-h-v3": "tail-wing-curve-h-v3",
+  "gong-foil-stab-curve-h": "foil-stab-curve-h",
+  "gong-tail-wing-fluid-h-v3": "tail-wing-fluid-h-v3",
+  "gong-foil-stab-fluid-h-fg": "foil-stab-fluid-h-fg",
+  "gong-foil-stab-fluid-h": "foil-stab-fluid-h-fg",
+  "gong-tail-wing-veloce-h-v3": "tail-wing-veloce-h-v3",
+  "gong-foil-stab-veloce-h": "foil-stab-veloce-h",
+  "gong-foil-stab-ypra-race": "foil-stab-ypra-race",
+  "gong-foil-stab-ypra-slalom": "foil-stab-ypra-slalom",
+  "gong-foil-stab-ypra-freestyle-atmo": "foil-stab-ypra-freestyle-atmo",
+  "gong-foil-stab-ypra-race-atmo": "foil-stab-ypra-race-atmo",
+  "gong-foil-stab-ypra-slalom-atmo": "foil-stab-ypra-slalom-atmo",
+  "gong-foil-stab-ypra-surf-freestyle-atmo": "foil-stab-ypra-surf-freestyle-atmo",
+  "gong-foil-stab-curve-atmo-carbon": "foil-stab-curve-atmo-carbon",
+  "gong-foil-stab-fluid-atmo-carbon": "foil-stab-fluid-atmo-carbon",
+  "gong-foil-stab-veloce-ff-atmo-carbon": "foil-stab-veloce-ff-atmo-carbon",
+  "gong-tail-wing-hyper-trail-atmo": "tail-wing-hyper-trail-atmo",
+  "gong-tail-wing-veloce-dw-atmo": "tail-wing-veloce-dw-atmo",
+  "gong-tail-wing-veloce-xtr-atmo": "tail-wing-veloce-xtr-atmo",
+  "gong-tail-wing-ypra-surf-carve-atmo": "tail-wing-ypra-surf-carve-atmo",
+  "gong-wing-droid-boom-26nhnb": "wing-droid-boom-26nhnb",
+  "gong-wing-droid-26nhnb": "wing-droid-26nhnb",
+  "gong-wing-neutra-boom-26nhnb": "wing-neutra-boom-26nhnb",
+  "gong-wing-neutra-26nhnb": "wing-neutra-26nhnb",
+  "gong-wing-plus-26": "wing-plus-26",
+  "gong-wing-droid-aramid-x-26nhnb": "wing-droid-aramid-x-26nhnb",
+  "gong-wing-droid-sp-aramid-cz-26nhnb": "wing-droid-sp-aramid-cz-26nhnb",
+  "gong-wing-neutra-aramid-x-26nhnb": "wing-neutra-aramid-x-26nhnb",
+  "gong-wing-droid-aramid-26nhnb": "wing-droid-aramid-26nhnb",
+  "gong-wing-neutra-aramid-26nhnb": "wing-neutra-aramid-26nhnb",
+  "gong-wing-droid-sp-aramid-cz-27": "wing-droid-sp-aramid-cz-27",
+  "gong-wing-droid-27": "wing-droid-26nhnb",
+  "gong-wing-droid-boom-27": "wing-droid-boom-27",
+  "gong-wing-neutra-27": "wing-neutra-26nhnb",
+  "gong-wing-neutra-boom-27": "wing-neutra-boom-27",
+  "gong-wing-plus-27": "wing-plus-26",
+  "gong-wing-pulse-race-aramid-cz-26": "wing-pulse-race-aramid-cz-26",
+  "gong-wing-droid-aramid-27": "wing-droid-aramid-27",
+  "gong-wing-neutra-aramid-27": "wing-neutra-aramid-27",
+  "gong-wing-droid-aramid-x-27": "wing-droid-aramid-x-27",
+  "gong-wing-neutra-aramid-x-27": "wing-neutra-aramid-x-27",
+  "gong-foil-stab-ascent-atmo": "foil-stab-ascent-atmo",
+  "gong-foil-stab-ascent": "foil-stab-ascent-atmo",
+  "gong-foil-stab-x-over": "foil-stab-x-over-atmo",
+  "gong-foil-stab-x-over-atmo": "foil-stab-x-over-atmo",
+  "gong-foil-stab-curve-atmo": "foil-stab-curve-atmo",
+  "gong-foil-stab-fluid-atmo": "foil-stab-fluid-atmo"
+ }
 }

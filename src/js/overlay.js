@@ -1,6 +1,7 @@
 // Rendu SVG de la superposition à l'échelle (1 unité SVG = 1 cm).
 
 import { boardPath, boardSidePath, boardSideProfile, frontWingPath } from './shapes.js';
+import { t } from './i18n.js';
 import { formatNumber } from './units.js';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -19,7 +20,7 @@ function geometry(entry) {
   if (model.category === 'board') {
     return { path: boardPath(s, model.outline, model.photoShape), width: s.widthCm, height: s.lengthCm };
   }
-  // Aile avant : hauteur = corde + flèche (approx.)
+  // Aile avant ou stab : hauteur = corde + flèche (approx.)
   const c0 = s.chordMm / 10;
   return { path: frontWingPath(s), width: s.spanCm, height: c0 * 1.45 };
 }
@@ -46,21 +47,24 @@ export function renderOverlay(svg, entries, { mode = 'overlay', align = 'tail' }
   svg.style.aspectRatio = `${vbW} / ${vbH}`;
   svg.style.setProperty('--font', `${Math.max(vbW, vbH) * 0.016}px`);
 
-  // Grille de 10 cm
+  // Grille : 10 cm (boards, ailes avant) ou 2 cm (stabs, plus petits)
+  const step = maxW < 60 ? 2 : 10;
+  const major = step * 5;
+  svg.dataset.grid = String(step);
   const grid = el('g', { class: 'grid', 'aria-hidden': 'true' });
   const x0 = -totalW / 2 - pad, x1 = totalW / 2 + pad;
-  for (let y = 0; y <= maxH + 0.1; y += 10) {
-    grid.append(el('line', { x1: x0, x2: x1, y1: y, y2: y, class: y % 50 === 0 ? 'major' : '' }));
+  for (let y = 0; y <= maxH + 0.1; y += step) {
+    grid.append(el('line', { x1: x0, x2: x1, y1: y, y2: y, class: y % major === 0 ? 'major' : '' }));
   }
-  for (let x = 0; x <= x1; x += 10) {
+  for (let x = 0; x <= x1; x += step) {
     for (const sx of x === 0 ? [0] : [x, -x]) {
-      grid.append(el('line', { x1: sx, x2: sx, y1: -pad, y2: maxH + pad, class: x % 50 === 0 ? 'major' : '' }));
+      grid.append(el('line', { x1: sx, x2: sx, y1: -pad, y2: maxH + pad, class: x % major === 0 ? 'major' : '' }));
     }
   }
   svg.append(grid);
 
-  // Échelle : barre de 50 cm (ou 20 cm pour les foils)
-  const scaleLen = maxH > 120 ? 50 : 20;
+  // Échelle : barre de 50 cm (boards), 20 cm (ailes avant) ou 10 cm (stabs)
+  const scaleLen = maxH > 120 ? 50 : maxW > 60 ? 20 : 10;
   const scale = el('g', { class: 'scale' });
   const sy = maxH + pad * 0.55;
   scale.append(el('line', { x1: x0 + pad * 0.3, x2: x0 + pad * 0.3 + scaleLen, y1: sy, y2: sy }));
@@ -96,8 +100,8 @@ export function describeOverlay(entries) {
     .map(({ model, size }) => {
       const s = size.spec;
       return model.category === 'board'
-        ? `${model.title} ${size.size} : ${formatNumber(s.lengthCm, 'cm')} × ${formatNumber(s.widthCm, 'cm')}`
-        : `${model.title} ${size.size} : envergure ${formatNumber(s.spanCm, 'cm')}, corde ${formatNumber(s.chordMm, 'mm')}`;
+        ? `${model.title} ${size.size}: ${formatNumber(s.lengthCm, 'cm')} × ${formatNumber(s.widthCm, 'cm')}`
+        : `${model.title} ${size.size}: ${t('span')} ${formatNumber(s.spanCm, 'cm')}, ${t('chord')} ${formatNumber(s.chordMm, 'mm')}`;
     })
     .join(' ; ');
 }
@@ -133,7 +137,7 @@ export function renderProfile(svg, entries, { align = 'tail', exaggeration = 1 }
   const scale = el('g', { class: 'scale' });
   scale.append(el('line', { x1: 0, x2: 20, y1: pad * 0.6, y2: pad * 0.6 }));
   scale.append(el('text', { x: 22, y: pad * 0.6, 'dominant-baseline': 'middle' },
-    exaggeration === 1 ? '20 cm' : `20 cm · hauteurs ×${exaggeration}`));
+    exaggeration === 1 ? '20 cm' : `20 cm · ${t('heightsX', { n: exaggeration })}`));
   svg.append(scale);
 
   for (const { entry, side } of sides) {

@@ -34,7 +34,7 @@ test('la silhouette des boards respecte les cotes publiées', () => {
 
 test("la superellipse du foil retrouve la surface publiée", () => {
   for (const [key, model] of Object.entries(specs.models)) {
-    if (model.category !== 'frontwing') continue;
+    if (model.category !== 'frontwing' && model.category !== 'stab') continue;
     for (const s of model.sizes) {
       const c0 = s.chordMm / 10;
       const p = solvePlanformExponent(s.spanCm, c0, s.areaCm2);
@@ -46,7 +46,7 @@ test("la superellipse du foil retrouve la surface publiée", () => {
         area += c0 * Math.pow(1 - Math.pow(Math.abs(t), p), 1 / p) * (s.spanCm / n);
       }
       const target = Math.min(Math.max(s.areaCm2, 0), s.spanCm * c0);
-      const tolerance = p === 1 ? 0.25 : 0.02; // p borné à 1 : surface publiée < losange
+      const tolerance = 0.02;
       assert.ok(Math.abs(area - target) / target < tolerance, `${key} ${s.size}: ${area.toFixed(0)} vs ${target}`);
       assert.match(frontWingPath(s), /^M[\d.,\- L]+Z$/);
     }

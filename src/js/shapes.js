@@ -170,7 +170,7 @@ export function solvePlanformExponent(spanCm, rootChordCm, areaCm2) {
     }
     return s / n;
   };
-  let lo = 1, hi = 30;
+  let lo = 0.6, hi = 30; // p < 1 : bords concaves (ailes très effilées)
   if (target <= fraction(lo)) return lo;
   if (target >= fraction(hi)) return hi;
   for (let k = 0; k < 50; k++) {

@@ -1,42 +1,66 @@
-// Chargement et fusion des données : catalogue (prix, tailles, liens) + specs (dimensions).
+// Chargement et fusion des données : catalogue (prix, tailles, liens, niveau) + specs (dimensions).
 
 import { feetInchesToCm, parseNumericSize, sizeSortKey } from './units.js';
 
+/** Catégories affichées. `overlay` : silhouette à l'échelle disponible. */
 export const CATEGORIES = {
-  board: { label: 'Boards', overlay: true },
-  frontwing: { label: 'Foils (ailes avant)', overlay: true },
-  wing: { label: 'Wings', overlay: false },
+  board: { overlay: true },
+  frontwing: { overlay: true },
+  stab: { overlay: true },
+  wing: { overlay: false },
 };
 
-/** Lignes du tableau comparatif, par catégorie. */
+/** Ordre d'affichage des niveaux dans la liste. */
+export const LEVELS = ['beginner', 'advanced', 'pro'];
+
+/** Lignes du tableau comparatif, par catégorie (libellés : clé `f.<key>` dans i18n.js). */
 export const SPEC_FIELDS = {
   board: [
-    { key: 'volumeL', label: 'Volume', unit: 'L' },
-    { key: 'lengthCm', label: 'Longueur', unit: 'cm' },
-    { key: 'widthCm', label: 'Largeur', unit: 'cm' },
-    { key: 'thicknessCm', label: 'Épaisseur', unit: 'cm' },
-    { key: 'ofoNoseCm', label: 'Largeur à 1 pied du nez', unit: 'cm' },
-    { key: 'ofoTailCm', label: "Largeur à 1 pied de l'arrière", unit: 'cm' },
-    { key: 'rockerCm', label: 'Rocker total', unit: 'cm' },
-    { key: 'weightKg', label: 'Poids (sans pad)', unit: 'kg' },
-    { key: 'litersPerMeter', label: 'Volume par mètre de longueur', unit: 'L/m', derived: true },
+    { key: 'volumeL', unit: 'L' },
+    { key: 'lengthCm', unit: 'cm' },
+    { key: 'widthCm', unit: 'cm' },
+    { key: 'thicknessCm', unit: 'cm' },
+    { key: 'ofoNoseCm', unit: 'cm' },
+    { key: 'ofoTailCm', unit: 'cm' },
+    { key: 'rockerCm', unit: 'cm' },
+    { key: 'weightKg', unit: 'kg' },
+    { key: 'litersPerMeter', unit: 'L/m', derived: true },
   ],
   frontwing: [
-    { key: 'areaCm2', label: 'Surface', unit: 'cm²' },
-    { key: 'spanCm', label: 'Envergure', unit: 'cm' },
-    { key: 'chordMm', label: 'Corde', unit: 'mm' },
-    { key: 'thicknessMm', label: 'Épaisseur', unit: 'mm' },
-    { key: 'aspectRatio', label: 'Allongement (AR)', unit: '' },
-    { key: 'meanChordMm', label: 'Corde moyenne (S/b)', unit: 'mm', derived: true },
+    { key: 'areaCm2', unit: 'cm²' },
+    { key: 'spanCm', unit: 'cm' },
+    { key: 'chordMm', unit: 'mm' },
+    { key: 'thicknessMm', unit: 'mm' },
+    { key: 'aspectRatio', unit: '' },
+    { key: 'meanChordMm', unit: 'mm', derived: true },
   ],
-  wing: [{ key: 'areaM2', label: 'Surface', unit: 'm²' }],
+  stab: [
+    { key: 'areaCm2', unit: 'cm²' },
+    { key: 'spanCm', unit: 'cm' },
+    { key: 'chordMm', unit: 'mm' },
+    { key: 'thicknessMm', unit: 'mm' },
+    { key: 'aspectRatio', unit: '' },
+    { key: 'fuselageLengthCm', unit: 'cm' },
+  ],
+  wing: [
+    { key: 'areaM2', unit: 'm²' },
+    { key: 'weightKg', unit: 'kg' },
+    { key: 'spanCm', unit: 'cm' },
+    { key: 'boomLengthCm', unit: 'cm', extra: 'boomSize' },
+    { key: 'wind', unit: 'kts', range: ['windMinKts', 'windMaxKts'] },
+    { key: 'chordCm', unit: 'cm' },
+    { key: 'aspectRatio', unit: '' },
+    { key: 'pressurePsi', unit: 'psi' },
+    { key: 'weightPerM2', unit: 'kg/m²', derived: true },
+    { key: 'pricePerM2', unit: 'price/m²', derived: true },
+  ],
 };
 
 async function getJson(url, { optional = false } = {}) {
   const res = await fetch(url);
   if (!res.ok) {
     if (optional && res.status === 404) return null;
-    throw new Error(`Chargement impossible : ${url} (${res.status})`);
+    throw new Error(`${url} (${res.status})`);
   }
   return res.json();
 }
@@ -45,13 +69,15 @@ async function getJson(url, { optional = false } = {}) {
 export function enrichSpec(category, size, spec = {}) {
   const s = { ...spec };
   if (category === 'board') {
-    s.lengthCm ??= feetInchesToCm(size) !== null ? Math.round(feetInchesToCm(size) * 10) / 10 : undefined;
+    const cm = feetInchesToCm(size);
+    s.lengthCm ??= cm !== null ? Math.round(cm * 10) / 10 : undefined;
     if (s.volumeL && s.lengthCm) s.litersPerMeter = Math.round((s.volumeL / s.lengthCm) * 1000) / 10;
-  } else if (category === 'frontwing') {
+  } else if (category === 'frontwing' || category === 'stab') {
     if (/cm²/i.test(size)) s.areaCm2 ??= parseNumericSize(size);
     if (s.areaCm2 && s.spanCm) s.meanChordMm = Math.round((s.areaCm2 / s.spanCm) * 10);
   } else if (category === 'wing') {
     s.areaM2 ??= parseNumericSize(size);
+    if (s.weightKg && s.areaM2) s.weightPerM2 = Math.round((s.weightKg / s.areaM2) * 100) / 100;
   }
   return s;
 }
@@ -65,38 +91,51 @@ export function canDrawSide(model, size) {
 export function canDraw(item) {
   const s = item.spec;
   if (item.category === 'board') return Boolean(s.lengthCm && s.widthCm);
-  if (item.category === 'frontwing') return Boolean(s.spanCm && s.chordMm);
+  if (item.category === 'frontwing' || item.category === 'stab') return Boolean(s.spanCm && s.chordMm);
   return false;
 }
 
 /** Retire le préfixe de catégorie redondant : "Wing Foil Board Mint FSP 2X" -> "Mint FSP 2X". */
 export function shortTitle(title) {
-  return title.replace(/^(wing\s*foil\s+board|foil\s+front\s+wing|wing)\s+/i, '').trim() || title;
+  return title.replace(/^(wing\s*foil\s+board|foil\s+front\s+wing|foil\s+stab|foil\s+tail\s+wing|wing)\s+/i, '').trim() || title;
+}
+
+/** Vignette : demande au CDN une image réduite quand il le permet (Shopify : ?width=). */
+export function thumbnailUrl(url, width = 240) {
+  if (!url) return null;
+  return /cdn\.shopify\.com|\/cdn\/shop\//.test(url) ? `${url}${url.includes('?') ? '&' : '?'}width=${width}` : url;
+}
+
+/** Année du modèle quand le handle la contient (Gong : "...-27" = 2027, "...-26nhnb" = 2026). */
+export function modelYear(handle) {
+  const m = /-(2\d)(?:[a-z]{0,6})?$/.exec(handle ?? '');
+  return m ? 2000 + Number(m[1]) : null;
+}
+
+/** Prix d'une taille dans la devise demandée (null si la marque ne vend pas dans cette devise). */
+export function priceIn(size, currency) {
+  return size.prices?.[currency] ?? null;
 }
 
 /** Construit la liste des modèles (produit + ses tailles enrichies) pour une marque. */
 export function mergeBrand(brand, catalog, specs, outlines = null) {
   const models = specs?.models ?? {};
-  const photos = outlines?.boards ?? {};
   const productMap = specs?.products ?? {};
+  const photos = outlines?.boards ?? {};
   return catalog.products.map((product) => {
     const modelKey = productMap[product.handle];
     const model = modelKey ? models[modelKey] : null;
     const specBySize = new Map((model?.sizes ?? []).map((s) => [s.size, s]));
-    const sizeLabels = new Set(product.sizes.map((s) => s.size));
-    // Tailles présentes uniquement dans le tableau officiel (ex. hors stock en ligne).
-    for (const label of specBySize.keys()) sizeLabels.add(label);
-    const priceBySize = new Map(product.sizes.map((s) => [s.size, s]));
-
-    const sizes = [...sizeLabels]
+    const catalogBySize = new Map(product.sizes.map((s) => [s.size, s]));
+    // Seules les tailles vendues sont proposées ; les specs complètent.
+    const sizes = [...catalogBySize.keys()]
       .sort((a, b) => sizeSortKey(a) - sizeSortKey(b))
-      .map((size) => ({
-        id: `${brand.id}:${product.handle}:${size}`,
-        size,
-        price: priceBySize.get(size)?.price ?? null,
-        available: priceBySize.get(size)?.available ?? false,
-        spec: enrichSpec(product.category, size, specBySize.get(size)),
-      }));
+      .map((size) => {
+        const c = catalogBySize.get(size);
+        const prices = c.prices ?? (c.price != null ? { [catalog.currency ?? brand.currency ?? 'CHF']: c.price } : {});
+        const spec = enrichSpec(product.category, size, specBySize.get(size));
+        return { id: `${brand.id}:${product.handle}:${size}`, size, prices, available: Boolean(c.available), spec };
+      });
 
     return {
       key: `${brand.id}:${product.handle}`,
@@ -107,16 +146,29 @@ export function mergeBrand(brand, catalog, specs, outlines = null) {
       fullTitle: product.title,
       category: product.category,
       construction: product.construction,
+      level: product.level ?? null,
+      series: product.series ?? null,
+      year: modelYear(product.handle),
+      programs: product.programs ?? [],
       url: product.url,
+      urls: product.urls ?? {},
       image: product.image,
-      currency: product.currency ?? brand.currency,
       outline: model?.outline ?? {},
       photoShape: photos[product.handle] ?? null,
       sourceChart: model?.sourceChart ?? null,
+      aspectRatio: model?.aspectRatio ?? null,
       hasSpecs: Boolean(model),
       sizes,
     };
   });
+}
+
+/** Champs de spec portés par le modèle (ex. allongement d'une wing) recopiés sur chaque taille. */
+function spreadModelFields(models) {
+  for (const m of models) {
+    if (m.aspectRatio != null) for (const s of m.sizes) s.spec.aspectRatio ??= m.aspectRatio;
+  }
+  return models;
 }
 
 /** Charge toutes les marques déclarées dans data/brands.json. */
@@ -133,7 +185,8 @@ export async function loadAll(base = 'data') {
       return mergeBrand(brand, catalog, specs, outlines);
     }),
   );
-  return { brands, models: perBrand.flat() };
+  const currencies = [...new Set(brands.flatMap((b) => (b.markets ?? [{ currency: b.currency }]).map((m) => m.currency)))];
+  return { brands, currencies, models: spreadModelFields(perBrand.flat()) };
 }
 
 /** Index id de taille -> { model, size } pour retrouver une sélection. */

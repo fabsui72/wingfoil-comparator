@@ -1,15 +1,18 @@
 # Wingfoil Comparator
 
-Outil web pour comparer des **boards**, des **foils (ailes avant)** et des **wings** de wingfoil :
+Outil web pour comparer des **boards**, des **foils (ailes avant)**, des **stabs** et des **wings** de wingfoil :
 
-- **superposition à l'échelle** des formes (vue de dessus, grille de 10 cm), en mode superposé ou côte à côte, avec alignement sur l'arrière / le centre / le nez pour les boards ;
+- **superposition à l'échelle** des formes (vue de dessus), en mode superposé ou côte à côte, avec alignement sur l'arrière / le centre / le nez pour les boards ;
 - **profil des boards** (épaisseur, rocker, creux du pont), avec exagération des hauteurs ×1, ×2 ou ×3 ;
 - **tableau de specs** côte à côte, avec l'écart en % par rapport à la première taille choisie (la référence) ;
-- jusqu'à 6 éléments comparés ; la comparaison est stockée dans l'URL, ce qui permet de la partager.
+- **wings** : poids, envergure, longueur de bôme, plage de vent conseillée, prix, prix et poids par m² ;
+- modèles **rangés par niveau** (débutant, avancé, pro), filtrables par programme (freeride, vague, petit temps…), avec **photo** ;
+- prix en **CHF, € ou $** (prix réels de chaque boutique, pas une conversion) ; interface en **français ou anglais** ;
+- jusqu'à 6 éléments comparés ; la comparaison (devise et langue comprises) est stockée dans l'URL, ce qui permet de la partager.
 
 **Site en ligne : https://fabsui72.github.io/wingfoil-comparator/**
 
-Première marque intégrée : [Gong](https://www.gong-galaxy.com/fr-ch/collections/wing-foil) (prix en CHF). L'architecture est prévue pour en ajouter d'autres.
+Première marque intégrée : [Gong](https://www.gong-galaxy.com/fr-ch/collections/wing-foil). L'architecture est prévue pour en ajouter d'autres (voir [docs/ajouter-une-marque.md](docs/ajouter-une-marque.md)) ; le filtre par marque n'apparaît qu'à partir de deux marques.
 
 ## Lancer le site
 
@@ -57,6 +60,7 @@ wingfoil-comparator/
 │       ├── shapes.js        # géométrie des silhouettes (fonctions pures)
 │       ├── overlay.js       # rendu SVG à l'échelle (1 unité = 1 cm)
 │       ├── table.js         # tableau comparatif
+│       ├── i18n.js          # traductions FR / EN
 │       └── units.js         # conversions pieds/cm, formatage (fonctions pures)
 ├── data/
 │   ├── brands.json          # configuration des marques (source, catégories…)
@@ -67,6 +71,7 @@ wingfoil-comparator/
 ├── scripts/
 │   ├── fetch_catalog.py           # récupère le catalogue d'une marque (Python stdlib)
 │   └── extract_board_outlines.py  # extrait les formes des photos (Pillow + numpy)
+├── docs/ajouter-une-marque.md
 └── tests/
 ```
 
@@ -74,7 +79,8 @@ wingfoil-comparator/
 
 | Donnée | Source | Fichier |
 |---|---|---|
-| Modèles, tailles, prix, disponibilité, liens | API publique Shopify (`/collections/<x>/products.json`) | `catalog.json` (généré) |
+| Modèles, tailles, prix (CHF, €, $), disponibilité, liens, photo | API publique Shopify (`/collections/<x>/products.json`), un appel par boutique (CH, UE, US) | `catalog.json` (généré) |
+| Niveau, série, programmes | Catégories de chaque page produit (« Planches débutants », « Pro Team Series », « Freeride »…) | `catalog.json` (généré) |
 | Dimensions (volume, largeur, envergure, surface…) | Tableaux de tailles officiels, **publiés uniquement sous forme d'images** | `specs.json` (transcrit) |
 | Forme des boards (contour, profil) | Photos produits (vues de dessus et de profil) | `outlines.json` (généré) |
 
@@ -86,15 +92,15 @@ Les marques ne publient pas de plan de forme. Les silhouettes sont donc **recons
 
 - **Boards, vue de dessus** : le contour vient de la photo produit (vue du pont). Il est mis à l'échelle sur la longueur et la largeur officielles, puis légèrement corrigé pour passer exactement par les largeurs à 1 pied du nez et de l'arrière (OFO). Avant correction, la photo s'écarte déjà de moins de 2 % des cotes officielles. Sans photo exploitable, le contour est interpolé entre les cotes (`outline.nose` / `outline.tail` donnent l'allure du nez et de l'arrière).
 - **Boards, profil** : il vient de la vue latérale de la photo, mis à l'échelle sur la longueur et recalé pour que l'épaisseur max soit l'épaisseur officielle (la photo s'en écarte de 3 à 8 % avant recalage). Les straps sont retirés automatiquement. Le rocker affiché est celui de la photo, à environ ±1 cm près ; la valeur officielle est dans le tableau.
-- **Ailes avant** : envergure et corde sont exactes. Le contour est une super-ellipse dont l'exposant est calculé pour retrouver exactement la surface publiée. La flèche des saumons est uniquement visuelle.
+- **Ailes avant et stabs** : envergure et corde sont exactes. Le contour est une super-ellipse dont l'exposant est calculé pour retrouver exactement la surface publiée. La flèche des saumons est uniquement visuelle.
 
 ## Mettre à jour les données
 
 ```bash
-python3 scripts/fetch_catalog.py gong --with-charts   # ou : npm run fetch:gong
+python3 scripts/fetch_catalog.py gong   # ou : npm run fetch:gong (≈ 3 min : lit chaque page produit)
 ```
 
-Le script met à jour `data/gong/catalog.json`, y compris les URLs des tableaux de tailles de chaque produit. Il ne touche jamais à `specs.json`.
+Le script met à jour `data/gong/catalog.json` : prix dans les trois devises, niveau, série, programmes et URLs des tableaux de tailles de chaque produit. Il ne touche jamais à `specs.json`.
 
 Puis, pour les formes des boards :
 
@@ -112,17 +118,18 @@ python3 scripts/extract_board_outlines.py gong --debug /tmp/controle
 3. Relier le ou les produits dans `specs.json > products` (`"<handle>": "<clé du modèle>"`). Plusieurs produits peuvent pointer vers le même modèle (ex. versions Perf et Team d'une aile, si les cotes sont identiques).
 4. Lancer `npm test`.
 
-Champs : boards `lengthCm, widthCm, thicknessCm, volumeL, ofoNoseCm, ofoTailCm, rockerCm, weightKg` ; ailes avant `spanCm, chordMm, thicknessMm, aspectRatio, areaCm2`.
+Champs : voir [docs/ajouter-une-marque.md](docs/ajouter-une-marque.md#4-saisir-les-dimensions-specsjson).
 
 ### Ajouter une marque
 
-1. Ajouter une entrée dans `data/brands.json` (adaptateur `shopify` : `baseUrl`, `locale`, `collection`, correspondance tags → catégories, noms des options de taille).
-2. `python3 scripts/fetch_catalog.py <id>`
-3. Créer `data/<id>/specs.json` (facultatif : sans ce fichier, les produits sont listés avec leurs prix mais ne sont pas dessinés).
+Voir [docs/ajouter-une-marque.md](docs/ajouter-une-marque.md) : une entrée dans `data/brands.json`, éventuellement un adaptateur si la boutique n'est pas sur Shopify, puis les dimensions dans `data/<marque>/specs.json`. L'interface n'a pas à être modifiée.
 
-Pour une marque qui n'utilise pas Shopify, il faudra ajouter un adaptateur dans `fetch_catalog.py`. Le format de sortie (`catalog.json`) reste le même.
+### Niveaux
+
+Le niveau vient du classement de la marque : « débutant » si le produit est dans une catégorie débutants, « pro » s'il est dans la gamme Pro Team, « avancé » sinon. Les règles sont dans `data/brands.json` (`levels`, `defaultLevel`).
 
 ## Données Gong intégrées (au 19.11.2026)
 
-- Catalogue : 45 boards, 33 ailes avant, 11 wings.
-- Dimensions saisies : boards Mint, Lemon, Lance et Zuma FSP 2X, Cruzader Diamond et Stunt FSP Pro ; ailes avant X-Over, Ascent, Curve, Fluid, Veloce et Sirus V3 Atmo (Perf Series).
+- Catalogue : 45 boards, 33 ailes avant, 28 stabs, 21 wings.
+- Dimensions saisies pour tous les produits dont Gong publie un tableau de tailles (121 produits, 108 modèles). Restent sans dimensions, faute de tableau publié : HIPE Pro, Sirus V3 (non Atmo) et les ailes avant Ypra V3 non Atmo.
+- Longueur de bôme : tableau « Boom GFS V3 » (XXS 81 cm … L 105,5 cm), taille de bôme par surface de wing selon les tableaux Gong.
