@@ -1,0 +1,772 @@
+{
+ "_comment": "G\u00e9n\u00e9r\u00e9 par scripts/extract_foil_views.py",
+ "foils": {
+  "gong-foil-front-wing-ascent": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FRONT_WING-PERF_SERIES-FIBERGLASS-ASCENT-M-78-GONGFOIL-01_3dd8f76e-22cd-4e96-b014-ffc29f922063.jpg",
+    "bbox": [
+     0.0333,
+     0.3733,
+     0.9667,
+     0.6267
+    ],
+    "wing": [
+     0.4033,
+     0.5517
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.999
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FRONT_WING-PERF_SERIES-FIBERGLASS-ASCENT-M-78-GONGFOIL-04_006db029-bc4d-4206-ba6d-dc78bf3577a1.jpg",
+    "bbox": [
+     0.0333,
+     0.4483,
+     0.9683,
+     0.5517
+    ],
+    "wing": [
+     0.4717,
+     0.5183
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.988
+   }
+  },
+  "gong-foil-front-wing-curve-h": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-24-FRONT_WING-CURVE-H-M-01_9b6767d1-a9db-4184-9aba-1878259e503e.png",
+    "bbox": [
+     0.0333,
+     0.3833,
+     0.9667,
+     0.6167
+    ],
+    "wing": [
+     0.4117,
+     0.5333
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.995
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-24-FRONT_WING-CURVE-H-M-04_b242b9e3-1c4f-4cf9-838e-e73f167869dc.jpg",
+    "bbox": [
+     0.0333,
+     0.4567,
+     0.9667,
+     0.5467
+    ],
+    "wing": [
+     0.47,
+     0.5117
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.996
+   }
+  },
+  "gong-foil-front-wing-curve-h-fg": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FRONT_WING-PERF_SERIES-FIBERGLASS-CURVE_H-M-88-GONGFOIL-01_8dc33aa3-9983-4127-a52d-a5ca9604af91.jpg",
+    "bbox": [
+     0.0333,
+     0.3883,
+     0.9667,
+     0.6233
+    ],
+    "wing": [
+     0.4167,
+     0.54
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.999
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FRONT_WING-PERF_SERIES-FIBERGLASS-CURVE_H-M-88-GONGFOIL-04_cd0e086b-9d33-4218-8296-72bdb1960744.jpg",
+    "bbox": [
+     0.0317,
+     0.4667,
+     0.9667,
+     0.5583
+    ],
+    "wing": [
+     0.4817,
+     0.5217
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.991
+   }
+  },
+  "gong-foil-front-wing-fluid-h": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-24-FRONT_WING-FLUID_H-M87-01_52fbe545-a170-4195-9a49-9b8a10789393.png",
+    "bbox": [
+     0.0333,
+     0.3833,
+     0.9667,
+     0.6167
+    ],
+    "wing": [
+     0.4033,
+     0.5267
+    ],
+    "aspect": 1.0,
+    "symmetry": 1.0
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-24-FRONT_WING-FLUID_H-M87-04_eb6de583-e8ab-4616-85c5-1aa1dacb1c72.jpg",
+    "bbox": [
+     0.0333,
+     0.4533,
+     0.9667,
+     0.5467
+    ],
+    "wing": [
+     0.4683,
+     0.51
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.995
+   }
+  },
+  "gong-foil-front-wing-fluid-h-fg": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FRONT_WING-PERF_SERIES-FIBERGLASS-FLUID_H-M-87-GONGFOIL-01_4fc00838-3d03-4541-9659-bea9c33984b1.jpg",
+    "bbox": [
+     0.0317,
+     0.4017,
+     0.9667,
+     0.6367
+    ],
+    "wing": [
+     0.4217,
+     0.545
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.994
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FRONT_WING-PERF_SERIES-FIBERGLASS-FLUID_H-M-87-GONGFOIL-04_f7b9c913-f49d-4db9-9cd7-f67980ae23eb.jpg",
+    "bbox": [
+     0.0317,
+     0.4717,
+     0.9667,
+     0.5667
+    ],
+    "wing": [
+     0.4883,
+     0.5283
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.996
+   }
+  },
+  "gong-foil-front-wing-fluid-atmo": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-FLUID-GONGFOIL-01_e0301eb0-f496-4d50-b4c2-08f58dd069a5.jpg",
+    "bbox": [
+     0.0333,
+     0.3833,
+     0.9683,
+     0.6183
+    ],
+    "wing": [
+     0.4033,
+     0.5267
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.971
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-FLUID-GONGFOIL-03_df1d547e-1e74-4fcb-9327-c9f74a7926ea.jpg",
+    "bbox": [
+     0.0317,
+     0.455,
+     0.9683,
+     0.545
+    ],
+    "wing": [
+     0.47,
+     0.51
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.983
+   }
+  },
+  "gong-foil-front-wing-veloce-h": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-24-FRONT_WING-VELOCE_H-M95-01_63615508-8588-48fc-a733-10c37859bc5d.png",
+    "bbox": [
+     0.0333,
+     0.3883,
+     0.9667,
+     0.6
+    ],
+    "wing": [
+     0.4,
+     0.5
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.998
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-24-FRONT_WING-VELOCE_H-M95-04_05ed5eb4-d764-4208-b031-e1d5ead6fce9.jpg",
+    "bbox": [
+     0.0333,
+     0.4583,
+     0.9667,
+     0.5433
+    ],
+    "wing": [
+     0.4733,
+     0.5067
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.994
+   }
+  },
+  "gong-foil-front-wing-veloce-h-dw": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-24-FRONT_WING-VELOCE_H_DW-M109-01_c8110944-ae4c-40bb-8d6c-bccff8959906.png",
+    "bbox": [
+     0.0333,
+     0.4167,
+     0.9667,
+     0.6017
+    ],
+    "wing": [
+     0.4233,
+     0.5017
+    ],
+    "aspect": 1.0,
+    "symmetry": 1.0
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-24-FRONT_WING-VELOCE_H_DW-M109-04_579580da-e218-4afc-90cb-9dedd2381d2c.jpg",
+    "bbox": [
+     0.0333,
+     0.4667,
+     0.9667,
+     0.5417
+    ],
+    "wing": [
+     0.48,
+     0.505
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.996
+   }
+  },
+  "gong-front-wing-veloce-xtr-atmo": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-VELOCE_XTR-GONGFOIL-01_6a25a202-8b30-4fc2-a74e-c89d2b8f5250.jpg",
+    "bbox": [
+     0.0333,
+     0.4217,
+     0.9667,
+     0.5783
+    ],
+    "wing": [
+     0.4283,
+     0.4867
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.987
+   }
+  },
+  "gong-foil-front-wing-x-over": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FRONT_WING-PERF_SERIES-FIBERGLASS-X-OVER-L-84-GONGFOIL-01_6d8a2d81-14b4-4a24-844a-dd93555e4298.jpg",
+    "bbox": [
+     0.0333,
+     0.3767,
+     0.9667,
+     0.6267
+    ],
+    "wing": [
+     0.4067,
+     0.5683
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.999
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FRONT_WING-PERF_SERIES-FIBERGLASS-X-OVER-L-84-GONGFOIL-04.jpg",
+    "bbox": [
+     0.0333,
+     0.45,
+     0.9667,
+     0.55
+    ],
+    "wing": [
+     0.4717,
+     0.5233
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.997
+   }
+  },
+  "gong-foil-front-wing-ypra-freestyle": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL_V3-PRO_TEAM_SERIES-FRONT_WING-YPRA_FREESTYLE-V3-GONGFOIL-01_b2d48053-058a-4a74-a331-1759495ea2a2.jpg",
+    "bbox": [
+     0.0317,
+     0.3867,
+     0.9667,
+     0.6133
+    ],
+    "wing": [
+     0.405,
+     0.5383
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.994
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL_V3-PRO_TEAM_SERIES-FRONT_WING-YPRA_FREESTYLE-V3-GONGFOIL-05_d0536a31-664f-4e5e-ae8e-f5ca23cbf832.jpg",
+    "bbox": [
+     0.0333,
+     0.4517,
+     0.9667,
+     0.5483
+    ],
+    "wing": [
+     0.4683,
+     0.5117
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.996
+   }
+  },
+  "gong-foil-front-wing-ypra-race": {
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-FRONT_WING-YPRA_RACE-V3-GONGFOIL-02_341d45c8-7c93-48c1-af51-400bb1f691f6.jpg",
+    "bbox": [
+     0.0333,
+     0.4667,
+     0.9667,
+     0.54
+    ],
+    "wing": [
+     0.4833,
+     0.5133
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.996
+   },
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-FRONT_WING-YPRA_RACE-V3-GONGFOIL-04_28668f3d-7aba-44a6-8c6f-100e1b6ab5be.jpg",
+    "bbox": [
+     0.0317,
+     0.425,
+     0.9683,
+     0.5983
+    ],
+    "wing": [
+     0.44,
+     0.545
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.994
+   }
+  },
+  "gong-foil-front-wing-ypra-slalom": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-FRONT_WING-YPRA_SLALOM-V3-GONGFOIL-01_3f12a1ec-908c-4125-8d81-3a69f30ff29f.jpg",
+    "bbox": [
+     0.0333,
+     0.405,
+     0.9667,
+     0.61
+    ],
+    "wing": [
+     0.4217,
+     0.5383
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.999
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-FRONT_WING-YPRA_SLALOM-V3-GONGFOIL-04_5be7751a-71b4-4313-b0e4-a5575acb7091.jpg",
+    "bbox": [
+     0.0317,
+     0.475,
+     0.9667,
+     0.565
+    ],
+    "wing": [
+     0.4933,
+     0.53
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.993
+   }
+  },
+  "gong-foil-front-wing-ypra-slalom-atmo": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_SLALOM-GONGFOIL-01_9435f2ce-bcb7-4cc4-b921-c6c4ae9163be.jpg",
+    "bbox": [
+     0.0333,
+     0.3967,
+     0.9667,
+     0.6033
+    ],
+    "wing": [
+     0.415,
+     0.5317
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.996
+   }
+  },
+  "gong-foil-front-wing-ypra-surf": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-FRONT_WING-YPRA_SURF-V3-GONGFOIL-01_a16d8994-6e7e-4678-83e1-11a103e93707.jpg",
+    "bbox": [
+     0.0333,
+     0.39,
+     0.9667,
+     0.63
+    ],
+    "wing": [
+     0.4267,
+     0.555
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.998
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-FRONT_WING-YPRA_SURF-V3-GONGFOIL-04.jpg",
+    "bbox": [
+     0.0317,
+     0.4583,
+     0.9667,
+     0.5533
+    ],
+    "wing": [
+     0.4817,
+     0.5133
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.991
+   }
+  },
+  "gong-foil-front-wing-ypra-surf-freestyle": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-FRONT_WINGS-V3-YPRA_SURF_FREESTYLE-M-68-GONGWING-01_fb484167-296e-4634-b4ce-992bc013be98.png",
+    "bbox": [
+     0.0333,
+     0.3683,
+     0.9667,
+     0.6317
+    ],
+    "wing": [
+     0.4083,
+     0.555
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.994
+   }
+  },
+  "gong-foil-stab-ascent": {
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-STABS-PERF_SERIES-FIBERGLASS-ASCENT-M_39-GONGFOIL-FOCUS-00_3c662db1-69dc-47bb-907a-7dcb52225c0d.jpg",
+    "bbox": [
+     0.05,
+     0.46,
+     0.95,
+     0.5383
+    ],
+    "wing": [
+     0.485,
+     0.4917
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.953
+   }
+  },
+  "gong-foil-stab-curve-h": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-24-STAB-CURVE-H-M39-01_60fd666f-23c2-4323-953e-b5bc8341fcd0.png",
+    "bbox": [
+     0.05,
+     0.1167,
+     0.95,
+     0.8567
+    ],
+    "wing": [
+     0.7283,
+     0.8467
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.988
+   }
+  },
+  "gong-foil-stab-fluid-h-fg": {
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-STABS-PERF_SERIES-FIBERGLASS-FLUID_H-M-35-GONGFOIL-FOCUS-00_57350c39-3a23-4698-b740-df60e5ddb105.jpg",
+    "bbox": [
+     0.05,
+     0.465,
+     0.95,
+     0.535
+    ],
+    "wing": [
+     0.4767,
+     0.4917
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.95
+   }
+  },
+  "gong-foil-stab-x-over": {
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-STABS-PERF_SERIES-FIBERGLASS-X-OVER-L_40-GONGFOIL-FOCUS-00.jpg",
+    "bbox": [
+     0.05,
+     0.4717,
+     0.95,
+     0.5283
+    ],
+    "wing": [
+     0.4883,
+     0.505
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.965
+   }
+  },
+  "gong-foil-stab-ypra-freestyle-1": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL-PRO_TEAM_SERIES_V3-STAB-YPRA-FREESTYLE-SURF_FREESTYLE-GONGFOIL-01_5acbb294-4870-4dbe-992b-103f90537ff7.jpg",
+    "bbox": [
+     0.05,
+     0.1817,
+     0.95,
+     0.815
+    ],
+    "wing": [
+     0.68,
+     0.8
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.991
+   }
+  },
+  "gong-foil-stab-ypra-race": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-STABS-TEAM_SERIES-YPRA_RACE-V3-GONGFOIL-01_0a5d29c5-63ac-4356-b737-2bb56e8e9b67.jpg",
+    "bbox": [
+     0.0483,
+     0.05,
+     0.9517,
+     0.8617
+    ],
+    "wing": [
+     0.725,
+     0.845
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.993
+   }
+  },
+  "gong-foil-stab-ypra-slalom": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/1500-25-FOIL-STABS-TEAM_SERIES-SLALOM-V3-GONGFOIL-01_5d5be069-9812-4b3c-8bb7-38d4ff7bcf84.jpg",
+    "bbox": [
+     0.0483,
+     0.1733,
+     0.9517,
+     0.815
+    ],
+    "wing": [
+     0.6817,
+     0.8
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.982
+   }
+  },
+  "gong-foil-stab-ypra-slalom-atmo": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/26-1500-FOIL-STABS-PRO_TEAM_SERIES-V3_ATMO-SLALOM-S_36-GONGFOIL-01_711e43cf-430c-4672-b3e5-b3ea3b4c705c.jpg",
+    "bbox": [
+     0.0333,
+     0.1567,
+     0.9667,
+     0.845
+    ],
+    "wing": [
+     0.705,
+     0.83
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.992
+   }
+  },
+  "gong-tail-wing-curve-h-v3": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL-STABS-V3-TAIL_WING-CURVE_H-M_39-GONGFOIL-01.jpg",
+    "bbox": [
+     0.0333,
+     0.41,
+     0.9683,
+     0.59
+    ],
+    "wing": [
+     0.4433,
+     0.5683
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.997
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL-STABS-V3-TAIL_WING-CURVE_H-M_39-GONGFOIL-05.jpg",
+    "bbox": [
+     0.0333,
+     0.4883,
+     0.9667,
+     0.5117
+    ],
+    "wing": [
+     0.4933,
+     0.505
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.982
+   }
+  },
+  "gong-tail-wing-fluid-h-v3": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL-STABS-V3-TAIL_WING-FLUID_H-M_35-GONGFOIL-01_e71cf241-ee37-4fe3-8e63-4a4fb9b213e6.jpg",
+    "bbox": [
+     0.0333,
+     0.4017,
+     0.9683,
+     0.6017
+    ],
+    "wing": [
+     0.44,
+     0.5633
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.996
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL-STABS-V3-TAIL_WING-FLUID_H-M_35-GONGFOIL-05_ecf8f42d-dc84-4171-aac9-e2ca93918287.jpg",
+    "bbox": [
+     0.0333,
+     0.4917,
+     0.9667,
+     0.51
+    ],
+    "wing": [
+     0.4933,
+     0.5067
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.986
+   }
+  },
+  "gong-tail-wing-hyper-trail-atmo": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/01-26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-HYPER_TRAIL-ATMO-GONGFOIL-HOVER.png",
+    "bbox": [
+     0.0333,
+     0.4117,
+     0.9667,
+     0.59
+    ],
+    "wing": [
+     0.44,
+     0.505
+    ],
+    "aspect": 1.0,
+    "symmetry": 1.0
+   }
+  },
+  "gong-tail-wing-veloce-dw-atmo": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/01-26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-VELOCE_DW-GONGFOIL-HOVER.png",
+    "bbox": [
+     0.0333,
+     0.4,
+     0.9667,
+     0.5983
+    ],
+    "wing": [
+     0.4333,
+     0.5083
+    ],
+    "aspect": 1.0,
+    "symmetry": 1.0
+   }
+  },
+  "gong-tail-wing-veloce-h-v3": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL-STABS-V3-TAIL_WING-VELOCE_H-M_36-GONGFOIL-01_77ef8fd7-e6a5-430b-9598-b971396a9243.jpg",
+    "bbox": [
+     0.0333,
+     0.4167,
+     0.9667,
+     0.5867
+    ],
+    "wing": [
+     0.4517,
+     0.5583
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.994
+   },
+   "front": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL-STABS-V3-TAIL_WING-VELOCE_H-M_36-GONGFOIL-05_498d15dd-f385-431b-bf21-30884d170211.jpg",
+    "bbox": [
+     0.0333,
+     0.4917,
+     0.9667,
+     0.5083
+    ],
+    "wing": [
+     0.4967,
+     0.5067
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.969
+   }
+  },
+  "gong-tail-wing-veloce-xtr-atmo": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-VELOCE_XTR_LOWER-GONGFOIL-01.jpg",
+    "bbox": [
+     0.0333,
+     0.4083,
+     0.9667,
+     0.5933
+    ],
+    "wing": [
+     0.45,
+     0.5167
+    ],
+    "aspect": 1.0,
+    "symmetry": 0.999
+   }
+  },
+  "gong-tail-wing-ypra-surf-carve-atmo": {
+   "top": {
+    "src": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/01-26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-SURF_CARVE-GONGFOIL-HOVER.png",
+    "bbox": [
+     0.0333,
+     0.3933,
+     0.9667,
+     0.605
+    ],
+    "wing": [
+     0.4317,
+     0.565
+    ],
+    "aspect": 1.0,
+    "symmetry": 1.0
+   }
+  }
+ }
+}

@@ -3,7 +3,9 @@
 Outil web pour comparer des **boards**, des **foils (ailes avant)**, des **stabs** et des **wings** de wingfoil :
 
 - **superposition à l'échelle** des formes (vue de dessus), en mode superposé ou côte à côte, avec alignement sur l'arrière / le centre / le nez pour les boards ;
-- **mode « photo à l'échelle »** pour les boards : la vraie photo produit (vue de dessus), étirée aux dimensions officielles de chaque taille et découpée selon le contour ; idéal en mode côte à côte ;
+- **photos à l'échelle** (menu *Contour*) : boards vues **de dessus, de dessous ou moitié-moitié**, profil en photo (épaisseur, rocker), ailes avant et stabs vus de dessus ; chaque photo est étirée aux dimensions officielles de la taille choisie ;
+- **vue de face des foils** (photos à l'échelle de l'envergure : dièdre, épaisseur) ;
+- **légende cliquable** : un clic masque ou réaffiche une forme dans les dessins ;
 - **profil des boards** (épaisseur, rocker, creux du pont), avec exagération des hauteurs ×1, ×2 ou ×3 ;
 - **tableau de specs** côte à côte, avec l'écart en % par rapport à la première taille choisie (la référence) ;
 - **wings** : poids, envergure, longueur de bôme, plage de vent conseillée, prix, prix et poids par m² ;
@@ -72,7 +74,8 @@ wingfoil-comparator/
 │       └── specs.json       # SAISI : dimensions transcrites des tableaux de tailles
 ├── scripts/
 │   ├── fetch_catalog.py           # récupère le catalogue d'une marque (Python stdlib)
-│   └── extract_board_outlines.py  # extrait les formes des photos (Pillow + numpy)
+│   ├── extract_board_outlines.py  # formes et repères photo des boards (Pillow + numpy)
+│   └── extract_foil_views.py      # vues de dessus / de face des foils (Pillow + numpy)
 ├── docs/ajouter-une-marque.md
 └── tests/
 ```
@@ -86,7 +89,8 @@ wingfoil-comparator/
 | Année du modèle | Adresse produit (Gong : `…-27` = 2027), sinon code de collection en tête du nom de la photo (`26-…`, `00-1500-25-…`) | `catalog.json` (généré) |
 | Niveau, série, programmes | Catégories de chaque page produit (« Planches débutants », « Pro Team Series », « Freeride »…) | `catalog.json` (généré) |
 | Dimensions (volume, largeur, envergure, surface…) | Tableaux de tailles officiels, **publiés uniquement sous forme d'images** | `specs.json` (transcrit) |
-| Forme des boards (contour, profil) | Photos produits (vues de dessus et de profil) | `outlines.json` (généré) |
+| Forme des boards (contour, profil) et repères photo (dessus, dessous, profil) | Photos produits | `outlines.json` (généré) |
+| Vues de dessus et de face des foils | Photos produits | `foilviews.json` (généré) |
 
 Comme les dimensions n'existent qu'en image, elles sont transcrites dans `specs.json`. L'URL du tableau d'origine (`sourceChart`) y est conservée pour chaque modèle afin de pouvoir vérifier les valeurs.
 
@@ -99,6 +103,7 @@ Un produit est rangé dans une catégorie d'après ses tags de collection sur le
 Les marques ne publient pas de plan de forme. Les silhouettes sont donc **reconstruites** :
 
 - **Boards, vue de dessus** : le contour vient de la photo produit (vue du pont). Il est mis à l'échelle sur la longueur et la largeur officielles, puis légèrement corrigé pour passer exactement par les largeurs à 1 pied du nez et de l'arrière (OFO). Avant correction, la photo s'écarte déjà de moins de 2 % des cotes officielles. Sans photo exploitable, le contour est interpolé entre les cotes (`outline.nose` / `outline.tail` donnent l'allure du nez et de l'arrière).
+- **Foils, photos** : `extract_foil_views.py` trie les photos de chaque aile (photo d'ambiance, vue 3/4, photo de gamme : écartées ; objet symétrique très plat : vue de face ; sinon : vue de dessus) et repère le cadre de l'aile. La largeur du cadre est mise à l'envergure officielle. Gong ne publie ces vues que pour une partie des ailes (surtout les gammes V3 « H » et Ypra) ; pour les autres, le contour reconstruit reste affiché.
 - **Boards, mode photo** : la vue de dessus de la photo est repérée (nez, arrière, axe, largeur max) puis étirée pour que longueur et largeur max correspondent à la taille choisie. Gong ne photographie qu'une taille par modèle : pour les autres tailles, les proportions de la photo sont extrapolées (le contour, lui, reste recalé sur les largeurs à 1 pied).
 - **Boards, profil** : il vient de la vue latérale de la photo, mis à l'échelle sur la longueur et recalé pour que l'épaisseur max soit l'épaisseur officielle (la photo s'en écarte de 3 à 8 % avant recalage). Les straps sont retirés automatiquement. Le rocker affiché est celui de la photo, à environ ±1 cm près ; la valeur officielle est dans le tableau.
 - **Ailes avant et stabs** : envergure et corde sont exactes. Le contour est une super-ellipse dont l'exposant est calculé pour retrouver exactement la surface publiée. La flèche des saumons est uniquement visuelle.

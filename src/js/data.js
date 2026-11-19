@@ -137,10 +137,11 @@ export function maxDiscount(model, currency) {
 }
 
 /** Construit la liste des modèles (produit + ses tailles enrichies) pour une marque. */
-export function mergeBrand(brand, catalog, specs, outlines = null) {
+export function mergeBrand(brand, catalog, specs, outlines = null, foilviews = null) {
   const models = specs?.models ?? {};
   const productMap = specs?.products ?? {};
   const photos = outlines?.boards ?? {};
+  const views = foilviews?.foils ?? {};
   return catalog.products.map((product) => {
     const modelKey = productMap[product.handle];
     const model = modelKey ? models[modelKey] : null;
@@ -174,6 +175,7 @@ export function mergeBrand(brand, catalog, specs, outlines = null) {
       image: product.image,
       outline: model?.outline ?? {},
       photoShape: photos[product.handle] ?? null,
+      foilViews: views[product.handle] ?? null,
       sourceChart: model?.sourceChart ?? null,
       aspectRatio: model?.aspectRatio ?? null,
       hasSpecs: Boolean(model),
@@ -197,11 +199,12 @@ export async function loadAll(base = 'data') {
     brands.map(async (brand) => {
       const catalog = await getJson(`${base}/${brand.id}/catalog.json`, { optional: true });
       if (!catalog) return [];
-      const [specs, outlines] = await Promise.all([
+      const [specs, outlines, foilviews] = await Promise.all([
         getJson(`${base}/${brand.id}/specs.json`, { optional: true }),
         getJson(`${base}/${brand.id}/outlines.json`, { optional: true }),
+        getJson(`${base}/${brand.id}/foilviews.json`, { optional: true }),
       ]);
-      return mergeBrand(brand, catalog, specs, outlines);
+      return mergeBrand(brand, catalog, specs, outlines, foilviews);
     }),
   );
   const currencies = [...new Set(brands.flatMap((b) => (b.markets ?? [{ currency: b.currency }]).map((m) => m.currency)))];

@@ -2,7 +2,7 @@
 
 import { CATEGORIES, LEVELS, canDraw, canDrawSide, indexSizes, loadAll, maxDiscount, thumbnailUrl } from './data.js';
 import { LANGS, detectLang, setLang, t, translateDom } from './i18n.js';
-import { describeOverlay, renderOverlay, renderProfile } from './overlay.js';
+import { describeOverlay, renderFront, renderOverlay, renderProfile } from './overlay.js';
 import { renderTable } from './table.js';
 import { setNumberLocale } from './units.js';
 
@@ -13,6 +13,7 @@ const NUMBER_LOCALES = { fr: 'fr-CH', en: 'en-GB' };
 const state = {
   category: 'board',
   selection: [], // ids de tailles, dans l'ordre (le premier = référence)
+  hidden: [], // ids masqués dans les dessins (clic sur la légende)
   query: '',
   specsOnly: true,
   level: 'all',
@@ -52,7 +53,9 @@ function readHash() {
   if (params.get('m') === 'side') state.mode = 'side';
   if (['tail', 'center', 'nose'].includes(params.get('a'))) state.align = params.get('a');
   if (['1', '2', '3'].includes(params.get('z'))) state.exaggeration = Number(params.get('z'));
-  if (params.get('f') === 'photo') state.fill = 'photo';
+  const f = params.get('f') === 'photo' ? 'top' : params.get('f');
+  if (['outline', 'top', 'bottom', 'half'].includes(f)) state.fill = f;
+  state.hidden = (params.get('h') ?? '').split(',').filter((id) => state.selection.includes(id));
   const cur = params.get('cur') ?? prefs.get('currency');
   if (currencies.includes(cur)) state.currency = cur;
   state.lang = detectLang(params.get('l'), prefs.get('lang'));
@@ -62,6 +65,7 @@ function writeHash() {
   const params = new URLSearchParams({
     c: state.category, s: state.selection.join(','), m: state.mode, a: state.align,
     z: state.exaggeration, f: state.fill, cur: state.currency, l: state.lang,
+    ...(state.hidden.length ? { h: state.hidden.join(',') } : {}),
   });
   history.replaceState(null, '', `#${params}`);
 }
@@ -69,9 +73,18 @@ function writeHash() {
 // ---- Actions ----------------------------------------------------------------------
 function toggle(id) {
   const i = state.selection.indexOf(id);
-  if (i >= 0) state.selection.splice(i, 1);
-  else if (state.selection.length < MAX_SELECTION) state.selection.push(id);
+  if (i >= 0) {
+    state.selection.splice(i, 1);
+    state.hidden = state.hidden.filter((h) => h !== id);
+  } else if (state.selection.length < MAX_SELECTION) state.selection.push(id);
   else return announce(t('maxReached', { n: MAX_SELECTION }));
+  render();
+}
+
+function toggleHidden(id) {
+  const i = state.hidden.indexOf(id);
+  if (i >= 0) state.hidden.splice(i, 1);
+  else state.hidden.push(id);
   render();
 }
 
@@ -79,6 +92,7 @@ function setCategory(category) {
   if (category === state.category) return;
   state.category = category;
   state.selection = [];
+  state.hidden = [];
   state.program = 'all';
   render();
 }
@@ -230,55 +244,82 @@ function renderComparison() {
   $('#selection-count').textContent = `${entries.length}/${MAX_SELECTION}`;
   if (!hasSelection) return;
 
-  // Légende
+  // Légende : un clic affiche / masque la forme dans les dessins (pas dans le tableau)
+  const isBoard = state.category === 'board';
+  const photoMode = state.fill !== 'outline';
+  const hasPhoto = (m) => (m.category === 'board' ? Boolean(m.photoShape?.photo) : Boolean(m.foilViews?.top));
   const legend = $('#legend');
   legend.replaceChildren();
   for (const { model, size, color } of entries) {
-    const li = el('li', {}, el('span', { className: 'swatch' }), `${model.title}${model.year ? ` ${model.year}` : ''} — ${size.size}`);
-    li.style.setProperty('--c', color);
-    li.dataset.id = size.id;
+    const name = `${model.title}${model.year ? ` ${model.year}` : ''} — ${size.size}`;
+    const hidden = state.hidden.includes(size.id);
+    const btn = el('button', { type: 'button', className: 'legend-item' }, el('span', { className: 'swatch' }), name);
+    btn.setAttribute('aria-pressed', String(!hidden));
+    btn.title = t(hidden ? 'show' : 'hide', { name });
     if (CATEGORIES[model.category].overlay && !canDraw({ category: model.category, spec: size.spec })) {
-      li.append(el('span', { className: 'muted', textContent: t('notDrawn') }));
-    } else if (state.category === 'board' && state.fill === 'photo' && !model.photoShape?.photo) {
-      li.append(el('span', { className: 'muted', textContent: t('noPhoto') }));
+      btn.append(el('span', { className: 'muted', textContent: t('notDrawn') }));
+    } else if (photoMode && CATEGORIES[model.category].overlay && !hasPhoto(model)) {
+      btn.append(el('span', { className: 'muted', textContent: t('noPhoto') }));
     }
-    li.addEventListener('mouseenter', () => highlight(size.id));
-    li.addEventListener('mouseleave', () => highlight(null));
+    btn.addEventListener('click', () => toggleHidden(size.id));
+    btn.addEventListener('mouseenter', () => highlight(size.id));
+    btn.addEventListener('mouseleave', () => highlight(null));
+    const li = el('li', {}, btn);
+    li.style.setProperty('--c', color);
+    li.classList.toggle('is-hidden', hidden);
     legend.append(li);
   }
+  $('#legend-hint').hidden = entries.length < 2;
+  const shown = entries.filter((e) => !state.hidden.includes(e.size.id));
 
-  // Superposition
+  // Vue de dessus
   const overlayCard = $('#overlay-card');
-  const drawable = entries.filter((e) => canDraw({ category: e.model.category, spec: e.size.spec }));
+  const drawable = shown.filter((e) => canDraw({ category: e.model.category, spec: e.size.spec }));
   overlayCard.hidden = !CATEGORIES[state.category].overlay;
-  $('#align-wrap').hidden = state.category !== 'board';
-  $('#fill-wrap').hidden = state.category !== 'board';
-  $('#fill').value = state.fill;
+  $('#align-wrap').hidden = !isBoard;
+  // Dessous et moitié-moitié : boards seulement (photos de foils = dessus uniquement)
+  for (const opt of $('#fill').options) opt.hidden = !isBoard && (opt.value === 'bottom' || opt.value === 'half');
+  const fill = !isBoard && (state.fill === 'bottom' || state.fill === 'half') ? 'top' : state.fill;
+  $('#fill').value = fill;
   for (const input of document.querySelectorAll('input[name="mode"]')) input.checked = input.value === state.mode;
   $('#align').value = state.align;
   const svg = $('#overlay');
-  const fill = state.category === 'board' ? state.fill : 'outline';
   renderOverlay(svg, drawable, { mode: state.mode, align: state.align, fill });
   svg.setAttribute('aria-label', drawable.length ? `${t('shapes')}: ${describeOverlay(drawable)}` : t('nothingDrawable'));
-  $('#overlay-empty').hidden = drawable.length > 0;
+  $('#overlay-empty').hidden = drawable.length > 0 || entries.length > shown.length;
   const g = svg.dataset.grid ?? '10';
   const fromPhoto = drawable.filter((e) => e.model.photoShape).length;
-  $('#overlay-note').textContent = state.category !== 'board'
+  let note = !isBoard
     ? t('noteFoil', { g })
     : fromPhoto === drawable.length ? t('noteBoardPhoto', { g }) : t('noteBoardMixed', { g, a: fromPhoto, b: drawable.length });
-  if (fill === 'photo') {
+  if (photoMode && isBoard) {
     const sizes = [...new Set(drawable.filter((e) => e.model.photoShape?.photo)
       .map((e) => `${e.model.title} ${e.model.year ?? ''} : ${e.model.photoShape.photoSize ?? '?'}`))].join(', ');
-    $('#overlay-note').textContent += ` ${t('notePhoto', { sizes })}`;
+    note += ` ${t('notePhoto', { sizes })}`;
+  } else if (photoMode) {
+    note = `${t('notePhotoFoil')} ${drawable.some((e) => !e.model.foilViews?.top) ? t('noteFoil', { g }) : ''}`;
+  }
+  $('#overlay-note').textContent = note;
+
+  // Vue de face (ailes avant, stabs)
+  const frontCard = $('#front-card');
+  frontCard.hidden = !(state.category === 'frontwing' || state.category === 'stab');
+  if (!frontCard.hidden) {
+    const n = renderFront($('#front'), shown);
+    $('#front').hidden = n === 0;
+    $('#front-empty').hidden = n > 0;
+    $('#front').setAttribute('aria-label', t('frontView'));
+    frontCard.querySelector('.note').textContent = t('frontNote', { g: shown.some((e) => e.size.spec.spanCm >= 60) ? 10 : 2 });
   }
 
   // Profil latéral (boards)
-  const sides = entries.filter((e) => canDrawSide(e.model, e.size));
-  $('#profile-card').hidden = state.category !== 'board';
+  const sides = shown.filter((e) => canDrawSide(e.model, e.size));
+  $('#profile-card').hidden = !isBoard;
   $('#exaggeration').value = String(state.exaggeration);
-  renderProfile($('#profile'), sides, { align: state.align, exaggeration: state.exaggeration });
+  renderProfile($('#profile'), sides, { align: state.align, exaggeration: state.exaggeration, photo: photoMode });
   $('#profile').setAttribute('aria-label', `${t('profile')}: ${sides.map((e) => `${e.model.title} ${e.size.size}`).join(', ')}`);
-  $('#profile-empty').hidden = sides.length > 0;
+  $('#profile-empty').hidden = sides.length > 0 || entries.length > shown.length;
+  $('#profile-card').querySelector('.note').textContent = t('profileNote') + (photoMode ? ` ${t('profilePhotoNote')}` : '');
 
   renderTable($('#spec-table'), state.category, entries, { currency: state.currency, onRemove: toggle });
 }
@@ -349,6 +390,7 @@ function bindControls() {
   });
   $('#clear').addEventListener('click', () => {
     state.selection = [];
+    state.hidden = [];
     render();
   });
   $('#share').addEventListener('click', async () => {

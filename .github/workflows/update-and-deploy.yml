@@ -47,8 +47,13 @@ jobs:
         continue-on-error: true
         run: python3 scripts/extract_board_outlines.py gong
 
+      - name: Repérer les vues de dessus et de face des foils
+        id: foilviews
+        continue-on-error: true
+        run: python3 scripts/extract_foil_views.py gong
+
       - name: Signaler une récupération en échec
-        if: steps.fetch.outcome == 'failure' || steps.outlines.outcome == 'failure'
+        if: steps.fetch.outcome == 'failure' || steps.outlines.outcome == 'failure' || steps.foilviews.outcome == 'failure'
         run: echo "::warning::Données non mises à jour (site de la marque indisponible ?). Publication avec les données existantes."
 
       - name: Tests

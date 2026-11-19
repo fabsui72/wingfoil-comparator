@@ -5,7 +5,7 @@ import { canDraw, mergeBrand, modelYear, priceIn, shortTitle } from '../src/js/d
 
 const read = (p) => JSON.parse(readFileSync(new URL(`../data/${p}`, import.meta.url)));
 const brand = read('brands.json').brands[0];
-const models = mergeBrand(brand, read('gong/catalog.json'), read('gong/specs.json'), read('gong/outlines.json'));
+const models = mergeBrand(brand, read('gong/catalog.json'), read('gong/specs.json'), read('gong/outlines.json'), read('gong/foilviews.json'));
 
 test('chaque produit avec specs est dessinable ou complet pour toutes ses tailles publiées', () => {
   const problems = [];
@@ -39,4 +39,21 @@ test('utilitaires', () => {
   assert.equal(shortTitle('Foil Stab Fluid V3 Atmo - Perf Series'), 'Fluid V3 Atmo - Perf Series');
   assert.equal(modelYear('gong-wing-neutra-26nhnb'), 2026);
   assert.equal(modelYear('gong-foil-front-wing-fluid-atmo'), null);
+});
+
+test('repères photo : vues de dessous et de profil des boards, vues des foils', () => {
+  const boards = models.filter((m) => m.photoShape?.photo);
+  assert.ok(boards.length >= 40);
+  for (const m of boards) {
+    const p = m.photoShape.photo;
+    assert.ok(p.side && p.side.lengthPx > 100, `${m.handle} profil`);
+    if (p.bottom) assert.ok(Math.abs(p.bottom.lengthPx / p.lengthPx - 1) < 0.02, `${m.handle} dessous`);
+  }
+  const foils = models.filter((m) => m.foilViews);
+  assert.ok(foils.length >= 20);
+  for (const m of foils) {
+    for (const v of Object.values(m.foilViews)) {
+      assert.ok(v.bbox[2] > v.bbox[0] && v.wing[1] > v.wing[0], `${m.handle} cadre`);
+    }
+  }
 });

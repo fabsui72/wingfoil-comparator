@@ -179,3 +179,18 @@ button, input, select { font: inherit; color: inherit; }
 .drawing .shape.has-photo path { fill: none; stroke-width: 2.5; }
 .drawing .photo-overlay { opacity: .55; mix-blend-mode: multiply; }
 @media (prefers-color-scheme: dark) { .drawing .photo-overlay { mix-blend-mode: normal; opacity: .5; } }
+
+/* Légende cliquable */
+.legend-item { display: inline-flex; align-items: center; gap: 6px; border: 1px solid transparent; background: none; padding: 2px 6px; border-radius: 6px; cursor: pointer; font-size: .88rem; text-align: left; }
+.legend-item:hover { border-color: var(--border); }
+.legend li.is-hidden .legend-item { opacity: .45; text-decoration: line-through; }
+.legend li.is-hidden .swatch { background: transparent; outline: 2px solid var(--c); outline-offset: -2px; }
+.legend-hint { margin: 0 0 8px; }
+.drawing .shape.has-photo .frame, .drawing .frame { fill: none; stroke: var(--c); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.drawing .half-line { stroke: var(--c); stroke-width: 1; stroke-dasharray: 4 3; vector-effect: non-scaling-stroke; }
+.drawing .span-bar { stroke: var(--c); stroke-width: 3; vector-effect: non-scaling-stroke; }
+.drawing .shape .label { fill: var(--text); }
+.drawing .photo-jpg { mix-blend-mode: multiply; }
+#front-card .overlay-wrap { background: #f4f5f6; }
+#front-card .grid line { stroke: #e2e6ea; }
+#front-card .shape .label { fill: #16202a; }

@@ -88,7 +88,9 @@
               <label id="fill-wrap"><span data-i18n="fillLabel">Contour</span>
                 <select id="fill">
                   <option value="outline" data-i18n="fill.outline">trait</option>
-                  <option value="photo" data-i18n="fill.photo">photo à l'échelle</option>
+                  <option value="top" data-i18n="fill.top">photo : dessus</option>
+                  <option value="bottom" data-i18n="fill.bottom">photo : dessous</option>
+                  <option value="half" data-i18n="fill.half">photo : ½ dessus, ½ dessous</option>
                 </select>
               </label>
               <label id="align-wrap"><span data-i18n="alignOn">Aligner sur</span>
@@ -100,12 +102,24 @@
               </label>
             </div>
           </div>
-          <ul id="legend" class="legend"></ul>
+          <ul id="legend" class="legend" aria-label="Légende"></ul>
+          <p id="legend-hint" class="note legend-hint" data-i18n="legendHint"></p>
           <div class="overlay-wrap">
             <svg id="overlay" class="drawing" role="img" preserveAspectRatio="xMidYMid meet"></svg>
             <p id="overlay-empty" class="muted" hidden data-i18n="nothingDrawable"></p>
           </div>
           <p id="overlay-note" class="note"></p>
+        </section>
+
+        <section id="front-card" class="card" aria-labelledby="front-title">
+          <div class="card-head">
+            <h3 id="front-title" data-i18n="frontView">Vue de face</h3>
+          </div>
+          <div class="overlay-wrap">
+            <svg id="front" class="drawing" role="img" preserveAspectRatio="xMidYMid meet"></svg>
+            <p id="front-empty" class="muted" hidden data-i18n="noFront"></p>
+          </div>
+          <p class="note" data-i18n="frontNote"></p>
         </section>
 
         <section id="profile-card" class="card" aria-labelledby="profile-title">
@@ -125,7 +139,7 @@
             <svg id="profile" class="drawing" role="img" preserveAspectRatio="xMidYMid meet"></svg>
             <p id="profile-empty" class="muted" hidden data-i18n="noProfile"></p>
           </div>
-          <p class="note" data-i18n="profileNote"></p>
+          <p class="note"></p>
         </section>
 
         <section class="card" aria-labelledby="table-title">

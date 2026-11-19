@@ -120,6 +120,34 @@ def top_profile(mask: np.ndarray) -> dict:
     }
 
 
+def bottom_frame(mask: np.ndarray, top: dict) -> dict | None:
+    """Vue de dessous (derrière la vue de dessus, décalée à droite) : seul son rail droit
+    est entièrement visible. On repère nez, arrière, axe et demi-largeur max."""
+    h = mask.shape[0]
+    nose, L, axis, half_px = top["nose"], top["lengthPx"], top["axis"], top["maxHalfPx"]
+    deck_half = np.interp(np.arange(h), nose + np.linspace(0, L - 1, len(top["half"])), np.array(top["half"]) * half_px,
+                          left=0, right=0)
+    right = np.full(h, -1.0)
+    for y in np.where(mask.any(axis=1))[0]:
+        right[y] = np.where(mask[y])[0][-1]
+    beyond = right > axis + deck_half + 3
+    beyond &= right >= 0
+    rows = np.where(beyond)[0]
+    if len(rows) < L * 0.5:
+        return None
+    b_nose, b_tail = int(rows[0]), int(rows[-1])
+    tip = range(b_nose, b_nose + max(3, (b_tail - b_nose) // 150))
+    centers = []
+    for y in tip:
+        xs = np.where(mask[y])[0]
+        gaps = np.where(np.diff(xs) > 1)[0]
+        start = xs[gaps[-1] + 1] if len(gaps) else xs[0]
+        centers.append((start + xs[-1]) / 2)
+    b_axis = float(np.median(centers))
+    b_half = float(max(right[y] - b_axis for y in rows))
+    return {"noseY": b_nose, "lengthPx": b_tail - b_nose + 1, "axisX": round(b_axis, 1), "halfPx": round(b_half, 1)}
+
+
 def side_profile(mask: np.ndarray) -> dict:
     """Pont et dessous depuis la vue de profil (dernier groupe de colonnes)."""
     rows = np.where(mask.any(axis=1))[0]
@@ -165,6 +193,7 @@ def extract(url: str, debug_dir: Path | None = None, name: str = "") -> dict | N
     top = top_profile(mask[:, top_seg[0]:top_seg[1]])
     side = side_profile(mask[:, side_seg[0]:side_seg[1]])
     width_ratio = 2 * top["maxHalfPx"] / top["lengthPx"]
+    bottom = bottom_frame(mask[:, top_seg[0]:top_seg[1]], top)
     if debug_dir:
         save_debug(debug_dir / f"{name}.png", img, top, side, top_seg, side_seg)
     return {
@@ -182,6 +211,9 @@ def extract(url: str, debug_dir: Path | None = None, name: str = "") -> dict | N
             "lengthPx": top["lengthPx"],
             "axisX": round(top_seg[0] + top["axis"], 1),
             "halfPx": round(top["maxHalfPx"], 1),
+            # vue de dessous (rail droit visible) et vue de profil (pour le profil photo)
+            "bottom": None if bottom is None else {**bottom, "axisX": round(top_seg[0] + bottom["axisX"], 1)},
+            "side": {"noseY": side["nose"], "lengthPx": side["lengthPx"], "refX": round(side_seg[0] + side["ref"], 1)},
         },
     }
 
