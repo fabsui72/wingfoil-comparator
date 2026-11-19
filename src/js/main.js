@@ -23,6 +23,7 @@ const state = {
   mode: 'overlay',
   align: 'tail',
   exaggeration: 2,
+  fill: 'outline',
   currency: 'CHF',
   lang: 'fr',
 };
@@ -51,6 +52,7 @@ function readHash() {
   if (params.get('m') === 'side') state.mode = 'side';
   if (['tail', 'center', 'nose'].includes(params.get('a'))) state.align = params.get('a');
   if (['1', '2', '3'].includes(params.get('z'))) state.exaggeration = Number(params.get('z'));
+  if (params.get('f') === 'photo') state.fill = 'photo';
   const cur = params.get('cur') ?? prefs.get('currency');
   if (currencies.includes(cur)) state.currency = cur;
   state.lang = detectLang(params.get('l'), prefs.get('lang'));
@@ -59,7 +61,7 @@ function readHash() {
 function writeHash() {
   const params = new URLSearchParams({
     c: state.category, s: state.selection.join(','), m: state.mode, a: state.align,
-    z: state.exaggeration, cur: state.currency, l: state.lang,
+    z: state.exaggeration, f: state.fill, cur: state.currency, l: state.lang,
   });
   history.replaceState(null, '', `#${params}`);
 }
@@ -232,11 +234,13 @@ function renderComparison() {
   const legend = $('#legend');
   legend.replaceChildren();
   for (const { model, size, color } of entries) {
-    const li = el('li', {}, el('span', { className: 'swatch' }), `${model.title} — ${size.size}`);
+    const li = el('li', {}, el('span', { className: 'swatch' }), `${model.title}${model.year ? ` ${model.year}` : ''} — ${size.size}`);
     li.style.setProperty('--c', color);
     li.dataset.id = size.id;
     if (CATEGORIES[model.category].overlay && !canDraw({ category: model.category, spec: size.spec })) {
       li.append(el('span', { className: 'muted', textContent: t('notDrawn') }));
+    } else if (state.category === 'board' && state.fill === 'photo' && !model.photoShape?.photo) {
+      li.append(el('span', { className: 'muted', textContent: t('noPhoto') }));
     }
     li.addEventListener('mouseenter', () => highlight(size.id));
     li.addEventListener('mouseleave', () => highlight(null));
@@ -248,10 +252,13 @@ function renderComparison() {
   const drawable = entries.filter((e) => canDraw({ category: e.model.category, spec: e.size.spec }));
   overlayCard.hidden = !CATEGORIES[state.category].overlay;
   $('#align-wrap').hidden = state.category !== 'board';
+  $('#fill-wrap').hidden = state.category !== 'board';
+  $('#fill').value = state.fill;
   for (const input of document.querySelectorAll('input[name="mode"]')) input.checked = input.value === state.mode;
   $('#align').value = state.align;
   const svg = $('#overlay');
-  renderOverlay(svg, drawable, { mode: state.mode, align: state.align });
+  const fill = state.category === 'board' ? state.fill : 'outline';
+  renderOverlay(svg, drawable, { mode: state.mode, align: state.align, fill });
   svg.setAttribute('aria-label', drawable.length ? `${t('shapes')}: ${describeOverlay(drawable)}` : t('nothingDrawable'));
   $('#overlay-empty').hidden = drawable.length > 0;
   const g = svg.dataset.grid ?? '10';
@@ -259,6 +266,11 @@ function renderComparison() {
   $('#overlay-note').textContent = state.category !== 'board'
     ? t('noteFoil', { g })
     : fromPhoto === drawable.length ? t('noteBoardPhoto', { g }) : t('noteBoardMixed', { g, a: fromPhoto, b: drawable.length });
+  if (fill === 'photo') {
+    const sizes = [...new Set(drawable.filter((e) => e.model.photoShape?.photo)
+      .map((e) => `${e.model.title} ${e.model.year ?? ''} : ${e.model.photoShape.photoSize ?? '?'}`))].join(', ');
+    $('#overlay-note').textContent += ` ${t('notePhoto', { sizes })}`;
+  }
 
   // Profil latéral (boards)
   const sides = entries.filter((e) => canDrawSide(e.model, e.size));
@@ -323,6 +335,10 @@ function bindControls() {
       render();
     });
   }
+  $('#fill').addEventListener('change', (e) => {
+    state.fill = e.target.value;
+    render();
+  });
   $('#align').addEventListener('change', (e) => {
     state.align = e.target.value;
     render();

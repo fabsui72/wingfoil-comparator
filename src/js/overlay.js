@@ -1,6 +1,7 @@
 // Rendu SVG de la superposition à l'échelle (1 unité SVG = 1 cm).
 
 import { boardPath, boardSidePath, boardSideProfile, frontWingPath } from './shapes.js';
+import { thumbnailUrl } from './data.js';
 import { t } from './i18n.js';
 import { formatNumber } from './units.js';
 
@@ -28,9 +29,10 @@ function geometry(entry) {
 /**
  * @param {SVGSVGElement} svg
  * @param {Array<{model, size, color}>} entries éléments dessinables
- * @param {{ mode: 'overlay'|'side', align: 'tail'|'center'|'nose' }} options
+ * @param {{ mode: 'overlay'|'side', align: 'tail'|'center'|'nose', fill: 'outline'|'photo' }} options
+ *   fill 'photo' : la photo produit (vue de dessus), étirée aux dimensions de la taille choisie
  */
-export function renderOverlay(svg, entries, { mode = 'overlay', align = 'tail' } = {}) {
+export function renderOverlay(svg, entries, { mode = 'overlay', align = 'tail', fill = 'outline' } = {}) {
   svg.replaceChildren();
   if (!entries.length) return;
 
@@ -86,12 +88,47 @@ export function renderOverlay(svg, entries, { mode = 'overlay', align = 'tail' }
     }
     const group = el('g', { class: 'shape', 'data-id': entry.size.id, transform: `translate(${dx} ${dy})`, style: `--c:${entry.color}` });
     const title = el('title', {}, `${entry.model.title} ${entry.size.size}`);
-    group.append(title, el('path', { d: g.path }));
+    group.append(title);
+    const photo = fill === 'photo' ? photoImage(entry, g.path, i, mode) : null;
+    if (photo) {
+      group.classList.add('has-photo');
+      group.append(...photo);
+    }
+    group.append(el('path', { d: g.path }));
     if (mode === 'side') {
-      group.append(el('text', { x: 0, y: -pad * 0.5, 'text-anchor': 'middle', class: 'label' }, `${entry.size.size}`));
+      group.append(el('text', { x: 0, y: -pad * 0.5, 'text-anchor': 'middle', class: 'label' }, `${entry.size.size}${entry.model.year ? ` · ${entry.model.year}` : ''}`));
     }
     svg.append(group);
   });
+}
+
+/**
+ * Photo produit placée à l'échelle : la vue de dessus de la photo (repérée par
+ * extract_board_outlines.py) est étirée pour que son nez, son arrière et sa largeur
+ * max tombent sur les cotes de la taille choisie, puis découpée selon le contour.
+ * La photo ne montre souvent qu'une taille : pour les autres, c'est une mise à l'échelle.
+ */
+function photoImage(entry, path, i, mode) {
+  const { model, size } = entry;
+  const frame = model.photoShape?.photo;
+  if (model.category !== 'board' || !frame || !model.image) return null;
+  const s = size.spec;
+  const sx = s.widthCm / 2 / frame.halfPx;
+  const sy = s.lengthCm / frame.lengthPx;
+  const id = `clip-${i}-${Math.random().toString(36).slice(2, 8)}`;
+  const clip = el('clipPath', { id });
+  clip.append(el('path', { d: path }));
+  const img = el('image', {
+    href: thumbnailUrl(model.image, 1200),
+    x: -frame.axisX * sx,
+    y: -frame.noseY * sy,
+    width: frame.width * sx,
+    height: frame.height * sy,
+    preserveAspectRatio: 'none',
+    'clip-path': `url(#${id})`,
+    class: mode === 'overlay' ? 'photo photo-overlay' : 'photo',
+  });
+  return [clip, img];
 }
 
 /** Résumé textuel accessible de la superposition. */

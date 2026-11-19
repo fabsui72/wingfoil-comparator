@@ -3,6 +3,7 @@
 Outil web pour comparer des **boards**, des **foils (ailes avant)**, des **stabs** et des **wings** de wingfoil :
 
 - **superposition à l'échelle** des formes (vue de dessus), en mode superposé ou côte à côte, avec alignement sur l'arrière / le centre / le nez pour les boards ;
+- **mode « photo à l'échelle »** pour les boards : la vraie photo produit (vue de dessus), étirée aux dimensions officielles de chaque taille et découpée selon le contour ; idéal en mode côte à côte ;
 - **profil des boards** (épaisseur, rocker, creux du pont), avec exagération des hauteurs ×1, ×2 ou ×3 ;
 - **tableau de specs** côte à côte, avec l'écart en % par rapport à la première taille choisie (la référence) ;
 - **wings** : poids, envergure, longueur de bôme, plage de vent conseillée, prix, prix et poids par m² ;
@@ -89,11 +90,16 @@ wingfoil-comparator/
 
 Comme les dimensions n'existent qu'en image, elles sont transcrites dans `specs.json`. L'URL du tableau d'origine (`sourceChart`) y est conservée pour chaque modèle afin de pouvoir vérifier les valeurs.
 
+### Classement des produits
+
+Un produit est rangé dans une catégorie d'après ses tags de collection sur le site (`categories` dans `data/brands.json`). Quelques produits n'ont aucun tag de collection : ils sont alors classés d'après leur titre (`titleCategories`).
+
 ### Silhouettes : ce qui est exact et ce qui est estimé
 
 Les marques ne publient pas de plan de forme. Les silhouettes sont donc **reconstruites** :
 
 - **Boards, vue de dessus** : le contour vient de la photo produit (vue du pont). Il est mis à l'échelle sur la longueur et la largeur officielles, puis légèrement corrigé pour passer exactement par les largeurs à 1 pied du nez et de l'arrière (OFO). Avant correction, la photo s'écarte déjà de moins de 2 % des cotes officielles. Sans photo exploitable, le contour est interpolé entre les cotes (`outline.nose` / `outline.tail` donnent l'allure du nez et de l'arrière).
+- **Boards, mode photo** : la vue de dessus de la photo est repérée (nez, arrière, axe, largeur max) puis étirée pour que longueur et largeur max correspondent à la taille choisie. Gong ne photographie qu'une taille par modèle : pour les autres tailles, les proportions de la photo sont extrapolées (le contour, lui, reste recalé sur les largeurs à 1 pied).
 - **Boards, profil** : il vient de la vue latérale de la photo, mis à l'échelle sur la longueur et recalé pour que l'épaisseur max soit l'épaisseur officielle (la photo s'en écarte de 3 à 8 % avant recalage). Les straps sont retirés automatiquement. Le rocker affiché est celui de la photo, à environ ±1 cm près ; la valeur officielle est dans le tableau.
 - **Ailes avant et stabs** : envergure et corde sont exactes. Le contour est une super-ellipse dont l'exposant est calculé pour retrouver exactement la surface publiée. La flèche des saumons est uniquement visuelle.
 
@@ -133,6 +139,6 @@ Le niveau vient du classement de la marque : « débutant » si le produit est d
 
 ## Données Gong intégrées (au 19.11.2026)
 
-- Catalogue : 45 boards, 33 ailes avant, 28 stabs, 21 wings.
-- Dimensions saisies pour tous les produits dont Gong publie un tableau de tailles (121 produits, 108 modèles). Restent sans dimensions, faute de tableau publié : HIPE Pro, Sirus V3 (non Atmo) et les ailes avant Ypra V3 non Atmo.
+- Catalogue : 63 boards (dont les 2026 toujours en vente), 34 ailes avant, 30 stabs, 23 wings.
+- Dimensions saisies pour tous les produits dont Gong publie un tableau de tailles (144 produits, 131 modèles). Restent sans dimensions, faute de tableau publié : HIPE Pro, Sirus V3 (non Atmo) et les ailes avant Ypra V3 non Atmo.
 - Longueur de bôme : tableau « Boom GFS V3 » (XXS 81 cm … L 105,5 cm), taille de bôme par surface de wing selon les tableaux Gong.

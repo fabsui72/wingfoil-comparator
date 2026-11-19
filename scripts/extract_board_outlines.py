@@ -173,6 +173,16 @@ def extract(url: str, debug_dir: Path | None = None, name: str = "") -> dict | N
         "top": [round(v, 4) for v in top["half"]],
         "deck": [round(v, 5) for v in side["deck"]],
         "bottom": [round(v, 5) for v in side["bottom"]],
+        # Position de la vue de dessus dans la photo (pixels), pour afficher la photo
+        # elle-même à l'échelle : nez, longueur, axe et demi-largeur max.
+        "photo": {
+            "width": int(img.shape[1]),
+            "height": int(img.shape[0]),
+            "noseY": top["nose"],
+            "lengthPx": top["lengthPx"],
+            "axisX": round(top_seg[0] + top["axis"], 1),
+            "halfPx": round(top["maxHalfPx"], 1),
+        },
     }
 
 

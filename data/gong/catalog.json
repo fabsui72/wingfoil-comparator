@@ -6,7 +6,7 @@
   "EUR",
   "USD"
  ],
- "fetchedAt": "2026-11-19T15:53:37+00:00",
+ "fetchedAt": "2026-11-19T16:12:21+00:00",
  "products": [
   {
    "handle": "gong-wing-foil-board-cruzader-diamond-fsp-pro-27",
@@ -123,6 +123,160 @@
     "freefly",
     "wave",
     "lightwind"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-diamond-fsp-pro-26",
+   "title": "Wing Foil Board Cruzader Diamond FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-DIAMOND-5_6-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "5'4",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "prices": {
+      "CHF": 770.0,
+      "EUR": 839.0,
+      "USD": 956.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'0",
+     "prices": {
+      "CHF": 843.0,
+      "EUR": 919.0,
+      "USD": 1047.0
+     },
+     "compareAt": {
+      "CHF": 1054.0,
+      "EUR": 1149.0,
+      "USD": 1309.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'2",
+     "prices": {
+      "CHF": 843.0,
+      "EUR": 919.0,
+      "USD": 1047.0
+     },
+     "compareAt": {
+      "CHF": 1054.0,
+      "EUR": 1149.0,
+      "USD": 1309.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'4",
+     "prices": {
+      "CHF": 843.0,
+      "EUR": 919.0,
+      "USD": 1047.0
+     },
+     "compareAt": {
+      "CHF": 1054.0,
+      "EUR": 1149.0,
+      "USD": 1309.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "prices": {
+      "CHF": 858.0,
+      "EUR": 935.0,
+      "USD": 1065.0
+     },
+     "compareAt": {
+      "CHF": 1072.0,
+      "EUR": 1169.0,
+      "USD": 1331.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'8",
+     "prices": {
+      "CHF": 858.0,
+      "EUR": 935.0,
+      "USD": 1065.0
+     },
+     "compareAt": {
+      "CHF": 1072.0,
+      "EUR": 1169.0,
+      "USD": 1331.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-cruzader-diamond-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-cruzader-diamond-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_CRUZADER_DIAMOND-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "wave",
+    "lightwind",
+    "multisport"
    ]
   },
   {
@@ -279,6 +433,172 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-cruzader-point-fsp-pro-27",
+   "title": "Wing Foil Board Cruzader Point FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-CRUZADER_POINT-5_4-GONGWING-TB.png",
+   "year": 2027,
+   "sizes": [
+    {
+     "size": "5'0",
+     "prices": {
+      "CHF": 917.0,
+      "EUR": 999.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "prices": {
+      "CHF": 917.0,
+      "EUR": 999.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "prices": {
+      "CHF": 962.0,
+      "EUR": 1049.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 962.0,
+      "EUR": 1049.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 1008.0,
+      "EUR": 1099.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "prices": {
+      "CHF": 1008.0,
+      "EUR": 1099.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-fsp-pro-27",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-fsp-pro-27",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-cruzader-point-fsp-pro-27",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-cruzader-point-fsp-pro-27"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_%20POINT-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "wave",
+    "lightwind",
+    "race"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-point-fsp-pro-26",
+   "title": "Wing Foil Board Cruzader Point FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-POINT-5_4-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "5'2",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 706.0,
+      "EUR": 769.0,
+      "USD": 876.0
+     },
+     "compareAt": {
+      "CHF": 1008.0,
+      "EUR": 1099.0,
+      "USD": 1252.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-cruzader-point-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-cruzader-point-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_CRUZADER_POINT-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "wave",
+    "lightwind",
+    "race"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-cruzader-point-hollow-carbon-27",
    "title": "Wing Foil Board Cruzader Point Hollow Full Carbon",
    "category": "board",
@@ -391,6 +711,267 @@
     "wave",
     "lightwind",
     "race"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-point-lw-fsp-pro-27",
+   "title": "Wing Foil Board Cruzader Point LW FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-CRUZADER_POINT_LW-6_3-GONGWING-TB.png",
+   "year": 2027,
+   "sizes": [
+    {
+     "size": "5'9",
+     "prices": {
+      "CHF": 962.0,
+      "EUR": 1049.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "6'0",
+     "prices": {
+      "CHF": 1008.0,
+      "EUR": 1099.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "6'3",
+     "prices": {
+      "CHF": 1008.0,
+      "EUR": 1099.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "prices": {
+      "CHF": 1036.0,
+      "EUR": 1129.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "6'9",
+     "prices": {
+      "CHF": 1054.0,
+      "EUR": 1149.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "6'11",
+     "prices": {
+      "CHF": 1072.0,
+      "EUR": 1169.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-27",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-27",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-27",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-27"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_POINT_LW-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "lightwind"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-point-lw-fsp-pro-26",
+   "title": "Wing Foil Board Cruzader Point LW FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-POINT_LW-6_0-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "5'9",
+     "prices": {
+      "CHF": 706.0,
+      "EUR": 769.0,
+      "USD": 876.0
+     },
+     "compareAt": {
+      "CHF": 1008.0,
+      "EUR": 1099.0,
+      "USD": 1252.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'0",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 1054.0,
+      "EUR": 1149.0,
+      "USD": 1309.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'0 XL",
+     "prices": {
+      "CHF": 742.0,
+      "EUR": 809.0,
+      "USD": 922.0
+     },
+     "compareAt": {
+      "CHF": 1063.0,
+      "EUR": 1159.0,
+      "USD": 1320.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'3",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 1054.0,
+      "EUR": 1149.0,
+      "USD": 1309.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'3 XL",
+     "prices": {
+      "CHF": 742.0,
+      "EUR": 809.0,
+      "USD": 922.0
+     },
+     "compareAt": {
+      "CHF": 1063.0,
+      "EUR": 1159.0,
+      "USD": 1320.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 1054.0,
+      "EUR": 1149.0,
+      "USD": 1309.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'6 XL",
+     "prices": {
+      "CHF": 748.0,
+      "EUR": 815.0,
+      "USD": 928.0
+     },
+     "compareAt": {
+      "CHF": 1072.0,
+      "EUR": 1169.0,
+      "USD": 1331.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'9",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 1054.0,
+      "EUR": 1149.0,
+      "USD": 1309.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'9 XL",
+     "prices": {
+      "CHF": 748.0,
+      "EUR": 815.0,
+      "USD": 928.0
+     },
+     "compareAt": {
+      "CHF": 1072.0,
+      "EUR": 1169.0,
+      "USD": 1331.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'11",
+     "prices": {
+      "CHF": 748.0,
+      "EUR": 815.0,
+      "USD": 928.0
+     },
+     "compareAt": {
+      "CHF": 1072.0,
+      "EUR": 1169.0,
+      "USD": 1331.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'11 XL",
+     "prices": {
+      "CHF": 761.0,
+      "EUR": 829.0,
+      "USD": 944.0
+     },
+     "compareAt": {
+      "CHF": 1091.0,
+      "EUR": 1189.0,
+      "USD": 1354.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_CRUZADER_POINT_LW-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "lightwind",
+    "multisport"
    ]
   },
   {
@@ -769,6 +1350,89 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-cruzader-squash-fsp-pro-26",
+   "title": "Wing Foil Board Cruzader Squash FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-SQUASH-5_3-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "5'1",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'3",
+     "prices": {
+      "CHF": 770.0,
+      "EUR": 839.0,
+      "USD": 956.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'5",
+     "prices": {
+      "CHF": 770.0,
+      "EUR": 839.0,
+      "USD": 956.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'7",
+     "prices": {
+      "CHF": 806.0,
+      "EUR": 879.0,
+      "USD": 1001.0
+     },
+     "compareAt": {
+      "CHF": 1008.0,
+      "EUR": 1099.0,
+      "USD": 1252.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-cruzader-squash-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-cruzader-squash-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_SQUASH-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "wave",
+    "lightwind"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-cruzader-squash-hollow-carbon-27",
    "title": "Wing Foil Board Cruzader Squash Hollow Full Carbon",
    "category": "board",
@@ -976,6 +1640,100 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-hyperloop-fsp-pro-26",
+   "title": "Wing Foil Board Hyperloop FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-HYPERLOOP-4_7-GONGWING-TB_9689c86a-3571-409d-aecd-aefef62803ac.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "4'5",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'6",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'7",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'8",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'9",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-hyperloop-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-hyperloop-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_HYPERLOOP-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "pro",
+   "series": "Pro Team",
+   "programs": [
+    "freestyle"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-hyperloop-hollow-carbon-27",
    "title": "Wing Foil Board Hyperloop Hollow Full Carbon",
    "category": "board",
@@ -1139,6 +1897,87 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-lance-fsp-2x-26",
+   "title": "Wing Foil Board Lance FSP 2X",
+   "category": "board",
+   "construction": "FSP 2X",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_2X-LANCE-5_7-GONGWING-TB_a520a2e0-bfb6-4c45-91de-ff71b90a7ec3.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 623.0,
+      "EUR": 679.0,
+      "USD": 774.0
+     },
+     "compareAt": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
+     },
+     "available": false
+    },
+    {
+     "size": "5'7",
+     "prices": {
+      "CHF": 623.0,
+      "EUR": 679.0,
+      "USD": 774.0
+     },
+     "compareAt": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
+     },
+     "available": false
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'9",
+     "prices": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-fsp-2x-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-fsp-2x-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-lance-fsp-2x-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-lance-fsp-2x-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_LANCE-FSP_2X-GONGWING.webp"
+   ],
+   "level": "beginner",
+   "series": "Perf",
+   "programs": [
+    "freeride",
+    "lightwind"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-lance-hollow-hybrid-27",
    "title": "Wing Foil Board Lance Hollow Hybrid Carbon",
    "category": "board",
@@ -1239,6 +2078,87 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-lance-wood-2x-26",
+   "title": "Wing Foil Board Lance WOOD 2X",
+   "category": "board",
+   "construction": "WOOD 2X",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-WOOD_2X-LANCE-5_7-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 513.0,
+      "EUR": 559.0,
+      "USD": 637.0
+     },
+     "compareAt": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "available": false
+    },
+    {
+     "size": "5'7",
+     "prices": {
+      "CHF": 513.0,
+      "EUR": 559.0,
+      "USD": 637.0
+     },
+     "compareAt": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
+     },
+     "compareAt": {
+      "CHF": 687.0,
+      "EUR": 749.0,
+      "USD": 853.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'9",
+     "prices": {
+      "CHF": 586.0,
+      "EUR": 639.0,
+      "USD": 728.0
+     },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-wood-2x-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-wood-2x-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-lance-wood-2x-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-lance-wood-2x-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_LANCE-WOOD_2X-GONGWING.webp"
+   ],
+   "level": "beginner",
+   "series": "Perf",
+   "programs": [
+    "freeride",
+    "lightwind"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-lemon-fsp-2x-27",
    "title": "Wing Foil Board Lemon FSP 2X",
    "category": "board",
@@ -1326,6 +2246,131 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-lemon-fsp-2x-26",
+   "title": "Wing Foil Board Lemon FSP 2X",
+   "category": "board",
+   "construction": "FSP 2X",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_2X-LEMON-4_9-GONGWING-TB_7e8f8c9e-a401-47e3-bf00-9d825b8bcc4c.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "4'6",
+     "prices": {
+      "CHF": 513.0,
+      "EUR": 559.0,
+      "USD": 637.0
+     },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'9",
+     "prices": {
+      "CHF": 513.0,
+      "EUR": 559.0,
+      "USD": 637.0
+     },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'0",
+     "prices": {
+      "CHF": 541.0,
+      "EUR": 589.0,
+      "USD": 671.0
+     },
+     "compareAt": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "prices": {
+      "CHF": 541.0,
+      "EUR": 589.0,
+      "USD": 671.0
+     },
+     "compareAt": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "prices": {
+      "CHF": 577.0,
+      "EUR": 629.0,
+      "USD": 717.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 577.0,
+      "EUR": 629.0,
+      "USD": 717.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-2x-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-2x-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-lemon-fsp-2x-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-lemon-fsp-2x-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_LEMON-FSP_2X-GONGWING.webp"
+   ],
+   "level": "advanced",
+   "series": "Perf",
+   "programs": [
+    "freeride",
+    "freefly",
+    "freestyle",
+    "wave"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-lemon-fsp-pro-27",
    "title": "Wing Foil Board Lemon FSP Pro",
    "category": "board",
@@ -1402,6 +2447,131 @@
    },
    "sizeCharts": [
     "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LEMON-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "freestyle",
+    "wave"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lemon-fsp-pro-26",
+   "title": "Wing Foil Board Lemon FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-LEMON-4_9-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "4'6",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'9",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'0",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-lemon-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-lemon-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_LEMON-FSP_PRO-GONGWING.webp"
    ],
    "level": "advanced",
    "series": "Team",
@@ -1613,6 +2783,117 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-lethal-fsp-pro-26",
+   "title": "Wing Foil Board Lethal FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-LETHAL-4_10-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "4'8",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'10",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'0",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "prices": {
+      "CHF": 706.0,
+      "EUR": 769.0,
+      "USD": 876.0
+     },
+     "compareAt": {
+      "CHF": 1008.0,
+      "EUR": 1099.0,
+      "USD": 1252.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 706.0,
+      "EUR": 769.0,
+      "USD": 876.0
+     },
+     "compareAt": {
+      "CHF": 1008.0,
+      "EUR": 1099.0,
+      "USD": 1252.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-lethal-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-lethal-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_LETHAL-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "pro",
+   "series": "Pro Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "wave",
+    "lightwind"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-lethal-hollow-carbon-27",
    "title": "Wing Foil Board Lethal Hollow Full Carbon",
    "category": "board",
@@ -1757,6 +3038,130 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-mint-fsp-2x-26",
+   "title": "Wing Foil Board Mint FSP 2X",
+   "category": "board",
+   "construction": "FSP 2X",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_2X-MINT-5_0-GONGWING-TB_3c39fc8f-56ca-4c38-a0a9-2a4676eeb167.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "4'10",
+     "prices": {
+      "CHF": 586.0,
+      "EUR": 639.0,
+      "USD": 728.0
+     },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'0",
+     "prices": {
+      "CHF": 586.0,
+      "EUR": 639.0,
+      "USD": 728.0
+     },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "prices": {
+      "CHF": 623.0,
+      "EUR": 679.0,
+      "USD": 774.0
+     },
+     "compareAt": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "prices": {
+      "CHF": 623.0,
+      "EUR": 679.0,
+      "USD": 774.0
+     },
+     "compareAt": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 623.0,
+      "EUR": 679.0,
+      "USD": 774.0
+     },
+     "compareAt": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
+     },
+     "available": false
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "prices": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-2x-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-2x-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-mint-fsp-2x-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-mint-fsp-2x-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_MINT-FSP_2X-GONGWING.webp"
+   ],
+   "level": "beginner",
+   "series": "Perf",
+   "programs": [
+    "freeride",
+    "freefly",
+    "wave"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-mint-fsp-pro-27",
    "title": "Wing Foil Board Mint FSP Pro",
    "category": "board",
@@ -1843,6 +3248,130 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-mint-fsp-pro-26",
+   "title": "Wing Foil Board Mint FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-MINT-4_10-GONGWING-TB_a0562b68-62ee-450e-9bc2-c23a6f1a995b.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "4'10",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'0",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-mint-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-mint-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_MINT-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "beginner",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "wave"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-mint-hollow-carbon-27",
    "title": "Wing Foil Board Mint Hollow Full Carbon",
    "category": "board",
@@ -1904,7 +3433,7 @@
       "USD": 1479.0
      },
      "compareAt": {},
-     "available": false
+     "available": true
     },
     {
      "size": "5'4",
@@ -2000,6 +3529,103 @@
    },
    "sizeCharts": [
     "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-RACER-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "pro",
+   "series": "Pro Team",
+   "programs": [
+    "freefly",
+    "wave",
+    "lightwind",
+    "race"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-racer-fsp-pro-26",
+   "title": "Wing Foil Board Racer FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-RACER-5_2-GONGWING-TB_ad86fc77-d41b-4312-b6f3-573f646982dc.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "5'0",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "prices": {
+      "CHF": 770.0,
+      "EUR": 839.0,
+      "USD": 956.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "prices": {
+      "CHF": 770.0,
+      "EUR": 839.0,
+      "USD": 956.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "prices": {
+      "CHF": 806.0,
+      "EUR": 879.0,
+      "USD": 1001.0
+     },
+     "compareAt": {
+      "CHF": 1008.0,
+      "EUR": 1099.0,
+      "USD": 1252.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-racer-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-racer-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_RACER-FSP_PRO-GONGWING.webp"
    ],
    "level": "pro",
    "series": "Pro Team",
@@ -2144,6 +3770,116 @@
    },
    "sizeCharts": [
     "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-STUNT-FSP_PRO-GONGWING.webp"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freefly",
+    "freestyle",
+    "wave"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-stunt-fsp-pro-26",
+   "title": "Wing Foil Board Stunt FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_PRO-STUNT-4_7-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "4'5",
+     "prices": {
+      "CHF": 577.0,
+      "EUR": 629.0,
+      "USD": 717.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'6",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'7",
+     "prices": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'8",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'9",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    },
+    {
+     "size": "4'11",
+     "prices": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
+     "compareAt": {
+      "CHF": 962.0,
+      "EUR": 1049.0,
+      "USD": 1195.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-fsp-pro-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-fsp-pro-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-stunt-fsp-pro-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-stunt-fsp-pro-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_STUNT-FSP_PRO-GONGWING.webp"
    ],
    "level": "advanced",
    "series": "Team",
@@ -2310,6 +4046,102 @@
    ]
   },
   {
+   "handle": "gong-wing-foil-board-zuma-fsp-2x-26",
+   "title": "Wing Foil Board Zuma FSP 2X",
+   "category": "board",
+   "construction": "FSP 2X",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-FSP_2X-LANCE-5_7-GONGWING-TB_add6367e-1f0b-4bd4-bdf6-3753006045dc.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "6'0",
+     "prices": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'3",
+     "prices": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "prices": {
+      "CHF": 696.0,
+      "EUR": 759.0,
+      "USD": 865.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'9",
+     "prices": {
+      "CHF": 696.0,
+      "EUR": 759.0,
+      "USD": 865.0
+     },
+     "compareAt": {
+      "CHF": 871.0,
+      "EUR": 949.0,
+      "USD": 1081.0
+     },
+     "available": true
+    },
+    {
+     "size": "7'3",
+     "prices": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-fsp-2x-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-fsp-2x-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-zuma-fsp-2x-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-zuma-fsp-2x-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_ZUMA-FSP_2X-GONGWING.webp"
+   ],
+   "level": "beginner",
+   "series": "Perf",
+   "programs": [
+    "freeride",
+    "lightwind",
+    "multisport"
+   ]
+  },
+  {
    "handle": "gong-wing-foil-board-zuma-wood-2x-27",
    "title": "Wing Foil Board Zuma WOOD 2X",
    "category": "board",
@@ -2372,6 +4204,102 @@
    "programs": [
     "freeride",
     "lightwind"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-zuma-wood-2x-26",
+   "title": "Wing Foil Board Zuma Wood 2X",
+   "category": "board",
+   "construction": "WOOD 2X",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING_BOARD-2026-WOOD_2X-ZUMA-6_0-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "6'0",
+     "prices": {
+      "CHF": 513.0,
+      "EUR": 559.0,
+      "USD": 637.0
+     },
+     "compareAt": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'3",
+     "prices": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
+     },
+     "compareAt": {
+      "CHF": 687.0,
+      "EUR": 749.0,
+      "USD": 853.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "prices": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
+     },
+     "compareAt": {
+      "CHF": 687.0,
+      "EUR": 749.0,
+      "USD": 853.0
+     },
+     "available": true
+    },
+    {
+     "size": "6'9",
+     "prices": {
+      "CHF": 586.0,
+      "EUR": 639.0,
+      "USD": 728.0
+     },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "available": false
+    },
+    {
+     "size": "7'3",
+     "prices": {
+      "CHF": 586.0,
+      "EUR": 639.0,
+      "USD": 728.0
+     },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-wood-2x-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-wood-2x-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-foil-board-zuma-wood-2x-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-foil-board-zuma-wood-2x-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_ZUMA-WOOD_2X-GONGWING.webp"
+   ],
+   "level": "beginner",
+   "series": "Perf",
+   "programs": [
+    "freeride",
+    "lightwind",
+    "multisport"
    ]
   },
   {
@@ -5449,6 +7377,44 @@
    ]
   },
   {
+   "handle": "gong-foil-front-wing-ypra-freestyle",
+   "title": "Foil Front Wing Ypra Freestyle V3",
+   "category": "frontwing",
+   "construction": null,
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL_V3-PRO_TEAM_SERIES-FRONT_WING-YPRA_FREESTYLE-V3-GONGFOIL-TB_14201936-cbfe-426b-89b8-a6cee577a5b0.png",
+   "year": 2025,
+   "sizes": [
+    {
+     "size": "M",
+     "prices": {
+      "CHF": 243.0,
+      "EUR": 265.0,
+      "USD": 302.0
+     },
+     "compareAt": {
+      "CHF": 409.0,
+      "EUR": 445.0,
+      "USD": 507.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-freestyle",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-freestyle",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-foil-front-wing-ypra-freestyle",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-foil-front-wing-ypra-freestyle"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-FOIL-FRONT_WING-YPRA_FREESTYLE-GONGFOIL.webp"
+   ],
+   "level": "pro",
+   "series": "Pro Team",
+   "programs": [
+    "freestyle"
+   ]
+  },
+  {
    "handle": "gong-foil-front-wing-ypra-race-atmo",
    "title": "Foil Front Wing Ypra Race Micro V3 Atmo - Pro Team Series",
    "category": "frontwing",
@@ -7241,6 +9207,44 @@
    ]
   },
   {
+   "handle": "gong-foil-stab-ypra-freestyle-1",
+   "title": "Foil Stab Ypra Freestyle V3",
+   "category": "stab",
+   "construction": null,
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/25-1500-FOIL-PRO_TEAM_SERIES_V3-STAB-YPRA-FREESTYLE-SURF_FREESTYLE-GONGFOIL-TB_a34e334f-8064-44f4-a3c2-fb132ba52331.png",
+   "year": 2025,
+   "sizes": [
+    {
+     "size": "S",
+     "prices": {
+      "CHF": 91.0,
+      "EUR": 99.0,
+      "USD": 113.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
+     },
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-freestyle-1",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-freestyle-1",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-foil-stab-ypra-freestyle-1",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-foil-stab-ypra-freestyle-1"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-FOIL-STAB-YPRA_FREESTYLE-GONGFOIL_2410-25-FOIL-FRONT_WING-SIZECHART-YPRA_FREESTYLE-GONGFOIL.webp"
+   ],
+   "level": "pro",
+   "series": "Pro Team",
+   "programs": [
+    "freestyle"
+   ]
+  },
+  {
    "handle": "gong-foil-stab-ypra-freestyle",
    "title": "Foil Stab Ypra Freestyle V3",
    "category": "stab",
@@ -7339,6 +9343,58 @@
    },
    "sizeCharts": [
     "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-YPRA_RACE-GONGFOIL.webp"
+   ],
+   "level": "pro",
+   "series": "Pro Team",
+   "programs": [
+    "race"
+   ]
+  },
+  {
+   "handle": "gong-foil-stab-ypra-race-micro-v3-yrm-atmo",
+   "title": "Foil Stab Ypra Race Short Micro V3 Atmo - Pro Team Series",
+   "category": "stab",
+   "construction": null,
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-V3_ATMO-YPRA_RACE_SHORT-150-GONGFOIL-TB_1f790398-bccb-4389-90e3-980eba1dadad.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "135 cm²",
+     "prices": {
+      "CHF": 174.0,
+      "EUR": 189.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "150 cm²",
+     "prices": {
+      "CHF": 174.0,
+      "EUR": 189.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "165 cm²",
+     "prices": {
+      "CHF": 174.0,
+      "EUR": 189.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-race-micro-v3-yrm-atmo",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-race-micro-v3-yrm-atmo",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-foil-stab-ypra-race-micro-v3-yrm-atmo",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-foil-stab-ypra-race-micro-v3-yrm-atmo"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-YPRA_RACE-GONGFOIL.webp",
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-YPRA_RACE_SHORT-GONGFOIL.webp"
    ],
    "level": "pro",
    "series": "Pro Team",
@@ -9292,6 +11348,133 @@
    ]
   },
   {
+   "handle": "gong-wing-droid-light-26",
+   "title": "Wing Droid Light - Team Series",
+   "category": "wing",
+   "construction": "Aramid Light",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-TEAM_SERIES-2026-LIGHT-ARAMID-DROID-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "3 m²",
+     "prices": {
+      "CHF": 696.0,
+      "EUR": 759.0,
+      "USD": 865.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "prices": {
+      "CHF": 724.0,
+      "EUR": 789.0,
+      "USD": 899.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "prices": {
+      "CHF": 751.0,
+      "EUR": 819.0,
+      "USD": 933.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "prices": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "prices": {
+      "CHF": 816.0,
+      "EUR": 889.0,
+      "USD": 1013.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5,5 m²",
+     "prices": {
+      "CHF": 852.0,
+      "EUR": 929.0,
+      "USD": 1058.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "6 m²",
+     "prices": {
+      "CHF": 889.0,
+      "EUR": 969.0,
+      "USD": 1104.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "6,5 m²",
+     "prices": {
+      "CHF": 926.0,
+      "EUR": 1009.0,
+      "USD": 1149.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "7 m²",
+     "prices": {
+      "CHF": 990.0,
+      "EUR": 1079.0,
+      "USD": 1229.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "7,5 m²",
+     "prices": {
+      "CHF": 1072.0,
+      "EUR": 1169.0,
+      "USD": 1331.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-light-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-light-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-droid-light-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-droid-light-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2026-TEAM_SERIES-LIGHT_ARAMID-DROID-GONGWING"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freestyle",
+    "wave",
+    "lightwind"
+   ]
+  },
+  {
    "handle": "gong-wing-droid-27",
    "title": "Wing Droid RH - Perf Series",
    "category": "wing",
@@ -10547,6 +12730,113 @@
     "freeride",
     "freefly",
     "wave"
+   ]
+  },
+  {
+   "handle": "gong-wing-neutra-light-26",
+   "title": "Wing Neutra Light - Team Series",
+   "category": "wing",
+   "construction": "Aramid Light",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-TEAM_SERIES-2026-LIGHT-ARAMID-NEUTRA-GONGWING-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "2 m²",
+     "prices": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "2,5 m²",
+     "prices": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "3 m²",
+     "prices": {
+      "CHF": 687.0,
+      "EUR": 749.0,
+      "USD": 853.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "prices": {
+      "CHF": 715.0,
+      "EUR": 779.0,
+      "USD": 887.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "prices": {
+      "CHF": 742.0,
+      "EUR": 809.0,
+      "USD": 922.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "prices": {
+      "CHF": 770.0,
+      "EUR": 839.0,
+      "USD": 956.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "prices": {
+      "CHF": 806.0,
+      "EUR": 879.0,
+      "USD": 1001.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5,5 m²",
+     "prices": {
+      "CHF": 843.0,
+      "EUR": 919.0,
+      "USD": 1047.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-light-26",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-light-26",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-wing-neutra-light-26",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-wing-neutra-light-26"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2026-TEAM_SERIES-LIGHT_ARAMID-NEUTRA-GONGWING"
+   ],
+   "level": "advanced",
+   "series": "Team",
+   "programs": [
+    "freeride",
+    "freefly",
+    "wave",
+    "lightwind"
    ]
   },
   {

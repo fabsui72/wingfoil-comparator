@@ -24,7 +24,8 @@
       "categories": {
         "board": [
           "main_collection:wing-foil-planches-rigides",
-          "main_collection:planche-gonflable-wingfoil"
+          "main_collection:planche-gonflable-wingfoil",
+          "main_collection:planche-rigides-wingfoil"
         ],
         "frontwing": [
           "main_collection:front-wing-parts-fr"
@@ -90,6 +91,12 @@
       "year": {
         "handlePattern": "-(2\\d)(?:[a-z]{0,6})?$",
         "imagePattern": "^(?:\\d\\d-)?(?:1500-)?(2\\d)-"
+      },
+      "titleCategories": {
+        "board": "(?i)^(gong \\| )?wing ?foil board",
+        "frontwing": "(?i)^(gong \\| )?foil front wing(?!.*fuselage)",
+        "stab": "(?i)^(gong \\| )?foil (stab|tail wing)(?!.*(fuselage|carbon tail|cale))",
+        "wing": "(?i)^(gong \\| )?wing (droid|neutra|plus|pulse)\\b(?!.*(latte|batten|window|tips))"
       }
     }
   ]

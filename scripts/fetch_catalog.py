@@ -99,11 +99,17 @@ def option_value(product: dict, variant: dict, names: list[str]) -> str | None:
     return None
 
 
-def classify(product: dict, categories: dict[str, list[str]]) -> str | None:
+def classify(product: dict, categories: dict[str, list[str]], title_rules: dict[str, str] | None = None) -> str | None:
+    """Catégorie d'après les tags du site ; à défaut (produit sans tag de collection),
+    d'après le titre (règles `titleCategories` de brands.json)."""
     tags = set(product.get("tags", []))
     for category, wanted in categories.items():
         if tags.intersection(wanted):
             return category
+    if title_rules and not any(t.startswith("main_collection:") for t in tags):
+        for category, pattern in title_rules.items():
+            if re.search(pattern, product.get("title", "")):
+                return category
     return None
 
 
@@ -141,7 +147,7 @@ def build_catalog(markets: dict[str, list[dict]], brand: dict, primary: str) -> 
     for p in markets[primary]:
         if p["handle"] in seen or (exclude and exclude.search(p["title"])):
             continue
-        category = classify(p, brand["categories"])
+        category = classify(p, brand["categories"], brand.get("titleCategories"))
         if not category:
             continue
         seen.add(p["handle"])
