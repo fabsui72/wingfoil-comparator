@@ -174,3 +174,5 @@ button, input, select { font: inherit; color: inherit; }
 .level-pro { --lvl: var(--lvl-pro); }
 .level { display: inline-block; font-size: .78rem; font-weight: 600; padding: 1px 8px; border-radius: 999px; color: #fff; background: var(--lvl); }
 .col-photo { display: block; width: 100%; max-width: 160px; aspect-ratio: 1; object-fit: contain; margin-bottom: 6px; background: var(--bg); border-radius: 8px; }
+.sale { display: inline-block; font-size: .74rem; font-weight: 700; padding: 1px 7px; border-radius: 999px; background: #dc2626; color: #fff; white-space: nowrap; }
+.model-head .sale { flex: none; }

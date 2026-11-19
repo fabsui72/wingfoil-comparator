@@ -7,6 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 import fetch_catalog as fc  # noqa: E402
 
 BRAND = {
+    "year": {"handlePattern": "-(2\\d)(?:[a-z]{0,6})?$", "imagePattern": "^(?:\\d\\d-)?(?:1500-)?(2\\d)-"},
     "id": "gong", "name": "Gong", "baseUrl": "https://example.com",
     "categories": {"board": ["main_collection:boards"], "wing": ["main_collection:wings"]},
     "excludeTitlePattern": "(?i)^(gong \\| )?pack",
@@ -26,10 +27,11 @@ def product(handle, title, tags, variants, options=None):
     }
 
 
-def mint(price_a, price_b):
-    return product("mint", "GONG | Board Mint", ["main_collection:boards"], [
+def mint(price_a, price_b, compare_b=None):
+    return product("mint-27", "GONG | Board Mint", ["main_collection:boards"], [
         {"option1": "FSP", "option2": "5’4", "option3": "Blue", "price": price_a, "available": False},
-        {"option1": "FSP", "option2": "5’4", "option3": "Red", "price": price_b, "available": True},
+        {"option1": "FSP", "option2": "5’4", "option3": "Red", "price": price_b, "available": True,
+         "compare_at_price": compare_b},
         {"option1": "FSP", "option2": "5'6", "option3": "Blue", "price": price_a, "available": False},
     ])
 
@@ -39,7 +41,7 @@ class FetchCatalogTest(unittest.TestCase):
         markets = {
             "CHF": [mint("733.00", "700.00"), product("pack", "GONG | Pack Wing", ["main_collection:boards"], []),
                     product("leash", "GONG | Leash", ["other"], [])],
-            "EUR": [mint("799.00", "780.00")],
+            "EUR": [mint("799.00", "640.00", compare_b="799.00")],
         }
         catalog = fc.build_catalog(markets, BRAND, "CHF")
         self.assertEqual(len(catalog), 1)
@@ -47,10 +49,17 @@ class FetchCatalogTest(unittest.TestCase):
         self.assertEqual(item["title"], "Board Mint")
         self.assertEqual(item["construction"], "FSP")
         self.assertEqual(item["image"], "https://cdn/x.png")
+        self.assertEqual(item["year"], 2027)
         self.assertEqual(item["sizes"], [
-            {"size": "5'4", "prices": {"CHF": 700.0, "EUR": 780.0}, "available": True},
-            {"size": "5'6", "prices": {"CHF": 733.0, "EUR": 799.0}, "available": False},
+            {"size": "5'4", "prices": {"CHF": 700.0, "EUR": 640.0}, "compareAt": {"EUR": 799.0}, "available": True},
+            {"size": "5'6", "prices": {"CHF": 733.0, "EUR": 799.0}, "compareAt": {}, "available": False},
         ])
+
+    def test_model_year(self):
+        self.assertEqual(fc.model_year("gong-wing-droid-26nhnb", None, BRAND), 2026)
+        self.assertEqual(fc.model_year("gong-foil-front-wing-fluid-h", "https://c/00-1500-25-FOIL.png", BRAND), 2025)
+        self.assertEqual(fc.model_year("gong-foil-front-wing-fluid-atmo", "https://c/00-26-1500-FOIL.png", BRAND), 2026)
+        self.assertIsNone(fc.model_year("x", None, BRAND))
 
     def test_parse_product_page(self):
         html = ('Categories: ["LOWKITE > X","WING FOIL > Planches | Planches débutants","WING FOIL > Planches | Perf Series"],'

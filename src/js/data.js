@@ -117,6 +117,25 @@ export function priceIn(size, currency) {
   return size.prices?.[currency] ?? null;
 }
 
+/** Prix avant promotion (prix barré), ou null si la taille n'est pas en promo dans cette devise. */
+export function compareAtIn(size, currency) {
+  const before = size.compareAt?.[currency] ?? null;
+  const now = priceIn(size, currency);
+  return before != null && now != null && before > now ? before : null;
+}
+
+/** Remise en % (arrondie) d'une taille, ou null. */
+export function discountPct(size, currency) {
+  const before = compareAtIn(size, currency);
+  return before ? Math.round((1 - priceIn(size, currency) / before) * 100) : null;
+}
+
+/** Plus forte remise parmi les tailles d'un modèle (null si aucune). */
+export function maxDiscount(model, currency) {
+  const d = model.sizes.map((s) => discountPct(s, currency)).filter((x) => x != null);
+  return d.length ? Math.max(...d) : null;
+}
+
 /** Construit la liste des modèles (produit + ses tailles enrichies) pour une marque. */
 export function mergeBrand(brand, catalog, specs, outlines = null) {
   const models = specs?.models ?? {};
@@ -134,7 +153,7 @@ export function mergeBrand(brand, catalog, specs, outlines = null) {
         const c = catalogBySize.get(size);
         const prices = c.prices ?? (c.price != null ? { [catalog.currency ?? brand.currency ?? 'CHF']: c.price } : {});
         const spec = enrichSpec(product.category, size, specBySize.get(size));
-        return { id: `${brand.id}:${product.handle}:${size}`, size, prices, available: Boolean(c.available), spec };
+        return { id: `${brand.id}:${product.handle}:${size}`, size, prices, compareAt: c.compareAt ?? {}, available: Boolean(c.available), spec };
       });
 
     return {
@@ -148,7 +167,7 @@ export function mergeBrand(brand, catalog, specs, outlines = null) {
       construction: product.construction,
       level: product.level ?? null,
       series: product.series ?? null,
-      year: modelYear(product.handle),
+      year: product.year ?? modelYear(product.handle),
       programs: product.programs ?? [],
       url: product.url,
       urls: product.urls ?? {},

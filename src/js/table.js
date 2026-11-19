@@ -1,7 +1,7 @@
 // Tableau comparatif des specs. La première colonne sélectionnée sert de référence
 // pour les écarts en %.
 
-import { SPEC_FIELDS, priceIn, thumbnailUrl } from './data.js';
+import { SPEC_FIELDS, compareAtIn, discountPct, priceIn, thumbnailUrl } from './data.js';
 import { t } from './i18n.js';
 import { formatNumber, formatPrice, relativeDelta } from './units.js';
 
@@ -91,6 +91,11 @@ export function renderTable(table, category, entries, { currency, onRemove }) {
     const price = priceIn(size, currency);
     const td = cell('td', formatPrice(price, currency));
     if (price != null) {
+      const before = compareAtIn(size, currency);
+      if (before) {
+        td.prepend(cell('span', `−${discountPct(size, currency)} %`, 'sale'), ' ');
+        td.append(' ', cell('s', formatPrice(before, currency), 'muted'));
+      }
       const badge = deltaBadge(price, refPrice);
       if (badge) td.append(' ', badge);
       if (!size.available) td.append(cell('div', t('unavailable'), 'muted'));
@@ -106,6 +111,7 @@ export function renderTable(table, category, entries, { currency, onRemove }) {
     return td;
   });
   addRow(t('level'), levelCells);
+  addRow(t('year'), entries.map(({ model }) => cell('td', model.year ?? '—')));
   if (entries.some((e) => e.model.series)) addRow(t('series'), entries.map(({ model }) => cell('td', model.series ?? '—')));
   addRow(t('construction'), entries.map(({ model }) => cell('td', model.construction ?? '—')));
   if (entries.some((e) => e.model.programs.length)) {

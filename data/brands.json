@@ -86,6 +86,10 @@
         "lightwind": "Light ?wind|Lightwind",
         "race": "Racing",
         "multisport": "Multisports"
+      },
+      "year": {
+        "handlePattern": "-(2\\d)(?:[a-z]{0,6})?$",
+        "imagePattern": "^(?:\\d\\d-)?(?:1500-)?(2\\d)-"
       }
     }
   ]

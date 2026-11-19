@@ -6,7 +6,7 @@
   "EUR",
   "USD"
  ],
- "fetchedAt": "2026-11-19T15:49:04+00:00",
+ "fetchedAt": "2026-11-19T15:50:20+00:00",
  "products": [
   {
    "handle": "gong-wing-foil-board-cruzader-diamond-fsp-pro-27",
@@ -14,6 +14,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-CRUZADER_DIAMOND-6_0-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'4",
@@ -22,6 +23,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -31,6 +33,7 @@
       "EUR": 1029.0,
       "USD": 1172.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -40,6 +43,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -49,6 +53,7 @@
       "EUR": 1069.0,
       "USD": 1218.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -58,6 +63,7 @@
       "EUR": 1099.0,
       "USD": 1252.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -67,6 +73,7 @@
       "EUR": 1129.0,
       "USD": 1286.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -76,6 +83,7 @@
       "EUR": 1129.0,
       "USD": 1286.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -85,6 +93,7 @@
       "EUR": 1169.0,
       "USD": 1331.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -94,6 +103,7 @@
       "EUR": 1169.0,
       "USD": 1331.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -121,6 +131,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-CRUZADER_DIAMOND-6_0-GONGWING-TB_5dbf89af-0809-4fb8-9125-6cb92afb6cfe.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'8",
@@ -129,6 +140,7 @@
       "EUR": 1649.0,
       "USD": 1878.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -138,6 +150,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -147,6 +160,7 @@
       "EUR": 1689.0,
       "USD": 1923.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -156,6 +170,7 @@
       "EUR": 1689.0,
       "USD": 1923.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -165,6 +180,7 @@
       "EUR": 1699.0,
       "USD": 1935.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -192,6 +208,7 @@
    "category": "board",
    "construction": "Hollow hybrid carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_DIAMOND-6_0-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'8",
@@ -200,6 +217,7 @@
       "EUR": 1349.0,
       "USD": 1536.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -209,6 +227,7 @@
       "EUR": 1369.0,
       "USD": 1559.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -218,6 +237,7 @@
       "EUR": 1379.0,
       "USD": 1570.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -227,6 +247,7 @@
       "EUR": 1399.0,
       "USD": 1593.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -236,6 +257,7 @@
       "EUR": 1399.0,
       "USD": 1593.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -262,6 +284,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-POINT-5_4-GONGWING-TB_ad60ff84-4ebc-4322-90d2-4ce83b6ed321.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'2",
@@ -270,6 +293,7 @@
       "EUR": 1599.0,
       "USD": 1821.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -279,6 +303,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -288,6 +313,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -316,6 +342,7 @@
    "category": "board",
    "construction": "Hollow hybrid carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_POINT-5_4-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'2",
@@ -324,6 +351,7 @@
       "EUR": 1329.0,
       "USD": 1514.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -333,6 +361,7 @@
       "EUR": 1349.0,
       "USD": 1536.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -342,6 +371,7 @@
       "EUR": 1369.0,
       "USD": 1559.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -369,6 +399,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-POINT_LW-6_3-GONGWING-TB_968a644e-ac49-402e-bb55-8df60be907d4.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "6'3",
@@ -377,6 +408,7 @@
       "EUR": 1689.0,
       "USD": 1923.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -386,6 +418,7 @@
       "EUR": 1699.0,
       "USD": 1935.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -412,6 +445,7 @@
    "category": "board",
    "construction": "Hollow hybrid carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_POINT_LW-6_3-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "6'3",
@@ -420,6 +454,7 @@
       "EUR": 1389.0,
       "USD": 1582.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -429,6 +464,7 @@
       "EUR": 1399.0,
       "USD": 1593.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -454,6 +490,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-CRUZADER_SQUASH_2PK-5_6-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'4",
@@ -462,6 +499,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -471,6 +509,7 @@
       "EUR": 1029.0,
       "USD": 1172.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -480,6 +519,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -489,6 +529,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -515,6 +556,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-CRUZADER_SQUASH_2PK-5_6-GONGWING-TB_de358a2f-4792-4fe7-89c4-704977ce5787.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'4",
@@ -523,6 +565,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -532,6 +575,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -541,6 +585,7 @@
       "EUR": 1689.0,
       "USD": 1923.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -550,6 +595,7 @@
       "EUR": 1689.0,
       "USD": 1923.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -576,6 +622,7 @@
    "category": "board",
    "construction": "Hollow hybrid carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_SQUASH_2PK-5_6-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'4",
@@ -584,6 +631,7 @@
       "EUR": 1349.0,
       "USD": 1536.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -593,6 +641,7 @@
       "EUR": 1369.0,
       "USD": 1559.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -602,6 +651,7 @@
       "EUR": 1389.0,
       "USD": 1582.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -611,6 +661,7 @@
       "EUR": 1389.0,
       "USD": 1582.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -636,6 +687,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-CRUZADER_SQUASH-5_3-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'11",
@@ -644,6 +696,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -653,6 +706,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -662,6 +716,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -671,6 +726,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -680,6 +736,7 @@
       "EUR": 1079.0,
       "USD": 1229.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -689,6 +746,7 @@
       "EUR": 1099.0,
       "USD": 1252.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -716,6 +774,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-CRUZADER_SQUASH-5_3-GONGWING-TB_aa279faa-0e5d-4fb2-8d57-17762753c3a6.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'1",
@@ -724,6 +783,7 @@
       "EUR": 1599.0,
       "USD": 1821.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -733,6 +793,7 @@
       "EUR": 1649.0,
       "USD": 1878.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -742,6 +803,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -751,6 +813,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -778,6 +841,7 @@
    "category": "board",
    "construction": "Hollow hybrid carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_SQUASH-5_3-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'1",
@@ -786,6 +850,7 @@
       "EUR": 1299.0,
       "USD": 1479.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -795,6 +860,7 @@
       "EUR": 1349.0,
       "USD": 1536.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -804,6 +870,7 @@
       "EUR": 1369.0,
       "USD": 1559.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -813,6 +880,7 @@
       "EUR": 1379.0,
       "USD": 1570.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -839,6 +907,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-HYPERLOOP-4_7-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'5",
@@ -847,6 +916,7 @@
       "EUR": 949.0,
       "USD": 1081.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -856,6 +926,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -865,6 +936,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -874,6 +946,7 @@
       "EUR": 1029.0,
       "USD": 1172.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -883,6 +956,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -907,6 +981,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-HYPERLOOP-5_6-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'6",
@@ -915,6 +990,7 @@
       "EUR": 1649.0,
       "USD": 1878.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -924,6 +1000,7 @@
       "EUR": 1649.0,
       "USD": 1878.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -948,6 +1025,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-HYPERLOOP_NANO-4_2-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'1",
@@ -956,6 +1034,7 @@
       "EUR": 899.0,
       "USD": 1024.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -965,6 +1044,7 @@
       "EUR": 899.0,
       "USD": 1024.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -974,6 +1054,7 @@
       "EUR": 929.0,
       "USD": 1058.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -983,6 +1064,7 @@
       "EUR": 929.0,
       "USD": 1058.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1007,6 +1089,7 @@
    "category": "board",
    "construction": "FSP 2X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_2X-LANCE-5_8-GONGWING-TB_83e42b09-f566-4b49-98a0-f497761ed68a.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'7",
@@ -1015,6 +1098,7 @@
       "EUR": 849.0,
       "USD": 967.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1024,6 +1108,7 @@
       "EUR": 879.0,
       "USD": 1001.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1033,6 +1118,7 @@
       "EUR": 899.0,
       "USD": 1024.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1058,6 +1144,7 @@
    "category": "board",
    "construction": "Hollow hybrid carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-LANCE-5_8-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'7",
@@ -1066,6 +1153,7 @@
       "EUR": 1199.0,
       "USD": 1366.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1075,6 +1163,7 @@
       "EUR": 1229.0,
       "USD": 1400.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1100,6 +1189,7 @@
    "category": "board",
    "construction": "WOOD 2X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-WOOD_2X-LANCE-5_8-GONGWING-TB_5c00322b-629f-49ff-a593-2deef0af6997.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'7",
@@ -1108,6 +1198,7 @@
       "EUR": 699.0,
       "USD": 796.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1117,6 +1208,7 @@
       "EUR": 749.0,
       "USD": 853.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1126,6 +1218,7 @@
       "EUR": 799.0,
       "USD": 910.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1151,6 +1244,7 @@
    "category": "board",
    "construction": "FSP 2X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_2X-LEMON-5_8-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'9",
@@ -1159,6 +1253,7 @@
       "EUR": 799.0,
       "USD": 910.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1168,6 +1263,7 @@
       "EUR": 849.0,
       "USD": 967.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1177,6 +1273,7 @@
       "EUR": 879.0,
       "USD": 1001.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1186,6 +1283,7 @@
       "EUR": 879.0,
       "USD": 1001.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1195,6 +1293,7 @@
       "EUR": 899.0,
       "USD": 1024.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1204,6 +1303,7 @@
       "EUR": 899.0,
       "USD": 1024.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1231,6 +1331,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-LEMON-5_2-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'9",
@@ -1239,6 +1340,7 @@
       "EUR": 949.0,
       "USD": 1081.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1248,6 +1350,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1257,6 +1360,7 @@
       "EUR": 1029.0,
       "USD": 1172.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1266,6 +1370,7 @@
       "EUR": 1029.0,
       "USD": 1172.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1275,6 +1380,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1284,6 +1390,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1311,6 +1418,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-LEMON-5_2-GONGWING-TB_05af58b7-e0aa-4060-9c04-1ae65f3f17dd.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'11",
@@ -1319,6 +1427,7 @@
       "EUR": 1599.0,
       "USD": 1821.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1328,6 +1437,7 @@
       "EUR": 1649.0,
       "USD": 1878.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1337,6 +1447,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1364,6 +1475,7 @@
    "category": "board",
    "construction": "Hollow hybrid carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-LEMON-5_2-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'11",
@@ -1372,6 +1484,7 @@
       "EUR": 1299.0,
       "USD": 1479.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1381,6 +1494,7 @@
       "EUR": 1349.0,
       "USD": 1536.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1390,6 +1504,7 @@
       "EUR": 1369.0,
       "USD": 1559.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1416,6 +1531,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-LETHAL-5_0-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'8",
@@ -1424,6 +1540,7 @@
       "EUR": 949.0,
       "USD": 1081.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1433,6 +1550,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1442,6 +1560,7 @@
       "EUR": 1029.0,
       "USD": 1172.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1451,6 +1570,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1460,6 +1580,7 @@
       "EUR": 1069.0,
       "USD": 1218.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1469,6 +1590,7 @@
       "EUR": 1099.0,
       "USD": 1252.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1496,6 +1618,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-LETHAL-5_0-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'10",
@@ -1504,6 +1627,7 @@
       "EUR": 1649.0,
       "USD": 1878.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1513,6 +1637,7 @@
       "EUR": 1649.0,
       "USD": 1878.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1522,6 +1647,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1549,6 +1675,7 @@
    "category": "board",
    "construction": "FSP 2X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_2X-MINT-5_4-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'0",
@@ -1557,6 +1684,7 @@
       "EUR": 799.0,
       "USD": 910.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1566,6 +1694,7 @@
       "EUR": 849.0,
       "USD": 967.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1575,6 +1704,7 @@
       "EUR": 849.0,
       "USD": 967.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1584,6 +1714,7 @@
       "EUR": 879.0,
       "USD": 1001.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1593,6 +1724,7 @@
       "EUR": 899.0,
       "USD": 1024.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1602,6 +1734,7 @@
       "EUR": 919.0,
       "USD": 1047.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1629,6 +1762,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-MINT-5_4-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'0",
@@ -1637,6 +1771,7 @@
       "EUR": 949.0,
       "USD": 1081.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1646,6 +1781,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1655,6 +1791,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1664,6 +1801,7 @@
       "EUR": 1029.0,
       "USD": 1172.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1673,6 +1811,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1682,6 +1821,7 @@
       "EUR": 1069.0,
       "USD": 1218.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1708,6 +1848,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-MINT-5_4-GONGWING-TB_f9e54639-80fd-4899-951e-6b9b4ee775e6.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'2",
@@ -1716,6 +1857,7 @@
       "EUR": 1599.0,
       "USD": 1821.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1725,6 +1867,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1751,6 +1894,7 @@
    "category": "board",
    "construction": "Hollow hybrid carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-MINT-5_4-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'2",
@@ -1759,6 +1903,7 @@
       "EUR": 1299.0,
       "USD": 1479.0
      },
+     "compareAt": {},
      "available": false
     },
     {
@@ -1768,6 +1913,7 @@
       "EUR": 1369.0,
       "USD": 1559.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1793,6 +1939,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-RACER-5_4-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'0",
@@ -1801,6 +1948,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1810,6 +1958,7 @@
       "EUR": 1029.0,
       "USD": 1172.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1819,6 +1968,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1828,6 +1978,7 @@
       "EUR": 1069.0,
       "USD": 1218.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1837,6 +1988,7 @@
       "EUR": 1099.0,
       "USD": 1252.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1864,6 +2016,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/01-26-1500-WING_BOARD-2027-HOLLOW-RACER-5_4-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "5'2",
@@ -1872,6 +2025,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1881,6 +2035,7 @@
       "EUR": 1669.0,
       "USD": 1901.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1890,6 +2045,7 @@
       "EUR": 1689.0,
       "USD": 1923.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1917,6 +2073,7 @@
    "category": "board",
    "construction": "FSP PRO",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-STUNT-4_8-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'6",
@@ -1925,6 +2082,7 @@
       "EUR": 899.0,
       "USD": 1024.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1934,6 +2092,7 @@
       "EUR": 949.0,
       "USD": 1081.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1943,6 +2102,7 @@
       "EUR": 949.0,
       "USD": 1081.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1952,6 +2112,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1961,6 +2122,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -1970,6 +2132,7 @@
       "EUR": 1049.0,
       "USD": 1195.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -1996,6 +2159,7 @@
    "category": "board",
    "construction": "Hollow full carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-STUNT-4_8-GONGWING-TB_6c8c9525-07f0-4ef7-9fbe-2aa14225dd6f.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'7",
@@ -2004,6 +2168,7 @@
       "EUR": 1599.0,
       "USD": 1821.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2013,6 +2178,7 @@
       "EUR": 1599.0,
       "USD": 1821.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -2039,6 +2205,7 @@
    "category": "board",
    "construction": "Hollow hybrid carbon",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-STUNT-4_8-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4'7",
@@ -2047,6 +2214,7 @@
       "EUR": 1299.0,
       "USD": 1479.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2056,6 +2224,7 @@
       "EUR": 1299.0,
       "USD": 1479.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -2081,6 +2250,7 @@
    "category": "board",
    "construction": "FSP 2X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_2X-ZUMA-6_3-TB_80cb41cd-934e-497f-bd4f-0524fff9c131.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "6'3",
@@ -2089,6 +2259,7 @@
       "EUR": 899.0,
       "USD": 1024.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2098,6 +2269,7 @@
       "EUR": 949.0,
       "USD": 1081.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2107,6 +2279,7 @@
       "EUR": 949.0,
       "USD": 1081.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2116,6 +2289,7 @@
       "EUR": 999.0,
       "USD": 1138.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -2141,6 +2315,7 @@
    "category": "board",
    "construction": "WOOD 2X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-WOOD_2X-ZUMA-6_3-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "6'3",
@@ -2149,6 +2324,7 @@
       "EUR": 749.0,
       "USD": 853.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2158,6 +2334,7 @@
       "EUR": 799.0,
       "USD": 910.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2167,6 +2344,7 @@
       "EUR": 799.0,
       "USD": 910.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2176,6 +2354,7 @@
       "EUR": 849.0,
       "USD": 967.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -2201,6 +2380,7 @@
    "category": "board",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-2026-HIPE_CRUZADER-GONGWING-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "6'0",
@@ -2208,6 +2388,11 @@
       "CHF": 458.0,
       "EUR": 499.0,
       "USD": 569.0
+     },
+     "compareAt": {
+      "CHF": 614.0,
+      "EUR": 669.0,
+      "USD": 762.0
      },
      "available": true
     },
@@ -2218,6 +2403,11 @@
       "EUR": 525.0,
       "USD": 598.0
      },
+     "compareAt": {
+      "CHF": 632.0,
+      "EUR": 689.0,
+      "USD": 785.0
+     },
      "available": true
     },
     {
@@ -2226,6 +2416,11 @@
       "CHF": 495.0,
       "EUR": 539.0,
       "USD": 614.0
+     },
+     "compareAt": {
+      "CHF": 651.0,
+      "EUR": 709.0,
+      "USD": 808.0
      },
      "available": true
     },
@@ -2236,6 +2431,11 @@
       "EUR": 555.0,
       "USD": 632.0
      },
+     "compareAt": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
      "available": true
     },
     {
@@ -2244,6 +2444,11 @@
       "CHF": 522.0,
       "EUR": 569.0,
       "USD": 648.0
+     },
+     "compareAt": {
+      "CHF": 687.0,
+      "EUR": 749.0,
+      "USD": 853.0
      },
      "available": true
     }
@@ -2274,6 +2479,7 @@
    "category": "board",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-2026-HIPE_DIAMOND-5_6-GONGWING-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "5'0",
@@ -2281,6 +2487,11 @@
       "CHF": 449.0,
       "EUR": 489.0,
       "USD": 557.0
+     },
+     "compareAt": {
+      "CHF": 596.0,
+      "EUR": 649.0,
+      "USD": 739.0
      },
      "available": true
     },
@@ -2291,6 +2502,11 @@
       "EUR": 525.0,
       "USD": 598.0
      },
+     "compareAt": {
+      "CHF": 632.0,
+      "EUR": 689.0,
+      "USD": 785.0
+     },
      "available": true
     },
     {
@@ -2299,6 +2515,11 @@
       "CHF": 486.0,
       "EUR": 529.0,
       "USD": 603.0
+     },
+     "compareAt": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
      },
      "available": true
     },
@@ -2309,6 +2530,11 @@
       "EUR": 545.0,
       "USD": 621.0
      },
+     "compareAt": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
      "available": true
     },
     {
@@ -2318,6 +2544,11 @@
       "EUR": 555.0,
       "USD": 632.0
      },
+     "compareAt": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
      "available": true
     },
     {
@@ -2326,6 +2557,11 @@
       "CHF": 522.0,
       "EUR": 569.0,
       "USD": 648.0
+     },
+     "compareAt": {
+      "CHF": 687.0,
+      "EUR": 749.0,
+      "USD": 853.0
      },
      "available": true
     }
@@ -2355,6 +2591,7 @@
    "category": "board",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-HIPE_FIRST-GONGWING-TB_63d63f6b-3a8c-4731-9b4d-7f38dfe21fe3.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "5'0",
@@ -2362,6 +2599,11 @@
       "CHF": 201.0,
       "EUR": 219.0,
       "USD": 250.0
+     },
+     "compareAt": {
+      "CHF": 275.0,
+      "EUR": 299.0,
+      "USD": 341.0
      },
      "available": true
     },
@@ -2372,6 +2614,11 @@
       "EUR": 249.0,
       "USD": 284.0
      },
+     "compareAt": {
+      "CHF": 308.0,
+      "EUR": 335.0,
+      "USD": 382.0
+     },
      "available": true
     },
     {
@@ -2380,6 +2627,11 @@
       "CHF": 247.0,
       "EUR": 269.0,
       "USD": 307.0
+     },
+     "compareAt": {
+      "CHF": 330.0,
+      "EUR": 359.0,
+      "USD": 409.0
      },
      "available": true
     },
@@ -2390,6 +2642,11 @@
       "EUR": 275.0,
       "USD": 314.0
      },
+     "compareAt": {
+      "CHF": 339.0,
+      "EUR": 369.0,
+      "USD": 421.0
+     },
      "available": true
     },
     {
@@ -2398,6 +2655,11 @@
       "CHF": 262.0,
       "EUR": 285.0,
       "USD": 325.0
+     },
+     "compareAt": {
+      "CHF": 348.0,
+      "EUR": 379.0,
+      "USD": 432.0
      },
      "available": true
     }
@@ -2425,6 +2687,7 @@
    "category": "board",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-2026-HIPE_FREEFLY-GONGWING-TB_70b89675-d644-41a5-8d30-d5092d3a7549.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "5'4",
@@ -2432,6 +2695,11 @@
       "CHF": 311.0,
       "EUR": 339.0,
       "USD": 386.0
+     },
+     "compareAt": {
+      "CHF": 412.0,
+      "EUR": 449.0,
+      "USD": 512.0
      },
      "available": true
     },
@@ -2442,6 +2710,11 @@
       "EUR": 355.0,
       "USD": 405.0
      },
+     "compareAt": {
+      "CHF": 431.0,
+      "EUR": 469.0,
+      "USD": 534.0
+     },
      "available": true
     },
     {
@@ -2450,6 +2723,11 @@
       "CHF": 339.0,
       "EUR": 369.0,
       "USD": 421.0
+     },
+     "compareAt": {
+      "CHF": 449.0,
+      "EUR": 489.0,
+      "USD": 557.0
      },
      "available": true
     }
@@ -2479,6 +2757,7 @@
    "category": "board",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-HIPE_LEARN-GONGWING-TB_210603c1-1499-40cd-9fb7-82f4dc82efdd.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "6'5",
@@ -2486,6 +2765,11 @@
       "CHF": 458.0,
       "EUR": 499.0,
       "USD": 569.0
+     },
+     "compareAt": {
+      "CHF": 614.0,
+      "EUR": 669.0,
+      "USD": 762.0
      },
      "available": true
     },
@@ -2495,6 +2779,11 @@
       "CHF": 495.0,
       "EUR": 539.0,
       "USD": 614.0
+     },
+     "compareAt": {
+      "CHF": 651.0,
+      "EUR": 709.0,
+      "USD": 808.0
      },
      "available": true
     }
@@ -2521,6 +2810,7 @@
    "category": "board",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/01-26-1500-WING-BOARD-INFLATABLE-HIPE_LIKE-GONGWING-HOVER_597d662c-943e-4473-a242-e40d740e6886.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "6'4",
@@ -2528,6 +2818,11 @@
       "CHF": 275.0,
       "EUR": 299.0,
       "USD": 341.0
+     },
+     "compareAt": {
+      "CHF": 366.0,
+      "EUR": 399.0,
+      "USD": 455.0
      },
      "available": true
     },
@@ -2538,6 +2833,11 @@
       "EUR": 309.0,
       "USD": 352.0
      },
+     "compareAt": {
+      "CHF": 376.0,
+      "EUR": 409.0,
+      "USD": 466.0
+     },
      "available": true
     },
     {
@@ -2546,6 +2846,11 @@
       "CHF": 293.0,
       "EUR": 319.0,
       "USD": 364.0
+     },
+     "compareAt": {
+      "CHF": 385.0,
+      "EUR": 419.0,
+      "USD": 478.0
      },
      "available": true
     }
@@ -2574,6 +2879,7 @@
    "category": "board",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-HIPE_PERF-GONGWING-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "5'1",
@@ -2581,6 +2887,11 @@
       "CHF": 403.0,
       "EUR": 439.0,
       "USD": 500.0
+     },
+     "compareAt": {
+      "CHF": 531.0,
+      "EUR": 579.0,
+      "USD": 660.0
      },
      "available": true
     },
@@ -2591,6 +2902,11 @@
       "EUR": 455.0,
       "USD": 518.0
      },
+     "compareAt": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
+     },
      "available": true
     },
     {
@@ -2600,6 +2916,11 @@
       "EUR": 475.0,
       "USD": 541.0
      },
+     "compareAt": {
+      "CHF": 577.0,
+      "EUR": 629.0,
+      "USD": 717.0
+     },
      "available": true
     },
     {
@@ -2608,6 +2929,11 @@
       "CHF": 449.0,
       "EUR": 489.0,
       "USD": 557.0
+     },
+     "compareAt": {
+      "CHF": 596.0,
+      "EUR": 649.0,
+      "USD": 739.0
      },
      "available": true
     }
@@ -2637,6 +2963,7 @@
    "category": "board",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-BOARD-INFLATABLE-HIPE_PERF-GONGWING-TB.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "5'1",
@@ -2644,6 +2971,11 @@
       "CHF": 317.0,
       "EUR": 345.0,
       "USD": 393.0
+     },
+     "compareAt": {
+      "CHF": 531.0,
+      "EUR": 579.0,
+      "USD": 660.0
      },
      "available": true
     },
@@ -2654,6 +2986,11 @@
       "EUR": 359.0,
       "USD": 409.0
      },
+     "compareAt": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
+     },
      "available": false
     },
     {
@@ -2663,6 +3000,11 @@
       "EUR": 375.0,
       "USD": 427.0
      },
+     "compareAt": {
+      "CHF": 577.0,
+      "EUR": 629.0,
+      "USD": 717.0
+     },
      "available": false
     },
     {
@@ -2671,6 +3013,11 @@
       "CHF": 357.0,
       "EUR": 389.0,
       "USD": 443.0
+     },
+     "compareAt": {
+      "CHF": 596.0,
+      "EUR": 649.0,
+      "USD": 739.0
      },
      "available": false
     }
@@ -2700,6 +3047,7 @@
    "category": "board",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-2026-HIPE_PRO-4_7-GONGWING-TB_de2b8180-0bb3-4550-b687-14f64d80b617.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "4'6",
@@ -2707,6 +3055,11 @@
       "CHF": 403.0,
       "EUR": 439.0,
       "USD": 500.0
+     },
+     "compareAt": {
+      "CHF": 531.0,
+      "EUR": 579.0,
+      "USD": 660.0
      },
      "available": true
     },
@@ -2717,6 +3070,11 @@
       "EUR": 455.0,
       "USD": 518.0
      },
+     "compareAt": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
+     },
      "available": true
     },
     {
@@ -2725,6 +3083,11 @@
       "CHF": 445.0,
       "EUR": 485.0,
       "USD": 553.0
+     },
+     "compareAt": {
+      "CHF": 586.0,
+      "EUR": 639.0,
+      "USD": 728.0
      },
      "available": true
     },
@@ -2735,6 +3098,11 @@
       "EUR": 499.0,
       "USD": 569.0
      },
+     "compareAt": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
      "available": true
     },
     {
@@ -2744,6 +3112,11 @@
       "EUR": 515.0,
       "USD": 587.0
      },
+     "compareAt": {
+      "CHF": 623.0,
+      "EUR": 679.0,
+      "USD": 774.0
+     },
      "available": true
     },
     {
@@ -2752,6 +3125,11 @@
       "CHF": 486.0,
       "EUR": 529.0,
       "USD": 603.0
+     },
+     "compareAt": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
      },
      "available": true
     }
@@ -2780,6 +3158,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-ASCENT-GONGFOIL_2efaa4ec-8f52-4f73-b387-e88788fe8fac.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "S",
@@ -2787,6 +3166,11 @@
       "CHF": 128.0,
       "EUR": 139.0,
       "USD": 159.0
+     },
+     "compareAt": {
+      "CHF": 183.0,
+      "EUR": 199.0,
+      "USD": 227.0
      },
      "available": false
     },
@@ -2797,6 +3181,11 @@
       "EUR": 149.0,
       "USD": 170.0
      },
+     "compareAt": {
+      "CHF": 201.0,
+      "EUR": 219.0,
+      "USD": 250.0
+     },
      "available": false
     },
     {
@@ -2805,6 +3194,11 @@
       "CHF": 155.0,
       "EUR": 169.0,
       "USD": 193.0
+     },
+     "compareAt": {
+      "CHF": 229.0,
+      "EUR": 249.0,
+      "USD": 284.0
      },
      "available": true
     },
@@ -2815,6 +3209,11 @@
       "EUR": 179.0,
       "USD": 204.0
      },
+     "compareAt": {
+      "CHF": 238.0,
+      "EUR": 259.0,
+      "USD": 295.0
+     },
      "available": true
     },
     {
@@ -2823,6 +3222,11 @@
       "CHF": 179.0,
       "EUR": 195.0,
       "USD": 222.0
+     },
+     "compareAt": {
+      "CHF": 256.0,
+      "EUR": 279.0,
+      "USD": 318.0
      },
      "available": false
     }
@@ -2846,6 +3250,7 @@
    "category": "frontwing",
    "construction": "fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-PERF_SERIES-FRONT_WING-ASCENT-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S",
@@ -2854,6 +3259,7 @@
       "EUR": 199.0,
       "USD": 227.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2863,6 +3269,7 @@
       "EUR": 219.0,
       "USD": 250.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2872,6 +3279,7 @@
       "EUR": 249.0,
       "USD": 284.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2881,6 +3289,7 @@
       "EUR": 259.0,
       "USD": 295.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -2890,6 +3299,7 @@
       "EUR": 279.0,
       "USD": 318.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -2914,6 +3324,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-CURVE_H-GONGFOIL_204d1ccc-b807-46c0-8957-a4699676bf94.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XXS",
@@ -2921,6 +3332,11 @@
       "CHF": 256.0,
       "EUR": 279.0,
       "USD": 318.0
+     },
+     "compareAt": {
+      "CHF": 366.0,
+      "EUR": 399.0,
+      "USD": 455.0
      },
      "available": true
     },
@@ -2931,6 +3347,11 @@
       "EUR": 289.0,
       "USD": 330.0
      },
+     "compareAt": {
+      "CHF": 385.0,
+      "EUR": 419.0,
+      "USD": 478.0
+     },
      "available": true
     },
     {
@@ -2939,6 +3360,11 @@
       "CHF": 275.0,
       "EUR": 299.0,
       "USD": 341.0
+     },
+     "compareAt": {
+      "CHF": 394.0,
+      "EUR": 429.0,
+      "USD": 489.0
      },
      "available": true
     },
@@ -2949,6 +3375,11 @@
       "EUR": 305.0,
       "USD": 348.0
      },
+     "compareAt": {
+      "CHF": 403.0,
+      "EUR": 439.0,
+      "USD": 500.0
+     },
      "available": true
     },
     {
@@ -2957,6 +3388,11 @@
       "CHF": 293.0,
       "EUR": 319.0,
       "USD": 364.0
+     },
+     "compareAt": {
+      "CHF": 421.0,
+      "EUR": 459.0,
+      "USD": 523.0
      },
      "available": false
     },
@@ -2967,6 +3403,11 @@
       "EUR": 325.0,
       "USD": 370.0
      },
+     "compareAt": {
+      "CHF": 431.0,
+      "EUR": 469.0,
+      "USD": 534.0
+     },
      "available": true
     },
     {
@@ -2976,6 +3417,11 @@
       "EUR": 339.0,
       "USD": 386.0
      },
+     "compareAt": {
+      "CHF": 449.0,
+      "EUR": 489.0,
+      "USD": 557.0
+     },
      "available": true
     },
     {
@@ -2984,6 +3430,11 @@
       "CHF": 330.0,
       "EUR": 359.0,
       "USD": 409.0
+     },
+     "compareAt": {
+      "CHF": 476.0,
+      "EUR": 519.0,
+      "USD": 591.0
      },
      "available": true
     }
@@ -3010,6 +3461,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-CURVE_H2X-GONGFOIL_faa451f7-9902-4574-ab1d-9c882fa00299.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XXS",
@@ -3017,6 +3469,11 @@
       "CHF": 133.0,
       "EUR": 145.0,
       "USD": 166.0
+     },
+     "compareAt": {
+      "CHF": 192.0,
+      "EUR": 209.0,
+      "USD": 238.0
      },
      "available": true
     },
@@ -3027,6 +3484,11 @@
       "EUR": 159.0,
       "USD": 182.0
      },
+     "compareAt": {
+      "CHF": 210.0,
+      "EUR": 229.0,
+      "USD": 261.0
+     },
      "available": true
     },
     {
@@ -3035,6 +3497,11 @@
       "CHF": 152.0,
       "EUR": 165.0,
       "USD": 188.0
+     },
+     "compareAt": {
+      "CHF": 220.0,
+      "EUR": 239.0,
+      "USD": 273.0
      },
      "available": true
     },
@@ -3045,6 +3512,11 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {
+      "CHF": 229.0,
+      "EUR": 249.0,
+      "USD": 284.0
+     },
      "available": true
     },
     {
@@ -3053,6 +3525,11 @@
       "CHF": 170.0,
       "EUR": 185.0,
       "USD": 211.0
+     },
+     "compareAt": {
+      "CHF": 247.0,
+      "EUR": 269.0,
+      "USD": 307.0
      },
      "available": false
     },
@@ -3063,6 +3540,11 @@
       "EUR": 199.0,
       "USD": 227.0
      },
+     "compareAt": {
+      "CHF": 265.0,
+      "EUR": 289.0,
+      "USD": 330.0
+     },
      "available": false
     },
     {
@@ -3072,6 +3554,11 @@
       "EUR": 209.0,
       "USD": 238.0
      },
+     "compareAt": {
+      "CHF": 275.0,
+      "EUR": 299.0,
+      "USD": 341.0
+     },
      "available": true
     },
     {
@@ -3080,6 +3567,11 @@
       "CHF": 210.0,
       "EUR": 229.0,
       "USD": 261.0
+     },
+     "compareAt": {
+      "CHF": 302.0,
+      "EUR": 329.0,
+      "USD": 375.0
      },
      "available": false
     }
@@ -3106,6 +3598,7 @@
    "category": "frontwing",
    "construction": "fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-CURVE-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XXS",
@@ -3114,6 +3607,7 @@
       "EUR": 209.0,
       "USD": 238.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3123,6 +3617,7 @@
       "EUR": 229.0,
       "USD": 261.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3132,6 +3627,7 @@
       "EUR": 239.0,
       "USD": 273.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3141,6 +3637,7 @@
       "EUR": 249.0,
       "USD": 284.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3150,6 +3647,7 @@
       "EUR": 269.0,
       "USD": 307.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3159,6 +3657,7 @@
       "EUR": 289.0,
       "USD": 330.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3168,6 +3667,7 @@
       "EUR": 299.0,
       "USD": 341.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3177,6 +3677,7 @@
       "EUR": 329.0,
       "USD": 375.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -3202,6 +3703,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-CURVE-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XXS",
@@ -3210,6 +3712,7 @@
       "EUR": 399.0,
       "USD": 455.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3219,6 +3722,7 @@
       "EUR": 419.0,
       "USD": 478.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3228,6 +3732,7 @@
       "EUR": 429.0,
       "USD": 489.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3237,6 +3742,7 @@
       "EUR": 439.0,
       "USD": 500.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3246,6 +3752,7 @@
       "EUR": 459.0,
       "USD": 523.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3255,6 +3762,7 @@
       "EUR": 469.0,
       "USD": 534.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3264,6 +3772,7 @@
       "EUR": 489.0,
       "USD": 557.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3273,6 +3782,7 @@
       "EUR": 519.0,
       "USD": 591.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -3298,6 +3808,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-FLUID_H-GONGFOIL_85b624ca-1bbb-4e06-a7da-9246c6e98372.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "3XS",
@@ -3305,6 +3816,11 @@
       "CHF": 256.0,
       "EUR": 279.0,
       "USD": 318.0
+     },
+     "compareAt": {
+      "CHF": 366.0,
+      "EUR": 399.0,
+      "USD": 455.0
      },
      "available": true
     },
@@ -3315,6 +3831,11 @@
       "EUR": 285.0,
       "USD": 325.0
      },
+     "compareAt": {
+      "CHF": 376.0,
+      "EUR": 409.0,
+      "USD": 466.0
+     },
      "available": true
     },
     {
@@ -3323,6 +3844,11 @@
       "CHF": 265.0,
       "EUR": 289.0,
       "USD": 330.0
+     },
+     "compareAt": {
+      "CHF": 385.0,
+      "EUR": 419.0,
+      "USD": 478.0
      },
      "available": true
     },
@@ -3333,6 +3859,11 @@
       "EUR": 299.0,
       "USD": 341.0
      },
+     "compareAt": {
+      "CHF": 394.0,
+      "EUR": 429.0,
+      "USD": 489.0
+     },
      "available": true
     },
     {
@@ -3341,6 +3872,11 @@
       "CHF": 280.0,
       "EUR": 305.0,
       "USD": 348.0
+     },
+     "compareAt": {
+      "CHF": 403.0,
+      "EUR": 439.0,
+      "USD": 500.0
      },
      "available": true
     },
@@ -3351,6 +3887,11 @@
       "EUR": 319.0,
       "USD": 364.0
      },
+     "compareAt": {
+      "CHF": 421.0,
+      "EUR": 459.0,
+      "USD": 523.0
+     },
      "available": true
     },
     {
@@ -3359,6 +3900,11 @@
       "CHF": 298.0,
       "EUR": 325.0,
       "USD": 370.0
+     },
+     "compareAt": {
+      "CHF": 431.0,
+      "EUR": 469.0,
+      "USD": 534.0
      },
      "available": true
     },
@@ -3369,6 +3915,11 @@
       "EUR": 339.0,
       "USD": 386.0
      },
+     "compareAt": {
+      "CHF": 449.0,
+      "EUR": 489.0,
+      "USD": 557.0
+     },
      "available": true
     },
     {
@@ -3377,6 +3928,11 @@
       "CHF": 330.0,
       "EUR": 359.0,
       "USD": 409.0
+     },
+     "compareAt": {
+      "CHF": 476.0,
+      "EUR": 519.0,
+      "USD": 591.0
      },
      "available": true
     }
@@ -3404,6 +3960,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-FLUID_H2X-GONGFOIL_359d4aca-8b4c-475e-ac28-46aadb420beb.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "3XS",
@@ -3411,6 +3968,11 @@
       "CHF": 128.0,
       "EUR": 139.0,
       "USD": 159.0
+     },
+     "compareAt": {
+      "CHF": 183.0,
+      "EUR": 199.0,
+      "USD": 227.0
      },
      "available": true
     },
@@ -3421,6 +3983,11 @@
       "EUR": 145.0,
       "USD": 166.0
      },
+     "compareAt": {
+      "CHF": 192.0,
+      "EUR": 209.0,
+      "USD": 238.0
+     },
      "available": true
     },
     {
@@ -3429,6 +3996,11 @@
       "CHF": 146.0,
       "EUR": 159.0,
       "USD": 182.0
+     },
+     "compareAt": {
+      "CHF": 210.0,
+      "EUR": 229.0,
+      "USD": 261.0
      },
      "available": true
     },
@@ -3439,6 +4011,11 @@
       "EUR": 165.0,
       "USD": 188.0
      },
+     "compareAt": {
+      "CHF": 220.0,
+      "EUR": 239.0,
+      "USD": 273.0
+     },
      "available": true
     },
     {
@@ -3447,6 +4024,11 @@
       "CHF": 155.0,
       "EUR": 169.0,
       "USD": 193.0
+     },
+     "compareAt": {
+      "CHF": 229.0,
+      "EUR": 249.0,
+      "USD": 284.0
      },
      "available": true
     },
@@ -3457,6 +4039,11 @@
       "EUR": 185.0,
       "USD": 211.0
      },
+     "compareAt": {
+      "CHF": 247.0,
+      "EUR": 269.0,
+      "USD": 307.0
+     },
      "available": true
     },
     {
@@ -3465,6 +4052,11 @@
       "CHF": 183.0,
       "EUR": 199.0,
       "USD": 227.0
+     },
+     "compareAt": {
+      "CHF": 265.0,
+      "EUR": 289.0,
+      "USD": 330.0
      },
      "available": false
     },
@@ -3475,6 +4067,11 @@
       "EUR": 209.0,
       "USD": 238.0
      },
+     "compareAt": {
+      "CHF": 275.0,
+      "EUR": 299.0,
+      "USD": 341.0
+     },
      "available": true
     },
     {
@@ -3483,6 +4080,11 @@
       "CHF": 210.0,
       "EUR": 229.0,
       "USD": 261.0
+     },
+     "compareAt": {
+      "CHF": 302.0,
+      "EUR": 329.0,
+      "USD": 375.0
      },
      "available": true
     }
@@ -3510,6 +4112,7 @@
    "category": "frontwing",
    "construction": "fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-FLUID-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "3XS",
@@ -3518,6 +4121,7 @@
       "EUR": 199.0,
       "USD": 227.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3527,6 +4131,7 @@
       "EUR": 209.0,
       "USD": 238.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3536,6 +4141,7 @@
       "EUR": 229.0,
       "USD": 261.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3545,6 +4151,7 @@
       "EUR": 239.0,
       "USD": 273.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3554,6 +4161,7 @@
       "EUR": 249.0,
       "USD": 284.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3563,6 +4171,7 @@
       "EUR": 269.0,
       "USD": 307.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3572,6 +4181,7 @@
       "EUR": 289.0,
       "USD": 330.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3581,6 +4191,7 @@
       "EUR": 299.0,
       "USD": 341.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3590,6 +4201,7 @@
       "EUR": 329.0,
       "USD": 375.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -3616,6 +4228,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-FLUID-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "3XS",
@@ -3624,6 +4237,7 @@
       "EUR": 399.0,
       "USD": 455.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3633,6 +4247,7 @@
       "EUR": 409.0,
       "USD": 466.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3642,6 +4257,7 @@
       "EUR": 419.0,
       "USD": 478.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3651,6 +4267,7 @@
       "EUR": 429.0,
       "USD": 489.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3660,6 +4277,7 @@
       "EUR": 439.0,
       "USD": 500.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3669,6 +4287,7 @@
       "EUR": 459.0,
       "USD": 523.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3678,6 +4297,7 @@
       "EUR": 469.0,
       "USD": 534.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3687,6 +4307,7 @@
       "EUR": 489.0,
       "USD": 557.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3696,6 +4317,7 @@
       "EUR": 519.0,
       "USD": 591.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -3722,6 +4344,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-HYPER_TRAIL-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S",
@@ -3730,6 +4353,7 @@
       "EUR": 469.0,
       "USD": 534.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3739,6 +4363,7 @@
       "EUR": 509.0,
       "USD": 580.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3748,6 +4373,7 @@
       "EUR": 539.0,
       "USD": 614.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3757,6 +4383,7 @@
       "EUR": 589.0,
       "USD": 671.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3766,6 +4393,7 @@
       "EUR": 609.0,
       "USD": 694.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3775,6 +4403,7 @@
       "EUR": 609.0,
       "USD": 694.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -3797,6 +4426,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-SIRUS-GONGFOIL_2b16d0c6-7911-4ae1-a9df-e9ba297960a0.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "L",
@@ -3804,6 +4434,11 @@
       "CHF": 321.0,
       "EUR": 349.0,
       "USD": 398.0
+     },
+     "compareAt": {
+      "CHF": 458.0,
+      "EUR": 499.0,
+      "USD": 569.0
      },
      "available": false
     },
@@ -3814,6 +4449,11 @@
       "EUR": 419.0,
       "USD": 478.0
      },
+     "compareAt": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
+     },
      "available": false
     },
     {
@@ -3822,6 +4462,11 @@
       "CHF": 449.0,
       "EUR": 489.0,
       "USD": 557.0
+     },
+     "compareAt": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
      },
      "available": false
     },
@@ -3832,6 +4477,11 @@
       "EUR": 559.0,
       "USD": 637.0
      },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
      "available": false
     },
     {
@@ -3840,6 +4490,11 @@
       "CHF": 641.0,
       "EUR": 699.0,
       "USD": 796.0
+     },
+     "compareAt": {
+      "CHF": 917.0,
+      "EUR": 999.0,
+      "USD": 1138.0
      },
      "available": true
     }
@@ -3864,6 +4519,7 @@
    "category": "frontwing",
    "construction": "fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-SIRUS-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "L",
@@ -3872,6 +4528,7 @@
       "EUR": 359.0,
       "USD": 409.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3881,6 +4538,7 @@
       "EUR": 419.0,
       "USD": 478.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3890,6 +4548,7 @@
       "EUR": 469.0,
       "USD": 534.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3899,6 +4558,7 @@
       "EUR": 549.0,
       "USD": 626.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -3923,6 +4583,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-SIRUS-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "M",
@@ -3931,6 +4592,7 @@
       "EUR": 459.0,
       "USD": 523.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3940,6 +4602,7 @@
       "EUR": 499.0,
       "USD": 569.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3949,6 +4612,7 @@
       "EUR": 599.0,
       "USD": 682.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3958,6 +4622,7 @@
       "EUR": 699.0,
       "USD": 796.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -3967,6 +4632,7 @@
       "EUR": 799.0,
       "USD": 910.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -3992,6 +4658,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-VELOCE_DW-GONGFOIL-TB_5d587bbc-2714-40e6-ac73-12df00cac8c9.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -4000,6 +4667,7 @@
       "EUR": 489.0,
       "USD": 557.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4009,6 +4677,7 @@
       "EUR": 519.0,
       "USD": 591.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4018,6 +4687,7 @@
       "EUR": 549.0,
       "USD": 626.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4027,6 +4697,7 @@
       "EUR": 579.0,
       "USD": 660.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4036,6 +4707,7 @@
       "EUR": 599.0,
       "USD": 682.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4061,6 +4733,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-VELOCE_FF-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -4069,6 +4742,7 @@
       "EUR": 439.0,
       "USD": 500.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4078,6 +4752,7 @@
       "EUR": 459.0,
       "USD": 523.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4087,6 +4762,7 @@
       "EUR": 479.0,
       "USD": 546.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4096,6 +4772,7 @@
       "EUR": 499.0,
       "USD": 569.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4105,6 +4782,7 @@
       "EUR": 519.0,
       "USD": 591.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4114,6 +4792,7 @@
       "EUR": 539.0,
       "USD": 614.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4140,6 +4819,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-VELOCE_H-GONGFOIL_561754cb-2535-444c-8254-bb22a30e03aa.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XS",
@@ -4147,6 +4827,11 @@
       "CHF": 280.0,
       "EUR": 305.0,
       "USD": 348.0
+     },
+     "compareAt": {
+      "CHF": 403.0,
+      "EUR": 439.0,
+      "USD": 500.0
      },
      "available": true
     },
@@ -4157,6 +4842,11 @@
       "EUR": 319.0,
       "USD": 364.0
      },
+     "compareAt": {
+      "CHF": 421.0,
+      "EUR": 459.0,
+      "USD": 523.0
+     },
      "available": true
     },
     {
@@ -4165,6 +4855,11 @@
       "CHF": 308.0,
       "EUR": 335.0,
       "USD": 382.0
+     },
+     "compareAt": {
+      "CHF": 440.0,
+      "EUR": 479.0,
+      "USD": 546.0
      },
      "available": true
     },
@@ -4175,6 +4870,11 @@
       "EUR": 349.0,
       "USD": 398.0
      },
+     "compareAt": {
+      "CHF": 458.0,
+      "EUR": 499.0,
+      "USD": 569.0
+     },
      "available": false
     },
     {
@@ -4184,6 +4884,11 @@
       "EUR": 359.0,
       "USD": 409.0
      },
+     "compareAt": {
+      "CHF": 476.0,
+      "EUR": 519.0,
+      "USD": 591.0
+     },
      "available": true
     },
     {
@@ -4192,6 +4897,11 @@
       "CHF": 344.0,
       "EUR": 375.0,
       "USD": 427.0
+     },
+     "compareAt": {
+      "CHF": 495.0,
+      "EUR": 539.0,
+      "USD": 614.0
      },
      "available": true
     }
@@ -4219,6 +4929,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-VELOCE_H_DOWNWIND-GONGFOIL_e842eba5-661a-4626-a615-5f4a8fb5395c.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XS",
@@ -4226,6 +4937,11 @@
       "CHF": 311.0,
       "EUR": 339.0,
       "USD": 386.0
+     },
+     "compareAt": {
+      "CHF": 449.0,
+      "EUR": 489.0,
+      "USD": 557.0
      },
      "available": true
     },
@@ -4236,6 +4952,11 @@
       "EUR": 359.0,
       "USD": 409.0
      },
+     "compareAt": {
+      "CHF": 476.0,
+      "EUR": 519.0,
+      "USD": 591.0
+     },
      "available": true
     },
     {
@@ -4244,6 +4965,11 @@
       "CHF": 348.0,
       "EUR": 379.0,
       "USD": 432.0
+     },
+     "compareAt": {
+      "CHF": 504.0,
+      "EUR": 549.0,
+      "USD": 626.0
      },
      "available": true
     },
@@ -4254,6 +4980,11 @@
       "EUR": 405.0,
       "USD": 462.0
      },
+     "compareAt": {
+      "CHF": 531.0,
+      "EUR": 579.0,
+      "USD": 660.0
+     },
      "available": true
     },
     {
@@ -4262,6 +4993,11 @@
       "CHF": 385.0,
       "EUR": 419.0,
       "USD": 478.0
+     },
+     "compareAt": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
      },
      "available": true
     }
@@ -4288,6 +5024,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-VELOCE_LW-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S",
@@ -4296,6 +5033,7 @@
       "EUR": 479.0,
       "USD": 546.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4305,6 +5043,7 @@
       "EUR": 499.0,
       "USD": 569.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4314,6 +5053,7 @@
       "EUR": 519.0,
       "USD": 591.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4323,6 +5063,7 @@
       "EUR": 549.0,
       "USD": 626.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4332,6 +5073,7 @@
       "EUR": 579.0,
       "USD": 660.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4358,6 +5100,7 @@
    "category": "frontwing",
    "construction": "fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-VELOCE_FF-GONGFOIL-TB_8fa6d40d-e7f8-498d-b049-74cbe68689da.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -4366,6 +5109,7 @@
       "EUR": 239.0,
       "USD": 273.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4375,6 +5119,7 @@
       "EUR": 249.0,
       "USD": 284.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4384,6 +5129,7 @@
       "EUR": 269.0,
       "USD": 307.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4393,6 +5139,7 @@
       "EUR": 289.0,
       "USD": 330.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4402,6 +5149,7 @@
       "EUR": 319.0,
       "USD": 364.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4411,6 +5159,7 @@
       "EUR": 349.0,
       "USD": 398.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4437,6 +5186,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-VELOCE_XTR-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -4445,6 +5195,7 @@
       "EUR": 499.0,
       "USD": 569.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4454,6 +5205,7 @@
       "EUR": 519.0,
       "USD": 591.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4463,6 +5215,7 @@
       "EUR": 569.0,
       "USD": 648.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4472,6 +5225,7 @@
       "EUR": 589.0,
       "USD": 671.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4496,6 +5250,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-X_OVER-GONGFOIL_292fa2ee-bc80-49a2-b4a6-4d6cc8c1f5c4.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "M",
@@ -4503,6 +5258,11 @@
       "CHF": 128.0,
       "EUR": 139.0,
       "USD": 159.0
+     },
+     "compareAt": {
+      "CHF": 183.0,
+      "EUR": 199.0,
+      "USD": 227.0
      },
      "available": false
     },
@@ -4513,6 +5273,11 @@
       "EUR": 149.0,
       "USD": 170.0
      },
+     "compareAt": {
+      "CHF": 201.0,
+      "EUR": 219.0,
+      "USD": 250.0
+     },
      "available": true
     },
     {
@@ -4522,6 +5287,11 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {
+      "CHF": 229.0,
+      "EUR": 249.0,
+      "USD": 284.0
+     },
      "available": true
     },
     {
@@ -4530,6 +5300,11 @@
       "CHF": 179.0,
       "EUR": 195.0,
       "USD": 222.0
+     },
+     "compareAt": {
+      "CHF": 256.0,
+      "EUR": 279.0,
+      "USD": 318.0
      },
      "available": false
     }
@@ -4553,6 +5328,7 @@
    "category": "frontwing",
    "construction": "fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-X-OVER-GONGFOIL-TB_3b23a32a-2079-4566-8cc8-98bba99c6cb0.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "M",
@@ -4561,6 +5337,7 @@
       "EUR": 199.0,
       "USD": 227.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4570,6 +5347,7 @@
       "EUR": 219.0,
       "USD": 250.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4579,6 +5357,7 @@
       "EUR": 249.0,
       "USD": 284.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4588,6 +5367,7 @@
       "EUR": 279.0,
       "USD": 318.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4610,6 +5390,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/01-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_FREESTYLE-GONGFOIL-HOVER.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XXS",
@@ -4618,6 +5399,7 @@
       "EUR": 419.0,
       "USD": 478.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4627,6 +5409,7 @@
       "EUR": 429.0,
       "USD": 489.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4636,6 +5419,7 @@
       "EUR": 445.0,
       "USD": 507.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4645,6 +5429,7 @@
       "EUR": 459.0,
       "USD": 523.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4669,6 +5454,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_RACE-GONGFOIL-TB_c4a53f2e-e44e-4742-9839-d527746181b9.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "480 cm²",
@@ -4677,6 +5463,7 @@
       "EUR": 759.0,
       "USD": 865.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4686,6 +5473,7 @@
       "EUR": 799.0,
       "USD": 910.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4695,6 +5483,7 @@
       "EUR": 829.0,
       "USD": 944.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4719,6 +5508,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-YPRA_RACE-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "430 cm²",
@@ -4726,6 +5516,11 @@
       "CHF": 467.0,
       "EUR": 509.0,
       "USD": 580.0
+     },
+     "compareAt": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
      },
      "available": true
     },
@@ -4736,6 +5531,11 @@
       "EUR": 529.0,
       "USD": 603.0
      },
+     "compareAt": {
+      "CHF": 696.0,
+      "EUR": 759.0,
+      "USD": 865.0
+     },
      "available": true
     },
     {
@@ -4745,6 +5545,11 @@
       "EUR": 559.0,
       "USD": 637.0
      },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
+     },
      "available": true
     },
     {
@@ -4753,6 +5558,11 @@
       "CHF": 531.0,
       "EUR": 579.0,
       "USD": 660.0
+     },
+     "compareAt": {
+      "CHF": 761.0,
+      "EUR": 829.0,
+      "USD": 944.0
      },
      "available": true
     }
@@ -4776,6 +5586,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-FRONT_WING-YPRA_SLALOM-V3-GONGFOIL-TB_f05ac125-56cc-44a6-be50-b5ec4785cee8.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XXS",
@@ -4783,6 +5594,11 @@
       "CHF": 275.0,
       "EUR": 299.0,
       "USD": 341.0
+     },
+     "compareAt": {
+      "CHF": 394.0,
+      "EUR": 429.0,
+      "USD": 489.0
      },
      "available": true
     },
@@ -4793,6 +5609,11 @@
       "EUR": 305.0,
       "USD": 348.0
      },
+     "compareAt": {
+      "CHF": 403.0,
+      "EUR": 439.0,
+      "USD": 500.0
+     },
      "available": true
     },
     {
@@ -4801,6 +5622,11 @@
       "CHF": 284.0,
       "EUR": 309.0,
       "USD": 352.0
+     },
+     "compareAt": {
+      "CHF": 412.0,
+      "EUR": 449.0,
+      "USD": 512.0
      },
      "available": true
     },
@@ -4811,6 +5637,11 @@
       "EUR": 319.0,
       "USD": 364.0
      },
+     "compareAt": {
+      "CHF": 421.0,
+      "EUR": 459.0,
+      "USD": 523.0
+     },
      "available": true
     },
     {
@@ -4819,6 +5650,11 @@
       "CHF": 308.0,
       "EUR": 335.0,
       "USD": 382.0
+     },
+     "compareAt": {
+      "CHF": 440.0,
+      "EUR": 479.0,
+      "USD": 546.0
      },
      "available": true
     }
@@ -4843,6 +5679,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_SLALOM-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XXS",
@@ -4851,6 +5688,7 @@
       "EUR": 429.0,
       "USD": 489.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4860,6 +5698,7 @@
       "EUR": 439.0,
       "USD": 500.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4869,6 +5708,7 @@
       "EUR": 449.0,
       "USD": 512.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4878,6 +5718,7 @@
       "EUR": 459.0,
       "USD": 523.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4887,6 +5728,7 @@
       "EUR": 479.0,
       "USD": 546.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4912,6 +5754,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_SURF_CARVE-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -4920,6 +5763,7 @@
       "EUR": 409.0,
       "USD": 466.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4929,6 +5773,7 @@
       "EUR": 429.0,
       "USD": 489.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4938,6 +5783,7 @@
       "EUR": 439.0,
       "USD": 500.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4947,6 +5793,7 @@
       "EUR": 449.0,
       "USD": 512.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -4971,6 +5818,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_SURF_FAST-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -4979,6 +5827,7 @@
       "EUR": 409.0,
       "USD": 466.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4988,6 +5837,7 @@
       "EUR": 429.0,
       "USD": 489.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -4997,6 +5847,7 @@
       "EUR": 439.0,
       "USD": 500.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5006,6 +5857,7 @@
       "EUR": 449.0,
       "USD": 512.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5015,6 +5867,7 @@
       "EUR": 469.0,
       "USD": 534.0
      },
+     "compareAt": {},
      "available": false
     }
    ],
@@ -5039,6 +5892,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-YPRA_SURF-GONGFOIL_3ea4f52d-df3d-4976-9c94-be8546d2b66e.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XS",
@@ -5046,6 +5900,11 @@
       "CHF": 262.0,
       "EUR": 285.0,
       "USD": 325.0
+     },
+     "compareAt": {
+      "CHF": 376.0,
+      "EUR": 409.0,
+      "USD": 466.0
      },
      "available": true
     },
@@ -5056,6 +5915,11 @@
       "EUR": 299.0,
       "USD": 341.0
      },
+     "compareAt": {
+      "CHF": 394.0,
+      "EUR": 429.0,
+      "USD": 489.0
+     },
      "available": true
     },
     {
@@ -5064,6 +5928,11 @@
       "CHF": 280.0,
       "EUR": 305.0,
       "USD": 348.0
+     },
+     "compareAt": {
+      "CHF": 403.0,
+      "EUR": 439.0,
+      "USD": 500.0
      },
      "available": true
     },
@@ -5074,6 +5943,11 @@
       "EUR": 309.0,
       "USD": 352.0
      },
+     "compareAt": {
+      "CHF": 412.0,
+      "EUR": 449.0,
+      "USD": 512.0
+     },
      "available": true
     },
     {
@@ -5082,6 +5956,11 @@
       "CHF": 298.0,
       "EUR": 325.0,
       "USD": 370.0
+     },
+     "compareAt": {
+      "CHF": 431.0,
+      "EUR": 469.0,
+      "USD": 534.0
      },
      "available": true
     }
@@ -5105,6 +5984,7 @@
    "category": "frontwing",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-YPRA_SURF_FREESTYLE-GONGFOIL_754cb41c-c803-4b3f-9cad-720f303259ba.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XXS",
@@ -5112,6 +5992,11 @@
       "CHF": 256.0,
       "EUR": 279.0,
       "USD": 318.0
+     },
+     "compareAt": {
+      "CHF": 366.0,
+      "EUR": 399.0,
+      "USD": 455.0
      },
      "available": true
     },
@@ -5122,6 +6007,11 @@
       "EUR": 285.0,
       "USD": 325.0
      },
+     "compareAt": {
+      "CHF": 376.0,
+      "EUR": 409.0,
+      "USD": 466.0
+     },
      "available": true
     },
     {
@@ -5130,6 +6020,11 @@
       "CHF": 275.0,
       "EUR": 299.0,
       "USD": 341.0
+     },
+     "compareAt": {
+      "CHF": 394.0,
+      "EUR": 429.0,
+      "USD": 489.0
      },
      "available": true
     },
@@ -5140,6 +6035,11 @@
       "EUR": 299.0,
       "USD": 341.0
      },
+     "compareAt": {
+      "CHF": 399.0,
+      "EUR": 435.0,
+      "USD": 496.0
+     },
      "available": true
     },
     {
@@ -5148,6 +6048,11 @@
       "CHF": 284.0,
       "EUR": 309.0,
       "USD": 352.0
+     },
+     "compareAt": {
+      "CHF": 412.0,
+      "EUR": 449.0,
+      "USD": 512.0
      },
      "available": true
     }
@@ -5172,6 +6077,7 @@
    "category": "frontwing",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_SURF_FREESTYLE-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XXS",
@@ -5180,6 +6086,7 @@
       "EUR": 399.0,
       "USD": 455.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5189,6 +6096,7 @@
       "EUR": 409.0,
       "USD": 466.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5198,6 +6106,7 @@
       "EUR": 429.0,
       "USD": 489.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5207,6 +6116,7 @@
       "EUR": 435.0,
       "USD": 496.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5216,6 +6126,7 @@
       "EUR": 449.0,
       "USD": 512.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -5241,6 +6152,7 @@
    "category": "stab",
    "construction": "Fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-V3_ATMO-ASCENT-L_43-GONGFOIL-TB_196fb3a1-7f79-4853-9e60-8af5164c6ac6.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S",
@@ -5249,6 +6161,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5258,6 +6171,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5267,6 +6181,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5276,6 +6191,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -5300,6 +6216,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-ASCENT-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "S",
@@ -5307,6 +6224,11 @@
       "CHF": 82.0,
       "EUR": 89.0,
       "USD": 102.0
+     },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
      },
      "available": true
     },
@@ -5317,6 +6239,11 @@
       "EUR": 89.0,
       "USD": 102.0
      },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
      "available": true
     },
     {
@@ -5326,6 +6253,11 @@
       "EUR": 89.0,
       "USD": 102.0
      },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
      "available": true
     },
     {
@@ -5334,6 +6266,11 @@
       "CHF": 82.0,
       "EUR": 89.0,
       "USD": 102.0
+     },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
      },
      "available": false
     }
@@ -5359,6 +6296,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-CURVE_H-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "S",
@@ -5366,6 +6304,11 @@
       "CHF": 106.0,
       "EUR": 115.0,
       "USD": 131.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": true
     },
@@ -5376,6 +6319,11 @@
       "EUR": 115.0,
       "USD": 131.0
      },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
+     },
      "available": false
     },
     {
@@ -5385,6 +6333,11 @@
       "EUR": 125.0,
       "USD": 143.0
      },
+     "compareAt": {
+      "CHF": 165.0,
+      "EUR": 179.0,
+      "USD": 204.0
+     },
      "available": true
     },
     {
@@ -5393,6 +6346,11 @@
       "CHF": 115.0,
       "EUR": 125.0,
       "USD": 143.0
+     },
+     "compareAt": {
+      "CHF": 165.0,
+      "EUR": 179.0,
+      "USD": 204.0
      },
      "available": true
     }
@@ -5420,6 +6378,7 @@
    "category": "stab",
    "construction": "Fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-V3_ATMO-CURVE-M_39-GONGFOIL-TB_9372bcf3-f8b5-4e34-88fa-7b23e6bab55f.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S",
@@ -5428,6 +6387,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5437,6 +6397,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5446,6 +6407,7 @@
       "EUR": 139.0,
       "USD": 159.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5455,6 +6417,7 @@
       "EUR": 139.0,
       "USD": 159.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -5481,6 +6444,7 @@
    "category": "stab",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-V3_ATMO-CURVE-M_39-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S",
@@ -5489,6 +6453,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5498,6 +6463,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5507,6 +6473,7 @@
       "EUR": 179.0,
       "USD": 204.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5516,6 +6483,7 @@
       "EUR": 179.0,
       "USD": 204.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5525,6 +6493,7 @@
       "EUR": 179.0,
       "USD": 204.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -5551,6 +6520,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-FLUID_H-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XS",
@@ -5558,6 +6528,11 @@
       "CHF": 106.0,
       "EUR": 115.0,
       "USD": 131.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": true
     },
@@ -5568,6 +6543,11 @@
       "EUR": 115.0,
       "USD": 131.0
      },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
+     },
      "available": true
     },
     {
@@ -5576,6 +6556,11 @@
       "CHF": 106.0,
       "EUR": 115.0,
       "USD": 131.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": true
     },
@@ -5586,6 +6571,11 @@
       "EUR": 115.0,
       "USD": 131.0
      },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
+     },
      "available": true
     },
     {
@@ -5594,6 +6584,11 @@
       "CHF": 106.0,
       "EUR": 115.0,
       "USD": 131.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": false
     },
@@ -5604,6 +6599,11 @@
       "EUR": 125.0,
       "USD": 143.0
      },
+     "compareAt": {
+      "CHF": 165.0,
+      "EUR": 179.0,
+      "USD": 204.0
+     },
      "available": true
     },
     {
@@ -5612,6 +6612,11 @@
       "CHF": 115.0,
       "EUR": 125.0,
       "USD": 143.0
+     },
+     "compareAt": {
+      "CHF": 165.0,
+      "EUR": 179.0,
+      "USD": 204.0
      },
      "available": true
     }
@@ -5640,6 +6645,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-FLUID_H_2X-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XS",
@@ -5647,6 +6653,11 @@
       "CHF": 82.0,
       "EUR": 89.0,
       "USD": 102.0
+     },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
      },
      "available": false
     },
@@ -5657,6 +6668,11 @@
       "EUR": 89.0,
       "USD": 102.0
      },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
      "available": false
     },
     {
@@ -5665,6 +6681,11 @@
       "CHF": 82.0,
       "EUR": 89.0,
       "USD": 102.0
+     },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
      },
      "available": false
     },
@@ -5675,6 +6696,11 @@
       "EUR": 89.0,
       "USD": 102.0
      },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
      "available": false
     },
     {
@@ -5683,6 +6709,11 @@
       "CHF": 82.0,
       "EUR": 89.0,
       "USD": 102.0
+     },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
      },
      "available": false
     },
@@ -5693,6 +6724,11 @@
       "EUR": 95.0,
       "USD": 109.0
      },
+     "compareAt": {
+      "CHF": 128.0,
+      "EUR": 139.0,
+      "USD": 159.0
+     },
      "available": false
     },
     {
@@ -5701,6 +6737,11 @@
       "CHF": 88.0,
       "EUR": 95.0,
       "USD": 109.0
+     },
+     "compareAt": {
+      "CHF": 128.0,
+      "EUR": 139.0,
+      "USD": 159.0
      },
      "available": false
     }
@@ -5729,6 +6770,7 @@
    "category": "stab",
    "construction": "Fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-V3_ATMO-FLUID-M_35-GONGFOIL-TB_e86b6738-0780-41e0-8197-55d4bcd60e86.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -5737,6 +6779,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5746,6 +6789,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5755,6 +6799,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5764,6 +6809,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5773,6 +6819,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5782,6 +6829,7 @@
       "EUR": 139.0,
       "USD": 159.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5791,6 +6839,7 @@
       "EUR": 139.0,
       "USD": 159.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -5818,6 +6867,7 @@
    "category": "stab",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-V3_ATMO-FLUID-M_35-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -5826,6 +6876,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5835,6 +6886,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5844,6 +6896,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5853,6 +6906,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5862,6 +6916,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5871,6 +6926,7 @@
       "EUR": 179.0,
       "USD": 204.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5880,6 +6936,7 @@
       "EUR": 179.0,
       "USD": 204.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -5907,6 +6964,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-VELOCE_H-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "S",
@@ -5914,6 +6972,11 @@
       "CHF": 106.0,
       "EUR": 115.0,
       "USD": 131.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": true
     },
@@ -5924,6 +6987,11 @@
       "EUR": 115.0,
       "USD": 131.0
      },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
+     },
      "available": false
     },
     {
@@ -5933,6 +7001,11 @@
       "EUR": 115.0,
       "USD": 131.0
      },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
+     },
      "available": false
     },
     {
@@ -5941,6 +7014,11 @@
       "CHF": 115.0,
       "EUR": 125.0,
       "USD": 143.0
+     },
+     "compareAt": {
+      "CHF": 165.0,
+      "EUR": 179.0,
+      "USD": 204.0
      },
      "available": false
     }
@@ -5967,6 +7045,7 @@
    "category": "stab",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-V3_ATMO-VELOCE-M_36-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S",
@@ -5975,6 +7054,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5984,6 +7064,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -5993,6 +7074,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6002,6 +7084,7 @@
       "EUR": 179.0,
       "USD": 204.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6027,6 +7110,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-X_OVER-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "L",
@@ -6034,6 +7118,11 @@
       "CHF": 73.0,
       "EUR": 79.0,
       "USD": 90.0
+     },
+     "compareAt": {
+      "CHF": 110.0,
+      "EUR": 119.0,
+      "USD": 136.0
      },
      "available": false
     },
@@ -6043,6 +7132,11 @@
       "CHF": 73.0,
       "EUR": 79.0,
       "USD": 90.0
+     },
+     "compareAt": {
+      "CHF": 110.0,
+      "EUR": 119.0,
+      "USD": 136.0
      },
      "available": true
     }
@@ -6066,6 +7160,7 @@
    "category": "stab",
    "construction": "Fiberglass",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-V3_ATMO-X_OVER-L_40-GONGFOIL-TB_bb1b2f87-de50-40f2-a261-2ec5892ea63e.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "L",
@@ -6074,6 +7169,7 @@
       "EUR": 119.0,
       "USD": 136.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6083,6 +7179,7 @@
       "EUR": 119.0,
       "USD": 136.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6105,6 +7202,7 @@
    "category": "stab",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-V3_ATMO-FREESTYLE_MICRO-S_35-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S Soft",
@@ -6113,6 +7211,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6122,6 +7221,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6146,6 +7246,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-FREESTYLE-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XS",
@@ -6153,6 +7254,11 @@
       "CHF": 91.0,
       "EUR": 99.0,
       "USD": 113.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": true
     },
@@ -6162,6 +7268,11 @@
       "CHF": 91.0,
       "EUR": 99.0,
       "USD": 113.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": true
     }
@@ -6187,6 +7298,7 @@
    "category": "stab",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-V3_ATMO-YPRA_RACE_150-GONGFOIL-TB_2ef8ddd1-4bc4-43c3-a4b7-b516d3e7747d.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "135 cm²",
@@ -6195,6 +7307,7 @@
       "EUR": 189.0,
       "USD": 216.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6204,6 +7317,7 @@
       "EUR": 189.0,
       "USD": 216.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6213,6 +7327,7 @@
       "EUR": 189.0,
       "USD": 216.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6237,6 +7352,7 @@
    "category": "stab",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-YPRA_RACE-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "120 cm²",
@@ -6244,6 +7360,11 @@
       "CHF": 119.0,
       "EUR": 129.0,
       "USD": 147.0
+     },
+     "compareAt": {
+      "CHF": 174.0,
+      "EUR": 189.0,
+      "USD": 216.0
      },
      "available": true
     },
@@ -6254,6 +7375,11 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {
+      "CHF": 174.0,
+      "EUR": 189.0,
+      "USD": 216.0
+     },
      "available": true
     },
     {
@@ -6263,6 +7389,11 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {
+      "CHF": 174.0,
+      "EUR": 189.0,
+      "USD": 216.0
+     },
      "available": true
     },
     {
@@ -6271,6 +7402,11 @@
       "CHF": 119.0,
       "EUR": 129.0,
       "USD": 147.0
+     },
+     "compareAt": {
+      "CHF": 174.0,
+      "EUR": 189.0,
+      "USD": 216.0
      },
      "available": true
     }
@@ -6296,6 +7432,7 @@
    "category": "stab",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-YPRA_SLALOM-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XS",
@@ -6303,6 +7440,11 @@
       "CHF": 106.0,
       "EUR": 115.0,
       "USD": 131.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": true
     },
@@ -6313,6 +7455,11 @@
       "EUR": 115.0,
       "USD": 131.0
      },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
+     },
      "available": true
     },
     {
@@ -6322,6 +7469,11 @@
       "EUR": 115.0,
       "USD": 131.0
      },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
+     },
      "available": true
     },
     {
@@ -6330,6 +7482,11 @@
       "CHF": 106.0,
       "EUR": 115.0,
       "USD": 131.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": true
     }
@@ -6356,6 +7513,7 @@
    "category": "stab",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-V3_ATMO-SLALOM-S_36-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XXS",
@@ -6364,6 +7522,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6373,6 +7532,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6382,6 +7542,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6391,6 +7552,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6400,6 +7562,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6425,6 +7588,7 @@
    "category": "stab",
    "construction": "Carbon HM",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-V3_ATMO-SURF_FREESTYLE-S_33-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -6433,6 +7597,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6442,6 +7607,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6451,6 +7617,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6476,6 +7643,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-STABS-SURF_FREESTYLE-GONGFOIL.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XS",
@@ -6483,6 +7651,11 @@
       "CHF": 106.0,
       "EUR": 115.0,
       "USD": 131.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": false
     },
@@ -6493,6 +7666,11 @@
       "EUR": 115.0,
       "USD": 131.0
      },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
+     },
      "available": true
     },
     {
@@ -6501,6 +7679,11 @@
       "CHF": 106.0,
       "EUR": 115.0,
       "USD": 131.0
+     },
+     "compareAt": {
+      "CHF": 155.0,
+      "EUR": 169.0,
+      "USD": 193.0
      },
      "available": true
     }
@@ -6527,6 +7710,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-FOIL-STABS-V3-TAIL_WING-CURVE_H-M_39-GONGFOIL-TB_2b9cde4b-8ec8-46f6-8d28-f4e97cfd2461.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "S",
@@ -6534,6 +7718,11 @@
       "CHF": 64.0,
       "EUR": 69.0,
       "USD": 79.0
+     },
+     "compareAt": {
+      "CHF": 91.0,
+      "EUR": 99.0,
+      "USD": 113.0
      },
      "available": true
     },
@@ -6544,6 +7733,11 @@
       "EUR": 75.0,
       "USD": 86.0
      },
+     "compareAt": {
+      "CHF": 100.0,
+      "EUR": 109.0,
+      "USD": 125.0
+     },
      "available": true
     },
     {
@@ -6553,6 +7747,11 @@
       "EUR": 79.0,
       "USD": 90.0
      },
+     "compareAt": {
+      "CHF": 110.0,
+      "EUR": 119.0,
+      "USD": 136.0
+     },
      "available": true
     },
     {
@@ -6561,6 +7760,11 @@
       "CHF": 82.0,
       "EUR": 89.0,
       "USD": 102.0
+     },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
      },
      "available": true
     }
@@ -6584,6 +7788,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-FOIL-STABS-V3-TAIL_WING-FLUID_H-M_35-GONGFOIL-TB_ccb72272-ec50-409e-88f4-7586d524df53.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "XS",
@@ -6591,6 +7796,11 @@
       "CHF": 51.0,
       "EUR": 55.0,
       "USD": 63.0
+     },
+     "compareAt": {
+      "CHF": 73.0,
+      "EUR": 79.0,
+      "USD": 90.0
      },
      "available": true
     },
@@ -6601,6 +7811,11 @@
       "EUR": 59.0,
       "USD": 68.0
      },
+     "compareAt": {
+      "CHF": 82.0,
+      "EUR": 89.0,
+      "USD": 102.0
+     },
      "available": true
     },
     {
@@ -6609,6 +7824,11 @@
       "CHF": 64.0,
       "EUR": 69.0,
       "USD": 79.0
+     },
+     "compareAt": {
+      "CHF": 91.0,
+      "EUR": 99.0,
+      "USD": 113.0
      },
      "available": true
     },
@@ -6619,6 +7839,11 @@
       "EUR": 69.0,
       "USD": 79.0
      },
+     "compareAt": {
+      "CHF": 91.0,
+      "EUR": 99.0,
+      "USD": 113.0
+     },
      "available": true
     },
     {
@@ -6627,6 +7852,11 @@
       "CHF": 64.0,
       "EUR": 69.0,
       "USD": 79.0
+     },
+     "compareAt": {
+      "CHF": 91.0,
+      "EUR": 99.0,
+      "USD": 113.0
      },
      "available": true
     },
@@ -6637,6 +7867,11 @@
       "EUR": 75.0,
       "USD": 86.0
      },
+     "compareAt": {
+      "CHF": 100.0,
+      "EUR": 109.0,
+      "USD": 125.0
+     },
      "available": true
     },
     {
@@ -6645,6 +7880,11 @@
       "CHF": 73.0,
       "EUR": 79.0,
       "USD": 90.0
+     },
+     "compareAt": {
+      "CHF": 110.0,
+      "EUR": 119.0,
+      "USD": 136.0
      },
      "available": true
     }
@@ -6668,6 +7908,7 @@
    "category": "stab",
    "construction": "Lower",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-HYPER_TRAIL-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S",
@@ -6676,6 +7917,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6685,6 +7927,7 @@
       "EUR": 139.0,
       "USD": 159.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6694,6 +7937,7 @@
       "EUR": 149.0,
       "USD": 170.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6703,6 +7947,7 @@
       "EUR": 159.0,
       "USD": 182.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6725,6 +7970,7 @@
    "category": "stab",
    "construction": "Lower",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-VELOCE_DW-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "S",
@@ -6733,6 +7979,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6742,6 +7989,7 @@
       "EUR": 139.0,
       "USD": 159.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6751,6 +7999,7 @@
       "EUR": 149.0,
       "USD": 170.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6760,6 +8009,7 @@
       "EUR": 159.0,
       "USD": 182.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6783,6 +8033,7 @@
    "category": "stab",
    "construction": null,
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-FOIL-STABS-V3-TAIL_WING-VELOCE_H-M_36-GONGFOIL-TB_97c798d0-0782-4ca9-b861-5bae97df80f7.png",
+   "year": 2025,
    "sizes": [
     {
      "size": "S",
@@ -6790,6 +8041,11 @@
       "CHF": 55.0,
       "EUR": 59.0,
       "USD": 68.0
+     },
+     "compareAt": {
+      "CHF": 82.0,
+      "EUR": 89.0,
+      "USD": 102.0
      },
      "available": true
     },
@@ -6800,6 +8056,11 @@
       "EUR": 79.0,
       "USD": 90.0
      },
+     "compareAt": {
+      "CHF": 91.0,
+      "EUR": 99.0,
+      "USD": 113.0
+     },
      "available": true
     },
     {
@@ -6809,6 +8070,11 @@
       "EUR": 69.0,
       "USD": 79.0
      },
+     "compareAt": {
+      "CHF": 91.0,
+      "EUR": 99.0,
+      "USD": 113.0
+     },
      "available": true
     },
     {
@@ -6817,6 +8083,11 @@
       "CHF": 69.0,
       "EUR": 75.0,
       "USD": 86.0
+     },
+     "compareAt": {
+      "CHF": 100.0,
+      "EUR": 109.0,
+      "USD": 125.0
      },
      "available": true
     }
@@ -6840,6 +8111,7 @@
    "category": "stab",
    "construction": "Lower",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-VELOCE_XTR-GONGFOIL-TB_2222cd62-0e51-4e8d-98b4-ffb1c8a35f8c.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -6848,6 +8120,7 @@
       "EUR": 129.0,
       "USD": 147.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6857,6 +8130,7 @@
       "EUR": 139.0,
       "USD": 159.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6866,6 +8140,7 @@
       "EUR": 149.0,
       "USD": 170.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6875,6 +8150,7 @@
       "EUR": 159.0,
       "USD": 182.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6898,6 +8174,7 @@
    "category": "stab",
    "construction": "Lower",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-SURF_CARVE-GONGFOIL-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "XS",
@@ -6906,6 +8183,7 @@
       "EUR": 79.0,
       "USD": 90.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6915,6 +8193,7 @@
       "EUR": 89.0,
       "USD": 102.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6924,6 +8203,7 @@
       "EUR": 99.0,
       "USD": 113.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -6933,6 +8213,7 @@
       "EUR": 99.0,
       "USD": 113.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -6956,6 +8237,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-DROID_HANDLES-4_5-GONGWING-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "3 m²",
@@ -6963,6 +8245,11 @@
       "CHF": 440.0,
       "EUR": 479.0,
       "USD": 546.0
+     },
+     "compareAt": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
      },
      "available": true
     },
@@ -6973,6 +8260,11 @@
       "EUR": 499.0,
       "USD": 569.0
      },
+     "compareAt": {
+      "CHF": 577.0,
+      "EUR": 629.0,
+      "USD": 717.0
+     },
      "available": true
     },
     {
@@ -6981,6 +8273,11 @@
       "CHF": 476.0,
       "EUR": 519.0,
       "USD": 591.0
+     },
+     "compareAt": {
+      "CHF": 596.0,
+      "EUR": 649.0,
+      "USD": 739.0
      },
      "available": true
     },
@@ -6991,6 +8288,11 @@
       "EUR": 539.0,
       "USD": 614.0
      },
+     "compareAt": {
+      "CHF": 623.0,
+      "EUR": 679.0,
+      "USD": 774.0
+     },
      "available": true
     },
     {
@@ -6999,6 +8301,11 @@
       "CHF": 513.0,
       "EUR": 559.0,
       "USD": 637.0
+     },
+     "compareAt": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
      },
      "available": true
     },
@@ -7009,6 +8316,11 @@
       "EUR": 579.0,
       "USD": 660.0
      },
+     "compareAt": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
      "available": true
     },
     {
@@ -7018,6 +8330,11 @@
       "EUR": 605.0,
       "USD": 689.0
      },
+     "compareAt": {
+      "CHF": 696.0,
+      "EUR": 759.0,
+      "USD": 865.0
+     },
      "available": true
     },
     {
@@ -7026,6 +8343,11 @@
       "CHF": 577.0,
       "EUR": 629.0,
       "USD": 717.0
+     },
+     "compareAt": {
+      "CHF": 724.0,
+      "EUR": 789.0,
+      "USD": 899.0
      },
      "available": true
     }
@@ -7053,6 +8375,7 @@
    "category": "wing",
    "construction": "Aramid",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-TEAM_SERIES-2026-ARAMID-DROID-GONGWING-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "2 m²",
@@ -7060,6 +8383,11 @@
       "CHF": 519.0,
       "EUR": 565.0,
       "USD": 644.0
+     },
+     "compareAt": {
+      "CHF": 651.0,
+      "EUR": 709.0,
+      "USD": 808.0
      },
      "available": true
     },
@@ -7070,6 +8398,11 @@
       "EUR": 579.0,
       "USD": 660.0
      },
+     "compareAt": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
+     },
      "available": true
     },
     {
@@ -7078,6 +8411,11 @@
       "CHF": 555.0,
       "EUR": 605.0,
       "USD": 689.0
+     },
+     "compareAt": {
+      "CHF": 696.0,
+      "EUR": 759.0,
+      "USD": 865.0
      },
      "available": true
     },
@@ -7088,6 +8426,11 @@
       "EUR": 629.0,
       "USD": 717.0
      },
+     "compareAt": {
+      "CHF": 724.0,
+      "EUR": 789.0,
+      "USD": 899.0
+     },
      "available": true
     },
     {
@@ -7096,6 +8439,11 @@
       "CHF": 601.0,
       "EUR": 655.0,
       "USD": 746.0
+     },
+     "compareAt": {
+      "CHF": 751.0,
+      "EUR": 819.0,
+      "USD": 933.0
      },
      "available": true
     },
@@ -7106,6 +8454,11 @@
       "EUR": 679.0,
       "USD": 774.0
      },
+     "compareAt": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
+     },
      "available": true
     },
     {
@@ -7114,6 +8467,11 @@
       "CHF": 651.0,
       "EUR": 709.0,
       "USD": 808.0
+     },
+     "compareAt": {
+      "CHF": 816.0,
+      "EUR": 889.0,
+      "USD": 1013.0
      },
      "available": false
     },
@@ -7124,6 +8482,11 @@
       "EUR": 739.0,
       "USD": 842.0
      },
+     "compareAt": {
+      "CHF": 852.0,
+      "EUR": 929.0,
+      "USD": 1058.0
+     },
      "available": true
     },
     {
@@ -7132,6 +8495,11 @@
       "CHF": 711.0,
       "EUR": 775.0,
       "USD": 883.0
+     },
+     "compareAt": {
+      "CHF": 889.0,
+      "EUR": 969.0,
+      "USD": 1104.0
      },
      "available": true
     },
@@ -7142,6 +8510,11 @@
       "EUR": 805.0,
       "USD": 917.0
      },
+     "compareAt": {
+      "CHF": 926.0,
+      "EUR": 1009.0,
+      "USD": 1149.0
+     },
      "available": true
     },
     {
@@ -7151,6 +8524,11 @@
       "EUR": 859.0,
       "USD": 978.0
      },
+     "compareAt": {
+      "CHF": 990.0,
+      "EUR": 1079.0,
+      "USD": 1229.0
+     },
      "available": true
     },
     {
@@ -7159,6 +8537,11 @@
       "CHF": 858.0,
       "EUR": 935.0,
       "USD": 1065.0
+     },
+     "compareAt": {
+      "CHF": 1072.0,
+      "EUR": 1169.0,
+      "USD": 1331.0
      },
      "available": true
     }
@@ -7186,6 +8569,7 @@
    "category": "wing",
    "construction": "Aramid",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-TEAM_SERIES-2027-DROID-ARAMID-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "2 m²",
@@ -7194,6 +8578,7 @@
       "EUR": 709.0,
       "USD": 808.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7203,6 +8588,7 @@
       "EUR": 729.0,
       "USD": 830.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7212,6 +8598,7 @@
       "EUR": 759.0,
       "USD": 865.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7221,6 +8608,7 @@
       "EUR": 789.0,
       "USD": 899.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7230,6 +8618,7 @@
       "EUR": 819.0,
       "USD": 933.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7239,6 +8628,7 @@
       "EUR": 849.0,
       "USD": 967.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7248,6 +8638,7 @@
       "EUR": 889.0,
       "USD": 1013.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7257,6 +8648,7 @@
       "EUR": 929.0,
       "USD": 1058.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7266,6 +8658,7 @@
       "EUR": 969.0,
       "USD": 1104.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7275,6 +8668,7 @@
       "EUR": 1009.0,
       "USD": 1149.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7284,6 +8678,7 @@
       "EUR": 1079.0,
       "USD": 1229.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7293,6 +8688,7 @@
       "EUR": 1169.0,
       "USD": 1331.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -7319,6 +8715,7 @@
    "category": "wing",
    "construction": "Aramid X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PRO_TEAM_SERIES-2026-ARAMID_X-DROID-GONGWING-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "2 m²",
@@ -7326,6 +8723,11 @@
       "CHF": 586.0,
       "EUR": 639.0,
       "USD": 728.0
+     },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
      },
      "available": true
     },
@@ -7336,6 +8738,11 @@
       "EUR": 655.0,
       "USD": 746.0
      },
+     "compareAt": {
+      "CHF": 751.0,
+      "EUR": 819.0,
+      "USD": 933.0
+     },
      "available": true
     },
     {
@@ -7344,6 +8751,11 @@
       "CHF": 623.0,
       "EUR": 679.0,
       "USD": 774.0
+     },
+     "compareAt": {
+      "CHF": 779.0,
+      "EUR": 849.0,
+      "USD": 967.0
      },
      "available": true
     },
@@ -7354,6 +8766,11 @@
       "EUR": 699.0,
       "USD": 796.0
      },
+     "compareAt": {
+      "CHF": 806.0,
+      "EUR": 879.0,
+      "USD": 1001.0
+     },
      "available": true
     },
     {
@@ -7362,6 +8779,11 @@
       "CHF": 665.0,
       "EUR": 725.0,
       "USD": 826.0
+     },
+     "compareAt": {
+      "CHF": 834.0,
+      "EUR": 909.0,
+      "USD": 1035.0
      },
      "available": true
     },
@@ -7372,6 +8794,11 @@
       "EUR": 749.0,
       "USD": 853.0
      },
+     "compareAt": {
+      "CHF": 861.0,
+      "EUR": 939.0,
+      "USD": 1070.0
+     },
      "available": true
     },
     {
@@ -7380,6 +8807,11 @@
       "CHF": 715.0,
       "EUR": 779.0,
       "USD": 887.0
+     },
+     "compareAt": {
+      "CHF": 898.0,
+      "EUR": 979.0,
+      "USD": 1115.0
      },
      "available": true
     },
@@ -7390,6 +8822,11 @@
       "EUR": 815.0,
       "USD": 928.0
      },
+     "compareAt": {
+      "CHF": 935.0,
+      "EUR": 1019.0,
+      "USD": 1161.0
+     },
      "available": true
     },
     {
@@ -7398,6 +8835,11 @@
       "CHF": 775.0,
       "EUR": 845.0,
       "USD": 962.0
+     },
+     "compareAt": {
+      "CHF": 972.0,
+      "EUR": 1059.0,
+      "USD": 1206.0
      },
      "available": true
     },
@@ -7408,6 +8850,11 @@
       "EUR": 879.0,
       "USD": 1001.0
      },
+     "compareAt": {
+      "CHF": 1008.0,
+      "EUR": 1099.0,
+      "USD": 1252.0
+     },
      "available": true
     },
     {
@@ -7417,6 +8864,11 @@
       "EUR": 919.0,
       "USD": 1047.0
      },
+     "compareAt": {
+      "CHF": 1054.0,
+      "EUR": 1149.0,
+      "USD": 1309.0
+     },
      "available": true
     },
     {
@@ -7425,6 +8877,11 @@
       "CHF": 880.0,
       "EUR": 959.0,
       "USD": 1092.0
+     },
+     "compareAt": {
+      "CHF": 1100.0,
+      "EUR": 1199.0,
+      "USD": 1366.0
      },
      "available": true
     }
@@ -7451,6 +8908,7 @@
    "category": "wing",
    "construction": "Aramid X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PRO_TEAM_SERIES-2027-DROID_ARAMID_X-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "2 m²",
@@ -7459,6 +8917,7 @@
       "EUR": 799.0,
       "USD": 910.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7468,6 +8927,7 @@
       "EUR": 819.0,
       "USD": 933.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7477,6 +8937,7 @@
       "EUR": 849.0,
       "USD": 967.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7486,6 +8947,7 @@
       "EUR": 879.0,
       "USD": 1001.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7495,6 +8957,7 @@
       "EUR": 909.0,
       "USD": 1035.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7504,6 +8967,7 @@
       "EUR": 939.0,
       "USD": 1070.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7513,6 +8977,7 @@
       "EUR": 979.0,
       "USD": 1115.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7522,6 +8987,7 @@
       "EUR": 1019.0,
       "USD": 1161.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7531,6 +8997,7 @@
       "EUR": 1059.0,
       "USD": 1206.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7540,6 +9007,7 @@
       "EUR": 1099.0,
       "USD": 1252.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7549,6 +9017,7 @@
       "EUR": 1149.0,
       "USD": 1309.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7558,6 +9027,7 @@
       "EUR": 1199.0,
       "USD": 1366.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -7583,6 +9053,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-DROID_BOOM-4_5-GONGWING-TB.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "3 m²",
@@ -7590,6 +9061,11 @@
       "CHF": 445.0,
       "EUR": 485.0,
       "USD": 553.0
+     },
+     "compareAt": {
+      "CHF": 559.0,
+      "EUR": 609.0,
+      "USD": 694.0
      },
      "available": true
     },
@@ -7600,6 +9076,11 @@
       "EUR": 509.0,
       "USD": 580.0
      },
+     "compareAt": {
+      "CHF": 586.0,
+      "EUR": 639.0,
+      "USD": 728.0
+     },
      "available": true
     },
     {
@@ -7608,6 +9089,11 @@
       "CHF": 482.0,
       "EUR": 525.0,
       "USD": 598.0
+     },
+     "compareAt": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
      },
      "available": true
     },
@@ -7618,6 +9104,11 @@
       "EUR": 549.0,
       "USD": 626.0
      },
+     "compareAt": {
+      "CHF": 632.0,
+      "EUR": 689.0,
+      "USD": 785.0
+     },
      "available": true
     },
     {
@@ -7626,6 +9117,11 @@
       "CHF": 519.0,
       "EUR": 565.0,
       "USD": 644.0
+     },
+     "compareAt": {
+      "CHF": 651.0,
+      "EUR": 709.0,
+      "USD": 808.0
      },
      "available": true
     },
@@ -7636,6 +9132,11 @@
       "EUR": 589.0,
       "USD": 671.0
      },
+     "compareAt": {
+      "CHF": 678.0,
+      "EUR": 739.0,
+      "USD": 842.0
+     },
      "available": true
     },
     {
@@ -7645,6 +9146,11 @@
       "EUR": 615.0,
       "USD": 701.0
      },
+     "compareAt": {
+      "CHF": 706.0,
+      "EUR": 769.0,
+      "USD": 876.0
+     },
      "available": true
     },
     {
@@ -7653,6 +9159,11 @@
       "CHF": 586.0,
       "EUR": 639.0,
       "USD": 728.0
+     },
+     "compareAt": {
+      "CHF": 733.0,
+      "EUR": 799.0,
+      "USD": 910.0
      },
      "available": true
     }
@@ -7680,6 +9191,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PERF_SERIES-2027-DROID_BOOM-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "3 m²",
@@ -7688,6 +9200,7 @@
       "EUR": 609.0,
       "USD": 694.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7697,6 +9210,7 @@
       "EUR": 639.0,
       "USD": 728.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7706,6 +9220,7 @@
       "EUR": 659.0,
       "USD": 751.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7715,6 +9230,7 @@
       "EUR": 689.0,
       "USD": 785.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7724,6 +9240,7 @@
       "EUR": 709.0,
       "USD": 808.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7733,6 +9250,7 @@
       "EUR": 739.0,
       "USD": 842.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7742,6 +9260,7 @@
       "EUR": 769.0,
       "USD": 876.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7751,6 +9270,7 @@
       "EUR": 799.0,
       "USD": 910.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -7777,6 +9297,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PERF_SERIES-2027-DROID-RH-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "3 m²",
@@ -7785,6 +9306,7 @@
       "EUR": 599.0,
       "USD": 682.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7794,6 +9316,7 @@
       "EUR": 629.0,
       "USD": 717.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7803,6 +9326,7 @@
       "EUR": 649.0,
       "USD": 739.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7812,6 +9336,7 @@
       "EUR": 679.0,
       "USD": 774.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7821,6 +9346,7 @@
       "EUR": 699.0,
       "USD": 796.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7830,6 +9356,7 @@
       "EUR": 729.0,
       "USD": 830.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7839,6 +9366,7 @@
       "EUR": 759.0,
       "USD": 865.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -7848,6 +9376,7 @@
       "EUR": 789.0,
       "USD": 899.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -7874,6 +9403,7 @@
    "category": "wing",
    "construction": "Aramid CZ",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PRO_TEAM_SERIES-2026-DROID_SP-GONGWING-TB_8ee68f5d-38cf-41d0-a500-e2188f73a7b1.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "3 m²",
@@ -7881,6 +9411,11 @@
       "CHF": 821.0,
       "EUR": 895.0,
       "USD": 1019.0
+     },
+     "compareAt": {
+      "CHF": 1027.0,
+      "EUR": 1119.0,
+      "USD": 1274.0
      },
      "available": true
     },
@@ -7891,6 +9426,11 @@
       "EUR": 925.0,
       "USD": 1054.0
      },
+     "compareAt": {
+      "CHF": 1063.0,
+      "EUR": 1159.0,
+      "USD": 1320.0
+     },
      "available": true
     },
     {
@@ -7899,6 +9439,11 @@
       "CHF": 871.0,
       "EUR": 949.0,
       "USD": 1081.0
+     },
+     "compareAt": {
+      "CHF": 1091.0,
+      "EUR": 1189.0,
+      "USD": 1354.0
      },
      "available": true
     },
@@ -7909,6 +9454,11 @@
       "EUR": 979.0,
       "USD": 1115.0
      },
+     "compareAt": {
+      "CHF": 1127.0,
+      "EUR": 1229.0,
+      "USD": 1400.0
+     },
      "available": true
     },
     {
@@ -7917,6 +9467,11 @@
       "CHF": 935.0,
       "EUR": 1019.0,
       "USD": 1161.0
+     },
+     "compareAt": {
+      "CHF": 1173.0,
+      "EUR": 1279.0,
+      "USD": 1457.0
      },
      "available": true
     },
@@ -7927,6 +9482,11 @@
       "EUR": 1055.0,
       "USD": 1202.0
      },
+     "compareAt": {
+      "CHF": 1210.0,
+      "EUR": 1319.0,
+      "USD": 1502.0
+     },
      "available": true
     },
     {
@@ -7935,6 +9495,11 @@
       "CHF": 995.0,
       "EUR": 1085.0,
       "USD": 1236.0
+     },
+     "compareAt": {
+      "CHF": 1247.0,
+      "EUR": 1359.0,
+      "USD": 1548.0
      },
      "available": true
     },
@@ -7945,6 +9510,11 @@
       "EUR": 1119.0,
       "USD": 1274.0
      },
+     "compareAt": {
+      "CHF": 1283.0,
+      "EUR": 1399.0,
+      "USD": 1593.0
+     },
      "available": true
     },
     {
@@ -7954,6 +9524,11 @@
       "EUR": 1149.0,
       "USD": 1309.0
      },
+     "compareAt": {
+      "CHF": 1320.0,
+      "EUR": 1439.0,
+      "USD": 1639.0
+     },
      "available": true
     },
     {
@@ -7962,6 +9537,11 @@
       "CHF": 1091.0,
       "EUR": 1189.0,
       "USD": 1354.0
+     },
+     "compareAt": {
+      "CHF": 1366.0,
+      "EUR": 1489.0,
+      "USD": 1696.0
      },
      "available": true
     }
@@ -7989,6 +9569,7 @@
    "category": "wing",
    "construction": "Aramid CZ",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PRO_TEAM_SERIES-2027-DROID_SP_ARAMID_CZ-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "3 m²",
@@ -7997,6 +9578,7 @@
       "EUR": 1119.0,
       "USD": 1274.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8006,6 +9588,7 @@
       "EUR": 1159.0,
       "USD": 1320.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8015,6 +9598,7 @@
       "EUR": 1189.0,
       "USD": 1354.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8024,6 +9608,7 @@
       "EUR": 1229.0,
       "USD": 1400.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8033,6 +9618,7 @@
       "EUR": 1279.0,
       "USD": 1457.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8042,6 +9628,7 @@
       "EUR": 1319.0,
       "USD": 1502.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8051,6 +9638,7 @@
       "EUR": 1359.0,
       "USD": 1548.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8060,6 +9648,7 @@
       "EUR": 1399.0,
       "USD": 1593.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8069,6 +9658,7 @@
       "EUR": 1439.0,
       "USD": 1639.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8078,6 +9668,7 @@
       "EUR": 1489.0,
       "USD": 1696.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -8104,6 +9695,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-NEUTRA_HANDLES-GONGWING-NHNB-TB_02c6d79a-fb68-4be5-ba1a-c32a698b6d64.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "2 m²",
@@ -8111,6 +9703,11 @@
       "CHF": 372.0,
       "EUR": 405.0,
       "USD": 462.0
+     },
+     "compareAt": {
+      "CHF": 467.0,
+      "EUR": 509.0,
+      "USD": 580.0
      },
      "available": true
     },
@@ -8121,6 +9718,11 @@
       "EUR": 445.0,
       "USD": 507.0
      },
+     "compareAt": {
+      "CHF": 513.0,
+      "EUR": 559.0,
+      "USD": 637.0
+     },
      "available": true
     },
     {
@@ -8129,6 +9731,11 @@
       "CHF": 431.0,
       "EUR": 469.0,
       "USD": 534.0
+     },
+     "compareAt": {
+      "CHF": 541.0,
+      "EUR": 589.0,
+      "USD": 671.0
      },
      "available": true
     },
@@ -8139,6 +9746,11 @@
       "EUR": 485.0,
       "USD": 553.0
      },
+     "compareAt": {
+      "CHF": 559.0,
+      "EUR": 609.0,
+      "USD": 694.0
+     },
      "available": true
     },
     {
@@ -8147,6 +9759,11 @@
       "CHF": 467.0,
       "EUR": 509.0,
       "USD": 580.0
+     },
+     "compareAt": {
+      "CHF": 586.0,
+      "EUR": 639.0,
+      "USD": 728.0
      },
      "available": true
     },
@@ -8157,6 +9774,11 @@
       "EUR": 525.0,
       "USD": 598.0
      },
+     "compareAt": {
+      "CHF": 605.0,
+      "EUR": 659.0,
+      "USD": 751.0
+     },
      "available": true
     },
     {
@@ -8166,6 +9788,11 @@
       "EUR": 549.0,
       "USD": 626.0
      },
+     "compareAt": {
+      "CHF": 632.0,
+      "EUR": 689.0,
+      "USD": 785.0
+     },
      "available": true
     },
     {
@@ -8174,6 +9801,11 @@
       "CHF": 519.0,
       "EUR": 565.0,
       "USD": 644.0
+     },
+     "compareAt": {
+      "CHF": 651.0,
+      "EUR": 709.0,
+      "USD": 808.0
      },
      "available": true
     }
@@ -8201,6 +9833,7 @@
    "category": "wing",
    "construction": "Aramid",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-TEAM_SERIES-2026-ARAMID-NEUTRA-4_5-SKYBLUE-GONGWING--NHNB-TB_a22c4c8f-f9ff-4a4f-a66a-df28891864a9.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "2 m²",
@@ -8208,6 +9841,11 @@
       "CHF": 513.0,
       "EUR": 559.0,
       "USD": 637.0
+     },
+     "compareAt": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
      },
      "available": true
     },
@@ -8218,6 +9856,11 @@
       "EUR": 575.0,
       "USD": 655.0
      },
+     "compareAt": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
      "available": true
     },
     {
@@ -8226,6 +9869,11 @@
       "CHF": 550.0,
       "EUR": 599.0,
       "USD": 682.0
+     },
+     "compareAt": {
+      "CHF": 687.0,
+      "EUR": 749.0,
+      "USD": 853.0
      },
      "available": true
     },
@@ -8236,6 +9884,11 @@
       "EUR": 619.0,
       "USD": 705.0
      },
+     "compareAt": {
+      "CHF": 715.0,
+      "EUR": 779.0,
+      "USD": 887.0
+     },
      "available": true
     },
     {
@@ -8244,6 +9897,11 @@
       "CHF": 592.0,
       "EUR": 645.0,
       "USD": 735.0
+     },
+     "compareAt": {
+      "CHF": 742.0,
+      "EUR": 809.0,
+      "USD": 922.0
      },
      "available": true
     },
@@ -8254,6 +9912,11 @@
       "EUR": 669.0,
       "USD": 762.0
      },
+     "compareAt": {
+      "CHF": 770.0,
+      "EUR": 839.0,
+      "USD": 956.0
+     },
      "available": true
     },
     {
@@ -8263,6 +9926,11 @@
       "EUR": 699.0,
       "USD": 796.0
      },
+     "compareAt": {
+      "CHF": 806.0,
+      "EUR": 879.0,
+      "USD": 1001.0
+     },
      "available": false
     },
     {
@@ -8271,6 +9939,11 @@
       "CHF": 674.0,
       "EUR": 735.0,
       "USD": 837.0
+     },
+     "compareAt": {
+      "CHF": 843.0,
+      "EUR": 919.0,
+      "USD": 1047.0
      },
      "available": true
     }
@@ -8298,6 +9971,7 @@
    "category": "wing",
    "construction": "Aramid",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-TEAM_SERIES-2027-ARAMID-NEUTRA-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "2 m²",
@@ -8306,6 +9980,7 @@
       "EUR": 699.0,
       "USD": 796.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8315,6 +9990,7 @@
       "EUR": 719.0,
       "USD": 819.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8324,6 +10000,7 @@
       "EUR": 749.0,
       "USD": 853.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8333,6 +10010,7 @@
       "EUR": 779.0,
       "USD": 887.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8342,6 +10020,7 @@
       "EUR": 809.0,
       "USD": 922.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8351,6 +10030,7 @@
       "EUR": 839.0,
       "USD": 956.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8360,6 +10040,7 @@
       "EUR": 879.0,
       "USD": 1001.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8369,6 +10050,7 @@
       "EUR": 919.0,
       "USD": 1047.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -8395,6 +10077,7 @@
    "category": "wing",
    "construction": "Aramid X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PRO_TEAM_SERIES-2026-ARAMID_X-NEUTRA-GONGWING-NHNB-TB_edee7c98-c309-47a6-a346-5e064c46cb52.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "2 m²",
@@ -8402,6 +10085,11 @@
       "CHF": 577.0,
       "EUR": 629.0,
       "USD": 717.0
+     },
+     "compareAt": {
+      "CHF": 724.0,
+      "EUR": 789.0,
+      "USD": 899.0
      },
      "available": true
     },
@@ -8412,6 +10100,11 @@
       "EUR": 645.0,
       "USD": 735.0
      },
+     "compareAt": {
+      "CHF": 742.0,
+      "EUR": 809.0,
+      "USD": 922.0
+     },
      "available": true
     },
     {
@@ -8420,6 +10113,11 @@
       "CHF": 614.0,
       "EUR": 669.0,
       "USD": 762.0
+     },
+     "compareAt": {
+      "CHF": 770.0,
+      "EUR": 839.0,
+      "USD": 956.0
      },
      "available": true
     },
@@ -8430,6 +10128,11 @@
       "EUR": 695.0,
       "USD": 792.0
      },
+     "compareAt": {
+      "CHF": 797.0,
+      "EUR": 869.0,
+      "USD": 990.0
+     },
      "available": true
     },
     {
@@ -8438,6 +10141,11 @@
       "CHF": 660.0,
       "EUR": 719.0,
       "USD": 819.0
+     },
+     "compareAt": {
+      "CHF": 825.0,
+      "EUR": 899.0,
+      "USD": 1024.0
      },
      "available": true
     },
@@ -8448,6 +10156,11 @@
       "EUR": 739.0,
       "USD": 842.0
      },
+     "compareAt": {
+      "CHF": 852.0,
+      "EUR": 929.0,
+      "USD": 1058.0
+     },
      "available": true
     },
     {
@@ -8457,6 +10170,11 @@
       "EUR": 775.0,
       "USD": 883.0
      },
+     "compareAt": {
+      "CHF": 889.0,
+      "EUR": 969.0,
+      "USD": 1104.0
+     },
      "available": true
     },
     {
@@ -8465,6 +10183,11 @@
       "CHF": 739.0,
       "EUR": 805.0,
       "USD": 917.0
+     },
+     "compareAt": {
+      "CHF": 926.0,
+      "EUR": 1009.0,
+      "USD": 1149.0
      },
      "available": true
     }
@@ -8491,6 +10214,7 @@
    "category": "wing",
    "construction": "Aramid X",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PRO_TEAM_SERIES-2027-NEUTRA_ARAMID_X-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "2 m²",
@@ -8499,6 +10223,7 @@
       "EUR": 789.0,
       "USD": 899.0
      },
+     "compareAt": {},
      "available": false
     },
     {
@@ -8508,6 +10233,7 @@
       "EUR": 809.0,
       "USD": 922.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8517,6 +10243,7 @@
       "EUR": 839.0,
       "USD": 956.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8526,6 +10253,7 @@
       "EUR": 869.0,
       "USD": 990.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8535,6 +10263,7 @@
       "EUR": 899.0,
       "USD": 1024.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8544,6 +10273,7 @@
       "EUR": 929.0,
       "USD": 1058.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8553,6 +10283,7 @@
       "EUR": 969.0,
       "USD": 1104.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8562,6 +10293,7 @@
       "EUR": 1009.0,
       "USD": 1149.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -8587,6 +10319,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-NEUTRA_BOOM-GONGWING-NHNB-TB_4e4ed328-ae97-446d-9d71-d507ce05ab5e.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "2 m²",
@@ -8594,6 +10327,11 @@
       "CHF": 381.0,
       "EUR": 415.0,
       "USD": 473.0
+     },
+     "compareAt": {
+      "CHF": 476.0,
+      "EUR": 519.0,
+      "USD": 591.0
      },
      "available": true
     },
@@ -8604,6 +10342,11 @@
       "EUR": 455.0,
       "USD": 518.0
      },
+     "compareAt": {
+      "CHF": 522.0,
+      "EUR": 569.0,
+      "USD": 648.0
+     },
      "available": true
     },
     {
@@ -8612,6 +10355,11 @@
       "CHF": 440.0,
       "EUR": 479.0,
       "USD": 546.0
+     },
+     "compareAt": {
+      "CHF": 550.0,
+      "EUR": 599.0,
+      "USD": 682.0
      },
      "available": true
     },
@@ -8622,6 +10370,11 @@
       "EUR": 495.0,
       "USD": 564.0
      },
+     "compareAt": {
+      "CHF": 568.0,
+      "EUR": 619.0,
+      "USD": 705.0
+     },
      "available": true
     },
     {
@@ -8630,6 +10383,11 @@
       "CHF": 476.0,
       "EUR": 519.0,
       "USD": 591.0
+     },
+     "compareAt": {
+      "CHF": 596.0,
+      "EUR": 649.0,
+      "USD": 739.0
      },
      "available": true
     },
@@ -8640,6 +10398,11 @@
       "EUR": 535.0,
       "USD": 610.0
      },
+     "compareAt": {
+      "CHF": 614.0,
+      "EUR": 669.0,
+      "USD": 762.0
+     },
      "available": true
     },
     {
@@ -8649,6 +10412,11 @@
       "EUR": 559.0,
       "USD": 637.0
      },
+     "compareAt": {
+      "CHF": 641.0,
+      "EUR": 699.0,
+      "USD": 796.0
+     },
      "available": true
     },
     {
@@ -8657,6 +10425,11 @@
       "CHF": 528.0,
       "EUR": 575.0,
       "USD": 655.0
+     },
+     "compareAt": {
+      "CHF": 660.0,
+      "EUR": 719.0,
+      "USD": 819.0
      },
      "available": true
     }
@@ -8684,6 +10457,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PERF_SERIES-2027-NEUTRA_BOOM-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "2 m²",
@@ -8691,6 +10465,7 @@
       "CHF": 476.0,
       "EUR": 519.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8699,6 +10474,7 @@
       "CHF": 522.0,
       "EUR": 569.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8707,6 +10483,7 @@
       "CHF": 550.0,
       "EUR": 599.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8715,6 +10492,7 @@
       "CHF": 568.0,
       "EUR": 619.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8723,6 +10501,7 @@
       "CHF": 596.0,
       "EUR": 649.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8731,6 +10510,7 @@
       "CHF": 614.0,
       "EUR": 669.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8739,6 +10519,7 @@
       "CHF": 641.0,
       "EUR": 699.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8747,6 +10528,7 @@
       "CHF": 660.0,
       "EUR": 719.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -8773,6 +10555,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PERF_SERIES-2027-NEUTRA_RH-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "2 m²",
@@ -8781,6 +10564,7 @@
       "EUR": 509.0,
       "USD": 580.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8790,6 +10574,7 @@
       "EUR": 559.0,
       "USD": 637.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8799,6 +10584,7 @@
       "EUR": 589.0,
       "USD": 671.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8808,6 +10594,7 @@
       "EUR": 609.0,
       "USD": 694.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8817,6 +10604,7 @@
       "EUR": 639.0,
       "USD": 728.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8826,6 +10614,7 @@
       "EUR": 659.0,
       "USD": 751.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8835,6 +10624,7 @@
       "EUR": 689.0,
       "USD": 785.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8844,6 +10634,7 @@
       "EUR": 709.0,
       "USD": 808.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -8870,6 +10661,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-PLUS-5_0-GONGWING-TB_91950e77-73fb-4c58-8b3f-883f2d2f6d2e.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "4 m²",
@@ -8877,6 +10669,11 @@
       "CHF": 458.0,
       "EUR": 499.0,
       "USD": 569.0
+     },
+     "compareAt": {
+      "CHF": 577.0,
+      "EUR": 629.0,
+      "USD": 717.0
      },
      "available": true
     },
@@ -8887,6 +10684,11 @@
       "EUR": 549.0,
       "USD": 626.0
      },
+     "compareAt": {
+      "CHF": 632.0,
+      "EUR": 689.0,
+      "USD": 785.0
+     },
      "available": true
     },
     {
@@ -8895,6 +10697,11 @@
       "CHF": 531.0,
       "EUR": 579.0,
       "USD": 660.0
+     },
+     "compareAt": {
+      "CHF": 669.0,
+      "EUR": 729.0,
+      "USD": 830.0
      },
      "available": true
     }
@@ -8920,6 +10727,7 @@
    "category": "wing",
    "construction": "Dacron",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PERF_SERIES-2027-PLUS-GONGWING-TB.png",
+   "year": 2027,
    "sizes": [
     {
      "size": "4 m²",
@@ -8928,6 +10736,7 @@
       "EUR": 629.0,
       "USD": 717.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8937,6 +10746,7 @@
       "EUR": 689.0,
       "USD": 785.0
      },
+     "compareAt": {},
      "available": true
     },
     {
@@ -8946,6 +10756,7 @@
       "EUR": 729.0,
       "USD": 830.0
      },
+     "compareAt": {},
      "available": true
     }
    ],
@@ -8970,6 +10781,7 @@
    "category": "wing",
    "construction": "Aramid CZ",
    "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PRO_TEAM_SERIES-2026-PULSE-GONGWING-TB_cb2e7aed-4c1f-4f39-a62d-016ef94a2ada.png",
+   "year": 2026,
    "sizes": [
     {
      "size": "4 m²",
@@ -8977,6 +10789,11 @@
       "CHF": 962.0,
       "EUR": 1049.0,
       "USD": 1195.0
+     },
+     "compareAt": {
+      "CHF": 1375.0,
+      "EUR": 1499.0,
+      "USD": 1707.0
      },
      "available": false
     },
@@ -8987,6 +10804,11 @@
       "EUR": 1089.0,
       "USD": 1240.0
      },
+     "compareAt": {
+      "CHF": 1430.0,
+      "EUR": 1559.0,
+      "USD": 1775.0
+     },
      "available": false
     },
     {
@@ -8995,6 +10817,11 @@
       "CHF": 1027.0,
       "EUR": 1119.0,
       "USD": 1274.0
+     },
+     "compareAt": {
+      "CHF": 1467.0,
+      "EUR": 1599.0,
+      "USD": 1821.0
      },
      "available": false
     },
@@ -9005,6 +10832,11 @@
       "EUR": 1149.0,
       "USD": 1309.0
      },
+     "compareAt": {
+      "CHF": 1513.0,
+      "EUR": 1649.0,
+      "USD": 1878.0
+     },
      "available": false
     },
     {
@@ -9013,6 +10845,11 @@
       "CHF": 1091.0,
       "EUR": 1189.0,
       "USD": 1354.0
+     },
+     "compareAt": {
+      "CHF": 1558.0,
+      "EUR": 1699.0,
+      "USD": 1935.0
      },
      "available": true
     },
@@ -9023,6 +10860,11 @@
       "EUR": 1219.0,
       "USD": 1388.0
      },
+     "compareAt": {
+      "CHF": 1604.0,
+      "EUR": 1749.0,
+      "USD": 1992.0
+     },
      "available": true
     },
     {
@@ -9032,6 +10874,11 @@
       "EUR": 1259.0,
       "USD": 1434.0
      },
+     "compareAt": {
+      "CHF": 1650.0,
+      "EUR": 1799.0,
+      "USD": 2049.0
+     },
      "available": true
     },
     {
@@ -9040,6 +10887,11 @@
       "CHF": 1182.0,
       "EUR": 1289.0,
       "USD": 1468.0
+     },
+     "compareAt": {
+      "CHF": 1696.0,
+      "EUR": 1849.0,
+      "USD": 2106.0
      },
      "available": true
     }

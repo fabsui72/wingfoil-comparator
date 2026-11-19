@@ -7,7 +7,8 @@ Outil web pour comparer des **boards**, des **foils (ailes avant)**, des **stabs
 - **tableau de specs** côte à côte, avec l'écart en % par rapport à la première taille choisie (la référence) ;
 - **wings** : poids, envergure, longueur de bôme, plage de vent conseillée, prix, prix et poids par m² ;
 - modèles **rangés par niveau** (débutant, avancé, pro), filtrables par programme (freeride, vague, petit temps…), avec **photo** ;
-- prix en **CHF, € ou $** (prix réels de chaque boutique, pas une conversion) ; interface en **français ou anglais** ;
+- prix en **CHF, € ou $** (prix réels de chaque boutique, pas une conversion), **promotions** affichées (prix barré, remise en %, filtre « en promotion ») ; interface en **français ou anglais** ;
+- **année du modèle** (ex. boards 2027 vs 2026), filtre par année, modèles les plus récents en premier ;
 - jusqu'à 6 éléments comparés ; la comparaison (devise et langue comprises) est stockée dans l'URL, ce qui permet de la partager.
 
 **Site en ligne : https://fabsui72.github.io/wingfoil-comparator/**
@@ -80,6 +81,8 @@ wingfoil-comparator/
 | Donnée | Source | Fichier |
 |---|---|---|
 | Modèles, tailles, prix (CHF, €, $), disponibilité, liens, photo | API publique Shopify (`/collections/<x>/products.json`), un appel par boutique (CH, UE, US) | `catalog.json` (généré) |
+| Promotions | Prix barré Shopify (`compare_at_price`) de chaque boutique | `catalog.json` (généré) |
+| Année du modèle | Adresse produit (Gong : `…-27` = 2027), sinon code de collection en tête du nom de la photo (`26-…`, `00-1500-25-…`) | `catalog.json` (généré) |
 | Niveau, série, programmes | Catégories de chaque page produit (« Planches débutants », « Pro Team Series », « Freeride »…) | `catalog.json` (généré) |
 | Dimensions (volume, largeur, envergure, surface…) | Tableaux de tailles officiels, **publiés uniquement sous forme d'images** | `specs.json` (transcrit) |
 | Forme des boards (contour, profil) | Photos produits (vues de dessus et de profil) | `outlines.json` (généré) |

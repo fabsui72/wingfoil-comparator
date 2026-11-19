@@ -112,7 +112,7 @@ def clean_title(title: str, brand: dict) -> str:
 
 
 def sizes_of(product: dict, brand: dict) -> tuple[dict[str, dict], str | None]:
-    """Tailles d'un produit : prix minimal et disponibilité, par taille."""
+    """Tailles d'un produit : prix minimal, prix barré (promo) et disponibilité, par taille."""
     size_names = brand.get("sizeOptionNames", ["Size"])
     constr_names = brand.get("constructionOptionNames", [])
     sizes: dict[str, dict] = {}
@@ -124,8 +124,11 @@ def sizes_of(product: dict, brand: dict) -> tuple[dict[str, dict], str | None]:
         size = normalize_size(size)
         construction = construction or option_value(product, v, constr_names)
         price = float(v["price"])
-        entry = sizes.setdefault(size, {"price": price, "available": False})
-        entry["price"] = min(entry["price"], price)
+        compare = float(v["compare_at_price"]) if v.get("compare_at_price") else None
+        compare = compare if compare and compare > price else None
+        entry = sizes.setdefault(size, {"price": price, "compareAt": compare, "available": False})
+        if price < entry["price"] or (price == entry["price"] and compare and not entry["compareAt"]):
+            entry["price"], entry["compareAt"] = price, compare
         entry["available"] = entry["available"] or bool(v.get("available"))
     return sizes, construction
 
@@ -151,16 +154,20 @@ def build_catalog(markets: dict[str, list[dict]], brand: dict, primary: str) -> 
             if other:
                 prices_by_cur[cur] = sizes_of(other, brand)[0]
         images = p.get("images") or []
+        image = images[0]["src"].split("?")[0] if images else None
         out.append({
             "handle": p["handle"],
             "title": clean_title(p["title"], brand),
             "category": category,
             "construction": construction,
-            "image": images[0]["src"].split("?")[0] if images else None,
+            "image": image,
+            "year": model_year(p["handle"], image, brand),
             "sizes": [
                 {
                     "size": label,
                     "prices": {cur: s[label]["price"] for cur, s in prices_by_cur.items() if label in s},
+                    "compareAt": {cur: s[label]["compareAt"] for cur, s in prices_by_cur.items()
+                                  if label in s and s[label]["compareAt"]},
                     "available": info["available"],
                 }
                 for label, info in sizes.items()
@@ -168,6 +175,16 @@ def build_catalog(markets: dict[str, list[dict]], brand: dict, primary: str) -> 
         })
     out.sort(key=lambda i: (CATEGORIES.index(i["category"]), i["title"]))
     return out
+
+
+def model_year(handle: str, image: str | None, brand: dict) -> int | None:
+    """Année du modèle : d'abord dans l'adresse produit (Gong : "-27"), sinon code de
+    collection en tête du nom de la photo ("26-1500-..." ou "00-1500-25-...")."""
+    rules = brand.get("year", {})
+    m = re.search(rules["handlePattern"], handle) if rules.get("handlePattern") else None
+    if not m and image and rules.get("imagePattern"):
+        m = re.search(rules["imagePattern"], image.rsplit("/", 1)[-1])
+    return 2000 + int(m.group(1)) if m else None
 
 
 def parse_product_page(html: str, rules: dict) -> dict:

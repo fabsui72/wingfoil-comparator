@@ -1,6 +1,6 @@
 // Point d'entrée : état de l'application, interactions et synchronisation avec l'URL.
 
-import { CATEGORIES, LEVELS, canDraw, canDrawSide, indexSizes, loadAll, thumbnailUrl } from './data.js';
+import { CATEGORIES, LEVELS, canDraw, canDrawSide, indexSizes, loadAll, maxDiscount, thumbnailUrl } from './data.js';
 import { LANGS, detectLang, setLang, t, translateDom } from './i18n.js';
 import { describeOverlay, renderOverlay, renderProfile } from './overlay.js';
 import { renderTable } from './table.js';
@@ -17,6 +17,8 @@ const state = {
   specsOnly: true,
   level: 'all',
   program: 'all',
+  year: 'all',
+  saleOnly: false,
   brand: 'all',
   mode: 'overlay',
   align: 'tail',
@@ -144,6 +146,13 @@ function renderFilters() {
     ...programs.map((p) => el('option', { value: p, textContent: t(`program.${p}`) })));
   prog.value = programs.includes(state.program) ? state.program : 'all';
   $('#program-wrap').hidden = programs.length === 0;
+  // Année : seulement celles présentes dans la catégorie, la plus récente d'abord
+  const years = [...new Set(models.filter((m) => m.category === state.category && m.year).map((m) => m.year))].sort((a, b) => b - a);
+  const yearSel = $('#year-filter');
+  yearSel.replaceChildren(el('option', { value: 'all', textContent: t('allYears') }),
+    ...years.map((y) => el('option', { value: String(y), textContent: String(y) })));
+  yearSel.value = years.includes(Number(state.year)) ? state.year : 'all';
+  $('#year-wrap').hidden = years.length < 2;
   // Marque : n'apparaît que s'il y a plusieurs marques (interface inchangée avec une seule)
   const brandSel = $('#brand-filter');
   $('#brand-wrap').hidden = brands.length < 2;
@@ -159,6 +168,8 @@ function visibleModels() {
     (!state.specsOnly || m.hasSpecs) &&
     (state.level === 'all' || m.level === state.level) &&
     (state.program === 'all' || m.programs.includes(state.program)) &&
+    (state.year === 'all' || String(m.year) === state.year) &&
+    (!state.saleOnly || maxDiscount(m, state.currency) != null) &&
     (state.brand === 'all' || m.brandId === state.brand) &&
     (!q || `${m.brandName} ${m.title} ${m.construction ?? ''} ${m.series ?? ''}`.toLowerCase().includes(q)));
 }
@@ -171,6 +182,8 @@ function modelItem(model) {
   const title = el('span', { className: 'model-title', textContent: model.title });
   const meta = el('span', { className: 'model-meta', textContent: [brands.length > 1 ? model.brandName : null, model.year, model.series, model.construction].filter(Boolean).join(' · ') });
   const head = el('div', { className: 'model-head' }, img, el('div', { className: 'model-text' }, title, meta));
+  const discount = maxDiscount(model, state.currency);
+  if (discount != null) head.append(el('span', { className: 'sale', textContent: `${t('sale')} −${discount} %` }));
   if (!model.hasSpecs) head.append(el('span', { className: 'badge', textContent: t('noSpecs') }));
   const sizes = el('div', { className: 'sizes' });
   for (const size of model.sizes) {
@@ -196,7 +209,9 @@ function renderPicker() {
   // Regroupement par niveau (débutant, avancé, pro, autres)
   const groups = [...LEVELS, null];
   for (const lv of groups) {
-    const items = visible.filter((m) => (lv ? m.level === lv : !LEVELS.includes(m.level)));
+    // Dans chaque niveau : modèles les plus récents d'abord
+    const items = visible.filter((m) => (lv ? m.level === lv : !LEVELS.includes(m.level)))
+      .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
     if (!items.length) continue;
     const group = el('li', { className: 'group' });
     group.append(el('h3', { className: `group-title level-${lv ?? 'other'}`, textContent: `${t(`level.${lv ?? 'other'}`)} · ${items.length}` }));
@@ -283,6 +298,14 @@ function bindControls() {
   });
   $('#program-filter').addEventListener('change', (e) => {
     state.program = e.target.value;
+    renderPicker();
+  });
+  $('#year-filter').addEventListener('change', (e) => {
+    state.year = e.target.value;
+    renderPicker();
+  });
+  $('#sale-only').addEventListener('change', (e) => {
+    state.saleOnly = e.target.checked;
     renderPicker();
   });
   $('#brand-filter').addEventListener('change', (e) => {
