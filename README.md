@@ -7,6 +7,8 @@ Outil web pour comparer des **boards**, des **foils (ailes avant)** et des **win
 - **tableau de specs** côte à côte, avec l'écart en % par rapport à la première taille choisie (la référence) ;
 - jusqu'à 6 éléments comparés ; la comparaison est stockée dans l'URL, ce qui permet de la partager.
 
+**Site en ligne : https://fabsui72.github.io/wingfoil-comparator/**
+
 Première marque intégrée : [Gong](https://www.gong-galaxy.com/fr-ch/collections/wing-foil) (prix en CHF). L'architecture est prévue pour en ajouter d'autres.
 
 ## Lancer le site
@@ -20,6 +22,19 @@ python3 -m http.server 8000      # ou : npm start
 ```
 
 Il peut être publié tel quel sur n'importe quel hébergement statique (GitHub Pages, Netlify…).
+
+## Publication automatique (GitHub Actions + GitHub Pages)
+
+Le workflow `.github/workflows/update-and-deploy.yml` :
+
+1. récupère le catalogue Gong (`fetch_catalog.py`) et recalcule les formes des boards (`extract_board_outlines.py`) ;
+2. lance les tests (la publication est bloquée s'ils échouent) ;
+3. enregistre dans le dépôt les données qui ont changé (commit `Mise à jour automatique des données`), ce qui garde l'historique des prix et des modèles ;
+4. publie le site sur GitHub Pages.
+
+Il se déclenche à chaque push sur `main`, chaque lundi matin, et à la demande (onglet **Actions** → *Mise à jour des données et publication* → **Run workflow**). Si le site de la marque est indisponible, le site est publié avec les données existantes et un avertissement apparaît dans le run.
+
+Réglage à faire une seule fois : **Settings → Pages → Build and deployment → Source : GitHub Actions**.
 
 ## Tests
 
@@ -84,7 +99,7 @@ Le script met à jour `data/gong/catalog.json`, y compris les URLs des tableaux 
 Puis, pour les formes des boards :
 
 ```bash
-pip install pillow numpy
+pip install -r requirements.txt
 python3 scripts/extract_board_outlines.py gong --debug /tmp/controle
 ```
 

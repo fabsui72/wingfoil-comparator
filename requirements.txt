@@ -1,0 +1,3 @@
+# Uniquement pour scripts/extract_board_outlines.py (fetch_catalog.py n'utilise que la bibliothèque standard)
+pillow>=11,<13
+numpy>=2,<3
