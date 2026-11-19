@@ -1,0 +1,22 @@
+{
+  "brands": [
+    {
+      "id": "gong",
+      "name": "Gong",
+      "adapter": "shopify",
+      "baseUrl": "https://www.gong-galaxy.com",
+      "locale": "fr-ch",
+      "collection": "wing-foil",
+      "currency": "CHF",
+      "categories": {
+        "board": ["main_collection:wing-foil-planches-rigides", "main_collection:planche-gonflable-wingfoil"],
+        "frontwing": ["main_collection:front-wing-parts-fr"],
+        "wing": ["main_collection:wing-foil-wings"]
+      },
+      "excludeTitlePattern": "(?i)^pack|patch",
+      "sizeOptionNames": ["Taille", "Size"],
+      "constructionOptionNames": ["Type"],
+      "sizeChartPattern": "cdn\\.gong-galaxy\\.com/products/[^\"'?\\s\\\\]*SIZE_CHART[^\"'?\\s\\\\]*"
+    }
+  ]
+}

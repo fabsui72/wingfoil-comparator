@@ -1,0 +1,180 @@
+{
+  "_comment": "Specs transcrites à la main depuis les tableaux de tailles officiels Gong (images). Unités : cm, L, kg, mm (foil), cm². 'products' relie un handle Shopify à un modèle.",
+  "transcribedAt": "2026-11-19",
+  "models": {
+    "mint-fsp-2x": {
+      "category": "board",
+      "name": "Mint FSP 2X (2027)",
+      "outline": { "nose": "round", "tail": "square" },
+      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-MINT-FSP_2X-GONGWING.webp",
+      "sizes": [
+        { "size": "5'0",  "lengthCm": 152.4, "widthCm": 60.0, "thicknessCm": 13.1, "volumeL": 75,  "ofoNoseCm": 50.9, "ofoTailCm": 51.4, "rockerCm": 15.2, "weightKg": 5.8 },
+        { "size": "5'2",  "lengthCm": 157.5, "widthCm": 62.0, "thicknessCm": 14.0, "volumeL": 85,  "ofoNoseCm": 52.0, "ofoTailCm": 52.6, "rockerCm": 15.7, "weightKg": 6.1 },
+        { "size": "5'4",  "lengthCm": 162.6, "widthCm": 64.0, "thicknessCm": 14.7, "volumeL": 95,  "ofoNoseCm": 53.0, "ofoTailCm": 53.9, "rockerCm": 16.2, "weightKg": 6.6 },
+        { "size": "5'6",  "lengthCm": 167.6, "widthCm": 66.0, "thicknessCm": 15.6, "volumeL": 105, "ofoNoseCm": 54.1, "ofoTailCm": 55.1, "rockerCm": 16.6, "weightKg": 7.0 },
+        { "size": "5'8",  "lengthCm": 172.7, "widthCm": 68.0, "thicknessCm": 16.2, "volumeL": 115, "ofoNoseCm": 55.1, "ofoTailCm": 56.3, "rockerCm": 17.1, "weightKg": 7.4 },
+        { "size": "5'10", "lengthCm": 177.8, "widthCm": 70.0, "thicknessCm": 16.6, "volumeL": 125, "ofoNoseCm": 56.2, "ofoTailCm": 57.5, "rockerCm": 17.6, "weightKg": 7.7 }
+      ]
+    },
+    "lemon-fsp-2x": {
+      "category": "board",
+      "name": "Lemon FSP 2X (2027)",
+      "outline": { "nose": "round", "tail": "square" },
+      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LEMON-FSP_2X-GONGWING.webp",
+      "sizes": [
+        { "size": "4'9",  "lengthCm": 144.8, "widthCm": 52.0, "thicknessCm": 11.9, "volumeL": 55,  "ofoNoseCm": 44.9, "ofoTailCm": 43.8, "rockerCm": 14.0, "weightKg": 5.2 },
+        { "size": "4'11", "lengthCm": 149.9, "widthCm": 55.5, "thicknessCm": 12.8, "volumeL": 65,  "ofoNoseCm": 47.4, "ofoTailCm": 46.3, "rockerCm": 14.5, "weightKg": 5.3 },
+        { "size": "5'2",  "lengthCm": 157.5, "widthCm": 58.0, "thicknessCm": 13.3, "volumeL": 75,  "ofoNoseCm": 48.8, "ofoTailCm": 47.9, "rockerCm": 15.1, "weightKg": 6.0 },
+        { "size": "5'4",  "lengthCm": 162.6, "widthCm": 60.0, "thicknessCm": 14.3, "volumeL": 85,  "ofoNoseCm": 49.9, "ofoTailCm": 49.2, "rockerCm": 15.8, "weightKg": 6.4 },
+        { "size": "5'6",  "lengthCm": 167.6, "widthCm": 63.0, "thicknessCm": 14.8, "volumeL": 95,  "ofoNoseCm": 51.9, "ofoTailCm": 51.0, "rockerCm": 16.2, "weightKg": 6.6 },
+        { "size": "5'8",  "lengthCm": 172.7, "widthCm": 65.5, "thicknessCm": 15.4, "volumeL": 105, "ofoNoseCm": 53.4, "ofoTailCm": 52.2, "rockerCm": 16.6, "weightKg": 7.5 }
+      ]
+    },
+    "lance-fsp-2x": {
+      "category": "board",
+      "name": "Lance FSP 2X (2027)",
+      "outline": { "nose": "round", "tail": "square" },
+      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LANCE-FSP_2X-GONGWING.webp",
+      "sizes": [
+        { "size": "5'7", "lengthCm": 170.2, "widthCm": 70.0, "thicknessCm": 14.6, "volumeL": 115, "ofoNoseCm": 58.3, "ofoTailCm": 59.2, "rockerCm": 17.7, "weightKg": 7.5 },
+        { "size": "5'8", "lengthCm": 172.7, "widthCm": 75.0, "thicknessCm": 15.2, "volumeL": 130, "ofoNoseCm": 62.2, "ofoTailCm": 63.2, "rockerCm": 17.9, "weightKg": 8.0 },
+        { "size": "5'9", "lengthCm": 175.3, "widthCm": 80.0, "thicknessCm": 15.7, "volumeL": 145, "ofoNoseCm": 66.0, "ofoTailCm": 67.2, "rockerCm": 18.2, "weightKg": 8.4 }
+      ]
+    },
+    "zuma-fsp-2x": {
+      "category": "board",
+      "name": "Zuma FSP 2X (2027)",
+      "outline": { "nose": "round", "tail": "square" },
+      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-ZUMA-FSP_2X-GONGWING.webp",
+      "sizes": [
+        { "size": "6'3", "lengthCm": 190.5, "widthCm": 71.0, "thicknessCm": 13.2, "volumeL": 115, "ofoNoseCm": 57.5, "ofoTailCm": 59.0, "rockerCm": 22.4, "weightKg": 8.3 },
+        { "size": "6'6", "lengthCm": 198.1, "widthCm": 74.0, "thicknessCm": 13.9, "volumeL": 130, "ofoNoseCm": 59.1, "ofoTailCm": 61.0, "rockerCm": 23.3, "weightKg": 8.7 },
+        { "size": "6'9", "lengthCm": 205.7, "widthCm": 76.5, "thicknessCm": 14.4, "volumeL": 145, "ofoNoseCm": 60.3, "ofoTailCm": 62.6, "rockerCm": 24.2, "weightKg": 9.0 },
+        { "size": "7'2", "lengthCm": 218.4, "widthCm": 78.0, "thicknessCm": 15.5, "volumeL": 170, "ofoNoseCm": 60.1, "ofoTailCm": 63.1, "rockerCm": 25.7, "weightKg": 11.1 }
+      ]
+    },
+    "cruzader-diamond-fsp-pro": {
+      "category": "board",
+      "name": "Cruzader Diamond FSP Pro (2027)",
+      "outline": { "nose": "pointed", "tail": "diamond" },
+      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_DIAMOND-FSP_PRO-GONGWING.webp",
+      "sizes": [
+        { "size": "5'4",  "lengthCm": 162.6, "widthCm": 49.5, "thicknessCm": 12.2, "volumeL": 59,  "ofoNoseCm": 39.7, "ofoTailCm": 40.9, "rockerCm": 16.6, "weightKg": 5.1 },
+        { "size": "5'6",  "lengthCm": 167.6, "widthCm": 51.0, "thicknessCm": 13.2, "volumeL": 69,  "ofoNoseCm": 40.4, "ofoTailCm": 41.8, "rockerCm": 16.9, "weightKg": 5.4 },
+        { "size": "5'8",  "lengthCm": 172.7, "widthCm": 52.5, "thicknessCm": 14.5, "volumeL": 79,  "ofoNoseCm": 41.1, "ofoTailCm": 42.8, "rockerCm": 17.6, "weightKg": 5.7 },
+        { "size": "5'10", "lengthCm": 177.8, "widthCm": 54.5, "thicknessCm": 15.5, "volumeL": 89,  "ofoNoseCm": 42.2, "ofoTailCm": 44.1, "rockerCm": 18.2, "weightKg": 6.1 },
+        { "size": "6'0",  "lengthCm": 182.9, "widthCm": 56.0, "thicknessCm": 16.4, "volumeL": 99,  "ofoNoseCm": 42.8, "ofoTailCm": 45.0, "rockerCm": 18.7, "weightKg": 6.5 },
+        { "size": "6'2",  "lengthCm": 188.0, "widthCm": 57.5, "thicknessCm": 17.3, "volumeL": 109, "ofoNoseCm": 43.5, "ofoTailCm": 45.9, "rockerCm": 19.4, "weightKg": 6.8 },
+        { "size": "6'4",  "lengthCm": 193.0, "widthCm": 59.5, "thicknessCm": 17.8, "volumeL": 119, "ofoNoseCm": 44.5, "ofoTailCm": 47.2, "rockerCm": 20.0, "weightKg": 7.1 },
+        { "size": "6'6",  "lengthCm": 198.1, "widthCm": 61.0, "thicknessCm": 18.3, "volumeL": 129, "ofoNoseCm": 45.1, "ofoTailCm": 48.0, "rockerCm": 20.5, "weightKg": 7.5 },
+        { "size": "6'8",  "lengthCm": 203.2, "widthCm": 62.6, "thicknessCm": 18.8, "volumeL": 139, "ofoNoseCm": 45.7, "ofoTailCm": 49.0, "rockerCm": 21.3, "weightKg": 8.0 }
+      ]
+    },
+    "stunt-fsp-pro": {
+      "category": "board",
+      "name": "Stunt FSP Pro (2027)",
+      "outline": { "nose": "round", "tail": "square" },
+      "sourceChart": "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-STUNT-FSP_PRO-GONGWING.webp",
+      "sizes": [
+        { "size": "4'6",  "lengthCm": 137.2, "widthCm": 52.5, "thicknessCm": 13.0, "volumeL": 58, "ofoNoseCm": 45.8, "ofoTailCm": 47.7, "rockerCm": 15.1, "weightKg": 4.8 },
+        { "size": "4'7",  "lengthCm": 139.7, "widthCm": 54.0, "thicknessCm": 13.7, "volumeL": 65, "ofoNoseCm": 46.8, "ofoTailCm": 48.9, "rockerCm": 15.6, "weightKg": 5.0 },
+        { "size": "4'8",  "lengthCm": 142.2, "widthCm": 55.5, "thicknessCm": 14.6, "volumeL": 72, "ofoNoseCm": 47.9, "ofoTailCm": 50.0, "rockerCm": 15.9, "weightKg": 5.4 },
+        { "size": "4'9",  "lengthCm": 144.8, "widthCm": 57.0, "thicknessCm": 15.2, "volumeL": 78, "ofoNoseCm": 48.9, "ofoTailCm": 51.2, "rockerCm": 16.3, "weightKg": 5.7 },
+        { "size": "4'11", "lengthCm": 149.9, "widthCm": 59.0, "thicknessCm": 15.7, "volumeL": 85, "ofoNoseCm": 50.0, "ofoTailCm": 52.6, "rockerCm": 16.8, "weightKg": 6.0 },
+        { "size": "5'1",  "lengthCm": 154.9, "widthCm": 61.0, "thicknessCm": 16.3, "volumeL": 95, "ofoNoseCm": 51.1, "ofoTailCm": 54.0, "rockerCm": 17.4, "weightKg": 6.4 }
+      ]
+    },
+    "x-over-v3": {
+      "category": "frontwing",
+      "name": "X-Over V3",
+      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-X-OVER-GONGFOIL.webp",
+      "sizes": [
+        { "size": "M",   "spanCm": 74,  "chordMm": 146, "thicknessMm": 17.3, "aspectRatio": 6.4, "areaCm2": 850 },
+        { "size": "L",   "spanCm": 84,  "chordMm": 167, "thicknessMm": 19.7, "aspectRatio": 6.4, "areaCm2": 1108 },
+        { "size": "XL",  "spanCm": 95,  "chordMm": 189, "thicknessMm": 22.3, "aspectRatio": 6.4, "areaCm2": 1410 },
+        { "size": "XXL", "spanCm": 106, "chordMm": 210, "thicknessMm": 24.8, "aspectRatio": 6.4, "areaCm2": 1747 }
+      ]
+    },
+    "ascent-v3": {
+      "category": "frontwing",
+      "name": "Ascent V3",
+      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-ASCENT-GONGFOIL.webp",
+      "sizes": [
+        { "size": "S",   "spanCm": 69,  "chordMm": 126, "thicknessMm": 14.8, "aspectRatio": 7, "areaCm2": 690 },
+        { "size": "M",   "spanCm": 78,  "chordMm": 140, "thicknessMm": 16.6, "aspectRatio": 7, "areaCm2": 870 },
+        { "size": "L",   "spanCm": 87,  "chordMm": 157, "thicknessMm": 18.5, "aspectRatio": 7, "areaCm2": 1080 },
+        { "size": "XL",  "spanCm": 95,  "chordMm": 172, "thicknessMm": 20.2, "aspectRatio": 7, "areaCm2": 1290 },
+        { "size": "XXL", "spanCm": 102, "chordMm": 185, "thicknessMm": 21.8, "aspectRatio": 7, "areaCm2": 1500 }
+      ]
+    },
+    "curve-v3": {
+      "category": "frontwing",
+      "name": "Curve V3",
+      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-CURVE-GONGFOIL.webp",
+      "sizes": [
+        { "size": "XXS", "spanCm": 72,  "chordMm": 110, "thicknessMm": 12.8, "aspectRatio": 8.4, "areaCm2": 620 },
+        { "size": "XS",  "spanCm": 78,  "chordMm": 119, "thicknessMm": 13.8, "aspectRatio": 8.4, "areaCm2": 720 },
+        { "size": "S",   "spanCm": 83,  "chordMm": 127, "thicknessMm": 14.7, "aspectRatio": 8.4, "areaCm2": 820 },
+        { "size": "M",   "spanCm": 88,  "chordMm": 134, "thicknessMm": 15.6, "aspectRatio": 8.4, "areaCm2": 920 },
+        { "size": "L",   "spanCm": 95,  "chordMm": 145, "thicknessMm": 16.8, "aspectRatio": 8.4, "areaCm2": 1070 },
+        { "size": "XL",  "spanCm": 101, "chordMm": 155, "thicknessMm": 18.0, "aspectRatio": 8.4, "areaCm2": 1220 },
+        { "size": "XXL", "spanCm": 107, "chordMm": 164, "thicknessMm": 19.0, "aspectRatio": 8.4, "areaCm2": 1370 },
+        { "size": "3XL", "spanCm": 113, "chordMm": 173, "thicknessMm": 20.0, "aspectRatio": 8.4, "areaCm2": 1520 }
+      ]
+    },
+    "fluid-v3": {
+      "category": "frontwing",
+      "name": "Fluid V3",
+      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-FLUID-GONGFOIL.webp",
+      "sizes": [
+        { "size": "3XS", "spanCm": 65,  "chordMm": 99,  "thicknessMm": 10.4, "aspectRatio": 8.4, "areaCm2": 510 },
+        { "size": "XXS", "spanCm": 72,  "chordMm": 110, "thicknessMm": 11.5, "aspectRatio": 8.4, "areaCm2": 610 },
+        { "size": "XS",  "spanCm": 77,  "chordMm": 117, "thicknessMm": 12.3, "aspectRatio": 8.4, "areaCm2": 710 },
+        { "size": "S",   "spanCm": 82,  "chordMm": 125, "thicknessMm": 13.1, "aspectRatio": 8.4, "areaCm2": 810 },
+        { "size": "M",   "spanCm": 87,  "chordMm": 132, "thicknessMm": 13.9, "aspectRatio": 8.4, "areaCm2": 910 },
+        { "size": "L",   "spanCm": 92,  "chordMm": 140, "thicknessMm": 14.7, "aspectRatio": 8.4, "areaCm2": 1010 },
+        { "size": "XL",  "spanCm": 99,  "chordMm": 151, "thicknessMm": 15.8, "aspectRatio": 8.4, "areaCm2": 1160 },
+        { "size": "XXL", "spanCm": 105, "chordMm": 160, "thicknessMm": 16.8, "aspectRatio": 8.4, "areaCm2": 1310 },
+        { "size": "3XL", "spanCm": 111, "chordMm": 169, "thicknessMm": 17.7, "aspectRatio": 8.4, "areaCm2": 1460 }
+      ]
+    },
+    "veloce-v3": {
+      "category": "frontwing",
+      "name": "Veloce V3",
+      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE-GONGFOIL.webp",
+      "sizes": [
+        { "size": "XS",  "spanCm": 77,  "chordMm": 104, "thicknessMm": 10.9, "aspectRatio": 10.1, "areaCm2": 590 },
+        { "size": "S",   "spanCm": 87,  "chordMm": 117, "thicknessMm": 12.3, "aspectRatio": 10.1, "areaCm2": 740 },
+        { "size": "M",   "spanCm": 95,  "chordMm": 128, "thicknessMm": 13.4, "aspectRatio": 10.1, "areaCm2": 890 },
+        { "size": "L",   "spanCm": 103, "chordMm": 138, "thicknessMm": 14.5, "aspectRatio": 10.1, "areaCm2": 1040 },
+        { "size": "XL",  "spanCm": 108, "chordMm": 146, "thicknessMm": 15.3, "aspectRatio": 10.1, "areaCm2": 1150 },
+        { "size": "XXL", "spanCm": 115, "chordMm": 155, "thicknessMm": 16.2, "aspectRatio": 10.1, "areaCm2": 1300 }
+      ]
+    },
+    "sirus-v3": {
+      "category": "frontwing",
+      "name": "Sirus V3",
+      "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-SIRUS-GONGFOIL.webp",
+      "sizes": [
+        { "size": "L",   "spanCm": 116, "chordMm": 170, "thicknessMm": 22.0, "aspectRatio": 9.3,  "areaCm2": 1442 },
+        { "size": "XL",  "spanCm": 136, "chordMm": 170, "thicknessMm": 22.0, "aspectRatio": 10.9, "areaCm2": 1691 },
+        { "size": "XXL", "spanCm": 156, "chordMm": 170, "thicknessMm": 22.0, "aspectRatio": 12.5, "areaCm2": 1940 },
+        { "size": "3XL", "spanCm": 186, "chordMm": 170, "thicknessMm": 22.0, "aspectRatio": 15.0, "areaCm2": 2313 }
+      ]
+    }
+  },
+  "products": {
+    "gong-wing-foil-board-mint-fsp-2x-27": "mint-fsp-2x",
+    "gong-wing-foil-board-lemon-fsp-2x-27": "lemon-fsp-2x",
+    "gong-wing-foil-board-lance-fsp-2x-27": "lance-fsp-2x",
+    "gong-wing-foil-board-zuma-fsp-2x-27": "zuma-fsp-2x",
+    "gong-wing-foil-board-cruzader-diamond-fsp-pro-27": "cruzader-diamond-fsp-pro",
+    "gong-wing-foil-board-stunt-fsp-pro-27": "stunt-fsp-pro",
+    "gong-foil-front-wing-x-over-atmo": "x-over-v3",
+    "gong-foil-front-wing-ascent-atmo": "ascent-v3",
+    "gong-foil-front-wing-curve-atmo": "curve-v3",
+    "gong-foil-front-wing-fluid-atmo": "fluid-v3",
+    "gong-foil-front-wing-veloce-atmo": "veloce-v3",
+    "gong-foil-front-wing-sirus-atmo": "sirus-v3"
+  }
+}

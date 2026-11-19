@@ -1,0 +1,3573 @@
+{
+ "brand": "gong",
+ "brandName": "Gong",
+ "fetchedAt": "2026-11-19T12:52:58+00:00",
+ "products": [
+  {
+   "handle": "gong-wing-foil-board-cruzader-diamond-fsp-pro-27",
+   "title": "Wing Foil Board Cruzader Diamond FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-CRUZADER_DIAMOND-6_0-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'4",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 944.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 962.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 981.0,
+     "available": true
+    },
+    {
+     "size": "6'0",
+     "price": 1008.0,
+     "available": true
+    },
+    {
+     "size": "6'2",
+     "price": 1036.0,
+     "available": true
+    },
+    {
+     "size": "6'4",
+     "price": 1036.0,
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "price": 1072.0,
+     "available": true
+    },
+    {
+     "size": "6'8",
+     "price": 1072.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_DIAMOND-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-diamond-hollow-carbon-27",
+   "title": "Wing Foil Board Cruzader Diamond Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-CRUZADER_DIAMOND-6_0-GONGWING-TB_5dbf89af-0809-4fb8-9125-6cb92afb6cfe.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'8",
+     "price": 1513.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 1531.0,
+     "available": true
+    },
+    {
+     "size": "6'0",
+     "price": 1549.0,
+     "available": true
+    },
+    {
+     "size": "6'2",
+     "price": 1549.0,
+     "available": true
+    },
+    {
+     "size": "6'4",
+     "price": 1558.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_DIAMOND-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-diamond-hollow-hybrid-27",
+   "title": "Wing Foil Board Cruzader Diamond Hollow Hybrid Carbon",
+   "category": "board",
+   "construction": "Hollow hybrid carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-hollow-hybrid-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_DIAMOND-6_0-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'8",
+     "price": 1237.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 1256.0,
+     "available": true
+    },
+    {
+     "size": "6'0",
+     "price": 1265.0,
+     "available": true
+    },
+    {
+     "size": "6'2",
+     "price": 1283.0,
+     "available": true
+    },
+    {
+     "size": "6'4",
+     "price": 1283.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_DIAMOND-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-point-hollow-carbon-27",
+   "title": "Wing Foil Board Cruzader Point Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-POINT-5_4-GONGWING-TB_ad60ff84-4ebc-4322-90d2-4ce83b6ed321.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'2",
+     "price": 1467.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 1531.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 1531.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_POINT-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-point-hollow-hybrid-27",
+   "title": "Wing Foil Board Cruzader Point Hollow Hybrid Carbon",
+   "category": "board",
+   "construction": "Hollow hybrid carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-hollow-hybrid-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_POINT-5_4-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'2",
+     "price": 1219.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 1237.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 1256.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_POINT-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-point-lw-hollow-carbon-27",
+   "title": "Wing Foil Board Cruzader Point LW Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-POINT_LW-6_3-GONGWING-TB_968a644e-ac49-402e-bb55-8df60be907d4.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "6'3",
+     "price": 1549.0,
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "price": 1558.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_POINT_LW-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-point-lw-hollow-hybrid-27",
+   "title": "Wing Foil Board Cruzader Point LW Hollow Hybrid Carbon",
+   "category": "board",
+   "construction": "Hollow hybrid carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-hollow-hybrid-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_POINT_LW-6_3-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "6'3",
+     "price": 1274.0,
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "price": 1283.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_POINT_LW-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-squash-2pk-fsp-pro-27",
+   "title": "Wing Foil Board Cruzader Squash 2PK FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-2pk-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-CRUZADER_SQUASH_2PK-5_6-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'4",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 944.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 962.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 962.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_SQUASH_2PK-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-squash-2pk-hollow-carbon-27",
+   "title": "Wing Foil Board Cruzader Squash 2PK Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-2pk-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-CRUZADER_SQUASH_2PK-5_6-GONGWING-TB_de358a2f-4792-4fe7-89c4-704977ce5787.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'4",
+     "price": 1531.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 1531.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 1549.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 1549.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_SQUASH_2PK-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-squash-2pk-hollow-hybrid-27",
+   "title": "Wing Foil Board Cruzader Squash 2PK Hollow Hybrid Carbon",
+   "category": "board",
+   "construction": "Hollow hybrid carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-2pk-hollow-hybrid-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_SQUASH_2PK-5_6-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'4",
+     "price": 1237.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 1256.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 1274.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 1274.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_SQUASH_2PK-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-squash-fsp-pro-27",
+   "title": "Wing Foil Board Cruzader Squash FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-CRUZADER_SQUASH-5_3-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'11",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'1",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'3",
+     "price": 962.0,
+     "available": true
+    },
+    {
+     "size": "5'5",
+     "price": 962.0,
+     "available": true
+    },
+    {
+     "size": "5'7",
+     "price": 990.0,
+     "available": true
+    },
+    {
+     "size": "5'9",
+     "price": 1008.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-CRUZADER_SQUASH-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-squash-hollow-carbon-27",
+   "title": "Wing Foil Board Cruzader Squash Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-CRUZADER_SQUASH-5_3-GONGWING-TB_aa279faa-0e5d-4fb2-8d57-17762753c3a6.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'1",
+     "price": 1467.0,
+     "available": true
+    },
+    {
+     "size": "5'3",
+     "price": 1513.0,
+     "available": true
+    },
+    {
+     "size": "5'5",
+     "price": 1531.0,
+     "available": true
+    },
+    {
+     "size": "5'7",
+     "price": 1531.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-CRUZADER_SQUASH-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-cruzader-squash-hollow-hybrid-27",
+   "title": "Wing Foil Board Cruzader Squash Hollow Hybrid Carbon",
+   "category": "board",
+   "construction": "Hollow hybrid carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-hollow-hybrid-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-CRUZADER_SQUASH-5_3-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'1",
+     "price": 1192.0,
+     "available": true
+    },
+    {
+     "size": "5'3",
+     "price": 1237.0,
+     "available": true
+    },
+    {
+     "size": "5'5",
+     "price": 1256.0,
+     "available": true
+    },
+    {
+     "size": "5'7",
+     "price": 1265.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-CRUZADER_SQUASH-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-hyperloop-fsp-pro-27",
+   "title": "Wing Foil Board Hyperloop FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-HYPERLOOP-4_7-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'5",
+     "price": 871.0,
+     "available": true
+    },
+    {
+     "size": "4'6",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "4'7",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "4'8",
+     "price": 944.0,
+     "available": true
+    },
+    {
+     "size": "4'9",
+     "price": 962.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-HYPERLOOP-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-hyperloop-hollow-carbon-27",
+   "title": "Wing Foil Board Hyperloop Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-HYPERLOOP-5_6-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'6",
+     "price": 1513.0,
+     "available": true
+    },
+    {
+     "size": "4'7",
+     "price": 1513.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-HYPERLOOP-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-hyperloop-nano-fsp-pro-27",
+   "title": "Wing Foil Board Hyperloop Nano FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-nano-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-HYPERLOOP_NANO-4_2-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'1",
+     "price": 825.0,
+     "available": true
+    },
+    {
+     "size": "4'2",
+     "price": 825.0,
+     "available": true
+    },
+    {
+     "size": "4'3",
+     "price": 852.0,
+     "available": true
+    },
+    {
+     "size": "4'4",
+     "price": 852.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-HYPERLOOP_NANO-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lance-fsp-2x-27",
+   "title": "Wing Foil Board Lance FSP 2X",
+   "category": "board",
+   "construction": "FSP 2X",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-fsp-2x-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_2X-LANCE-5_8-GONGWING-TB_83e42b09-f566-4b49-98a0-f497761ed68a.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'7",
+     "price": 779.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 806.0,
+     "available": true
+    },
+    {
+     "size": "5'9",
+     "price": 825.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LANCE-FSP_2X-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lance-hollow-hybrid-27",
+   "title": "Wing Foil Board Lance Hollow Hybrid Carbon",
+   "category": "board",
+   "construction": "Hollow hybrid carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-hollow-hybrid-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-LANCE-5_8-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'7",
+     "price": 1100.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 1127.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-LANCE-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lance-wood-2x-27",
+   "title": "Wing Foil Board Lance WOOD 2X",
+   "category": "board",
+   "construction": "WOOD 2X",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-wood-2x-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-WOOD_2X-LANCE-5_8-GONGWING-TB_5c00322b-629f-49ff-a593-2deef0af6997.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'7",
+     "price": 641.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 687.0,
+     "available": true
+    },
+    {
+     "size": "5'9",
+     "price": 733.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_LANCE-WOOD_2X-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lemon-fsp-2x-27",
+   "title": "Wing Foil Board Lemon FSP 2X",
+   "category": "board",
+   "construction": "FSP 2X",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-2x-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_2X-LEMON-5_8-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'9",
+     "price": 733.0,
+     "available": true
+    },
+    {
+     "size": "4'11",
+     "price": 779.0,
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "price": 806.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 806.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 825.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 825.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LEMON-FSP_2X-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lemon-fsp-pro-27",
+   "title": "Wing Foil Board Lemon FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-LEMON-5_2-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'9",
+     "price": 871.0,
+     "available": true
+    },
+    {
+     "size": "4'11",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "price": 944.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 944.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 962.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 962.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LEMON-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lemon-hollow-carbon-27",
+   "title": "Wing Foil Board Lemon Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-LEMON-5_2-GONGWING-TB_05af58b7-e0aa-4060-9c04-1ae65f3f17dd.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'11",
+     "price": 1467.0,
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "price": 1513.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 1531.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-LEMON-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lemon-hollow-hybrid-27",
+   "title": "Wing Foil Board Lemon Hollow Hybrid Carbon",
+   "category": "board",
+   "construction": "Hollow hybrid carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-hollow-hybrid-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-LEMON-5_2-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'11",
+     "price": 1192.0,
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "price": 1237.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 1256.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-LEMON-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lethal-fsp-pro-27",
+   "title": "Wing Foil Board Lethal FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-LETHAL-5_0-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'8",
+     "price": 871.0,
+     "available": true
+    },
+    {
+     "size": "4'10",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'0",
+     "price": 944.0,
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "price": 962.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 981.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 1008.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LETHAL-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-lethal-hollow-carbon-27",
+   "title": "Wing Foil Board Lethal Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-LETHAL-5_0-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'10",
+     "price": 1513.0,
+     "available": true
+    },
+    {
+     "size": "5'0",
+     "price": 1513.0,
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "price": 1531.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-LETHAL-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-mint-fsp-2x-27",
+   "title": "Wing Foil Board Mint FSP 2X",
+   "category": "board",
+   "construction": "FSP 2X",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-2x-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_2X-MINT-5_4-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'0",
+     "price": 733.0,
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "price": 779.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 779.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 806.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 825.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 843.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-LANCE-FSP_2X-GONGWING.webp",
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-MINT-FSP_2X-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-mint-fsp-pro-27",
+   "title": "Wing Foil Board Mint FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-MINT-5_4-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'0",
+     "price": 871.0,
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 944.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 962.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 981.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-MINT-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-mint-hollow-carbon-27",
+   "title": "Wing Foil Board Mint Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-MINT-5_4-GONGWING-TB_f9e54639-80fd-4899-951e-6b9b4ee775e6.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'2",
+     "price": 1467.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 1531.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-MINT-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-mint-hollow-hybrid-27",
+   "title": "Wing Foil Board Mint Hollow Hybrid Carbon",
+   "category": "board",
+   "construction": "Hollow hybrid carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-hollow-hybrid-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-MINT-5_4-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'2",
+     "price": 1192.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 1256.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-MINT-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-racer-fsp-pro-27",
+   "title": "Wing Foil Board Racer FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-RACER-5_4-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'0",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'2",
+     "price": 944.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 962.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 981.0,
+     "available": true
+    },
+    {
+     "size": "5'9",
+     "price": 1008.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-RACER-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-racer-hollow-carbon-27",
+   "title": "Wing Foil Board Racer Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/01-26-1500-WING_BOARD-2027-HOLLOW-RACER-5_4-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'2",
+     "price": 1531.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 1531.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 1549.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-RACER-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-stunt-fsp-pro-27",
+   "title": "Wing Foil Board Stunt FSP Pro",
+   "category": "board",
+   "construction": "FSP PRO",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-fsp-pro-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_PRO-STUNT-4_8-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'6",
+     "price": 825.0,
+     "available": true
+    },
+    {
+     "size": "4'7",
+     "price": 871.0,
+     "available": true
+    },
+    {
+     "size": "4'8",
+     "price": 871.0,
+     "available": true
+    },
+    {
+     "size": "4'9",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "4'11",
+     "price": 917.0,
+     "available": true
+    },
+    {
+     "size": "5'1",
+     "price": 962.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-STUNT-FSP_PRO-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-stunt-hollow-carbon-27",
+   "title": "Wing Foil Board Stunt Hollow Full Carbon",
+   "category": "board",
+   "construction": "Hollow full carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-hollow-carbon-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW-STUNT-4_8-GONGWING-TB_6c8c9525-07f0-4ef7-9fbe-2aa14225dd6f.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'7",
+     "price": 1467.0,
+     "available": true
+    },
+    {
+     "size": "4'8",
+     "price": 1467.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW-STUNT-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-stunt-hollow-hybrid-27",
+   "title": "Wing Foil Board Stunt Hollow Hybrid Carbon",
+   "category": "board",
+   "construction": "Hollow hybrid carbon",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-hollow-hybrid-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-HOLLOW_HYBRID-STUNT-4_8-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'7",
+     "price": 1192.0,
+     "available": true
+    },
+    {
+     "size": "4'8",
+     "price": 1192.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-WING-BOARDS_RANGE-2027-HOLLOW_HYBRID-STUNT-SIZE_CHART-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-zuma-fsp-2x-27",
+   "title": "Wing Foil Board Zuma FSP 2X",
+   "category": "board",
+   "construction": "FSP 2X",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-fsp-2x-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-FSP_2X-ZUMA-6_3-TB_80cb41cd-934e-497f-bd4f-0524fff9c131.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "6'3",
+     "price": 825.0,
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "price": 871.0,
+     "available": true
+    },
+    {
+     "size": "6'9",
+     "price": 871.0,
+     "available": true
+    },
+    {
+     "size": "7'2",
+     "price": 917.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2027-ZUMA-FSP_2X-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-zuma-wood-2x-27",
+   "title": "Wing Foil Board Zuma WOOD 2X",
+   "category": "board",
+   "construction": "WOOD 2X",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-wood-2x-27",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING_BOARD-2027-WOOD_2X-ZUMA-6_3-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "6'3",
+     "price": 687.0,
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "price": 733.0,
+     "available": true
+    },
+    {
+     "size": "6'9",
+     "price": 733.0,
+     "available": true
+    },
+    {
+     "size": "7'2",
+     "price": 779.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/27-SIZE_CHART-2410-WING_BOARDS-RIGID-2026_ZUMA-WOOD_2X-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wingfoil-inflatable-hipe-cruzader-26",
+   "title": "Wing foil Board Inflatable HIPE Cruzader",
+   "category": "board",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-cruzader-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-2026-HIPE_CRUZADER-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "6'0",
+     "price": 458.0,
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "price": 482.0,
+     "available": true
+    },
+    {
+     "size": "7'0",
+     "price": 495.0,
+     "available": true
+    },
+    {
+     "size": "7'6",
+     "price": 509.0,
+     "available": true
+    },
+    {
+     "size": "7'11",
+     "price": 522.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_CRUZADER-GONGWING"
+   ]
+  },
+  {
+   "handle": "gong-wingfoil-inflatable-hipe-diamond-26",
+   "title": "Wing foil Board Inflatable HIPE Diamond",
+   "category": "board",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-diamond-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-2026-HIPE_DIAMOND-5_6-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'0",
+     "price": 449.0,
+     "available": true
+    },
+    {
+     "size": "5'4",
+     "price": 482.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 486.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 500.0,
+     "available": true
+    },
+    {
+     "size": "6'2",
+     "price": 509.0,
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "price": 522.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_DIAMOND-GONGWING"
+   ]
+  },
+  {
+   "handle": "gong-wingfoil-inflatable-hipe-first-26",
+   "title": "Wing foil Board Inflatable HIPE First",
+   "category": "board",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-first-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-HIPE_FIRST-GONGWING-TB_63d63f6b-3a8c-4731-9b4d-7f38dfe21fe3.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'0",
+     "price": 201.0,
+     "available": true
+    },
+    {
+     "size": "5'5",
+     "price": 229.0,
+     "available": true
+    },
+    {
+     "size": "5'11",
+     "price": 247.0,
+     "available": true
+    },
+    {
+     "size": "6'6",
+     "price": 253.0,
+     "available": true
+    },
+    {
+     "size": "7'1",
+     "price": 262.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_FIRST-GONGWING"
+   ]
+  },
+  {
+   "handle": "gong-hipe-board-hipe-freefly-26",
+   "title": "Wing foil Board Inflatable HIPE Freefly",
+   "category": "board",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-freefly-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-2026-HIPE_FREEFLY-GONGWING-TB_70b89675-d644-41a5-8d30-d5092d3a7549.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'4",
+     "price": 311.0,
+     "available": true
+    },
+    {
+     "size": "5'8",
+     "price": 326.0,
+     "available": true
+    },
+    {
+     "size": "6'2",
+     "price": 339.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_FREEFLY-GONGWING"
+   ]
+  },
+  {
+   "handle": "gong-hipe-board-hipe-learn-26",
+   "title": "Wing foil Board Inflatable HIPE Learn",
+   "category": "board",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-learn-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-HIPE_LEARN-GONGWING-TB_210603c1-1499-40cd-9fb7-82f4dc82efdd.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "6'5",
+     "price": 458.0,
+     "available": true
+    },
+    {
+     "size": "8'0",
+     "price": 495.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_LEARN-GONGWING"
+   ]
+  },
+  {
+   "handle": "gong-hipe-board-hipe-like-26",
+   "title": "Wing foil Board Inflatable HIPE Like",
+   "category": "board",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-like-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/01-26-1500-WING-BOARD-INFLATABLE-HIPE_LIKE-GONGWING-HOVER_597d662c-943e-4473-a242-e40d740e6886.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "6'4",
+     "price": 275.0,
+     "available": true
+    },
+    {
+     "size": "7'0",
+     "price": 284.0,
+     "available": true
+    },
+    {
+     "size": "7'4",
+     "price": 293.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING-BOARD-HIPE_LIKE-GONGWING"
+   ]
+  },
+  {
+   "handle": "gong-wingfoil-inflatable-hipe-perf-26",
+   "title": "Wing foil Board Inflatable HIPE Perf",
+   "category": "board",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-perf-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-HIPE_PERF-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'1",
+     "price": 403.0,
+     "available": true
+    },
+    {
+     "size": "5'3",
+     "price": 418.0,
+     "available": true
+    },
+    {
+     "size": "5'5",
+     "price": 436.0,
+     "available": true
+    },
+    {
+     "size": "5'10",
+     "price": 449.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING-BOARD-INFLATABLE-HIPE_PERF-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-foil-board-inflatable-hipe-perf-5",
+   "title": "Wing foil Board Inflatable HIPE Perf",
+   "category": "board",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-inflatable-hipe-perf-5",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-BOARD-INFLATABLE-HIPE_PERF-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "5'1",
+     "price": 317.0,
+     "available": true
+    },
+    {
+     "size": "5'3",
+     "price": 330.0,
+     "available": false
+    },
+    {
+     "size": "5'5",
+     "price": 344.0,
+     "available": false
+    },
+    {
+     "size": "5'10",
+     "price": 357.0,
+     "available": false
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING-BOARD-INFLATABLE-HIPE_PERF-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-hipe-board-hipe-pro-26",
+   "title": "Wing foil Board Inflatable HIPE Pro",
+   "category": "board",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-pro-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-BOARD-INFLATABLE-2026-HIPE_PRO-4_7-GONGWING-TB_de2b8180-0bb3-4550-b687-14f64d80b617.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4'6",
+     "price": 403.0,
+     "available": true
+    },
+    {
+     "size": "4'7",
+     "price": 418.0,
+     "available": true
+    },
+    {
+     "size": "4'9",
+     "price": 445.0,
+     "available": true
+    },
+    {
+     "size": "5'1",
+     "price": 458.0,
+     "available": true
+    },
+    {
+     "size": "5'3",
+     "price": 473.0,
+     "available": true
+    },
+    {
+     "size": "5'6",
+     "price": 486.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": []
+  },
+  {
+   "handle": "gong-foil-front-wing-ascent",
+   "title": "Foil Front Wing Ascent V3",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ascent",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-ASCENT-GONGFOIL_2efaa4ec-8f52-4f73-b387-e88788fe8fac.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "S",
+     "price": 128.0,
+     "available": false
+    },
+    {
+     "size": "M",
+     "price": 137.0,
+     "available": false
+    },
+    {
+     "size": "L",
+     "price": 155.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 165.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 179.0,
+     "available": false
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-25-FOIL-FRONT_WINGS-ASCENT-SIZE_CHART-GONGFOIL.webp",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-T-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-ascent-atmo",
+   "title": "Foil Front Wing Ascent V3 Atmo - Perf Series",
+   "category": "frontwing",
+   "construction": "fiberglass",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ascent-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-PERF_SERIES-FRONT_WING-ASCENT-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "S",
+     "price": 183.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 201.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 229.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 238.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 256.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-ASCENT-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-curve-h",
+   "title": "Foil Front Wing Curve H V3",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-h",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-CURVE_H-GONGFOIL_204d1ccc-b807-46c0-8957-a4699676bf94.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XXS",
+     "price": 256.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 265.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 275.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 280.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 293.0,
+     "available": false
+    },
+    {
+     "size": "XL",
+     "price": 298.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 311.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 330.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-24-FOIL-FRONT_WINGS_H-SIZE_CHART-CURVE_H-GONGFOIL.png",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-curve-h-fg",
+   "title": "Foil Front Wing Curve H V3 FG",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-h-fg",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-CURVE_H2X-GONGFOIL_faa451f7-9902-4574-ab1d-9c882fa00299.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XXS",
+     "price": 133.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 146.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 152.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 155.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 170.0,
+     "available": false
+    },
+    {
+     "size": "XL",
+     "price": 183.0,
+     "available": false
+    },
+    {
+     "size": "XXL",
+     "price": 192.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 210.0,
+     "available": false
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-24-FOIL-FRONT_WINGS_H-SIZE_CHART-CURVE_H-GONGFOIL.png",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-curve-atmo",
+   "title": "Foil Front Wing Curve V3 Atmo - Perf Series",
+   "category": "frontwing",
+   "construction": "fiberglass",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-CURVE-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XXS",
+     "price": 192.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 210.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 220.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 229.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 247.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 265.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 275.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 302.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-CURVE-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-curve-atmo-carbon",
+   "title": "Foil Front Wing Curve V3 Atmo - Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-atmo-carbon",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-CURVE-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XXS",
+     "price": 366.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 385.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 394.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 403.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 421.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 431.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 449.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 476.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-TEAM_SERIES-SIZE_CHART-CURVE-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-fluid-h",
+   "title": "Foil Front Wing Fluid H V3",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-h",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-FLUID_H-GONGFOIL_85b624ca-1bbb-4e06-a7da-9246c6e98372.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "3XS",
+     "price": 256.0,
+     "available": true
+    },
+    {
+     "size": "XXS",
+     "price": 262.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 265.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 275.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 280.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 293.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 298.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 311.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 330.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-24-FOIL-FRONT_WINGS_H-SIZE_CHART-FLUID_H-GONGFOIL.png",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-fluid-h-fg",
+   "title": "Foil Front Wing Fluid H V3 FG",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-h-fg",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-FLUID_H2X-GONGFOIL_359d4aca-8b4c-475e-ac28-46aadb420beb.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "3XS",
+     "price": 128.0,
+     "available": true
+    },
+    {
+     "size": "XXS",
+     "price": 133.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 146.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 152.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 155.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 170.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 183.0,
+     "available": false
+    },
+    {
+     "size": "XXL",
+     "price": 192.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 210.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-24-FOIL-FRONT_WINGS_H-SIZE_CHART-FLUID_H-GONGFOIL.png",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-fluid-atmo",
+   "title": "Foil Front Wing Fluid V3 Atmo - Perf Series",
+   "category": "frontwing",
+   "construction": "fiberglass",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-FLUID-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "3XS",
+     "price": 183.0,
+     "available": true
+    },
+    {
+     "size": "XXS",
+     "price": 192.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 210.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 220.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 229.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 247.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 265.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 275.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 302.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-FLUID-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-fluid-atmo-carbon",
+   "title": "Foil Front Wing Fluid V3 Atmo - Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-atmo-carbon",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-FLUID-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "3XS",
+     "price": 366.0,
+     "available": true
+    },
+    {
+     "size": "XXS",
+     "price": 376.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 385.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 394.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 403.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 421.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 431.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 449.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 476.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-TEAM_SERIES-SIZE_CHART-FLUID-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-front-wing-hyper-trail-atmo",
+   "title": "Foil Front Wing Hyper Trail V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-hyper-trail-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-HYPER_TRAIL-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "S",
+     "price": 431.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 467.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 495.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 541.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 559.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 559.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-HYPER_TRAIL-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-sirus-1",
+   "title": "Foil Front Wing Sirus V3",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-sirus-1",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-SIRUS-GONGFOIL_2b16d0c6-7911-4ae1-a9df-e9ba297960a0.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "L",
+     "price": 321.0,
+     "available": false
+    },
+    {
+     "size": "XL",
+     "price": 385.0,
+     "available": false
+    },
+    {
+     "size": "XXL",
+     "price": 449.0,
+     "available": false
+    },
+    {
+     "size": "3XL",
+     "price": 513.0,
+     "available": false
+    },
+    {
+     "size": "5XL",
+     "price": 641.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-sirus-atmo",
+   "title": "Foil Front Wing Sirus V3 Atmo - Perf Series",
+   "category": "frontwing",
+   "construction": "fiberglass",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-sirus-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-SIRUS-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "L",
+     "price": 330.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 385.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 431.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 504.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-SIRUS-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-sirus-atmo-carbon",
+   "title": "Foil Front Wing Sirus V3 Atmo - Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-sirus-atmo-carbon",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-SIRUS-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "M",
+     "price": 421.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 458.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 550.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 641.0,
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "price": 733.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-TEAM_SERIES-SIZE_CHART-SIRUS-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-veloce-dw-atmo",
+   "title": "Foil Front Wing Veloce DW V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-dw-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-VELOCE_DW-GONGFOIL-TB_5d587bbc-2714-40e6-ac73-12df00cac8c9.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XS",
+     "price": 449.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 476.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 504.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 531.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 550.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE_DW-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-veloce-ff-atmo-carbon",
+   "title": "Foil Front Wing Veloce Free Fly V3 Atmo - Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-ff-atmo-carbon",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-VELOCE_FF-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XS",
+     "price": 403.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 421.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 440.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 458.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 476.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 495.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE_FF-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-veloce-h",
+   "title": "Foil Front Wing Veloce H V3",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-h",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-VELOCE_H-GONGFOIL_561754cb-2535-444c-8254-bb22a30e03aa.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XS",
+     "price": 280.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 293.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 308.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 321.0,
+     "available": false
+    },
+    {
+     "size": "XL",
+     "price": 330.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 344.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-24-FOIL-FRONT_WINGS_H-SIZE_CHART-VELOCE_H-GONGFOIL.png"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-veloce-h-dw",
+   "title": "Foil Front Wing Veloce HDW V3",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-h-dw",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-VELOCE_H_DOWNWIND-GONGFOIL_e842eba5-661a-4626-a615-5f4a8fb5395c.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XS",
+     "price": 311.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 330.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 348.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 372.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 385.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-24-FOIL-FRONT_WINGS_H-SIZE_CHART-VELOCE_H_DOWNWIND-GONGFOIL.png",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-veloce-lw-atmo",
+   "title": "Foil Front Wing Veloce Light Wind V3 Atmo - Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-lw-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-VELOCE_LW-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "S",
+     "price": 440.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 458.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 476.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 504.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 531.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE_LW-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-veloce-atmo",
+   "title": "Foil Front Wing Veloce V3 Atmo - Perf Series",
+   "category": "frontwing",
+   "construction": "fiberglass",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-VELOCE_FF-GONGFOIL-TB_8fa6d40d-e7f8-498d-b049-74cbe68689da.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XS",
+     "price": 220.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 229.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 247.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 265.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 293.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 321.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-front-wing-veloce-xtr-atmo",
+   "title": "Foil Front Wing Veloce XTR V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-veloce-xtr-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-VELOCE_XTR-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XS",
+     "price": 458.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 476.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 522.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 541.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-VELOCE_XTR-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-x-over",
+   "title": "Foil Front Wing X-Over V3",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-x-over",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-X_OVER-GONGFOIL_292fa2ee-bc80-49a2-b4a6-4d6cc8c1f5c4.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "M",
+     "price": 128.0,
+     "available": false
+    },
+    {
+     "size": "L",
+     "price": 137.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 155.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 179.0,
+     "available": false
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-25-FOIL-FRONT_WINGS-X-OVER-SIZE_CHART-GONGFOIL.webp",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-R-GONGACCESS.webp",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-STAB-R-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-x-over-atmo",
+   "title": "Foil Front Wing X-Over V3 Atmo - Perf Series",
+   "category": "frontwing",
+   "construction": "fiberglass",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-x-over-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-X-OVER-GONGFOIL-TB_3b23a32a-2079-4566-8cc8-98bba99c6cb0.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "M",
+     "price": 183.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 201.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 229.0,
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "price": 256.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-X-OVER-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-ypra-freestyle-atmo-micro",
+   "title": "Foil Front Wing Ypra Freestyle Micro V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-freestyle-atmo-micro",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/01-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_FREESTYLE-GONGFOIL-HOVER.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XXS",
+     "price": 385.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 394.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 409.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 421.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_FREESTYLE-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-ypra-race-atmo",
+   "title": "Foil Front Wing Ypra Race Micro V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-race-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_RACE-GONGFOIL-TB_c4a53f2e-e44e-4742-9839-d527746181b9.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "480 cm²",
+     "price": 696.0,
+     "available": true
+    },
+    {
+     "size": "540 cm²",
+     "price": 733.0,
+     "available": true
+    },
+    {
+     "size": "620 cm²",
+     "price": 761.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_RACE-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-ypra-race",
+   "title": "Foil Front Wing Ypra Race V3",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-race",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-YPRA_RACE-GONGFOIL.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "430 cm²",
+     "price": 467.0,
+     "available": true
+    },
+    {
+     "size": "480 cm²",
+     "price": 486.0,
+     "available": true
+    },
+    {
+     "size": "540 cm²",
+     "price": 513.0,
+     "available": true
+    },
+    {
+     "size": "670 cm²",
+     "price": 531.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-ypra-slalom",
+   "title": "Foil Front Wing Ypra Slalom V3",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-slalom",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-FRONT_WING-YPRA_SLALOM-V3-GONGFOIL-TB_f05ac125-56cc-44a6-be50-b5ec4785cee8.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XXS",
+     "price": 275.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 280.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 284.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 293.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 308.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-ypra-slalom-atmo",
+   "title": "Foil Front Wing Ypra Slalom V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-slalom-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_SLALOM-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XXS",
+     "price": 394.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 403.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 412.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 421.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 440.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_SLALOM-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-front-wing-ypra-surf-carve-atmo",
+   "title": "Foil Front Wing Ypra Surf Carve V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-ypra-surf-carve-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_SURF_CARVE-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XS",
+     "price": 376.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 394.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 403.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 412.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_SURF_CARVE-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-front-wing-ypra-surf-fast-atmo",
+   "title": "Foil Front Wing Ypra Surf Fast V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-ypra-surf-fast-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_SURF_FAST-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XS",
+     "price": 376.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 394.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 403.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 412.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 431.0,
+     "available": false
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_SURF_FAST-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-ypra-surf",
+   "title": "Foil Front Wing Ypra Surf V3",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-surf",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-YPRA_SURF-GONGFOIL_3ea4f52d-df3d-4976-9c94-be8546d2b66e.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XS",
+     "price": 262.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 275.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 280.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 284.0,
+     "available": true
+    },
+    {
+     "size": "XL",
+     "price": 298.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-ypra-surf-freestyle",
+   "title": "Foil Front Wing Ypra Surf-Freestyle V3",
+   "category": "frontwing",
+   "construction": null,
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-surf-freestyle",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-YPRA_SURF_FREESTYLE-GONGFOIL_754cb41c-c803-4b3f-9cad-720f303259ba.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XXS",
+     "price": 256.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 262.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 275.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 275.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 284.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-ACCESS-COVER_FOIL-FRONT_WING-H-GONGACCESS.webp"
+   ]
+  },
+  {
+   "handle": "gong-foil-front-wing-ypra-surf-freestyle-atmo",
+   "title": "Foil Front Wing Ypra Surf-Freestyle V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-surf-freestyle-atmo",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-YPRA_SURF_FREESTYLE-GONGFOIL-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "XXS",
+     "price": 366.0,
+     "available": true
+    },
+    {
+     "size": "XS",
+     "price": 376.0,
+     "available": true
+    },
+    {
+     "size": "S",
+     "price": 394.0,
+     "available": true
+    },
+    {
+     "size": "M",
+     "price": 399.0,
+     "available": true
+    },
+    {
+     "size": "L",
+     "price": 412.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-YPRA_SURF_FREESTYLE-GONGFOIL.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-droid-26nhnb",
+   "title": "Wing Droid",
+   "category": "wing",
+   "construction": "Dacron",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-26nhnb",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-DROID_HANDLES-4_5-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "3 m²",
+     "price": 440.0,
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "price": 458.0,
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "price": 476.0,
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "price": 495.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 513.0,
+     "available": true
+    },
+    {
+     "size": "5,5 m²",
+     "price": 531.0,
+     "available": true
+    },
+    {
+     "size": "6 m²",
+     "price": 555.0,
+     "available": true
+    },
+    {
+     "size": "6,5 m²",
+     "price": 577.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-25-SIZE_CHART-WING-PERF_SERIES-HANDLES-DROID-GONGWING-EN.webp",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-DROID-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-droid-aramid-26nhnb",
+   "title": "Wing Droid Aramid",
+   "category": "wing",
+   "construction": "Aramid",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-26nhnb",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-TEAM_SERIES-2026-ARAMID-DROID-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "2 m²",
+     "price": 519.0,
+     "available": true
+    },
+    {
+     "size": "2,5 m²",
+     "price": 531.0,
+     "available": true
+    },
+    {
+     "size": "3 m²",
+     "price": 555.0,
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "price": 577.0,
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "price": 601.0,
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "price": 623.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 651.0,
+     "available": false
+    },
+    {
+     "size": "5,5 m²",
+     "price": 678.0,
+     "available": true
+    },
+    {
+     "size": "6 m²",
+     "price": 711.0,
+     "available": true
+    },
+    {
+     "size": "6,5 m²",
+     "price": 739.0,
+     "available": true
+    },
+    {
+     "size": "7 m²",
+     "price": 788.0,
+     "available": true
+    },
+    {
+     "size": "7,5 m²",
+     "price": 858.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-TEAM_SERIES-DROID_ARAMID-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-droid-aramid-x-26nhnb",
+   "title": "Wing Droid Aramid X",
+   "category": "wing",
+   "construction": "Aramid X",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-x-26nhnb",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PRO_TEAM_SERIES-2026-ARAMID_X-DROID-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "2 m²",
+     "price": 586.0,
+     "available": true
+    },
+    {
+     "size": "2,5 m²",
+     "price": 601.0,
+     "available": true
+    },
+    {
+     "size": "3 m²",
+     "price": 623.0,
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "price": 641.0,
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "price": 665.0,
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "price": 687.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 715.0,
+     "available": true
+    },
+    {
+     "size": "5,5 m²",
+     "price": 748.0,
+     "available": true
+    },
+    {
+     "size": "6 m²",
+     "price": 775.0,
+     "available": true
+    },
+    {
+     "size": "6,5 m²",
+     "price": 806.0,
+     "available": true
+    },
+    {
+     "size": "7 m²",
+     "price": 843.0,
+     "available": true
+    },
+    {
+     "size": "7,5 m²",
+     "price": 880.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PRO_TEAM_SERIES-DROID_ARAMID_X-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-droid-boom-26nhnb",
+   "title": "Wing Droid Boom",
+   "category": "wing",
+   "construction": "Dacron",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-boom-26nhnb",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-DROID_BOOM-4_5-GONGWING-TB.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "3 m²",
+     "price": 445.0,
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "price": 467.0,
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "price": 482.0,
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "price": 504.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 519.0,
+     "available": true
+    },
+    {
+     "size": "5,5 m²",
+     "price": 541.0,
+     "available": true
+    },
+    {
+     "size": "6 m²",
+     "price": 564.0,
+     "available": true
+    },
+    {
+     "size": "6,5 m²",
+     "price": 586.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-DROID-BOOM-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-droid-sp-aramid-cz-26nhnb",
+   "title": "Wing Droid SP Aramid CZ",
+   "category": "wing",
+   "construction": "Aramid CZ",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-sp-aramid-cz-26nhnb",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PRO_TEAM_SERIES-2026-DROID_SP-GONGWING-TB_8ee68f5d-38cf-41d0-a500-e2188f73a7b1.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "3 m²",
+     "price": 821.0,
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "price": 849.0,
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "price": 871.0,
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "price": 898.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 935.0,
+     "available": true
+    },
+    {
+     "size": "5,5 m²",
+     "price": 968.0,
+     "available": true
+    },
+    {
+     "size": "6 m²",
+     "price": 995.0,
+     "available": true
+    },
+    {
+     "size": "6,5 m²",
+     "price": 1027.0,
+     "available": true
+    },
+    {
+     "size": "7 m²",
+     "price": 1054.0,
+     "available": true
+    },
+    {
+     "size": "7,5 m²",
+     "price": 1091.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PRO_TEAM_SERIES-DROID_SP_ARAMID_CZ-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-neutra-26nhnb",
+   "title": "Wing Neutra",
+   "category": "wing",
+   "construction": "Dacron",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-26nhnb",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-NEUTRA_HANDLES-GONGWING-NHNB-TB_02c6d79a-fb68-4be5-ba1a-c32a698b6d64.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "2 m²",
+     "price": 372.0,
+     "available": true
+    },
+    {
+     "size": "2,5 m²",
+     "price": 409.0,
+     "available": true
+    },
+    {
+     "size": "3 m²",
+     "price": 431.0,
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "price": 445.0,
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "price": 467.0,
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "price": 482.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 504.0,
+     "available": true
+    },
+    {
+     "size": "5,5 m²",
+     "price": 519.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-25-SIZE_CHART-WING-PERF_SERIES-HANDLES-NEUTRA-GONGWING-EN.webp",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-NEUTRA-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-neutra-aramid-26nhnb",
+   "title": "Wing Neutra Aramid",
+   "category": "wing",
+   "construction": "Aramid",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-26nhnb",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-TEAM_SERIES-2026-ARAMID-NEUTRA-4_5-SKYBLUE-GONGWING--NHNB-TB_a22c4c8f-f9ff-4a4f-a66a-df28891864a9.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "2 m²",
+     "price": 513.0,
+     "available": true
+    },
+    {
+     "size": "2,5 m²",
+     "price": 528.0,
+     "available": true
+    },
+    {
+     "size": "3 m²",
+     "price": 550.0,
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "price": 568.0,
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "price": 592.0,
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "price": 614.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 641.0,
+     "available": false
+    },
+    {
+     "size": "5,5 m²",
+     "price": 674.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-TEAM_SERIES-NEUTRA_ARAMID-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-neutra-aramid-x-26nhnb",
+   "title": "Wing Neutra Aramid X",
+   "category": "wing",
+   "construction": "Aramid X",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-x-26nhnb",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PRO_TEAM_SERIES-2026-ARAMID_X-NEUTRA-GONGWING-NHNB-TB_edee7c98-c309-47a6-a346-5e064c46cb52.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "2 m²",
+     "price": 577.0,
+     "available": true
+    },
+    {
+     "size": "2,5 m²",
+     "price": 592.0,
+     "available": true
+    },
+    {
+     "size": "3 m²",
+     "price": 614.0,
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "price": 638.0,
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "price": 660.0,
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "price": 678.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 711.0,
+     "available": true
+    },
+    {
+     "size": "5,5 m²",
+     "price": 739.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PRO_TEAM_SERIES-NEUTRA_ARAMID_X-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-neutra-boom-26nhnb",
+   "title": "Wing Neutra Boom",
+   "category": "wing",
+   "construction": "Dacron",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-boom-26nhnb",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-NEUTRA_BOOM-GONGWING-NHNB-TB_4e4ed328-ae97-446d-9d71-d507ce05ab5e.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "2 m²",
+     "price": 381.0,
+     "available": true
+    },
+    {
+     "size": "2,5 m²",
+     "price": 418.0,
+     "available": true
+    },
+    {
+     "size": "3 m²",
+     "price": 440.0,
+     "available": true
+    },
+    {
+     "size": "3,5 m²",
+     "price": 454.0,
+     "available": true
+    },
+    {
+     "size": "4 m²",
+     "price": 476.0,
+     "available": true
+    },
+    {
+     "size": "4,5 m²",
+     "price": 491.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 513.0,
+     "available": true
+    },
+    {
+     "size": "5,5 m²",
+     "price": 528.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-NEUTRA-BOOM-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-plus-26",
+   "title": "Wing Plus",
+   "category": "wing",
+   "construction": "Dacron",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-plus-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-WING-PERF_SERIES-2026-PLUS-5_0-GONGWING-TB_91950e77-73fb-4c58-8b3f-883f2d2f6d2e.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4 m²",
+     "price": 458.0,
+     "available": true
+    },
+    {
+     "size": "5 m²",
+     "price": 504.0,
+     "available": true
+    },
+    {
+     "size": "6 m²",
+     "price": 531.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-25-SIZE_CHART-WING-PERF_SERIES-HANDLES-PLUS-GONGWING-EN.webp",
+    "https://cdn.gong-galaxy.com/products/25-SIZE_CHART-2410-WING_2026-PERF_SERIES-PLUS-GONGWING.webp"
+   ]
+  },
+  {
+   "handle": "gong-wing-pulse-race-aramid-cz-26",
+   "title": "Wing Pulse Aramid CZ",
+   "category": "wing",
+   "construction": "Aramid CZ",
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-pulse-race-aramid-cz-26",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-WING-PRO_TEAM_SERIES-2026-PULSE-GONGWING-TB_cb2e7aed-4c1f-4f39-a62d-016ef94a2ada.png",
+   "currency": "CHF",
+   "sizes": [
+    {
+     "size": "4 m²",
+     "price": 962.0,
+     "available": false
+    },
+    {
+     "size": "4,5 m²",
+     "price": 999.0,
+     "available": false
+    },
+    {
+     "size": "5 m²",
+     "price": 1027.0,
+     "available": false
+    },
+    {
+     "size": "5,5 m²",
+     "price": 1054.0,
+     "available": false
+    },
+    {
+     "size": "6 m²",
+     "price": 1091.0,
+     "available": true
+    },
+    {
+     "size": "6,5 m²",
+     "price": 1118.0,
+     "available": true
+    },
+    {
+     "size": "7 m²",
+     "price": 1155.0,
+     "available": true
+    },
+    {
+     "size": "7,5 m²",
+     "price": 1182.0,
+     "available": true
+    }
+   ],
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/26-SIZE_CHART-2410-WING_2026-PRO_TEAM_SERIES-PULSE_ARAMID_CZ-GONGWING.webp"
+   ]
+  }
+ ]
+}

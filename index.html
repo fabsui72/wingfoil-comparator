@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wingfoil Comparator</title>
+  <meta name="description" content="Comparez boards, foils et wings de wingfoil : superposition des formes à l'échelle et tableau de specs.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2c5 6 6 18 0 28C10 20 11 8 16 2z' fill='%230e7490'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="src/css/styles.css">
+  <script type="module" src="src/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <h1>Wingfoil Comparator</h1>
+    <p class="tagline">Superposez les formes à l'échelle et comparez les specs.</p>
+  </header>
+
+  <div id="app-error" class="error" role="alert" hidden></div>
+
+  <nav id="tabs" class="tabs" role="tablist" aria-label="Catégories"></nav>
+
+  <div class="layout">
+    <aside class="picker" aria-labelledby="picker-title">
+      <h2 id="picker-title">Choisir les modèles</h2>
+      <label class="search">
+        <span class="visually-hidden">Rechercher un modèle</span>
+        <input id="search" type="search" placeholder="Rechercher (ex. Mint, Fluid…)" autocomplete="off">
+      </label>
+      <label id="specs-only-wrap" class="checkbox">
+        <input id="specs-only" type="checkbox" checked>
+        Uniquement les modèles avec dimensions
+      </label>
+      <ul id="model-list" class="model-list"></ul>
+    </aside>
+
+    <main id="main" class="results">
+      <div class="results-head">
+        <h2>Comparaison <span id="selection-count" class="muted"></span></h2>
+        <div class="actions">
+          <button id="share" type="button" class="btn">Copier le lien</button>
+          <button id="clear" type="button" class="btn btn-ghost">Tout effacer</button>
+        </div>
+      </div>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+
+      <section id="empty-state" class="empty-state">
+        <p>Sélectionnez au moins une taille dans la liste pour commencer.<br>
+        Astuce : la première taille choisie sert de <strong>référence</strong> pour les écarts en %.</p>
+      </section>
+
+      <div id="comparison" hidden>
+        <section id="overlay-card" class="card" aria-labelledby="overlay-title">
+          <div class="card-head">
+            <h3 id="overlay-title">Formes à l'échelle</h3>
+            <div class="controls">
+              <fieldset class="segmented">
+                <legend class="visually-hidden">Affichage</legend>
+                <label><input type="radio" name="mode" value="overlay" checked> Superposées</label>
+                <label><input type="radio" name="mode" value="side"> Côte à côte</label>
+              </fieldset>
+              <label id="align-wrap">Aligner sur
+                <select id="align">
+                  <option value="tail">l'arrière</option>
+                  <option value="center">le centre</option>
+                  <option value="nose">le nez</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <ul id="legend" class="legend"></ul>
+          <div class="overlay-wrap">
+            <svg id="overlay" role="img" preserveAspectRatio="xMidYMid meet"></svg>
+            <p id="overlay-empty" class="muted" hidden>Aucune silhouette dessinable : les dimensions de ces modèles n'ont pas encore été saisies.</p>
+          </div>
+          <p class="note">Grille de 10 cm. Silhouettes reconstruites à partir des cotes officielles (longueur, largeur, largeurs à 1 pied du nez et de l'arrière ; envergure, corde, surface pour les foils). Les dimensions sont exactes, la courbe entre ces points est approximative.</p>
+        </section>
+
+        <section class="card" aria-labelledby="table-title">
+          <h3 id="table-title">Specs</h3>
+          <div class="table-wrap">
+            <table id="spec-table" class="spec-table"></table>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>Données : catalogues publics des marques et tableaux de tailles officiels. Les prix et disponibilités peuvent avoir changé. Projet non affilié aux marques citées.</p>
+  </footer>
+</body>
+</html>
