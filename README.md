@@ -3,6 +3,7 @@
 Outil web pour comparer des **boards**, des **foils (ailes avant)** et des **wings** de wingfoil :
 
 - **superposition à l'échelle** des formes (vue de dessus, grille de 10 cm), en mode superposé ou côte à côte, avec alignement sur l'arrière / le centre / le nez pour les boards ;
+- **profil des boards** (épaisseur, rocker, creux du pont), avec exagération des hauteurs ×1, ×2 ou ×3 ;
 - **tableau de specs** côte à côte, avec l'écart en % par rapport à la première taille choisie (la référence) ;
 - jusqu'à 6 éléments comparés ; la comparaison est stockée dans l'URL, ce qui permet de la partager.
 
@@ -46,8 +47,11 @@ wingfoil-comparator/
 │   ├── brands.json          # configuration des marques (source, catégories…)
 │   └── gong/
 │       ├── catalog.json     # GÉNÉRÉ : produits, tailles, prix, liens, tableaux de tailles
+│       ├── outlines.json    # GÉNÉRÉ : formes des boards extraites des photos
 │       └── specs.json       # SAISI : dimensions transcrites des tableaux de tailles
-├── scripts/fetch_catalog.py # récupère le catalogue d'une marque (Python stdlib)
+├── scripts/
+│   ├── fetch_catalog.py           # récupère le catalogue d'une marque (Python stdlib)
+│   └── extract_board_outlines.py  # extrait les formes des photos (Pillow + numpy)
 └── tests/
 ```
 
@@ -57,6 +61,7 @@ wingfoil-comparator/
 |---|---|---|
 | Modèles, tailles, prix, disponibilité, liens | API publique Shopify (`/collections/<x>/products.json`) | `catalog.json` (généré) |
 | Dimensions (volume, largeur, envergure, surface…) | Tableaux de tailles officiels, **publiés uniquement sous forme d'images** | `specs.json` (transcrit) |
+| Forme des boards (contour, profil) | Photos produits (vues de dessus et de profil) | `outlines.json` (généré) |
 
 Comme les dimensions n'existent qu'en image, elles sont transcrites dans `specs.json`. L'URL du tableau d'origine (`sourceChart`) y est conservée pour chaque modèle afin de pouvoir vérifier les valeurs.
 
@@ -64,7 +69,8 @@ Comme les dimensions n'existent qu'en image, elles sont transcrites dans `specs.
 
 Les marques ne publient pas de plan de forme. Les silhouettes sont donc **reconstruites** :
 
-- **Boards** : longueur, largeur max et largeurs à 1 pied du nez et de l'arrière (OFO) sont exactes. Entre ces points, la courbe est une interpolation monotone (sans dépassement). La forme du nez et de l'arrière (`outline.nose` / `outline.tail` : `round`/`pointed`, `square`/`diamond`/`squash`) est indiquée à la main.
+- **Boards, vue de dessus** : le contour vient de la photo produit (vue du pont). Il est mis à l'échelle sur la longueur et la largeur officielles, puis légèrement corrigé pour passer exactement par les largeurs à 1 pied du nez et de l'arrière (OFO). Avant correction, la photo s'écarte déjà de moins de 2 % des cotes officielles. Sans photo exploitable, le contour est interpolé entre les cotes (`outline.nose` / `outline.tail` donnent l'allure du nez et de l'arrière).
+- **Boards, profil** : il vient de la vue latérale de la photo, mis à l'échelle sur la longueur et recalé pour que l'épaisseur max soit l'épaisseur officielle (la photo s'en écarte de 3 à 8 % avant recalage). Les straps sont retirés automatiquement. Le rocker affiché est celui de la photo, à environ ±1 cm près ; la valeur officielle est dans le tableau.
 - **Ailes avant** : envergure et corde sont exactes. Le contour est une super-ellipse dont l'exposant est calculé pour retrouver exactement la surface publiée. La flèche des saumons est uniquement visuelle.
 
 ## Mettre à jour les données
@@ -74,6 +80,15 @@ python3 scripts/fetch_catalog.py gong --with-charts   # ou : npm run fetch:gong
 ```
 
 Le script met à jour `data/gong/catalog.json`, y compris les URLs des tableaux de tailles de chaque produit. Il ne touche jamais à `specs.json`.
+
+Puis, pour les formes des boards :
+
+```bash
+pip install pillow numpy
+python3 scripts/extract_board_outlines.py gong --debug /tmp/controle
+```
+
+`--debug` écrit, pour chaque board, la photo avec les contours extraits dessinés par-dessus (rouge : contour et pont, vert : dessous) pour contrôle visuel.
 
 ### Ajouter les dimensions d'un modèle
 

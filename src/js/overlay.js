@@ -1,6 +1,6 @@
 // Rendu SVG de la superposition à l'échelle (1 unité SVG = 1 cm).
 
-import { boardPath, frontWingPath } from './shapes.js';
+import { boardPath, boardSidePath, boardSideProfile, frontWingPath } from './shapes.js';
 import { formatNumber } from './units.js';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -17,7 +17,7 @@ function geometry(entry) {
   const { model, size } = entry;
   const s = size.spec;
   if (model.category === 'board') {
-    return { path: boardPath(s, model.outline), width: s.widthCm, height: s.lengthCm };
+    return { path: boardPath(s, model.outline, model.photoShape), width: s.widthCm, height: s.lengthCm };
   }
   // Aile avant : hauteur = corde + flèche (approx.)
   const c0 = s.chordMm / 10;
@@ -100,4 +100,48 @@ export function describeOverlay(entries) {
         : `${model.title} ${size.size} : envergure ${formatNumber(s.spanCm, 'cm')}, corde ${formatNumber(s.chordMm, 'mm')}`;
     })
     .join(' ; ');
+}
+
+/**
+ * Profils latéraux (épaisseur, rocker) des boards, nez à droite, à l'échelle.
+ * @param {{ align: 'tail'|'center'|'nose', exaggeration: number }} options
+ *   exaggeration : facteur appliqué à la hauteur seulement (1 = échelle réelle)
+ */
+export function renderProfile(svg, entries, { align = 'tail', exaggeration = 1 } = {}) {
+  svg.replaceChildren();
+  const sides = entries.map((e) => ({ entry: e, side: boardSideProfile(e.size.spec, e.model.photoShape) })).filter((x) => x.side);
+  if (!sides.length) return;
+  const maxL = Math.max(...sides.map(({ entry }) => entry.size.spec.lengthCm));
+  const maxZ = Math.max(...sides.map(({ side }) => side.height)) * exaggeration;
+  const pad = 6;
+  const vbW = maxL + 2 * pad;
+  const vbH = maxZ + 2 * pad + 6;
+  svg.setAttribute('viewBox', `${-pad} ${-maxZ - pad} ${vbW} ${vbH}`);
+  svg.style.aspectRatio = `${vbW} / ${vbH}`;
+  svg.style.setProperty('--font', `${Math.max(3, vbW * 0.014)}px`);
+
+  const grid = el('g', { class: 'grid', 'aria-hidden': 'true' });
+  for (let x = 0; x <= maxL + 0.1; x += 10) {
+    grid.append(el('line', { x1: x, x2: x, y1: -maxZ - pad, y2: pad, class: x % 50 === 0 ? 'major' : '' }));
+  }
+  for (let z = 0; z <= maxZ / exaggeration + 0.1; z += 5) {
+    const y = -z * exaggeration;
+    grid.append(el('line', { x1: -pad, x2: maxL + pad, y1: y, y2: y, class: z % 10 === 0 ? 'major' : '' }));
+  }
+  svg.append(grid);
+
+  const scale = el('g', { class: 'scale' });
+  scale.append(el('line', { x1: 0, x2: 20, y1: pad * 0.6, y2: pad * 0.6 }));
+  scale.append(el('text', { x: 22, y: pad * 0.6, 'dominant-baseline': 'middle' },
+    exaggeration === 1 ? '20 cm' : `20 cm · hauteurs ×${exaggeration}`));
+  svg.append(scale);
+
+  for (const { entry, side } of sides) {
+    const L = entry.size.spec.lengthCm;
+    // Le nez est à droite : aligner sur l'arrière = x de départ 0.
+    const dx = align === 'tail' ? 0 : align === 'center' ? (maxL - L) / 2 : maxL - L;
+    const group = el('g', { class: 'shape', 'data-id': entry.size.id, transform: `translate(${dx} 0) scale(1 ${exaggeration})`, style: `--c:${entry.color}` });
+    group.append(el('title', {}, `${entry.model.title} ${entry.size.size}`), el('path', { d: boardSidePath(side) }));
+    svg.append(group);
+  }
 }

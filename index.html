@@ -70,10 +70,30 @@
           </div>
           <ul id="legend" class="legend"></ul>
           <div class="overlay-wrap">
-            <svg id="overlay" role="img" preserveAspectRatio="xMidYMid meet"></svg>
+            <svg id="overlay" class="drawing" role="img" preserveAspectRatio="xMidYMid meet"></svg>
             <p id="overlay-empty" class="muted" hidden>Aucune silhouette dessinable : les dimensions de ces modèles n'ont pas encore été saisies.</p>
           </div>
-          <p class="note">Grille de 10 cm. Silhouettes reconstruites à partir des cotes officielles (longueur, largeur, largeurs à 1 pied du nez et de l'arrière ; envergure, corde, surface pour les foils). Les dimensions sont exactes, la courbe entre ces points est approximative.</p>
+          <p id="overlay-note" class="note"></p>
+        </section>
+
+        <section id="profile-card" class="card" aria-labelledby="profile-title">
+          <div class="card-head">
+            <h3 id="profile-title">Profil : épaisseur et rocker</h3>
+            <div class="controls">
+              <label>Hauteurs
+                <select id="exaggeration">
+                  <option value="1">échelle réelle</option>
+                  <option value="2">×2</option>
+                  <option value="3">×3</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="overlay-wrap">
+            <svg id="profile" class="drawing" role="img" preserveAspectRatio="xMidYMid meet"></svg>
+            <p id="profile-empty" class="muted" hidden>Aucun profil disponible pour cette sélection (photo de profil ou épaisseur manquante).</p>
+          </div>
+          <p class="note">Nez à droite, pont en haut. Profil tiré de la vue latérale des photos produits, recalé sur la longueur et l'épaisseur officielles. Le rocker et le creux du pont sont ceux de la photo, à ±1 cm près.</p>
         </section>
 
         <section class="card" aria-labelledby="table-title">

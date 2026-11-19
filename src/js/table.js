@@ -68,6 +68,12 @@ export function renderTable(table, category, entries, onRemove) {
   constrRow.append(cell('th', 'Construction', 'row-head'));
   entries.forEach(({ model }) => constrRow.append(cell('td', model.construction ?? '—')));
 
+  if (category === 'board') {
+    const shapeRow = body.insertRow();
+    shapeRow.append(cell('th', 'Source du contour', 'row-head'));
+    entries.forEach(({ model }) => shapeRow.append(cell('td', model.photoShape ? 'photo + cotes officielles' : 'cotes seules (estimé)')));
+  }
+
   for (const field of SPEC_FIELDS[category]) {
     const values = entries.map((e) => e.size.spec[field.key]);
     if (values.every((v) => v == null)) continue;

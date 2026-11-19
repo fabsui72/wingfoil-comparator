@@ -123,16 +123,16 @@ button, input, select { font: inherit; color: inherit; }
 .swatch { width: 12px; height: 12px; border-radius: 3px; background: var(--c); display: inline-block; flex: none; }
 
 .overlay-wrap { background: var(--bg); border-radius: 8px; padding: 8px; }
-#overlay { width: 100%; height: auto; max-height: min(70vh, 640px); display: block; }
-#overlay .grid line { stroke: var(--grid); stroke-width: 1; vector-effect: non-scaling-stroke; }
-#overlay .grid line.major { stroke: var(--grid-major); }
-#overlay .scale line { stroke: var(--text); stroke-width: 2; vector-effect: non-scaling-stroke; }
-#overlay text { fill: var(--muted); font-size: var(--font, 4px); }
-#overlay .shape path {
+.drawing { width: 100%; height: auto; max-height: min(70vh, 640px); display: block; }
+.drawing .grid line { stroke: var(--grid); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.drawing .grid line.major { stroke: var(--grid-major); }
+.drawing .scale line { stroke: var(--text); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.drawing text { fill: var(--muted); font-size: var(--font, 4px); }
+.drawing .shape path {
   fill: var(--c); fill-opacity: .1; stroke: var(--c); stroke-width: 2;
   vector-effect: non-scaling-stroke; transition: opacity .15s;
 }
-#overlay .shape.dim { opacity: .15; }
+.drawing .shape.dim { opacity: .15; }
 .note { font-size: .8rem; color: var(--muted); margin: 8px 0 0; }
 
 /* ---- Tableau --------------------------------------------------------------------- */

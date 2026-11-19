@@ -1,8 +1,9 @@
 // Génération de silhouettes vectorielles à l'échelle (unité : cm).
-// Les marques ne publient pas de plan de forme : on reconstruit une silhouette
-// plausible à partir des cotes publiées. Les dimensions clés (longueur, largeur,
-// largeurs à 1 pied, envergure, corde, surface) sont respectées ; le dessin entre
-// ces points est une interpolation lissée, donc approximative.
+// Les marques ne publient pas de plan de forme. Deux sources possibles :
+//  - boards : la forme extraite des photos produits (scripts/extract_board_outlines.py),
+//    recalée sur les cotes officielles (longueur, largeur, largeurs à 1 pied, épaisseur) ;
+//  - sinon : une forme reconstruite par interpolation entre les cotes publiées.
+// Les cotes publiées sont toujours respectées ; le reste est une estimation.
 
 import { OFO_CM } from './units.js';
 
@@ -10,7 +11,81 @@ import { OFO_CM } from './units.js';
  * Demi-largeurs d'une board le long de son axe (y = 0 au nez, y = L à l'arrière).
  * @returns {Array<[number, number]>} liste de points [y, demiLargeur]
  */
-export function boardHalfWidthProfile({ lengthCm, widthCm, ofoNoseCm, ofoTailCm }, outline = {}) {
+export function boardHalfWidthProfile(spec, outline = {}, photo = null) {
+  if (photo?.top?.length) return photoHalfWidthProfile(spec, photo);
+  return estimatedHalfWidthProfile(spec, outline);
+}
+
+/** Valeur interpolée linéairement d'un profil échantillonné régulièrement sur [0, 1]. */
+export function sampleAt(values, t) {
+  const i = Math.min(Math.max(t, 0), 1) * (values.length - 1);
+  const k = Math.min(Math.floor(i), values.length - 2);
+  const f = i - k;
+  return values[k] * (1 - f) + values[k + 1] * f;
+}
+
+/**
+ * Forme issue de la photo, mise à l'échelle (longueur, largeur max) puis recalée pour
+ * passer exactement par les largeurs à 1 pied publiées : on multiplie la photo par un
+ * facteur de correction qui vaut 1 au maître-bau et varie doucement vers le nez et l'arrière.
+ */
+export function photoHalfWidthProfile({ lengthCm: L, widthCm, ofoNoseCm, ofoTailCm }, photo) {
+  const W = widthCm / 2;
+  const top = photo.top;
+  const sWide = top.indexOf(Math.max(...top)) / (top.length - 1);
+  const sNose = OFO_CM / L;
+  const sTail = 1 - OFO_CM / L;
+  const rNose = ofoNoseCm ? ofoNoseCm / 2 / (sampleAt(top, sNose) * W) : 1;
+  const rTail = ofoTailCm ? ofoTailCm / 2 / (sampleAt(top, sTail) * W) : 1;
+  const corr = monotoneCubic([[0, rNose], [sNose, rNose], [sWide, 1], [sTail, rTail], [1, rTail]], 40);
+  return top.map((h, i) => {
+    const s = i / (top.length - 1);
+    const y = s * L;
+    return [y, Math.min(h * W * interpolateY(corr, s), W)];
+  });
+}
+
+/** Ordonnée d'une polyligne [[x, y]...] (x croissant) à l'abscisse x. */
+function interpolateY(points, x) {
+  for (let i = 1; i < points.length; i++) {
+    if (x <= points[i][0]) {
+      const [x0, y0] = points[i - 1];
+      const [x1, y1] = points[i];
+      return x1 === x0 ? y1 : y0 + ((y1 - y0) * (x - x0)) / (x1 - x0);
+    }
+  }
+  return points[points.length - 1][1];
+}
+
+/**
+ * Profil latéral (pont et dessous) depuis la photo, en cm : x = distance depuis le nez,
+ * z = hauteur au-dessus du point le plus bas. L'échelle verticale est recalée pour que
+ * l'épaisseur maximale soit exactement l'épaisseur publiée.
+ * @returns {{ deck: Array<[number, number]>, bottom: Array<[number, number]>, height: number } | null}
+ */
+export function boardSideProfile({ lengthCm: L, thicknessCm }, photo) {
+  if (!photo?.deck?.length || !thicknessCm) return null;
+  const t = photo.deck.map((d, i) => d - photo.bottom[i]);
+  const k = thicknessCm / (Math.max(...t) * L);
+  const n = photo.deck.length - 1;
+  const deck = photo.deck.map((v, i) => [(i / n) * L, v * L * k]);
+  const bottom = photo.bottom.map((v, i) => [(i / n) * L, v * L * k]);
+  return { deck, bottom, height: Math.max(...deck.map(([, z]) => z)) };
+}
+
+/** Chemin SVG fermé du profil latéral, nez à droite, pont en haut (z vers le haut = y négatif). */
+export function boardSidePath(side) {
+  const fmt = ([x, z]) => `${x.toFixed(2)},${(-z).toFixed(2)}`;
+  // x = 0 au nez -> on retourne pour avoir le nez à droite
+  const L = side.deck[side.deck.length - 1][0];
+  const flip = ([x, z]) => [L - x, z];
+  const top = side.deck.map(flip);
+  const bot = [...side.bottom].reverse().map(flip);
+  return `M${top.map(fmt).join(' L')} L${bot.map(fmt).join(' L')} Z`;
+}
+
+/** Forme estimée à partir des seules cotes (sans photo). */
+export function estimatedHalfWidthProfile({ lengthCm, widthCm, ofoNoseCm, ofoTailCm }, outline = {}) {
   const L = lengthCm;
   const W = widthCm / 2;
   // Sans cotes OFO, on prend des valeurs typiques de boards de wingfoil.
@@ -73,8 +148,8 @@ export function monotoneCubic(points, samplesPerSegment = 16) {
 }
 
 /** Chemin SVG fermé d'une board, nez en haut, centré sur x = 0. */
-export function boardPath(spec, outline) {
-  const half = boardHalfWidthProfile(spec, outline);
+export function boardPath(spec, outline, photo = null) {
+  const half = boardHalfWidthProfile(spec, outline, photo);
   const right = half.map(([y, x]) => `${x.toFixed(2)},${y.toFixed(2)}`);
   const left = [...half].reverse().map(([y, x]) => `${(-x).toFixed(2)},${y.toFixed(2)}`);
   return `M${right.join(' L')} L${left.join(' L')} Z`;

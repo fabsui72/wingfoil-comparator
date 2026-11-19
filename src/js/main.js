@@ -1,7 +1,7 @@
 // Point d'entrée : état de l'application, interactions et synchronisation avec l'URL.
 
-import { CATEGORIES, canDraw, indexSizes, loadAll } from './data.js';
-import { describeOverlay, renderOverlay } from './overlay.js';
+import { CATEGORIES, canDraw, canDrawSide, indexSizes, loadAll } from './data.js';
+import { describeOverlay, renderOverlay, renderProfile } from './overlay.js';
 import { renderTable } from './table.js';
 
 const MAX_SELECTION = 6;
@@ -14,6 +14,7 @@ const state = {
   specsOnly: true,
   mode: 'overlay',
   align: 'tail',
+  exaggeration: 2,
 };
 
 let models = [];
@@ -27,10 +28,11 @@ function readHash() {
   state.selection = (params.get('s') ?? '').split(',').filter((id) => index.has(id)).slice(0, MAX_SELECTION);
   if (params.get('m') === 'side') state.mode = 'side';
   if (['tail', 'center', 'nose'].includes(params.get('a'))) state.align = params.get('a');
+  if (['1', '2', '3'].includes(params.get('z'))) state.exaggeration = Number(params.get('z'));
 }
 
 function writeHash() {
-  const params = new URLSearchParams({ c: state.category, s: state.selection.join(','), m: state.mode, a: state.align });
+  const params = new URLSearchParams({ c: state.category, s: state.selection.join(','), m: state.mode, a: state.align, z: state.exaggeration });
   history.replaceState(null, '', `#${params}`);
 }
 
@@ -165,12 +167,25 @@ function renderComparison() {
   renderOverlay(svg, drawable, { mode: state.mode, align: state.align });
   svg.setAttribute('aria-label', drawable.length ? `Superposition à l'échelle : ${describeOverlay(drawable)}` : 'Aucune silhouette dessinable');
   $('#overlay-empty').hidden = drawable.length > 0;
+  const fromPhoto = drawable.filter((e) => e.model.photoShape).length;
+  $('#overlay-note').textContent = state.category === 'board'
+    ? `Grille de 10 cm. ${fromPhoto === drawable.length ? 'Contours' : `${fromPhoto} contour(s) sur ${drawable.length}`} tirés des photos produits (vue de dessus) et recalés sur les cotes officielles : longueur, largeur max et largeurs à 1 pied du nez et de l'arrière sont exactes.${fromPhoto < drawable.length ? ' Les autres sont estimés à partir des seules cotes.' : ''}`
+    : "Grille de 10 cm. Contours reconstruits à partir de l'envergure, de la corde et de la surface officielles (forme exacte en surface, dessin des saumons approximatif).";
+
+  // Profil latéral (boards)
+  const profileCard = $('#profile-card');
+  const sides = entries.filter((e) => canDrawSide(e.model, e.size));
+  profileCard.hidden = state.category !== 'board';
+  $('#exaggeration').value = String(state.exaggeration);
+  renderProfile($('#profile'), sides, { align: state.align, exaggeration: state.exaggeration });
+  $('#profile').setAttribute('aria-label', `Profils latéraux : ${sides.map((e) => `${e.model.title} ${e.size.size}`).join(', ')}`);
+  $('#profile-empty').hidden = sides.length > 0;
 
   renderTable($('#spec-table'), state.category, entries, toggle);
 }
 
 function highlight(id) {
-  for (const g of document.querySelectorAll('#overlay .shape')) {
+  for (const g of document.querySelectorAll('.drawing .shape')) {
     g.classList.toggle('dim', id !== null && g.dataset.id !== id);
   }
 }
@@ -200,6 +215,10 @@ function bindControls() {
   }
   $('#align').addEventListener('change', (e) => {
     state.align = e.target.value;
+    render();
+  });
+  $('#exaggeration').addEventListener('change', (e) => {
+    state.exaggeration = Number(e.target.value);
     render();
   });
   $('#clear').addEventListener('click', () => {

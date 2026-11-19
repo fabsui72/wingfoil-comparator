@@ -56,6 +56,11 @@ export function enrichSpec(category, size, spec = {}) {
   return s;
 }
 
+/** Le profil latéral est dessinable si la photo et l'épaisseur sont connues. */
+export function canDrawSide(model, size) {
+  return model.category === 'board' && Boolean(model.photoShape && size.spec.lengthCm && size.spec.thicknessCm);
+}
+
 /** Une silhouette est dessinable si les cotes indispensables sont connues. */
 export function canDraw(item) {
   const s = item.spec;
@@ -70,8 +75,9 @@ export function shortTitle(title) {
 }
 
 /** Construit la liste des modèles (produit + ses tailles enrichies) pour une marque. */
-export function mergeBrand(brand, catalog, specs) {
+export function mergeBrand(brand, catalog, specs, outlines = null) {
   const models = specs?.models ?? {};
+  const photos = outlines?.boards ?? {};
   const productMap = specs?.products ?? {};
   return catalog.products.map((product) => {
     const modelKey = productMap[product.handle];
@@ -105,6 +111,7 @@ export function mergeBrand(brand, catalog, specs) {
       image: product.image,
       currency: product.currency ?? brand.currency,
       outline: model?.outline ?? {},
+      photoShape: photos[product.handle] ?? null,
       sourceChart: model?.sourceChart ?? null,
       hasSpecs: Boolean(model),
       sizes,
@@ -119,8 +126,11 @@ export async function loadAll(base = 'data') {
     brands.map(async (brand) => {
       const catalog = await getJson(`${base}/${brand.id}/catalog.json`, { optional: true });
       if (!catalog) return [];
-      const specs = await getJson(`${base}/${brand.id}/specs.json`, { optional: true });
-      return mergeBrand(brand, catalog, specs);
+      const [specs, outlines] = await Promise.all([
+        getJson(`${base}/${brand.id}/specs.json`, { optional: true }),
+        getJson(`${base}/${brand.id}/outlines.json`, { optional: true }),
+      ]);
+      return mergeBrand(brand, catalog, specs, outlines);
     }),
   );
   return { brands, models: perBrand.flat() };

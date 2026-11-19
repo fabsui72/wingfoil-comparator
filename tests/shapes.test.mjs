@@ -58,3 +58,36 @@ test('chaque produit relié pointe vers un modèle existant', () => {
     assert.ok(specs.models[key], `${handle} -> ${key} introuvable`);
   }
 });
+
+const outlines = JSON.parse(readFileSync(new URL('../data/gong/outlines.json', import.meta.url))).boards;
+
+test('le contour photo, recalé, passe par les cotes officielles', async () => {
+  const { photoHalfWidthProfile, boardSideProfile } = await import('../src/js/shapes.js');
+  let checked = 0;
+  for (const [handle, key] of Object.entries(specs.products)) {
+    const model = specs.models[key];
+    const photo = outlines[handle];
+    if (model.category !== 'board' || !photo) continue;
+    for (const s of model.sizes) {
+      const profile = photoHalfWidthProfile(s, photo);
+      const maxHalf = Math.max(...profile.map(([, x]) => x));
+      assert.ok(Math.abs(maxHalf * 2 - s.widthCm) < 0.01, `${key} ${s.size} largeur`);
+      assert.ok(Math.abs(profile.at(-1)[0] - s.lengthCm) < 0.01, `${key} ${s.size} longueur`);
+      assert.ok(Math.abs(halfWidthAt(profile, OFO_CM) * 2 - s.ofoNoseCm) < 0.6, `${key} ${s.size} OFO nez`);
+      assert.ok(Math.abs(halfWidthAt(profile, s.lengthCm - OFO_CM) * 2 - s.ofoTailCm) < 0.6, `${key} ${s.size} OFO arrière`);
+      const side = boardSideProfile(s, photo);
+      const thickness = Math.max(...side.deck.map(([, z], i) => z - side.bottom[i][1]));
+      assert.ok(Math.abs(thickness - s.thicknessCm) < 0.01, `${key} ${s.size} épaisseur`);
+      checked++;
+    }
+  }
+  assert.ok(checked >= 30, `seulement ${checked} tailles vérifiées`);
+});
+
+test('les contours photo sont plausibles (rapport largeur/longueur, nez fermé)', () => {
+  for (const [handle, o] of Object.entries(outlines)) {
+    assert.ok(o.widthToLength > 0.2 && o.widthToLength < 0.7, `${handle} ratio ${o.widthToLength}`);
+    assert.ok(o.top[0] < 0.2, `${handle} nez ouvert`);
+    assert.equal(Math.max(...o.top), 1, `${handle} non normalisé`);
+  }
+});
