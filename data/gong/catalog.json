@@ -6,7 +6,7 @@
   "EUR",
   "USD"
  ],
- "fetchedAt": "2026-11-20T10:53:57+00:00",
+ "fetchedAt": "2026-11-20T13:16:41+00:00",
  "products": [
   {
    "handle": "gong-wing-foil-board-cruzader-diamond-fsp-pro-27",
@@ -107,6 +107,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-fsp-pro-27",
@@ -260,6 +261,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-fsp-pro-26",
@@ -338,6 +340,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-hollow-carbon-27",
@@ -415,6 +418,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-hollow-hybrid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-diamond-hollow-hybrid-27",
@@ -495,6 +499,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-fsp-pro-27",
@@ -579,6 +584,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-fsp-pro-26",
@@ -637,6 +643,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-hollow-carbon-27",
@@ -695,6 +702,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-hollow-hybrid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-hollow-hybrid-27",
@@ -776,6 +784,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-27",
@@ -956,6 +965,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-fsp-pro-26",
@@ -1003,6 +1013,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-hollow-carbon-27",
@@ -1049,6 +1060,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-hollow-hybrid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-point-lw-hollow-hybrid-27",
@@ -1114,6 +1126,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-2pk-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-2pk-fsp-pro-27",
@@ -1180,6 +1193,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-2pk-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-2pk-hollow-carbon-27",
@@ -1246,6 +1260,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-2pk-hollow-hybrid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-2pk-hollow-hybrid-27",
@@ -1331,6 +1346,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-fsp-pro-27",
@@ -1414,6 +1430,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-fsp-pro-26",
@@ -1481,6 +1498,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-hollow-carbon-27",
@@ -1548,6 +1566,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-hollow-hybrid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-cruzader-squash-hollow-hybrid-27",
@@ -1624,6 +1643,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-fsp-pro-27",
@@ -1718,6 +1738,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-fsp-pro-26",
@@ -1762,6 +1783,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-hollow-carbon-27",
@@ -1826,6 +1848,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-nano-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-hyperloop-nano-fsp-pro-27",
@@ -1880,6 +1903,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-fsp-2x-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-fsp-2x-27",
@@ -1961,6 +1985,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-fsp-2x-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-fsp-2x-26",
@@ -2006,6 +2031,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-hollow-hybrid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-hollow-hybrid-27",
@@ -2061,6 +2087,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-wood-2x-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-wood-2x-27",
@@ -2142,6 +2169,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-wood-2x-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lance-wood-2x-26",
@@ -2227,6 +2255,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-2x-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-2x-27",
@@ -2352,6 +2381,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-2x-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-2x-26",
@@ -2439,6 +2469,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-pro-27",
@@ -2564,6 +2595,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-fsp-pro-26",
@@ -2621,6 +2653,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-hollow-carbon-27",
@@ -2678,6 +2711,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-hollow-hybrid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lemon-hollow-hybrid-27",
@@ -2764,6 +2798,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-fsp-pro-27",
@@ -2875,6 +2910,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-fsp-pro-26",
@@ -2932,6 +2968,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-lethal-hollow-carbon-27",
@@ -3019,6 +3056,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-2x-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-2x-27",
@@ -3144,6 +3182,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-2x-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-2x-26",
@@ -3230,6 +3269,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-pro-27",
@@ -3354,6 +3394,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-fsp-pro-26",
@@ -3400,6 +3441,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-hollow-carbon-27",
@@ -3446,6 +3488,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-hollow-hybrid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-mint-hollow-hybrid-27",
@@ -3521,6 +3564,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-fsp-pro-27",
@@ -3618,6 +3662,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-fsp-pro-26",
@@ -3675,6 +3720,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-racer-hollow-carbon-27",
@@ -3762,6 +3808,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-fsp-pro-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-fsp-pro-27",
@@ -3872,6 +3919,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-fsp-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-fsp-pro-26",
@@ -3918,6 +3966,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-hollow-carbon-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-hollow-carbon-27",
@@ -3964,6 +4013,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-hollow-hybrid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-stunt-hollow-hybrid-27",
@@ -4029,6 +4079,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-fsp-2x-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-fsp-2x-27",
@@ -4124,6 +4175,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-fsp-2x-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-fsp-2x-26",
@@ -4190,6 +4242,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-wood-2x-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-wood-2x-27",
@@ -4285,6 +4338,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-wood-2x-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-zuma-wood-2x-26",
@@ -4381,6 +4435,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-cruzader-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-cruzader-26",
@@ -4494,6 +4549,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-diamond-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-diamond-26",
@@ -4592,6 +4648,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-first-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-first-26",
@@ -4660,6 +4717,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-freefly-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-freefly-26",
@@ -4716,6 +4774,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-learn-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-learn-26",
@@ -4783,6 +4842,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-like-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-like-26",
@@ -4866,6 +4926,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-perf-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wingfoil-inflatable-hipe-perf-26",
@@ -4950,6 +5011,7 @@
      "available": false
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-inflatable-hipe-perf-5",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-foil-board-inflatable-hipe-perf-5",
@@ -5062,6 +5124,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-pro-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-hipe-board-hipe-pro-26",
@@ -5159,6 +5222,7 @@
      "available": false
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ascent",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ascent",
@@ -5231,6 +5295,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ascent-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ascent-atmo",
@@ -5367,6 +5432,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-h",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-h",
@@ -5504,6 +5570,7 @@
      "available": false
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-h-fg",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-h-fg",
@@ -5609,6 +5676,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-atmo",
@@ -5714,6 +5782,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-atmo-carbon",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-curve-atmo-carbon",
@@ -5865,6 +5934,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-h",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-h",
@@ -6017,6 +6087,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-h-fg",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-h-fg",
@@ -6133,6 +6204,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-atmo",
@@ -6249,6 +6321,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-atmo-carbon",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-fluid-atmo-carbon",
@@ -6334,6 +6407,9 @@
      "compareAt": {},
      "available": true
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-hyper-trail-atmo",
    "urls": {
@@ -6427,6 +6503,9 @@
      "available": true
     }
    ],
+   "collections": [
+    "pumping"
+   ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-sirus-1",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-sirus-1",
@@ -6489,6 +6568,9 @@
      "compareAt": {},
      "available": true
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-sirus-atmo",
    "urls": {
@@ -6564,6 +6646,9 @@
      "available": true
     }
    ],
+   "collections": [
+    "pumping"
+   ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-sirus-atmo-carbon",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-sirus-atmo-carbon",
@@ -6579,6 +6664,432 @@
     "freeride",
     "lightwind"
    ]
+  },
+  {
+   "handle": "gong-front-wing-supra-trail-atmo",
+   "title": "Foil Front Wing Supra Trail V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-SUPRA_TRAIL-GONGFOIL-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 551.0,
+      "EUR": 599.0,
+      "USD": 683.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "prices": {
+      "CHF": 588.0,
+      "EUR": 639.0,
+      "USD": 728.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "prices": {
+      "CHF": 625.0,
+      "EUR": 679.0,
+      "USD": 774.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "4XL",
+     "prices": {
+      "CHF": 643.0,
+      "EUR": 699.0,
+      "USD": 797.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5XL",
+     "prices": {
+      "CHF": 652.0,
+      "EUR": 709.0,
+      "USD": 808.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-supra-trail-atmo",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-supra-trail-atmo",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-front-wing-supra-trail-atmo",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-front-wing-supra-trail-atmo"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-SUPRA_TRAIL-GONGFOIL.webp"
+   ],
+   "level": "advanced",
+   "series": null,
+   "programs": []
+  },
+  {
+   "handle": "gong-foil-front-wing-trail",
+   "title": "Foil Front Wing Trail V3",
+   "category": "frontwing",
+   "construction": null,
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-TRAIL-GONGFOIL_10da5573-2e41-41fe-bbeb-f6cef76c1e65.png",
+   "year": 2025,
+   "sizes": [
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 220.0,
+      "EUR": 239.0,
+      "USD": 273.0
+     },
+     "compareAt": {
+      "CHF": 321.0,
+      "EUR": 349.0,
+      "USD": 398.0
+     },
+     "available": false
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 330.0,
+      "EUR": 359.0,
+      "USD": 409.0
+     },
+     "compareAt": {},
+     "available": false
+    },
+    {
+     "size": "XXL",
+     "prices": {
+      "CHF": 235.0,
+      "EUR": 255.0,
+      "USD": 291.0
+     },
+     "compareAt": {
+      "CHF": 340.0,
+      "EUR": 369.0,
+      "USD": 421.0
+     },
+     "available": false
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-trail",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-trail",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-foil-front-wing-trail",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-foil-front-wing-trail"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-25-FOIL-FRONT_WINGS-TRAIL-SIZE_CHART-GONGFOIL.webp"
+   ],
+   "level": "advanced",
+   "series": "Perf",
+   "programs": []
+  },
+  {
+   "handle": "gong-foil-front-wing-trail-atmo",
+   "title": "Foil Front Wing Trail V3 Atmo - Perf Series",
+   "category": "frontwing",
+   "construction": "fiberglass",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-FRONT_WING-TRAIL-GONGFOIL-TB_9e4accfe-cda1-4bb0-8f38-1d4ea5a874b6.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 321.0,
+      "EUR": 349.0,
+      "USD": 398.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 330.0,
+      "EUR": 359.0,
+      "USD": 409.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "prices": {
+      "CHF": 340.0,
+      "EUR": 369.0,
+      "USD": 421.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-trail-atmo",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-trail-atmo",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-foil-front-wing-trail-atmo",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-foil-front-wing-trail-atmo"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-TRAIL-GONGFOIL.webp"
+   ],
+   "level": "advanced",
+   "series": "Perf",
+   "programs": []
+  },
+  {
+   "handle": "gong-foil-front-wing-trail-atmo-carbon",
+   "title": "Foil Front Wing Trail V3 Atmo - Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-TEAM_SERIES-FRONT_WING-TRAIL-GONGFOIL-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 432.0,
+      "EUR": 469.0,
+      "USD": 535.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 468.0,
+      "EUR": 509.0,
+      "USD": 580.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "prices": {
+      "CHF": 542.0,
+      "EUR": 589.0,
+      "USD": 671.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "prices": {
+      "CHF": 588.0,
+      "EUR": 639.0,
+      "USD": 728.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-trail-atmo-carbon",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-trail-atmo-carbon",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-foil-front-wing-trail-atmo-carbon",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-foil-front-wing-trail-atmo-carbon"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-TEAM_SERIES-SIZE_CHART-TRAIL-GONGFOIL.webp"
+   ],
+   "level": "advanced",
+   "series": null,
+   "programs": []
+  },
+  {
+   "handle": "gong-foil-front-wing-ultra-trail",
+   "title": "Foil Front Wing Ultra Trail V3",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-1500-25-FOIL-V3-FRONT_WINGS-ULTRA_TRAIL-GONGFOIL_de14a7a5-80c9-4d72-847a-f48ddebf66cc.png",
+   "year": 2025,
+   "sizes": [
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 386.0,
+      "EUR": 419.0,
+      "USD": 478.0
+     },
+     "compareAt": {
+      "CHF": 551.0,
+      "EUR": 599.0,
+      "USD": 683.0
+     },
+     "available": true
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 413.0,
+      "EUR": 449.0,
+      "USD": 512.0
+     },
+     "compareAt": {
+      "CHF": 597.0,
+      "EUR": 649.0,
+      "USD": 740.0
+     },
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "prices": {
+      "CHF": 459.0,
+      "EUR": 499.0,
+      "USD": 569.0
+     },
+     "compareAt": {
+      "CHF": 661.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "prices": {
+      "CHF": 487.0,
+      "EUR": 529.0,
+      "USD": 603.0
+     },
+     "compareAt": {
+      "CHF": 698.0,
+      "EUR": 759.0,
+      "USD": 865.0
+     },
+     "available": true
+    },
+    {
+     "size": "4XL",
+     "prices": {
+      "CHF": 514.0,
+      "EUR": 559.0,
+      "USD": 637.0
+     },
+     "compareAt": {
+      "CHF": 735.0,
+      "EUR": 799.0,
+      "USD": 911.0
+     },
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ultra-trail",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ultra-trail",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-foil-front-wing-ultra-trail",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-foil-front-wing-ultra-trail"
+   },
+   "sizeCharts": [],
+   "level": "advanced",
+   "series": null,
+   "programs": []
+  },
+  {
+   "handle": "gong-foil-front-wing-ultra-trail-atmo",
+   "title": "Foil Front Wing Ultra Trail V3 Atmo - Pro Team Series",
+   "category": "frontwing",
+   "construction": "Carbon HM",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PRO_TEAM_SERIES-FRONT_WING-ULTRA_TRAIL-GONGFOIL-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 597.0,
+      "EUR": 649.0,
+      "USD": 740.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "prices": {
+      "CHF": 661.0,
+      "EUR": 719.0,
+      "USD": 819.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "3XL",
+     "prices": {
+      "CHF": 698.0,
+      "EUR": 759.0,
+      "USD": 865.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "4XL",
+     "prices": {
+      "CHF": 735.0,
+      "EUR": 799.0,
+      "USD": 911.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "5XL",
+     "prices": {
+      "CHF": 762.0,
+      "EUR": 829.0,
+      "USD": 945.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ultra-trail-atmo",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ultra-trail-atmo",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-foil-front-wing-ultra-trail-atmo",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-foil-front-wing-ultra-trail-atmo"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-ULTRA_TRAIL-GONGFOIL.webp"
+   ],
+   "level": "advanced",
+   "series": null,
+   "programs": []
   },
   {
    "handle": "gong-foil-front-wing-veloce-dw-atmo",
@@ -6638,6 +7149,9 @@
      "compareAt": {},
      "available": true
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-dw-atmo",
    "urls": {
@@ -6724,6 +7238,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-ff-atmo-carbon",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-ff-atmo-carbon",
@@ -6834,6 +7349,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-h",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-h",
@@ -6930,6 +7446,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-h-dw",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-h-dw",
@@ -7005,6 +7522,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-lw-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-lw-atmo",
@@ -7091,6 +7609,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-veloce-atmo",
@@ -7156,6 +7675,9 @@
      "compareAt": {},
      "available": true
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-veloce-xtr-atmo",
    "urls": {
@@ -7237,6 +7759,7 @@
      "available": false
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-x-over",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-x-over",
@@ -7299,6 +7822,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-x-over-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-x-over-atmo",
@@ -7361,6 +7885,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-freestyle-atmo-micro",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-freestyle-atmo-micro",
@@ -7399,6 +7924,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-freestyle",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-freestyle",
@@ -7453,6 +7979,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-race-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-race-atmo",
@@ -7533,6 +8060,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-race",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-race",
@@ -7625,6 +8153,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-slalom",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-slalom",
@@ -7698,6 +8227,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-slalom-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-slalom-atmo",
@@ -7763,6 +8293,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-ypra-surf-carve-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-ypra-surf-carve-atmo",
@@ -7837,6 +8368,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-ypra-surf-fast-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-front-wing-ypra-surf-fast-atmo",
@@ -7931,6 +8463,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-surf",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-surf",
@@ -8023,6 +8556,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-surf-freestyle",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-surf-freestyle",
@@ -8096,6 +8630,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-surf-freestyle-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-front-wing-ypra-surf-freestyle-atmo",
@@ -8161,6 +8696,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ascent-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ascent-atmo",
@@ -8241,6 +8777,7 @@
      "available": false
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ascent",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ascent",
@@ -8321,6 +8858,9 @@
      "available": true
     }
    ],
+   "collections": [
+    "pumping"
+   ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-curve-h",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-curve-h",
@@ -8387,6 +8927,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-curve-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-curve-atmo",
@@ -8463,6 +9004,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-curve-atmo-carbon",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-curve-atmo-carbon",
@@ -8586,6 +9128,9 @@
      },
      "available": true
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-fluid-h",
    "urls": {
@@ -8712,6 +9257,9 @@
      "available": false
     }
    ],
+   "collections": [
+    "pumping"
+   ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-fluid-h-fg",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-fluid-h-fg",
@@ -8809,6 +9357,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-fluid-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-fluid-atmo",
@@ -8906,6 +9455,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-fluid-atmo-carbon",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-fluid-atmo-carbon",
@@ -8923,6 +9473,61 @@
     "wave",
     "lightwind"
    ]
+  },
+  {
+   "handle": "gong-foil-stab-trail-atmo",
+   "title": "Foil Stab Trail V3 Atmo - Perf Series",
+   "category": "stab",
+   "construction": "Fiberglass",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-STABS-PERF_SERIES-V3_ATMO-TRAIL-XL_43-GONGFOIL-TB_92634d02-b541-40c2-a891-1b70b1e4cde7.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "prices": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-trail-atmo",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-trail-atmo",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-foil-stab-trail-atmo",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-foil-stab-trail-atmo"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PERF_SERIES-V3-ATMO-FIBERGLASS-SIZE_CHART-TRAIL-GONGFOIL.webp"
+   ],
+   "level": "advanced",
+   "series": "Perf",
+   "programs": []
   },
   {
    "handle": "gong-foil-stab-veloce-h",
@@ -8944,7 +9549,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
-     "available": true
+     "available": false
     },
     {
      "size": "M",
@@ -8958,7 +9563,7 @@
       "EUR": 169.0,
       "USD": 193.0
      },
-     "available": false
+     "available": true
     },
     {
      "size": "L",
@@ -8988,6 +9593,9 @@
      },
      "available": false
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-veloce-h",
    "urls": {
@@ -9054,6 +9662,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-veloce-ff-atmo-carbon",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-veloce-ff-atmo-carbon",
@@ -9107,6 +9716,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-x-over",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-x-over",
@@ -9149,6 +9759,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-x-over-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-x-over-atmo",
@@ -9191,6 +9802,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-freestyle-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-freestyle-atmo",
@@ -9229,6 +9841,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-freestyle-1",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-freestyle-1",
@@ -9281,6 +9894,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-freestyle",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-freestyle",
@@ -9335,6 +9949,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-race-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-race-atmo",
@@ -9386,6 +10001,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-race-micro-v3-yrm-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-race-micro-v3-yrm-atmo",
@@ -9467,6 +10083,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-race",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-race",
@@ -9547,6 +10164,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-slalom",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-slalom",
@@ -9622,6 +10240,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-slalom-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-slalom-atmo",
@@ -9677,6 +10296,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-surf-freestyle-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-surf-freestyle-atmo",
@@ -9744,6 +10364,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-surf-freestyle",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-foil-stab-ypra-surf-freestyle",
@@ -9824,6 +10445,9 @@
      },
      "available": true
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-curve-h-v3",
    "urls": {
@@ -9945,6 +10569,9 @@
      "available": true
     }
    ],
+   "collections": [
+    "pumping"
+   ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-fluid-h-v3",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-fluid-h-v3",
@@ -10007,6 +10634,9 @@
      "available": true
     }
    ],
+   "collections": [
+    "pumping"
+   ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-hyper-trail-atmo",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-hyper-trail-atmo",
@@ -10015,6 +10645,350 @@
    },
    "sizeCharts": [
     "https://cdn.gong-galaxy.com/products/2410-26-FOIL-TAIL_WING-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-HYPER_TRAIL-GONGFOIL"
+   ],
+   "level": "advanced",
+   "series": null,
+   "programs": []
+  },
+  {
+   "handle": "gong-tail-wing-supra-trail-v3",
+   "title": "Foil Tail Wing Supra Trail V3",
+   "category": "stab",
+   "construction": "Upper",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-PRO_TEAM_SERIES_V3-SUPRA_TRAIL-GONGFOIL-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "S",
+     "prices": {
+      "CHF": 82.0,
+      "EUR": 89.0,
+      "USD": 102.0
+     },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
+     "available": true
+    },
+    {
+     "size": "M",
+     "prices": {
+      "CHF": 88.0,
+      "EUR": 95.0,
+      "USD": 109.0
+     },
+     "compareAt": {
+      "CHF": 128.0,
+      "EUR": 139.0,
+      "USD": 159.0
+     },
+     "available": false
+    },
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 91.0,
+      "EUR": 99.0,
+      "USD": 113.0
+     },
+     "compareAt": {
+      "CHF": 137.0,
+      "EUR": 149.0,
+      "USD": 170.0
+     },
+     "available": true
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 101.0,
+      "EUR": 109.0,
+      "USD": 125.0
+     },
+     "compareAt": {
+      "CHF": 147.0,
+      "EUR": 159.0,
+      "USD": 182.0
+     },
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-supra-trail-v3",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-supra-trail-v3",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-tail-wing-supra-trail-v3",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-tail-wing-supra-trail-v3"
+   },
+   "sizeCharts": [],
+   "level": "advanced",
+   "series": null,
+   "programs": []
+  },
+  {
+   "handle": "gong-tail-wing-supra-trail-atmo",
+   "title": "Foil Tail Wing Supra Trail V3 Atmo - Pro Team Series",
+   "category": "stab",
+   "construction": "Lower",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-SUPRA_TRAIL-GONGFOIL-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "S",
+     "prices": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "M",
+     "prices": {
+      "CHF": 128.0,
+      "EUR": 139.0,
+      "USD": 159.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 137.0,
+      "EUR": 149.0,
+      "USD": 170.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 147.0,
+      "EUR": 159.0,
+      "USD": 182.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-supra-trail-atmo",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-supra-trail-atmo",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-tail-wing-supra-trail-atmo",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-tail-wing-supra-trail-atmo"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-TAIL_WING-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-SUPRA_TRAIL-GONGFOIL"
+   ],
+   "level": "advanced",
+   "series": null,
+   "programs": []
+  },
+  {
+   "handle": "gong-tail-wing-trail-atmo",
+   "title": "Foil Tail Wing Trail V3 ATMO - Team Series",
+   "category": "stab",
+   "construction": "Upper",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-TAIL_WING-TEAM_SERIES-TRAIL-GONGFOIL-TB.png",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 101.0,
+      "EUR": 109.0,
+      "USD": 125.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 110.0,
+      "EUR": 119.0,
+      "USD": 136.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XXL",
+     "prices": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-trail-atmo",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-trail-atmo",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-tail-wing-trail-atmo",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-tail-wing-trail-atmo"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-TEAM_SERIES-V3-ATMO-SIZE_CHART-TRAIL-GONGFOIL",
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-TEAM_SERIES-V3-ATMO-SIZE_CHART-TRAIL-GONGFOIL.webp"
+   ],
+   "level": "advanced",
+   "series": null,
+   "programs": []
+  },
+  {
+   "handle": "gong-tail-wing-ultra-trail-v3",
+   "title": "Foil Tail Wing Ultra Trail V3",
+   "category": "stab",
+   "construction": "Upper",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-25-1500-FOIL-STABS-TEAM_SERIES-V3-TAIL_WING-ULTRA_TRAIL-GONGFOIL-TB_a29508a4-ad95-48d1-84bc-669795c5ca3c.png",
+   "year": 2025,
+   "sizes": [
+    {
+     "size": "S",
+     "prices": {
+      "CHF": 82.0,
+      "EUR": 89.0,
+      "USD": 102.0
+     },
+     "compareAt": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
+     "available": true
+    },
+    {
+     "size": "M",
+     "prices": {
+      "CHF": 88.0,
+      "EUR": 95.0,
+      "USD": 109.0
+     },
+     "compareAt": {
+      "CHF": 128.0,
+      "EUR": 139.0,
+      "USD": 159.0
+     },
+     "available": true
+    },
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 91.0,
+      "EUR": 99.0,
+      "USD": 113.0
+     },
+     "compareAt": {
+      "CHF": 137.0,
+      "EUR": 149.0,
+      "USD": 170.0
+     },
+     "available": false
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 101.0,
+      "EUR": 109.0,
+      "USD": 125.0
+     },
+     "compareAt": {
+      "CHF": 147.0,
+      "EUR": 159.0,
+      "USD": 182.0
+     },
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-ultra-trail-v3",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-ultra-trail-v3",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-tail-wing-ultra-trail-v3",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-tail-wing-ultra-trail-v3"
+   },
+   "sizeCharts": [],
+   "level": "advanced",
+   "series": null,
+   "programs": []
+  },
+  {
+   "handle": "gong-tail-wing-ultra-trail-atmo",
+   "title": "Foil Tail Wing Ultra Trail V3 Atmo - Pro Team Series",
+   "category": "stab",
+   "construction": "Lower",
+   "image": "https://cdn.shopify.com/s/files/1/0791/5975/5071/files/00-26-1500-FOIL-TAIL_WING-PRO_TEAM_SERIES-ULTRA_TRAIL-GONGFOIL-TB.webp",
+   "year": 2026,
+   "sizes": [
+    {
+     "size": "S",
+     "prices": {
+      "CHF": 119.0,
+      "EUR": 129.0,
+      "USD": 147.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "M",
+     "prices": {
+      "CHF": 128.0,
+      "EUR": 139.0,
+      "USD": 159.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "L",
+     "prices": {
+      "CHF": 137.0,
+      "EUR": 149.0,
+      "USD": 170.0
+     },
+     "compareAt": {},
+     "available": true
+    },
+    {
+     "size": "XL",
+     "prices": {
+      "CHF": 147.0,
+      "EUR": 159.0,
+      "USD": 182.0
+     },
+     "compareAt": {},
+     "available": true
+    }
+   ],
+   "collections": [
+    "pumping"
+   ],
+   "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-ultra-trail-atmo",
+   "urls": {
+    "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-ultra-trail-atmo",
+    "EUR": "https://www.gong-galaxy.com/en/products/gong-tail-wing-ultra-trail-atmo",
+    "USD": "https://www.gong-galaxy.com/en-us/products/gong-tail-wing-ultra-trail-atmo"
+   },
+   "sizeCharts": [
+    "https://cdn.gong-galaxy.com/products/2410-26-FOIL-TAIL_WING-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-ULTRA_TRAIL-GONGFOIL"
    ],
    "level": "advanced",
    "series": null,
@@ -10068,6 +11042,9 @@
      "compareAt": {},
      "available": true
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-veloce-dw-atmo",
    "urls": {
@@ -10148,6 +11125,9 @@
      "available": true
     }
    ],
+   "collections": [
+    "pumping"
+   ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-veloce-h-v3",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-veloce-h-v3",
@@ -10209,6 +11189,9 @@
      "compareAt": {},
      "available": true
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-veloce-xtr-atmo",
    "urls": {
@@ -10272,6 +11255,9 @@
      "compareAt": {},
      "available": true
     }
+   ],
+   "collections": [
+    "pumping"
    ],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-tail-wing-ypra-surf-carve-atmo",
    "urls": {
@@ -10408,6 +11394,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-26nhnb",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-26nhnb",
@@ -10602,6 +11589,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-26nhnb",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-26nhnb",
@@ -10748,6 +11736,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-27",
@@ -10942,6 +11931,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-x-26nhnb",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-x-26nhnb",
@@ -11087,6 +12077,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-x-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-aramid-x-27",
@@ -11224,6 +12215,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-boom-26nhnb",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-boom-26nhnb",
@@ -11330,6 +12322,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-boom-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-boom-27",
@@ -11456,6 +12449,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-light-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-light-26",
@@ -11563,6 +12557,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-27",
@@ -11729,6 +12724,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-sp-aramid-cz-26nhnb",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-sp-aramid-cz-26nhnb",
@@ -11855,6 +12851,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-sp-aramid-cz-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-droid-sp-aramid-cz-27",
@@ -11993,6 +12990,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-26nhnb",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-26nhnb",
@@ -12131,6 +13129,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-26nhnb",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-26nhnb",
@@ -12237,6 +13236,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-27",
@@ -12375,6 +13375,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-x-26nhnb",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-x-26nhnb",
@@ -12480,6 +13481,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-x-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-aramid-x-27",
@@ -12617,6 +13619,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-boom-26nhnb",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-boom-26nhnb",
@@ -12715,6 +13718,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-boom-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-boom-27",
@@ -12821,6 +13825,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-light-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-light-26",
@@ -12928,6 +13933,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-neutra-27",
@@ -12996,6 +14002,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-plus-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-plus-26",
@@ -13050,6 +14057,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-plus-27",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-plus-27",
@@ -13099,7 +14107,7 @@
       "EUR": 1559.0,
       "USD": 1776.0
      },
-     "available": false
+     "available": true
     },
     {
      "size": "5 m²",
@@ -13186,6 +14194,7 @@
      "available": true
     }
    ],
+   "collections": [],
    "url": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-pulse-race-aramid-cz-26",
    "urls": {
     "CHF": "https://www.gong-galaxy.com/fr-ch/products/gong-wing-pulse-race-aramid-cz-26",

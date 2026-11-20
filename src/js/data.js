@@ -7,8 +7,17 @@ export const CATEGORIES = {
   board: { overlay: true },
   frontwing: { overlay: true },
   stab: { overlay: true },
+  // Onglet « Pumping » : vue sur les ailes avant et stabs de la collection pumping
+  pump: { overlay: true, collection: 'pumping', includes: ['frontwing', 'stab'] },
   wing: { overlay: false },
 };
+
+/** Le modèle appartient-il à l'onglet `cat` ? (un onglet peut regrouper plusieurs catégories) */
+export function inCategory(model, cat) {
+  const def = CATEGORIES[cat];
+  if (def?.includes) return def.includes.includes(model.category) && model.collections.includes(def.collection);
+  return model.category === cat;
+}
 
 /** Ordre d'affichage des niveaux dans la liste. */
 export const LEVELS = ['beginner', 'advanced', 'pro'];
@@ -40,6 +49,15 @@ export const SPEC_FIELDS = {
     { key: 'chordMm', unit: 'mm' },
     { key: 'thicknessMm', unit: 'mm' },
     { key: 'aspectRatio', unit: '' },
+    { key: 'fuselageLengthCm', unit: 'cm' },
+  ],
+  pump: [
+    { key: 'areaCm2', unit: 'cm²' },
+    { key: 'spanCm', unit: 'cm' },
+    { key: 'chordMm', unit: 'mm' },
+    { key: 'thicknessMm', unit: 'mm' },
+    { key: 'aspectRatio', unit: '' },
+    { key: 'meanChordMm', unit: 'mm', derived: true },
     { key: 'fuselageLengthCm', unit: 'cm' },
   ],
   wing: [
@@ -170,6 +188,7 @@ export function mergeBrand(brand, catalog, specs, outlines = null, foilviews = n
       series: product.series ?? null,
       year: product.year ?? modelYear(product.handle),
       programs: product.programs ?? [],
+      collections: product.collections ?? [],
       url: product.url,
       urls: product.urls ?? {},
       image: product.image,

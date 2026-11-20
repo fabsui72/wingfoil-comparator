@@ -188,7 +188,7 @@ def main(argv: list[str]) -> int:
     brand = {b["id"]: b for b in json.loads((DATA / "brands.json").read_text())["brands"]}[args.brand]
     adapter = fc.ADAPTERS[brand["adapter"]](brand)
     primary = next((m for m in brand["markets"] if m.get("primary")), brand["markets"][0])
-    raw = {p["handle"]: p for p in adapter.list_products(primary.get("locale"))}
+    raw = {p["handle"]: p for p in adapter.list_all(primary.get("locale"))[0]}
     catalog = json.loads((DATA / brand["id"] / "catalog.json").read_text())
 
     out: dict[str, dict] = {}

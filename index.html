@@ -37,6 +37,8 @@
         <span class="visually-hidden" data-i18n="searchLabel">Rechercher un modèle</span>
         <input id="search" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Rechercher (ex. Mint, Fluid…)" autocomplete="off">
       </label>
+      <details id="filters-box" class="filters-box" open>
+      <summary data-i18n="filters">Filtres</summary>
       <div class="filters">
         <div id="level-filter" class="segmented-buttons" role="group" aria-label="Niveau / Level"></div>
         <div class="filter-row">
@@ -59,6 +61,7 @@
           <span data-i18n="specsOnly">Uniquement les modèles avec dimensions</span>
         </label>
       </div>
+      </details>
       <ul id="model-list" class="model-list"></ul>
     </aside>
 
@@ -87,6 +90,11 @@
                 <label><input type="radio" name="mode" value="overlay" checked> <span data-i18n="overlayMode">Superposées</span></label>
                 <label><input type="radio" name="mode" value="side"> <span data-i18n="sideMode">Côte à côte</span></label>
               </fieldset>
+            </div>
+          </div>
+          <details id="draw-settings" class="draw-settings" open>
+            <summary data-i18n="settings">Réglages</summary>
+            <div class="controls">
               <label id="fill-wrap"><span data-i18n="fillLabel">Contour</span>
                 <select id="fill">
                   <option value="outline" data-i18n="fill.outline">trait</option>
@@ -103,7 +111,6 @@
                 </select>
               </label>
             </div>
-          </div>
           <div class="display-opts">
             <label><span data-i18n="bgLabel">Fond</span>
               <select id="bg">
@@ -120,6 +127,7 @@
               <input id="opacity" type="range" min="10" max="100" step="5" value="50">
             </label>
           </div>
+          </details>
           <ul id="legend" class="legend" aria-label="Légende"></ul>
           <p id="legend-hint" class="note legend-hint" data-i18n="legendHint"></p>
           <div class="overlay-wrap">
@@ -173,5 +181,10 @@
   <footer class="site-footer">
     <p data-i18n="footer"></p>
   </footer>
+  <!-- Navigation mobile : deux vues, « Modèles » et « Comparer » -->
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Navigation">
+    <button type="button" data-view="pick"><span aria-hidden="true">☰</span> <span data-i18n="navPick">Modèles</span></button>
+    <button type="button" data-view="compare"><span aria-hidden="true">⇄</span> <span data-i18n="navCompare">Comparer</span> <span id="nav-count" class="nav-count"></span></button>
+  </nav>
 </body>
 </html>

@@ -1,6 +1,6 @@
 // Point d'entrée : état de l'application, interactions et synchronisation avec l'URL.
 
-import { CATEGORIES, LEVELS, canDraw, canDrawSide, indexSizes, loadAll, maxDiscount, thumbnailUrl } from './data.js';
+import { CATEGORIES, LEVELS, inCategory, canDraw, canDrawSide, indexSizes, loadAll, maxDiscount, thumbnailUrl } from './data.js';
 import { LANGS, detectLang, setLang, t, translateDom } from './i18n.js';
 import { describeOverlay, renderFront, renderOverlay, renderProfile } from './overlay.js';
 import { renderTable } from './table.js';
@@ -9,6 +9,7 @@ import { setNumberLocale } from './units.js';
 const MAX_SELECTION = 6;
 const PALETTE = ['var(--c1)', 'var(--c2)', 'var(--c3)', 'var(--c4)', 'var(--c5)', 'var(--c6)'];
 const NUMBER_LOCALES = { fr: 'fr-CH', en: 'en-GB' };
+const mobileQuery = window.matchMedia('(max-width: 860px)');
 
 const state = {
   category: 'board',
@@ -148,13 +149,16 @@ function renderTabs() {
   const tabs = $('#tabs');
   tabs.replaceChildren();
   for (const key of Object.keys(CATEGORIES)) {
-    const count = models.filter((m) => m.category === key).length;
-    const btn = el('button', { type: 'button', textContent: `${t(`cat.${key}`)} (${count})` });
+    const count = models.filter((m) => inCategory(m, key)).length;
+    const label = t(`${mobileQuery.matches ? 'short' : 'cat'}.${key}`);
+    const btn = el('button', { type: 'button', textContent: `${label} (${count})`, title: t(`cat.${key}`) });
     btn.setAttribute('role', 'tab');
     btn.setAttribute('aria-selected', String(key === state.category));
     btn.addEventListener('click', () => setCategory(key));
     tabs.append(btn);
   }
+  // Sur mobile, l'onglet actif reste visible dans la barre défilante
+  tabs.querySelector('[aria-selected="true"]')?.scrollIntoView({ inline: 'center', block: 'nearest' });
 }
 
 function renderFilters() {
@@ -167,14 +171,14 @@ function renderFilters() {
     return b;
   }));
   // Programme : seulement ceux présents dans la catégorie
-  const programs = [...new Set(models.filter((m) => m.category === state.category).flatMap((m) => m.programs))];
+  const programs = [...new Set(models.filter((m) => inCategory(m, state.category)).flatMap((m) => m.programs))];
   const prog = $('#program-filter');
   prog.replaceChildren(el('option', { value: 'all', textContent: t('allPrograms') }),
     ...programs.map((p) => el('option', { value: p, textContent: t(`program.${p}`) })));
   prog.value = programs.includes(state.program) ? state.program : 'all';
   $('#program-wrap').hidden = programs.length === 0;
   // Année : seulement celles présentes dans la catégorie, la plus récente d'abord
-  const years = [...new Set(models.filter((m) => m.category === state.category && m.year).map((m) => m.year))].sort((a, b) => b - a);
+  const years = [...new Set(models.filter((m) => inCategory(m, state.category) && m.year).map((m) => m.year))].sort((a, b) => b - a);
   const yearSel = $('#year-filter');
   yearSel.replaceChildren(el('option', { value: 'all', textContent: t('allYears') }),
     ...years.map((y) => el('option', { value: String(y), textContent: String(y) })));
@@ -191,7 +195,7 @@ function renderFilters() {
 function visibleModels() {
   const q = state.query.trim().toLowerCase();
   return models.filter((m) =>
-    m.category === state.category &&
+    inCategory(m, state.category) &&
     (!state.specsOnly || m.hasSpecs) &&
     (state.level === 'all' || m.level === state.level) &&
     (state.program === 'all' || m.programs.includes(state.program)) &&
@@ -207,7 +211,8 @@ function modelItem(model) {
     ? el('img', { className: 'thumb', src: thumbnailUrl(model.image, 160), alt: '', loading: 'lazy', decoding: 'async' })
     : el('span', { className: 'thumb' });
   const title = el('span', { className: 'model-title', textContent: model.title });
-  const meta = el('span', { className: 'model-meta', textContent: [brands.length > 1 ? model.brandName : null, model.year, model.series, model.construction].filter(Boolean).join(' · ') });
+  const type = CATEGORIES[state.category]?.includes ? t(`type.${model.category}`) : null;
+  const meta = el('span', { className: 'model-meta', textContent: [type, brands.length > 1 ? model.brandName : null, model.year, model.series, model.construction].filter(Boolean).join(' · ') });
   const head = el('div', { className: 'model-head' }, img, el('div', { className: 'model-text' }, title, meta));
   const discount = maxDiscount(model, state.currency);
   if (discount != null) head.append(el('span', { className: 'sale', textContent: `${t('sale')} −${discount} %` }));
@@ -246,7 +251,7 @@ function renderSelectionBar() {
     });
     return chip;
   }));
-  if (state.focus && !byModel.has(state.focus) && !models.some((m) => m.key === state.focus && m.category === state.category)) state.focus = null;
+  if (state.focus && !byModel.has(state.focus) && !models.some((m) => m.key === state.focus && inCategory(m, state.category))) state.focus = null;
   const focus = $('#focus');
   const model = state.focus && models.find((m) => m.key === state.focus);
   focus.hidden = !model;
@@ -351,7 +356,7 @@ function renderComparison() {
 
   // Vue de face (ailes avant, stabs)
   const frontCard = $('#front-card');
-  frontCard.hidden = !(state.category === 'frontwing' || state.category === 'stab');
+  frontCard.hidden = !['frontwing', 'stab', 'pump'].includes(state.category);
   if (!frontCard.hidden) {
     const n = renderFront($('#front'), shown);
     $('#front').hidden = n === 0;
@@ -389,12 +394,32 @@ function highlight(id) {
   }
 }
 
+// ---- Version mobile : deux vues (« Modèles » / « Comparer ») --------------------------
+function setView(view) {
+  document.body.dataset.view = view;
+  for (const b of document.querySelectorAll('#mobile-nav button')) {
+    b.toggleAttribute('aria-current', b.dataset.view === view);
+    if (b.dataset.view === view) b.setAttribute('aria-current', 'page');
+  }
+  if (mobileQuery.matches) window.scrollTo({ top: 0 });
+}
+
+function updateNav() {
+  $('#nav-count').textContent = state.selection.length ? String(state.selection.length) : '';
+}
+
+/** Sur petit écran, filtres et réglages sont repliés par défaut ; toujours ouverts sinon. */
+function syncCollapsibles() {
+  for (const d of document.querySelectorAll('#filters-box, #draw-settings')) d.open = !mobileQuery.matches;
+}
+
 function render() {
   renderTopbar();
   renderTabs();
   renderFilters();
   renderPicker();
   renderComparison();
+  updateNav();
   writeHash();
 }
 
@@ -469,6 +494,8 @@ function bindControls() {
     state.hidden = [];
     render();
   });
+  for (const b of document.querySelectorAll('#mobile-nav button')) b.addEventListener('click', () => setView(b.dataset.view));
+  mobileQuery.addEventListener('change', () => { syncCollapsibles(); renderTabs(); });
   $('#share').addEventListener('click', async () => {
     try {
       await navigator.clipboard.writeText(location.href);
@@ -496,6 +523,8 @@ async function init() {
   applyLang(state.lang);
   $('#specs-only').checked = state.specsOnly;
   bindControls();
+  syncCollapsibles();
+  setView(state.selection.length ? 'compare' : 'pick');
   render();
 }
 

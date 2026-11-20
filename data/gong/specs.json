@@ -8099,6 +8099,305 @@
     }
    ],
    "aspectRatio": 2.48
+  },
+  "front-wing-supra-trail-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-SUPRA_TRAIL-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XL",
+     "spanCm": 135,
+     "chordMm": 133,
+     "thicknessMm": 20.0,
+     "aspectRatio": 14.6,
+     "areaCm2": 1250
+    },
+    {
+     "size": "XXL",
+     "spanCm": 148,
+     "chordMm": 146,
+     "thicknessMm": 22.0,
+     "aspectRatio": 14.6,
+     "areaCm2": 1500
+    },
+    {
+     "size": "3XL",
+     "spanCm": 160,
+     "chordMm": 158,
+     "thicknessMm": 23.7,
+     "aspectRatio": 14.6,
+     "areaCm2": 1750
+    },
+    {
+     "size": "4XL",
+     "spanCm": 171,
+     "chordMm": 168,
+     "thicknessMm": 25.3,
+     "aspectRatio": 14.6,
+     "areaCm2": 2000
+    },
+    {
+     "size": "5XL",
+     "spanCm": 181,
+     "chordMm": 179,
+     "thicknessMm": 26.9,
+     "aspectRatio": 14.6,
+     "areaCm2": 2250
+    }
+   ]
+  },
+  "foil-front-wing-trail-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-TRAIL-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "L",
+     "spanCm": 125,
+     "chordMm": 174,
+     "thicknessMm": 26.1,
+     "aspectRatio": 9.4,
+     "areaCm2": 1660
+    },
+    {
+     "size": "XL",
+     "spanCm": 135,
+     "chordMm": 187,
+     "thicknessMm": 28.2,
+     "aspectRatio": 9.4,
+     "areaCm2": 1940
+    },
+    {
+     "size": "XXL",
+     "spanCm": 145,
+     "chordMm": 201,
+     "thicknessMm": 30.3,
+     "aspectRatio": 9.4,
+     "areaCm2": 2240
+    }
+   ]
+  },
+  "foil-front-wing-trail-atmo-carbon": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-TEAM_SERIES-SIZE_CHART-TRAIL-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "L",
+     "spanCm": 117,
+     "chordMm": 161,
+     "thicknessMm": 21.9,
+     "aspectRatio": 10.1,
+     "areaCm2": 1350
+    },
+    {
+     "size": "XL",
+     "spanCm": 129,
+     "chordMm": 178,
+     "thicknessMm": 24.2,
+     "aspectRatio": 10.1,
+     "areaCm2": 1650
+    },
+    {
+     "size": "XXL",
+     "spanCm": 140,
+     "chordMm": 193,
+     "thicknessMm": 26.3,
+     "aspectRatio": 10.1,
+     "areaCm2": 1950
+    },
+    {
+     "size": "3XL",
+     "spanCm": 151,
+     "chordMm": 208,
+     "thicknessMm": 28.3,
+     "aspectRatio": 10.1,
+     "areaCm2": 2250
+    }
+   ]
+  },
+  "foil-front-wing-ultra-trail-atmo": {
+   "category": "frontwing",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-FRONT_WINGS-SIZE_CHART-ULTRA_TRAIL-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "XL",
+     "spanCm": 149,
+     "chordMm": 121,
+     "thicknessMm": 20.3,
+     "aspectRatio": 17.7,
+     "areaCm2": 1250
+    },
+    {
+     "size": "XXL",
+     "spanCm": 163,
+     "chordMm": 133,
+     "thicknessMm": 22.3,
+     "aspectRatio": 17.7,
+     "areaCm2": 1500
+    },
+    {
+     "size": "3XL",
+     "spanCm": 176,
+     "chordMm": 144,
+     "thicknessMm": 24.1,
+     "aspectRatio": 17.7,
+     "areaCm2": 1750
+    },
+    {
+     "size": "4XL",
+     "spanCm": 188,
+     "chordMm": 154,
+     "thicknessMm": 25.7,
+     "aspectRatio": 17.7,
+     "areaCm2": 2000
+    },
+    {
+     "size": "5XL",
+     "spanCm": 200,
+     "chordMm": 163,
+     "thicknessMm": 27.3,
+     "aspectRatio": 17.7,
+     "areaCm2": 2250
+    }
+   ]
+  },
+  "foil-stab-trail-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-PERF_SERIES-V3-ATMO-FIBERGLASS-SIZE_CHART-TRAIL-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "L",
+     "spanCm": 40,
+     "fuselageLengthCm": 33.9,
+     "chordMm": 64.7,
+     "thicknessMm": 6.1,
+     "aspectRatio": 7.8,
+     "areaCm2": 211
+    },
+    {
+     "size": "XL",
+     "spanCm": 43,
+     "fuselageLengthCm": 34.1,
+     "chordMm": 68.8,
+     "thicknessMm": 6.5,
+     "aspectRatio": 7.7,
+     "areaCm2": 239
+    },
+    {
+     "size": "XXL",
+     "spanCm": 46,
+     "fuselageLengthCm": 34.4,
+     "chordMm": 74.0,
+     "thicknessMm": 7.0,
+     "aspectRatio": 7.7,
+     "areaCm2": 276
+    }
+   ]
+  },
+  "tail-wing-supra-trail-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-TAIL_WING-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-SUPRA_TRAIL-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 35.8,
+     "chordMm": 29.9,
+     "thicknessMm": 4.2,
+     "aspectRatio": 15.3,
+     "areaCm2": 84
+    },
+    {
+     "size": "M",
+     "spanCm": 38.8,
+     "chordMm": 32.4,
+     "thicknessMm": 4.5,
+     "aspectRatio": 15.4,
+     "areaCm2": 98
+    },
+    {
+     "size": "L",
+     "spanCm": 41.7,
+     "chordMm": 34.8,
+     "thicknessMm": 4.9,
+     "aspectRatio": 15.3,
+     "areaCm2": 113
+    },
+    {
+     "size": "XL",
+     "spanCm": 44.7,
+     "chordMm": 37.3,
+     "thicknessMm": 6.1,
+     "aspectRatio": 15.3,
+     "areaCm2": 130
+    }
+   ]
+  },
+  "tail-wing-trail-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-STABS-TEAM_SERIES-V3-ATMO-SIZE_CHART-TRAIL-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "L",
+     "spanCm": 39,
+     "chordMm": 66.9,
+     "thicknessMm": 6.4,
+     "aspectRatio": 8,
+     "areaCm2": 190
+    },
+    {
+     "size": "XL",
+     "spanCm": 42,
+     "chordMm": 73.3,
+     "thicknessMm": 7.0,
+     "aspectRatio": 8,
+     "areaCm2": 220
+    },
+    {
+     "size": "XXL",
+     "spanCm": 45,
+     "chordMm": 78.7,
+     "thicknessMm": 7.5,
+     "aspectRatio": 8,
+     "areaCm2": 250
+    }
+   ]
+  },
+  "tail-wing-ultra-trail-atmo": {
+   "category": "stab",
+   "sourceChart": "https://cdn.gong-galaxy.com/products/2410-26-FOIL-TAIL_WING-PRO_TEAM_SERIES-V3-ATMO-SIZE_CHART-ULTRA_TRAIL-GONGFOIL.webp",
+   "sizes": [
+    {
+     "size": "S",
+     "spanCm": 36,
+     "chordMm": 24.6,
+     "thicknessMm": 4.1,
+     "aspectRatio": 18,
+     "areaCm2": 70
+    },
+    {
+     "size": "M",
+     "spanCm": 39,
+     "chordMm": 27.0,
+     "thicknessMm": 4.5,
+     "aspectRatio": 18,
+     "areaCm2": 82
+    },
+    {
+     "size": "L",
+     "spanCm": 42,
+     "chordMm": 29.0,
+     "thicknessMm": 4.8,
+     "aspectRatio": 18,
+     "areaCm2": 94
+    },
+    {
+     "size": "XL",
+     "spanCm": 45,
+     "chordMm": 30.9,
+     "thicknessMm": 5.2,
+     "aspectRatio": 18,
+     "areaCm2": 107
+    }
+   ]
   }
  },
  "products": {
@@ -8245,6 +8544,17 @@
   "gong-foil-stab-ypra-freestyle-1": "foil-stab-ypra-freestyle-1",
   "gong-foil-stab-ypra-race-micro-v3-yrm-atmo": "foil-stab-ypra-race-micro-v3-yrm-atmo",
   "gong-wing-droid-light-26": "wing-droid-light-26",
-  "gong-wing-neutra-light-26": "wing-neutra-light-26"
+  "gong-wing-neutra-light-26": "wing-neutra-light-26",
+  "gong-front-wing-supra-trail-atmo": "front-wing-supra-trail-atmo",
+  "gong-foil-front-wing-trail": "foil-front-wing-trail-atmo",
+  "gong-foil-front-wing-trail-atmo": "foil-front-wing-trail-atmo",
+  "gong-foil-front-wing-trail-atmo-carbon": "foil-front-wing-trail-atmo-carbon",
+  "gong-foil-front-wing-ultra-trail-atmo": "foil-front-wing-ultra-trail-atmo",
+  "gong-foil-stab-trail-atmo": "foil-stab-trail-atmo",
+  "gong-tail-wing-supra-trail-atmo": "tail-wing-supra-trail-atmo",
+  "gong-tail-wing-trail-atmo": "tail-wing-trail-atmo",
+  "gong-tail-wing-ultra-trail-atmo": "tail-wing-ultra-trail-atmo",
+  "gong-tail-wing-supra-trail-v3": "tail-wing-supra-trail-atmo",
+  "gong-tail-wing-ultra-trail-v3": "tail-wing-ultra-trail-atmo"
  }
 }

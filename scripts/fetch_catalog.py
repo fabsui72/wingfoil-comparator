@@ -63,15 +63,33 @@ class ShopifyAdapter:
     def base(self, locale: str | None) -> str:
         return f"{self.brand['baseUrl']}/{locale}" if locale else self.brand["baseUrl"]
 
-    def list_products(self, locale: str | None) -> list[dict]:
+    def list_products(self, locale: str | None, collection: str | None = None) -> list[dict]:
+        """Produits d'une collection (par défaut, la collection principale de la marque)."""
+        collection = collection or self.brand["collection"]
         products, page = [], 1
         while True:
-            url = f"{self.base(locale)}/collections/{self.brand['collection']}/products.json?limit={PAGE_LIMIT}&page={page}"
+            url = f"{self.base(locale)}/collections/{collection}/products.json?limit={PAGE_LIMIT}&page={page}"
             batch = json.loads(http_get(url))["products"]
             products.extend(batch)
             if len(batch) < PAGE_LIMIT:
                 return products
             page += 1
+
+    def list_all(self, locale: str | None) -> tuple[list[dict], dict[str, set[str]]]:
+        """Collection principale + collections supplémentaires (`extraCollections`).
+        Renvoie les produits (sans doublon) et, par collection supplémentaire,
+        les handles qu'elle contient (pour marquer ex. les foils de pumping)."""
+        products = self.list_products(locale)
+        seen = {p["handle"] for p in products}
+        members: dict[str, set[str]] = {}
+        for extra in self.brand.get("extraCollections", []):
+            batch = self.list_products(locale, extra)
+            members[extra] = {p["handle"] for p in batch}
+            for p in batch:
+                if p["handle"] not in seen:
+                    products.append(p)
+                    seen.add(p["handle"])
+        return products, members
 
     def product_url(self, handle: str, locale: str | None) -> str:
         return f"{self.base(locale)}/products/{handle}"
@@ -237,8 +255,14 @@ def main(argv: list[str]) -> int:
 
     markets = brand["markets"]
     primary = next((m for m in markets if m.get("primary")), markets[0])
-    raw = {m["currency"]: adapter.list_products(m.get("locale")) for m in markets}
+    raw, members = {}, {}
+    for m in markets:
+        raw[m["currency"]], found = adapter.list_all(m.get("locale"))
+        if m is primary:
+            members = found
     catalog = build_catalog(raw, brand, primary["currency"])
+    for item in catalog:  # ex. "collections": ["pumping"] pour l'onglet Pumping
+        item["collections"] = sorted(c for c, handles in members.items() if item["handle"] in handles)
 
     for item in catalog:
         item["url"] = adapter.product_url(item["handle"], primary.get("locale"))

@@ -97,7 +97,10 @@
         "frontwing": "(?i)^(gong \\| )?foil front wing(?!.*fuselage)",
         "stab": "(?i)^(gong \\| )?foil (stab|tail wing)(?!.*(fuselage|carbon tail|cale))",
         "wing": "(?i)^(gong \\| )?wing (droid|neutra|plus|pulse)\\b(?!.*(latte|batten|window|tips))"
-      }
+      },
+      "extraCollections": [
+        "pumping"
+      ]
     }
   ]
 }
