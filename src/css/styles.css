@@ -127,14 +127,18 @@ button, input, select { font: inherit; color: inherit; }
 .legend li { display: flex; align-items: center; gap: 6px; cursor: default; }
 .swatch { width: 12px; height: 12px; border-radius: 3px; background: var(--c); display: inline-block; flex: none; }
 
-.overlay-wrap { background: var(--bg); border-radius: 8px; padding: 8px; }
+/* Zone de dessin : toujours claire (les foils et la plupart des photos sont noirs) */
+.overlay-wrap {
+  --draw-bg: #eef1f4; --draw-grid: #d9dfe5; --draw-grid-major: #bcc5ce; --draw-text: #16202a; --draw-muted: #4b5662;
+  background: var(--draw-bg); border-radius: 8px; padding: 8px;
+}
 .drawing { width: 100%; height: auto; max-height: min(70vh, 640px); display: block; }
-.drawing .grid line { stroke: var(--grid); stroke-width: 1; vector-effect: non-scaling-stroke; }
-.drawing .grid line.major { stroke: var(--grid-major); }
-.drawing .scale line { stroke: var(--text); stroke-width: 2; vector-effect: non-scaling-stroke; }
-.drawing text { fill: var(--muted); font-size: var(--font, 4px); }
+.drawing .grid line { stroke: var(--draw-grid); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.drawing .grid line.major { stroke: var(--draw-grid-major); }
+.drawing .scale line { stroke: var(--draw-text); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.drawing text { fill: var(--draw-muted); font-size: var(--font, 4px); }
 .drawing .shape path {
-  fill: var(--c); fill-opacity: .1; stroke: var(--c); stroke-width: 2;
+  fill: var(--c); fill-opacity: calc(var(--alpha, .5) * .4); stroke: var(--c-draw, var(--c)); stroke-width: 2;
   vector-effect: non-scaling-stroke; transition: opacity .15s;
 }
 .drawing .shape.dim { opacity: .15; }
@@ -177,8 +181,7 @@ button, input, select { font: inherit; color: inherit; }
 .sale { display: inline-block; font-size: .74rem; font-weight: 700; padding: 1px 7px; border-radius: 999px; background: #dc2626; color: #fff; white-space: nowrap; }
 .model-head .sale { flex: none; }
 .drawing .shape.has-photo path { fill: none; stroke-width: 2.5; }
-.drawing .photo-overlay { opacity: .55; mix-blend-mode: multiply; }
-@media (prefers-color-scheme: dark) { .drawing .photo-overlay { mix-blend-mode: normal; opacity: .5; } }
+.drawing .photo-overlay { opacity: var(--alpha, .5); }
 
 /* Légende cliquable */
 .legend-item { display: inline-flex; align-items: center; gap: 6px; border: 1px solid transparent; background: none; padding: 2px 6px; border-radius: 6px; cursor: pointer; font-size: .88rem; text-align: left; }
@@ -189,8 +192,22 @@ button, input, select { font: inherit; color: inherit; }
 .drawing .shape.has-photo .frame, .drawing .frame { fill: none; stroke: var(--c); stroke-width: 2; vector-effect: non-scaling-stroke; }
 .drawing .half-line { stroke: var(--c); stroke-width: 1; stroke-dasharray: 4 3; vector-effect: non-scaling-stroke; }
 .drawing .span-bar { stroke: var(--c); stroke-width: 3; vector-effect: non-scaling-stroke; }
-.drawing .shape .label { fill: var(--text); }
+.drawing .shape .label { fill: var(--draw-text); }
 .drawing .photo-jpg { mix-blend-mode: multiply; }
-#front-card .overlay-wrap { background: #f4f5f6; }
-#front-card .grid line { stroke: #e2e6ea; }
-#front-card .shape .label { fill: #16202a; }
+
+/* En mode sombre, la zone de dessin reste claire : couleurs de trait plus soutenues */
+@media (prefers-color-scheme: dark) {
+  .overlay-wrap { --c1: #2563eb; --c2: #dc2626; --c3: #059669; --c4: #d97706; --c5: #7c3aed; --c6: #db2777; }
+}
+/* Réglage de transparence */
+.opacity-ctl { display: inline-flex; align-items: center; gap: 6px; }
+.opacity-ctl input { width: 110px; accent-color: var(--accent); }
+/* Rappel de la sélection dans le panneau de choix */
+.selection-bar { display: flex; flex-wrap: wrap; gap: 6px; }
+.selection-bar:empty { display: none; }
+.sel-chip { --c: var(--accent); display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--c); border-radius: 999px; padding: 3px 10px; background: var(--surface); cursor: pointer; font-size: .82rem; }
+.sel-chip .swatch { width: 10px; height: 10px; border-radius: 50%; }
+.sel-chip[aria-expanded="true"] { background: var(--c); color: #fff; }
+.focus-card { border: 1px solid var(--border); border-radius: 10px; padding: 10px; background: var(--bg); position: relative; }
+.focus-card .model { list-style: none; }
+.focus-close { position: absolute; top: 4px; right: 6px; border: none; background: none; font-size: 1.1rem; cursor: pointer; color: var(--muted); }

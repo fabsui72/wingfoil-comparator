@@ -56,12 +56,16 @@ function geometry(entry, fill) {
   if (model.category === 'board') {
     return { path: boardPath(s, model.outline, model.photoShape), width: s.widthCm, height: s.lengthCm };
   }
-  const view = fill !== 'outline' ? foilTopView(model) : null;
-  if (view) {
-    // Photo de l'aile : largeur du cadre = envergure ; on garde l'aile, pas le mât.
-    const k = s.spanCm / (view.bbox[2] - view.bbox[0]);
-    const top = view.wing[0] - 0.01;
-    return { photo: view, k, top, width: s.spanCm, height: k * (view.bbox[3] - top) };
+  const view = foilTopView(model);
+  if (view?.outline && s.chordMm) {
+    // Contour tracé sur la photo de dessus, recalé : envergure et corde centrale officielles.
+    const { le, te } = view.outline;
+    const n = le.length;
+    const c = Math.floor(n / 2);
+    const S = s.chordMm / 10 / (te[c] - le[c]); // cm par unité « envergure de la photo »
+    const pt = (i, v) => `${((i / (n - 1) - 0.5) * s.spanCm).toFixed(2)},${(v * S).toFixed(2)}`;
+    const path = `M${le.map((v, i) => pt(i, v)).join(' L')} L${te.map((v, i) => pt(i, v)).reverse().join(' L')} Z`;
+    return { path, photo: view, S, width: s.spanCm, height: Math.max(...te) * S };
   }
   const c0 = s.chordMm / 10;
   return { path: frontWingPath(s), width: s.spanCm, height: c0 * 1.45 };
@@ -101,14 +105,17 @@ function boardPhoto(defs, entry, path, fill, mode) {
   return [left, right, el('line', { x1: 0, x2: 0, y1: 0, y2: s.lengthCm, class: 'half-line' })];
 }
 
-/** Photo de dessus d'un foil, cadrée sur l'aile. */
+/** Photo de dessus d'un foil, étirée sur le contour recalé et découpée selon lui. */
 function foilPhoto(defs, entry, g, mode) {
-  const { photo: v, k, top, width, height } = g;
+  const { photo: v, S, width, path } = g;
+  const bw = v.bbox[2] - v.bbox[0];
+  const kx = width / bw; // cm par unité « largeur d'image »
+  const ky = S / bw;
   const cx = (v.bbox[0] + v.bbox[2]) / 2;
-  const clip = clipPath(defs, el('rect', { x: -width / 2, y: 0, width, height }));
+  const top = v.outline.topY * v.aspect; // haut du contour, en unités « largeur d'image »
   return [photoNode(v.src, {
-    x: -cx * k, y: -top * k, width: k, height: k * v.aspect,
-    'clip-path': clip, class: mode === 'overlay' ? 'photo photo-overlay' : 'photo',
+    x: -cx * kx, y: -top * ky, width: kx, height: v.aspect * ky,
+    'clip-path': clipPath(defs, path), class: mode === 'overlay' ? 'photo photo-overlay' : 'photo',
   })];
 }
 
@@ -177,14 +184,13 @@ export function renderOverlay(svg, entries, { mode = 'overlay', align = 'tail', 
     group.append(el('title', {}, `${entry.model.title} ${entry.size.size}`));
     let photo = null;
     if (fill !== 'outline') {
-      photo = entry.model.category === 'board' ? boardPhoto(defs, entry, g.path, fill, mode) : g.photo ? foilPhoto(defs, entry, g, mode) : null;
+      photo = entry.model.category === 'board' ? boardPhoto(defs, entry, g.path, fill, mode) : g.photo?.outline ? foilPhoto(defs, entry, g, mode) : null;
     }
     if (photo) {
       group.classList.add('has-photo');
       group.append(...photo);
     }
-    if (g.path) group.append(el('path', { d: g.path }));
-    else group.append(el('rect', { x: -g.width / 2, y: 0, width: g.width, height: g.height, class: 'frame' }));
+    group.append(el('path', { d: g.path }));
     if (mode === 'side') {
       group.append(el('text', { x: 0, y: -pad * 0.5, 'text-anchor': 'middle', class: 'label' },
         `${entry.size.size}${entry.model.year ? ` · ${entry.model.year}` : ''}`));

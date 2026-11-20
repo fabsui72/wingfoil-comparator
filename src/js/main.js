@@ -25,6 +25,8 @@ const state = {
   align: 'tail',
   exaggeration: 2,
   fill: 'outline',
+  alpha: 50, // opacité des formes superposées (%)
+  focus: null, // modèle ouvert depuis la barre de sélection
   currency: 'CHF',
   lang: 'fr',
 };
@@ -55,6 +57,8 @@ function readHash() {
   if (['1', '2', '3'].includes(params.get('z'))) state.exaggeration = Number(params.get('z'));
   const f = params.get('f') === 'photo' ? 'top' : params.get('f');
   if (['outline', 'top', 'bottom', 'half'].includes(f)) state.fill = f;
+  const o = Number(params.get('o'));
+  if (o >= 10 && o <= 100) state.alpha = o;
   state.hidden = (params.get('h') ?? '').split(',').filter((id) => state.selection.includes(id));
   const cur = params.get('cur') ?? prefs.get('currency');
   if (currencies.includes(cur)) state.currency = cur;
@@ -64,7 +68,7 @@ function readHash() {
 function writeHash() {
   const params = new URLSearchParams({
     c: state.category, s: state.selection.join(','), m: state.mode, a: state.align,
-    z: state.exaggeration, f: state.fill, cur: state.currency, l: state.lang,
+    z: state.exaggeration, f: state.fill, o: state.alpha, cur: state.currency, l: state.lang,
     ...(state.hidden.length ? { h: state.hidden.join(',') } : {}),
   });
   history.replaceState(null, '', `#${params}`);
@@ -214,7 +218,40 @@ function modelItem(model) {
   return li;
 }
 
+/** Rappel de la sélection sous « Choisir les modèles » : un clic ouvre le modèle
+ * juste en dessous pour ajouter une taille ou retirer une taille déjà choisie. */
+function renderSelectionBar() {
+  const bar = $('#selection-bar');
+  const byModel = new Map();
+  state.selection.forEach((id, i) => {
+    const { model, size } = index.get(id);
+    if (!byModel.has(model.key)) byModel.set(model.key, { model, sizes: [], color: PALETTE[i % PALETTE.length] });
+    byModel.get(model.key).sizes.push(size.size);
+  });
+  bar.replaceChildren(...[...byModel.values()].map(({ model, sizes, color }) => {
+    const chip = el('button', { type: 'button', className: 'sel-chip', title: t('selectionHint') },
+      el('span', { className: 'swatch' }), `${model.title}${model.year ? ` ${model.year}` : ''} · ${sizes.join(', ')}`);
+    chip.style.setProperty('--c', color);
+    chip.setAttribute('aria-expanded', String(state.focus === model.key));
+    chip.addEventListener('click', () => {
+      state.focus = state.focus === model.key ? null : model.key;
+      renderSelectionBar();
+    });
+    return chip;
+  }));
+  if (state.focus && !byModel.has(state.focus) && !models.some((m) => m.key === state.focus && m.category === state.category)) state.focus = null;
+  const focus = $('#focus');
+  const model = state.focus && models.find((m) => m.key === state.focus);
+  focus.hidden = !model;
+  if (!model) return focus.replaceChildren();
+  const close = el('button', { type: 'button', className: 'focus-close', textContent: '×', title: t('closeFocus') });
+  close.setAttribute('aria-label', t('closeFocus'));
+  close.addEventListener('click', () => { state.focus = null; renderSelectionBar(); });
+  focus.replaceChildren(el('ul', { className: 'group-list' }, modelItem(model)), close);
+}
+
 function renderPicker() {
+  renderSelectionBar();
   const list = $('#model-list');
   list.replaceChildren();
   const visible = visibleModels();
@@ -280,24 +317,28 @@ function renderComparison() {
   // Dessous et moitié-moitié : boards seulement (photos de foils = dessus uniquement)
   for (const opt of $('#fill').options) opt.hidden = !isBoard && (opt.value === 'bottom' || opt.value === 'half');
   const fill = !isBoard && (state.fill === 'bottom' || state.fill === 'half') ? 'top' : state.fill;
+  $('#opacity-wrap').hidden = state.mode !== 'overlay';
+  $('#opacity').value = String(state.alpha);
   $('#fill').value = fill;
   for (const input of document.querySelectorAll('input[name="mode"]')) input.checked = input.value === state.mode;
   $('#align').value = state.align;
   const svg = $('#overlay');
+  svg.style.setProperty('--alpha', String(state.alpha / 100));
   renderOverlay(svg, drawable, { mode: state.mode, align: state.align, fill });
   svg.setAttribute('aria-label', drawable.length ? `${t('shapes')}: ${describeOverlay(drawable)}` : t('nothingDrawable'));
   $('#overlay-empty').hidden = drawable.length > 0 || entries.length > shown.length;
   const g = svg.dataset.grid ?? '10';
   const fromPhoto = drawable.filter((e) => e.model.photoShape).length;
+  const traced = drawable.filter((e) => e.model.foilViews?.top?.outline).length;
   let note = !isBoard
-    ? t('noteFoil', { g })
+    ? (traced === 0 ? t('noteFoil', { g }) : traced === drawable.length ? t('noteFoilAllTraced', { g }) : t('noteFoilTraced', { g, a: traced, b: drawable.length }))
     : fromPhoto === drawable.length ? t('noteBoardPhoto', { g }) : t('noteBoardMixed', { g, a: fromPhoto, b: drawable.length });
   if (photoMode && isBoard) {
     const sizes = [...new Set(drawable.filter((e) => e.model.photoShape?.photo)
       .map((e) => `${e.model.title} ${e.model.year ?? ''} : ${e.model.photoShape.photoSize ?? '?'}`))].join(', ');
     note += ` ${t('notePhoto', { sizes })}`;
   } else if (photoMode) {
-    note = `${t('notePhotoFoil')} ${drawable.some((e) => !e.model.foilViews?.top) ? t('noteFoil', { g }) : ''}`;
+    note += ` ${t('notePhotoFoil')}`;
   }
   $('#overlay-note').textContent = note;
 
@@ -376,6 +417,11 @@ function bindControls() {
       render();
     });
   }
+  $('#opacity').addEventListener('input', (e) => {
+    state.alpha = Number(e.target.value);
+    $('#overlay').style.setProperty('--alpha', String(state.alpha / 100));
+    writeHash();
+  });
   $('#fill').addEventListener('change', (e) => {
     state.fill = e.target.value;
     render();

@@ -54,6 +54,12 @@ test('repères photo : vues de dessous et de profil des boards, vues des foils',
   for (const m of foils) {
     for (const v of Object.values(m.foilViews)) {
       assert.ok(v.bbox[2] > v.bbox[0] && v.wing[1] > v.wing[0], `${m.handle} cadre`);
+      if (v.outline) {
+        const c = Math.floor(v.outline.le.length / 2);
+        const chord = v.outline.te[c] - v.outline.le[c];
+        assert.ok(chord > 0.05 && chord < 0.5, `${m.handle} corde photo ${chord}`);
+        assert.ok(v.outline.te.every((y, i) => y >= v.outline.le[i]), `${m.handle} contour croisé`);
+      }
     }
   }
 });

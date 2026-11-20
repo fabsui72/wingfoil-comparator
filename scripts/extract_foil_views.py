@@ -87,6 +87,58 @@ def largest_component(mask: np.ndarray) -> np.ndarray | None:
     return labels == best
 
 
+OUTLINE_POINTS = 81
+
+
+def rolling_median(values: np.ndarray, window: int) -> np.ndarray:
+    half = max(1, window // 2)
+    padded = np.pad(values, half, mode="edge")
+    return np.array([np.median(padded[i:i + 2 * half + 1]) for i in range(len(values))])
+
+
+def trace_outline(crop: np.ndarray) -> dict:
+    """Contour de l'aile vue de dessus : bord d'attaque (haut) et bord de fuite (bas)
+    pour chaque colonne. Le moignon de mât / fuselage (étroit, au centre) est retiré
+    par une médiane glissante : on ne garde que les écarts « vers l'intérieur »."""
+    h, w = crop.shape
+    le = np.full(w, np.nan)
+    te = np.full(w, np.nan)
+    for x in range(w):
+        ys = np.nonzero(crop[:, x])[0]
+        if len(ys):
+            le[x], te[x] = ys[0], ys[-1]  # premier / dernier pixel : insensible aux reflets
+    valid = ~np.isnan(le)
+    xs = np.arange(w)
+    le = np.interp(xs, xs[valid], le[valid])
+    te = np.interp(xs, xs[valid], te[valid])
+    # Mât et fuselage : pics étroits qui dépassent nettement de la courbe voisine.
+    # On les repère par rapport à une médiane large, puis on les remplace par une
+    # interpolation entre les colonnes saines (la vraie courbure est conservée).
+    win = max(9, int(w * 0.3))
+    tol = w * 0.012
+    stub = (le < rolling_median(le, win) - tol) | (te > rolling_median(te, win) + tol)
+    stub[:int(w * 0.25)] = stub[-int(w * 0.25):] = False  # seulement au centre
+    if stub.any():
+        idx = np.nonzero(stub)[0]
+        lo, hi = max(idx.min() - 2, 0), min(idx.max() + 2, w - 1)
+        stub[lo:hi + 1] = True
+        ok = ~stub
+        le[stub] = np.interp(xs[stub], xs[ok], le[ok])
+        te[stub] = np.interp(xs[stub], xs[ok], te[ok])
+    sample = np.linspace(0, w - 1, OUTLINE_POINTS)
+    le_s, te_s = np.interp(sample, xs, le), np.interp(sample, xs, te)
+    top = le_s.min()
+    # Aux saumons, bords d'attaque et de fuite se rejoignent.
+    mid = (le_s[[0, -1]] + te_s[[0, -1]]) / 2
+    le_s[[0, -1]] = te_s[[0, -1]] = mid
+    return {
+        # ordonnées en fraction de la largeur (envergure) de l'aile dans la photo
+        "le": [round(float(v), 4) for v in (le_s - top) / w],
+        "te": [round(float(v), 4) for v in (te_s - top) / w],
+        "topY": float(top),  # pixels, dans le recadrage
+    }
+
+
 def classify(img: Image.Image) -> dict | None:
     mask = object_mask(img)
     if mask is None or not mask.any():
@@ -111,8 +163,12 @@ def classify(img: Image.Image) -> dict | None:
     # et « large » sur presque toute sa hauteur.
     if ratio > 0.5 and len(band) > 0.4 * (y1 - y0):
         return None
+    view = "front" if ratio < FRONT_MAX_RATIO else "top"
+    outline = trace_outline(crop) if view == "top" else None
     return {
-        "view": "front" if ratio < FRONT_MAX_RATIO else "top",
+        "view": view,
+        **({"outline": {"le": outline["le"], "te": outline["te"],
+                        "topY": round((y0 + outline["topY"]) / h, 4)}} if outline else {}),
         "bbox": [round(x0 / w, 4), round(y0 / h, 4), round(x1 / w, 4), round(y1 / h, 4)],
         "wing": [round(wing_top / h, 4), round(wing_bottom / h, 4)],  # bande de l'aile (haut, bas)
         "aspect": round(h / w, 4),  # hauteur / largeur de l'image entière
