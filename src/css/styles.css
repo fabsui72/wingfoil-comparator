@@ -77,9 +77,12 @@ button, input, select { font: inherit; color: inherit; }
 /* ---- Sélecteur ------------------------------------------------------------------- */
 .picker {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-  padding: 14px; position: sticky; top: 12px; max-height: calc(100vh - 24px); display: flex; flex-direction: column; gap: 10px;
+  padding: 14px; display: flex; flex-direction: column; gap: 10px;
 }
-@media (max-width: 860px) { .picker { position: static; max-height: 60vh; } }
+/* La liste des modèles a sa propre hauteur (au moins ~60 % de l'écran) : le panneau
+   s'agrandit avec la sélection au lieu de réduire la zone de défilement. */
+.picker .model-list { min-height: 280px; max-height: max(60vh, 280px); }
+@media (min-width: 861px) { .picker { position: sticky; top: 12px; max-height: calc(100vh - 24px); overflow-y: auto; } .picker .model-list { max-height: none; overflow: visible; } }
 .search input { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); }
 .checkbox { display: flex; gap: 8px; align-items: center; font-size: .9rem; color: var(--muted); }
 .model-list { list-style: none; margin: 0; padding: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 14px; }
@@ -127,18 +130,28 @@ button, input, select { font: inherit; color: inherit; }
 .legend li { display: flex; align-items: center; gap: 6px; cursor: default; }
 .swatch { width: 12px; height: 12px; border-radius: 3px; background: var(--c); display: inline-block; flex: none; }
 
-/* Zone de dessin : toujours claire (les foils et la plupart des photos sont noirs) */
+/* Zone de dessin : fond clair, gris ou sombre au choix (data-bg sur .comparison) */
 .overlay-wrap {
-  --draw-bg: #eef1f4; --draw-grid: #d9dfe5; --draw-grid-major: #bcc5ce; --draw-text: #16202a; --draw-muted: #4b5662;
+  --draw-bg: #f4f6f8; --draw-grid: #dfe4e9; --draw-grid-major: #bcc5ce; --draw-text: #16202a; --draw-muted: #4b5662;
+  --c1: #2563eb; --c2: #dc2626; --c3: #059669; --c4: #d97706; --c5: #7c3aed; --c6: #db2777;
   background: var(--draw-bg); border-radius: 8px; padding: 8px;
 }
+[data-bg="gray"] .overlay-wrap {
+  --draw-bg: #9aa4ae; --draw-grid: #8d97a1; --draw-grid-major: #77818b; --draw-text: #0b1117; --draw-muted: #1d2730;
+  --c1: #1d4ed8; --c2: #b91c1c; --c3: #047857; --c4: #b45309; --c5: #6d28d9; --c6: #be185d;
+}
+[data-bg="dark"] .overlay-wrap {
+  --draw-bg: #10161b; --draw-grid: #1f2830; --draw-grid-major: #33404b; --draw-text: #e6ebef; --draw-muted: #97a3ae;
+  --c1: #60a5fa; --c2: #f87171; --c3: #34d399; --c4: #fbbf24; --c5: #a78bfa; --c6: #f472b6;
+}
+[data-bg="dark"] .drawing .photo-jpg { mix-blend-mode: normal; }
 .drawing { width: 100%; height: auto; max-height: min(70vh, 640px); display: block; }
 .drawing .grid line { stroke: var(--draw-grid); stroke-width: 1; vector-effect: non-scaling-stroke; }
 .drawing .grid line.major { stroke: var(--draw-grid-major); }
 .drawing .scale line { stroke: var(--draw-text); stroke-width: 2; vector-effect: non-scaling-stroke; }
 .drawing text { fill: var(--draw-muted); font-size: var(--font, 4px); }
 .drawing .shape path {
-  fill: var(--c); fill-opacity: calc(var(--alpha, .5) * .4); stroke: var(--c-draw, var(--c)); stroke-width: 2;
+  fill: var(--c); fill-opacity: calc(var(--alpha, .5) * .4); stroke: var(--c-draw, var(--c)); stroke-width: var(--stroke, 2px);
   vector-effect: non-scaling-stroke; transition: opacity .15s;
 }
 .drawing .shape.dim { opacity: .15; }
@@ -180,7 +193,7 @@ button, input, select { font: inherit; color: inherit; }
 .col-photo { display: block; width: 100%; max-width: 160px; aspect-ratio: 1; object-fit: contain; margin-bottom: 6px; background: var(--bg); border-radius: 8px; }
 .sale { display: inline-block; font-size: .74rem; font-weight: 700; padding: 1px 7px; border-radius: 999px; background: #dc2626; color: #fff; white-space: nowrap; }
 .model-head .sale { flex: none; }
-.drawing .shape.has-photo path { fill: none; stroke-width: 2.5; }
+.drawing .shape.has-photo path { fill: none; }
 .drawing .photo-overlay { opacity: var(--alpha, .5); }
 
 /* Légende cliquable */
@@ -195,10 +208,7 @@ button, input, select { font: inherit; color: inherit; }
 .drawing .shape .label { fill: var(--draw-text); }
 .drawing .photo-jpg { mix-blend-mode: multiply; }
 
-/* En mode sombre, la zone de dessin reste claire : couleurs de trait plus soutenues */
-@media (prefers-color-scheme: dark) {
-  .overlay-wrap { --c1: #2563eb; --c2: #dc2626; --c3: #059669; --c4: #d97706; --c5: #7c3aed; --c6: #db2777; }
-}
+
 /* Réglage de transparence */
 .opacity-ctl { display: inline-flex; align-items: center; gap: 6px; }
 .opacity-ctl input { width: 110px; accent-color: var(--accent); }
@@ -211,3 +221,8 @@ button, input, select { font: inherit; color: inherit; }
 .focus-card { border: 1px solid var(--border); border-radius: 10px; padding: 10px; background: var(--bg); position: relative; }
 .focus-card .model { list-style: none; }
 .focus-close { position: absolute; top: 4px; right: 6px; border: none; background: none; font-size: 1.1rem; cursor: pointer; color: var(--muted); }
+
+/* Options d'affichage (2e ligne de réglages) */
+.display-opts { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: .9rem; margin-bottom: 8px; }
+.display-opts select { padding: 4px 6px; border-radius: 6px; border: 1px solid var(--border); background: var(--bg); }
+.display-opts input[type=range] { width: 100px; accent-color: var(--accent); }

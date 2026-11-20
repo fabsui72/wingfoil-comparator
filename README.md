@@ -5,7 +5,7 @@ Outil web pour comparer des **boards**, des **foils (ailes avant)**, des **stabs
 - **superposition à l'échelle** des formes (vue de dessus), en mode superposé ou côte à côte, avec alignement sur l'arrière / le centre / le nez pour les boards ;
 - **photos à l'échelle** (menu *Contour*) : boards vues **de dessus, de dessous ou moitié-moitié**, profil en photo (épaisseur, rocker), ailes avant et stabs vus de dessus ; chaque photo est étirée aux dimensions officielles de la taille choisie ;
 - **vue de face des foils** (photos à l'échelle de l'envergure : dièdre, épaisseur) ;
-- **légende cliquable** : un clic masque ou réaffiche une forme dans les dessins ; **réglage d'opacité** en mode superposé ;
+- **légende cliquable** : un clic masque ou réaffiche une forme dans les dessins ; **réglage d'opacité** en mode superposé, **épaisseur du trait** et **fond** au choix (clair, gris, sombre ; « auto » = sombre pour les boards, clair pour les foils) ;
 - **rappel de la sélection** sous « Choisir les modèles » : un clic sur un modèle choisi l'ouvre pour ajouter ou retirer une taille ;
 - **profil des boards** (épaisseur, rocker, creux du pont), avec exagération des hauteurs ×1, ×2 ou ×3 ;
 - **tableau de specs** côte à côte, avec l'écart en % par rapport à la première taille choisie (la référence) ;

@@ -26,6 +26,8 @@ const state = {
   exaggeration: 2,
   fill: 'outline',
   alpha: 50, // opacité des formes superposées (%)
+  bg: 'auto', // fond des dessins : auto | light | gray | dark
+  stroke: 2, // épaisseur des traits (px)
   focus: null, // modèle ouvert depuis la barre de sélection
   currency: 'CHF',
   lang: 'fr',
@@ -57,6 +59,9 @@ function readHash() {
   if (['1', '2', '3'].includes(params.get('z'))) state.exaggeration = Number(params.get('z'));
   const f = params.get('f') === 'photo' ? 'top' : params.get('f');
   if (['outline', 'top', 'bottom', 'half'].includes(f)) state.fill = f;
+  if (['auto', 'light', 'gray', 'dark'].includes(params.get('bg') ?? prefs.get('bg'))) state.bg = params.get('bg') ?? prefs.get('bg');
+  const sw = Number(params.get('w') ?? prefs.get('stroke'));
+  if (sw >= 1 && sw <= 8) state.stroke = sw;
   const o = Number(params.get('o'));
   if (o >= 10 && o <= 100) state.alpha = o;
   state.hidden = (params.get('h') ?? '').split(',').filter((id) => state.selection.includes(id));
@@ -68,7 +73,7 @@ function readHash() {
 function writeHash() {
   const params = new URLSearchParams({
     c: state.category, s: state.selection.join(','), m: state.mode, a: state.align,
-    z: state.exaggeration, f: state.fill, o: state.alpha, cur: state.currency, l: state.lang,
+    z: state.exaggeration, f: state.fill, o: state.alpha, bg: state.bg, w: state.stroke, cur: state.currency, l: state.lang,
     ...(state.hidden.length ? { h: state.hidden.join(',') } : {}),
   });
   history.replaceState(null, '', `#${params}`);
@@ -80,6 +85,8 @@ function toggle(id) {
   if (i >= 0) {
     state.selection.splice(i, 1);
     state.hidden = state.hidden.filter((h) => h !== id);
+    // Plus aucune taille de ce modèle : on referme sa fiche dans la barre de sélection
+    if (state.focus && !state.selection.some((s) => index.get(s).model.key === state.focus)) state.focus = null;
   } else if (state.selection.length < MAX_SELECTION) state.selection.push(id);
   else return announce(t('maxReached', { n: MAX_SELECTION }));
   render();
@@ -323,7 +330,7 @@ function renderComparison() {
   for (const input of document.querySelectorAll('input[name="mode"]')) input.checked = input.value === state.mode;
   $('#align').value = state.align;
   const svg = $('#overlay');
-  svg.style.setProperty('--alpha', String(state.alpha / 100));
+  applyDisplayOptions();
   renderOverlay(svg, drawable, { mode: state.mode, align: state.align, fill });
   svg.setAttribute('aria-label', drawable.length ? `${t('shapes')}: ${describeOverlay(drawable)}` : t('nothingDrawable'));
   $('#overlay-empty').hidden = drawable.length > 0 || entries.length > shown.length;
@@ -363,6 +370,17 @@ function renderComparison() {
   $('#profile-card').querySelector('.note').textContent = t('profileNote') + (photoMode ? ` ${t('profilePhotoNote')}` : '');
 
   renderTable($('#spec-table'), state.category, entries, { currency: state.currency, onRemove: toggle });
+}
+
+/** Fond et épaisseur de trait des dessins (auto : sombre pour les boards, clair sinon). */
+function applyDisplayOptions() {
+  const bg = state.bg === 'auto' ? (state.category === 'board' ? 'dark' : 'light') : state.bg;
+  const box = $('#comparison');
+  box.dataset.bg = bg;
+  box.style.setProperty('--stroke', `${state.stroke}px`);
+  box.style.setProperty('--alpha', String(state.alpha / 100));
+  $('#bg').value = state.bg;
+  $('#stroke').value = String(state.stroke);
 }
 
 function highlight(id) {
@@ -419,7 +437,19 @@ function bindControls() {
   }
   $('#opacity').addEventListener('input', (e) => {
     state.alpha = Number(e.target.value);
-    $('#overlay').style.setProperty('--alpha', String(state.alpha / 100));
+    applyDisplayOptions();
+    writeHash();
+  });
+  $('#stroke').addEventListener('input', (e) => {
+    state.stroke = Number(e.target.value);
+    prefs.set('stroke', String(state.stroke));
+    applyDisplayOptions();
+    writeHash();
+  });
+  $('#bg').addEventListener('change', (e) => {
+    state.bg = e.target.value;
+    prefs.set('bg', state.bg);
+    applyDisplayOptions();
     writeHash();
   });
   $('#fill').addEventListener('change', (e) => {

@@ -87,9 +87,6 @@
                 <label><input type="radio" name="mode" value="overlay" checked> <span data-i18n="overlayMode">Superposées</span></label>
                 <label><input type="radio" name="mode" value="side"> <span data-i18n="sideMode">Côte à côte</span></label>
               </fieldset>
-              <label id="opacity-wrap" class="opacity-ctl"><span data-i18n="opacity">Opacité</span>
-                <input id="opacity" type="range" min="10" max="100" step="5" value="50">
-              </label>
               <label id="fill-wrap"><span data-i18n="fillLabel">Contour</span>
                 <select id="fill">
                   <option value="outline" data-i18n="fill.outline">trait</option>
@@ -106,6 +103,22 @@
                 </select>
               </label>
             </div>
+          </div>
+          <div class="display-opts">
+            <label><span data-i18n="bgLabel">Fond</span>
+              <select id="bg">
+                <option value="auto" data-i18n="bg.auto">auto</option>
+                <option value="light" data-i18n="bg.light">clair</option>
+                <option value="gray" data-i18n="bg.gray">gris</option>
+                <option value="dark" data-i18n="bg.dark">sombre</option>
+              </select>
+            </label>
+            <label class="opacity-ctl"><span data-i18n="strokeLabel">Épaisseur du trait</span>
+              <input id="stroke" type="range" min="1" max="8" step="0.5" value="2">
+            </label>
+            <label id="opacity-wrap" class="opacity-ctl"><span data-i18n="opacity">Opacité</span>
+              <input id="opacity" type="range" min="10" max="100" step="5" value="50">
+            </label>
           </div>
           <ul id="legend" class="legend" aria-label="Légende"></ul>
           <p id="legend-hint" class="note legend-hint" data-i18n="legendHint"></p>
