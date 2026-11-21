@@ -7,8 +7,10 @@ export const CATEGORIES = {
   board: { overlay: true },
   frontwing: { overlay: true },
   stab: { overlay: true },
-  // Onglet « Pumping » : vue sur les ailes avant et stabs de la collection pumping
-  pump: { overlay: true, collection: 'pumping', includes: ['frontwing', 'stab'] },
+  // Onglets « Pumping » : ailes avant et stabs de la collection pumping (vues sur
+  // les catégories frontwing / stab, sans dupliquer les données)
+  pumpfront: { overlay: true, collection: 'pumping', includes: ['frontwing'] },
+  pumpstab: { overlay: true, collection: 'pumping', includes: ['stab'] },
   wing: { overlay: false },
 };
 
@@ -51,15 +53,6 @@ export const SPEC_FIELDS = {
     { key: 'aspectRatio', unit: '' },
     { key: 'fuselageLengthCm', unit: 'cm' },
   ],
-  pump: [
-    { key: 'areaCm2', unit: 'cm²' },
-    { key: 'spanCm', unit: 'cm' },
-    { key: 'chordMm', unit: 'mm' },
-    { key: 'thicknessMm', unit: 'mm' },
-    { key: 'aspectRatio', unit: '' },
-    { key: 'meanChordMm', unit: 'mm', derived: true },
-    { key: 'fuselageLengthCm', unit: 'cm' },
-  ],
   wing: [
     { key: 'areaM2', unit: 'm²' },
     { key: 'weightKg', unit: 'kg' },
@@ -73,6 +66,9 @@ export const SPEC_FIELDS = {
     { key: 'pricePerM2', unit: 'price/m²', derived: true },
   ],
 };
+
+SPEC_FIELDS.pumpfront = SPEC_FIELDS.frontwing;
+SPEC_FIELDS.pumpstab = SPEC_FIELDS.stab;
 
 async function getJson(url, { optional = false } = {}) {
   const res = await fetch(url);

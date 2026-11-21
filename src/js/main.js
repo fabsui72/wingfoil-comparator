@@ -53,7 +53,8 @@ const prefs = {
 // ---- URL <-> état (permet de partager une comparaison) ---------------------------
 function readHash() {
   const params = new URLSearchParams(location.hash.slice(1));
-  if (params.get('c') in CATEGORIES) state.category = params.get('c');
+  const c = params.get('c') === 'pump' ? 'pumpfront' : params.get('c'); // anciens liens
+  if (c in CATEGORIES) state.category = c;
   state.selection = (params.get('s') ?? '').split(',').filter((id) => index.has(id)).slice(0, MAX_SELECTION);
   if (params.get('m') === 'side') state.mode = 'side';
   if (['tail', 'center', 'nose'].includes(params.get('a'))) state.align = params.get('a');
@@ -211,7 +212,7 @@ function modelItem(model) {
     ? el('img', { className: 'thumb', src: thumbnailUrl(model.image, 160), alt: '', loading: 'lazy', decoding: 'async' })
     : el('span', { className: 'thumb' });
   const title = el('span', { className: 'model-title', textContent: model.title });
-  const type = CATEGORIES[state.category]?.includes ? t(`type.${model.category}`) : null;
+  const type = CATEGORIES[state.category]?.includes?.length > 1 ? t(`type.${model.category}`) : null;
   const meta = el('span', { className: 'model-meta', textContent: [type, brands.length > 1 ? model.brandName : null, model.year, model.series, model.construction].filter(Boolean).join(' · ') });
   const head = el('div', { className: 'model-head' }, img, el('div', { className: 'model-text' }, title, meta));
   const discount = maxDiscount(model, state.currency);
@@ -356,7 +357,7 @@ function renderComparison() {
 
   // Vue de face (ailes avant, stabs)
   const frontCard = $('#front-card');
-  frontCard.hidden = !['frontwing', 'stab', 'pump'].includes(state.category);
+  frontCard.hidden = !['frontwing', 'stab', 'pumpfront', 'pumpstab'].includes(state.category);
   if (!frontCard.hidden) {
     const n = renderFront($('#front'), shown);
     $('#front').hidden = n === 0;

@@ -13,7 +13,7 @@ Outil web pour comparer des **boards**, des **foils (ailes avant)**, des **stabs
 - modèles **rangés par niveau** (débutant, avancé, pro), filtrables par programme (freeride, vague, petit temps…), avec **photo** ;
 - prix en **CHF, € ou $** (prix réels de chaque boutique, pas une conversion), **promotions** affichées (prix barré, remise en %, filtre « en promotion ») ; interface en **français ou anglais** ;
 - **année du modèle** (ex. boards 2027 vs 2026), filtre par année, modèles les plus récents en premier ;
-- onglet **Pumping** : ailes avant et stabs de la collection pumping de la marque (Trail, Hyper / Supra / Ultra Trail, Veloce DW / XTR, Sirus…), aussi visibles dans leurs onglets habituels ;
+- onglets **Pumping : ailes avant** et **Pumping : stabs** : ailes avant et stabs de la collection pumping de la marque (Trail, Hyper / Supra / Ultra Trail, Veloce DW / XTR, Sirus…), aussi visibles dans leurs onglets habituels ;
 - **version mobile** : deux vues (« Modèles » / « Comparer ») avec une barre fixe en bas, filtres et réglages repliables, onglets courts toujours visibles, grandes zones tactiles ;
 - jusqu'à 6 éléments comparés ; la comparaison (devise et langue comprises) est stockée dans l'URL, ce qui permet de la partager.
 
@@ -99,7 +99,7 @@ Comme les dimensions n'existent qu'en image, elles sont transcrites dans `specs.
 
 ### Classement des produits
 
-Le catalogue est lu dans la collection principale (`collection`) et dans les collections supplémentaires (`extraCollections`, ex. `pumping`) ; chaque produit garde la liste des collections supplémentaires où il figure (`collections`), ce qui alimente l'onglet Pumping. Un produit est rangé dans une catégorie d'après ses tags de collection sur le site (`categories` dans `data/brands.json`). Quelques produits n'ont aucun tag de collection : ils sont alors classés d'après leur titre (`titleCategories`).
+Le catalogue est lu dans la collection principale (`collection`) et dans les collections supplémentaires (`extraCollections`, ex. `pumping`) ; chaque produit garde la liste des collections supplémentaires où il figure (`collections`), ce qui alimente les onglets Pumping. Un produit est rangé dans une catégorie d'après ses tags de collection sur le site (`categories` dans `data/brands.json`). Quelques produits n'ont aucun tag de collection : ils sont alors classés d'après leur titre (`titleCategories`).
 
 ### Silhouettes : ce qui est exact et ce qui est estimé
 
