@@ -20,6 +20,7 @@ const state = {
   level: 'all',
   program: 'all',
   year: 'all',
+  construction: 'all',
   saleOnly: false,
   brand: 'all',
   mode: 'overlay',
@@ -104,6 +105,7 @@ function toggleHidden(id) {
 function setCategory(category) {
   if (category === state.category) return;
   state.category = category;
+  state.construction = 'all';
   state.selection = [];
   state.hidden = [];
   state.program = 'all';
@@ -185,6 +187,14 @@ function renderFilters() {
     ...years.map((y) => el('option', { value: String(y), textContent: String(y) })));
   yearSel.value = years.includes(Number(state.year)) ? state.year : 'all';
   $('#year-wrap').hidden = years.length < 2;
+  // Construction (FSP Pro, FSP 2X, Wood 2X, Hollow…) : celles présentes dans la catégorie
+  const constructions = [...new Set(models.filter((m) => inCategory(m, state.category) && m.construction)
+    .map((m) => constructionKey(m.construction)))].sort();
+  const constrSel = $('#construction-filter');
+  constrSel.replaceChildren(el('option', { value: 'all', textContent: t('allConstructions') }),
+    ...constructions.map((c) => el('option', { value: c, textContent: constructionLabel(c) })));
+  constrSel.value = constructions.includes(state.construction) ? state.construction : 'all';
+  $('#construction-wrap').hidden = constructions.length < 2;
   // Marque : n'apparaît que s'il y a plusieurs marques (interface inchangée avec une seule)
   const brandSel = $('#brand-filter');
   $('#brand-wrap').hidden = brands.length < 2;
@@ -201,6 +211,7 @@ function visibleModels() {
     (state.level === 'all' || m.level === state.level) &&
     (state.program === 'all' || m.programs.includes(state.program)) &&
     (state.year === 'all' || String(m.year) === state.year) &&
+    (state.construction === 'all' || constructionKey(m.construction) === state.construction) &&
     (!state.saleOnly || maxDiscount(m, state.currency) != null) &&
     (state.brand === 'all' || m.brandId === state.brand) &&
     (!q || `${m.brandName} ${m.title} ${m.construction ?? ''} ${m.series ?? ''}`.toLowerCase().includes(q)));
@@ -409,9 +420,20 @@ function updateNav() {
   $('#nav-count').textContent = state.selection.length ? String(state.selection.length) : '';
 }
 
-/** Sur petit écran, filtres et réglages sont repliés par défaut ; toujours ouverts sinon. */
+/** Sur petit écran, les réglages de dessin sont repliés par défaut ; toujours ouverts sinon.
+ * Les filtres de la liste restent toujours visibles. */
 function syncCollapsibles() {
-  for (const d of document.querySelectorAll('#filters-box, #draw-settings')) d.open = !mobileQuery.matches;
+  for (const d of document.querySelectorAll('#draw-settings')) d.open = !mobileQuery.matches;
+}
+
+/** Clé de construction insensible à la casse (« FSP PRO » = « FSP Pro »). */
+function constructionKey(c) {
+  return (c ?? '').trim().toLowerCase();
+}
+
+/** Libellé lisible : « fsp pro » -> « FSP Pro », « hollow full carbon » -> « Hollow Full Carbon ». */
+function constructionLabel(key) {
+  return key.split(' ').map((w) => (/^(fsp|hm|cz|2x|2pk)$/.test(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
 }
 
 function render() {
@@ -436,6 +458,10 @@ function bindControls() {
   });
   $('#program-filter').addEventListener('change', (e) => {
     state.program = e.target.value;
+    renderPicker();
+  });
+  $('#construction-filter').addEventListener('change', (e) => {
+    state.construction = e.target.value;
     renderPicker();
   });
   $('#year-filter').addEventListener('change', (e) => {

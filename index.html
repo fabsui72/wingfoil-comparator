@@ -37,13 +37,14 @@
         <span class="visually-hidden" data-i18n="searchLabel">Rechercher un modèle</span>
         <input id="search" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Rechercher (ex. Mint, Fluid…)" autocomplete="off">
       </label>
-      <details id="filters-box" class="filters-box" open>
-      <summary data-i18n="filters">Filtres</summary>
       <div class="filters">
         <div id="level-filter" class="segmented-buttons" role="group" aria-label="Niveau / Level"></div>
         <div class="filter-row">
           <label id="program-wrap"><span class="visually-hidden" data-i18n="program">Programme</span>
             <select id="program-filter"></select>
+          </label>
+          <label id="construction-wrap"><span class="visually-hidden" data-i18n="construction">Construction</span>
+            <select id="construction-filter"></select>
           </label>
           <label id="year-wrap"><span class="visually-hidden" data-i18n="year">Année</span>
             <select id="year-filter"></select>
@@ -61,7 +62,6 @@
           <span data-i18n="specsOnly">Uniquement les modèles avec dimensions</span>
         </label>
       </div>
-      </details>
       <ul id="model-list" class="model-list"></ul>
     </aside>
 
