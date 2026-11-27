@@ -46,6 +46,10 @@ Il se déclenche à chaque push sur `main`, chaque lundi matin, et à la demande
 
 Réglage à faire une seule fois : **Settings → Pages → Build and deployment → Source : GitHub Actions**.
 
+## Qualité de l’interface
+
+Le site a été audité avec [Impeccable](https://github.com/pbakaus/impeccable) (`npx impeccable detect <url>`) et le linter de [Hallmark](https://github.com/Nutlope/hallmark) (`sloplint.mjs`). Corrigé : contrastes WCAG AA (badges, compteur mobile, texte indicatif), échelle typographique, titres de groupe en minuscules, retour visuel au toucher (`:active`), pas de défilement horizontal, apostrophes typographiques. Les alertes restantes de Hallmark (couleurs de comparaison définies par fond, espacements hors grille de 4 px) sont des choix assumés.
+
 ## Tests
 
 ```bash
