@@ -6,7 +6,7 @@
   "EUR",
   "USD"
  ],
- "fetchedAt": "2026-11-27T07:48:10+00:00",
+ "fetchedAt": "2026-11-27T16:42:45+00:00",
  "products": [
   {
    "handle": "gong-wing-foil-board-cruzader-diamond-fsp-pro-27",
@@ -174,7 +174,7 @@
       "EUR": 999.0,
       "USD": 1137.0
      },
-     "available": false
+     "available": true
     },
     {
      "size": "5'10",
@@ -1940,7 +1940,7 @@
       "EUR": 849.0,
       "USD": 967.0
      },
-     "available": false
+     "available": true
     },
     {
      "size": "5'7",
@@ -1954,7 +1954,7 @@
       "EUR": 849.0,
       "USD": 967.0
      },
-     "available": false
+     "available": true
     },
     {
      "size": "5'8",
@@ -2124,7 +2124,7 @@
       "EUR": 699.0,
       "USD": 796.0
      },
-     "available": false
+     "available": true
     },
     {
      "size": "5'7",
@@ -6056,7 +6056,7 @@
       "EUR": 289.0,
       "USD": 329.0
      },
-     "available": false
+     "available": true
     },
     {
      "size": "XXL",
