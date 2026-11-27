@@ -7,6 +7,10 @@
   <meta name="description" content="Comparez boards, foils, stabs et wings de wingfoil : formes superposées à l'échelle et tableau de specs. Compare wingfoil boards, foils, stabs and wings.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2c5 6 6 18 0 28C10 20 11 8 16 2z' fill='%230e7490'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="src/css/styles.css">
+  <script>
+    // Thème appliqué avant l'affichage (évite un flash clair/sombre au chargement)
+    try { const th = localStorage.getItem('wfc.theme'); if (th === 'light' || th === 'dark') document.documentElement.dataset.theme = th; } catch {}
+  </script>
   <script type="module" src="src/js/main.js"></script>
 </head>
 <body>
@@ -17,6 +21,7 @@
       <p class="tagline" data-i18n="tagline">Superposez les formes à l’échelle et comparez les specs.</p>
     </div>
     <div class="topbar">
+      <div id="theme" class="segmented-buttons theme-switch" role="group" aria-label="Thème / Theme"></div>
       <div id="lang" class="segmented-buttons" role="group" aria-label="Langue / Language"></div>
       <label class="currency"><span class="visually-hidden" data-i18n="currency">Devise</span>
         <select id="currency"></select>

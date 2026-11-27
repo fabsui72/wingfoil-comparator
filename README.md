@@ -11,7 +11,7 @@ Outil web pour comparer des **boards**, des **foils (ailes avant)**, des **stabs
 - **tableau de specs** côte à côte, avec l'écart en % par rapport à la première taille choisie (la référence) ;
 - **wings** : poids, envergure, longueur de bôme, plage de vent conseillée, prix, prix et poids par m² ;
 - modèles **rangés par niveau** (débutant, avancé, pro), filtrables par programme (freeride, vague, petit temps…), par construction (FSP Pro, FSP 2X, Wood 2X, Hollow…), avec **photo** ;
-- prix en **CHF, € ou $** (prix réels de chaque boutique, pas une conversion), **promotions** affichées (prix barré, remise en %, filtre « en promotion ») ; interface en **français ou anglais** ;
+- prix en **CHF, € ou $** (prix réels de chaque boutique, pas une conversion), **promotions** affichées (prix barré, remise en %, filtre « en promotion ») ; interface en **français ou anglais**, thème **clair, sombre ou automatique** (réglage de l’appareil), mémorisé dans le navigateur ;
 - **année du modèle** (ex. boards 2027 vs 2026), filtre par année, modèles les plus récents en premier ;
 - onglets **Pumping : ailes avant** et **Pumping : stabs** : ailes avant et stabs de la collection pumping de la marque (Trail, Hyper / Supra / Ultra Trail, Veloce DW / XTR, Sirus…), aussi visibles dans leurs onglets habituels ;
 - **version mobile** : deux vues (« Modèles » / « Comparer ») avec une barre fixe en bas, réglages de dessin repliables (filtres toujours visibles), onglets courts toujours visibles, grandes zones tactiles ;

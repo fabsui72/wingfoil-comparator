@@ -22,8 +22,29 @@
   line-height: 1.45;
 }
 
+/* Thème sombre : choix explicite (data-theme="dark") ou préférence du système
+   quand l'utilisateur n'a pas forcé le mode clair. */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+    --bg: #0f1418;
+    --surface: #171e24;
+    --text: #e6ebef;
+    --muted: #97a3ae;
+    --border: #2a343d;
+    --accent: #22a6c3;
+    --accent-text: #061317;
+    --grid: #1f2830;
+    --grid-major: #2e3a44;
+    --c1: #60a5fa;
+    --c2: #f87171;
+    --c3: #34d399;
+    --c4: #fbbf24;
+    --c5: #a78bfa;
+    --c6: #f472b6;
+}
+:root[data-theme="light"] { color-scheme: light; }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #0f1418;
     --surface: #171e24;
     --text: #e6ebef;
@@ -245,8 +266,8 @@ button, input, select { font: inherit; color: inherit; }
 .mobile-nav { display: none; }
 @media (max-width: 860px) {
   body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
-  .site-header { padding-block: 10px 4px; align-items: center; flex-wrap: nowrap; }
-  .topbar { flex: none; }
+  .site-header { padding-block: 10px 4px; align-items: center; flex-wrap: wrap; row-gap: 8px; }
+  .topbar { flex: 1 1 100%; flex-wrap: wrap; gap: 8px; }
   .topbar select { padding: 4px 6px; }
   .segmented-buttons button { padding: 4px 8px; }
   .site-header h1 { font-size: 1.2rem; white-space: nowrap; }
@@ -296,3 +317,6 @@ button, .chip, .segmented label, .btn { transition: transform .08s ease, filter 
 button:active, .chip:active, .segmented label:active, .btn:active { transform: scale(.96); filter: brightness(.92); }
 button:disabled, select:disabled, input:disabled { opacity: .5; cursor: not-allowed; }
 @media (prefers-reduced-motion: reduce) { button, .chip, .segmented label, .btn { transition: none; } }
+
+/* Sélecteur de thème */
+.theme-switch button { font-size: 1rem; line-height: 1; padding: 4px 10px; min-width: 2.2em; font-weight: 600; }

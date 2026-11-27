@@ -33,6 +33,7 @@ const state = {
   focus: null, // modèle ouvert depuis la barre de sélection
   currency: 'CHF',
   lang: 'fr',
+  theme: 'auto',
 };
 
 let models = [];
@@ -135,7 +136,24 @@ function selectedEntries() {
   return state.selection.map((id, i) => ({ ...index.get(id), color: PALETTE[i % PALETTE.length] }));
 }
 
+// ---- Thème clair / sombre (auto = réglage du système) -------------------------------
+const THEMES = [['auto', 'A'], ['light', '☀'], ['dark', '☾']];
+
+function applyTheme(theme) {
+  state.theme = theme;
+  if (theme === 'auto') delete document.documentElement.dataset.theme;
+  else document.documentElement.dataset.theme = theme;
+  prefs.set('theme', theme);
+}
+
 function renderTopbar() {
+  $('#theme').replaceChildren(...THEMES.map(([value, icon]) => {
+    const b = el('button', { type: 'button', textContent: icon, title: t(`theme.${value}`) });
+    b.setAttribute('aria-label', t(`theme.${value}`));
+    b.setAttribute('aria-pressed', String(state.theme === value));
+    b.addEventListener('click', () => { applyTheme(value); renderTopbar(); });
+    return b;
+  }));
   const langs = $('#lang');
   langs.replaceChildren(...LANGS.map((l) => {
     const b = el('button', { type: 'button', textContent: l.toUpperCase() });
@@ -534,6 +552,8 @@ function bindControls() {
 }
 
 async function init() {
+  const savedTheme = prefs.get('theme');
+  state.theme = ['light', 'dark'].includes(savedTheme) ? savedTheme : 'auto';
   applyLang(detectLang(new URLSearchParams(location.hash.slice(1)).get('l'), prefs.get('lang')));
   try {
     const data = await loadAll();
